@@ -1,0 +1,60 @@
+{"wall_time": "2026-07-29T11:15:16+0500", "elapsed_seconds": 0.015, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\TEST\\paragraph_test_outputs\\live_debug_sessions\\session_20260729_111516"}
+{"wall_time": "2026-07-29T11:16:21+0500", "elapsed_seconds": 65.171, "event": "guidance_started", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:21+0500", "elapsed_seconds": 65.171, "event": "guidance_queued", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:23+0500", "elapsed_seconds": 67.328, "event": "guidance_finished", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:26+0500", "elapsed_seconds": 70.203, "event": "guidance_started", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:26+0500", "elapsed_seconds": 70.203, "event": "guidance_queued", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:28+0500", "elapsed_seconds": 72.312, "event": "guidance_finished", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:33+0500", "elapsed_seconds": 76.781, "event": "guidance_started", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-07-29T11:16:33+0500", "elapsed_seconds": 76.781, "event": "guidance_queued", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-07-29T11:16:34+0500", "elapsed_seconds": 78.39, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-07-29T11:16:35+0500", "elapsed_seconds": 78.984, "event": "guidance_finished", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-07-29T11:16:35+0500", "elapsed_seconds": 78.984, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-07-29T11:16:36+0500", "elapsed_seconds": 80.312, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-07-29T11:16:37+0500", "elapsed_seconds": 80.796, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-07-29T11:16:37+0500", "elapsed_seconds": 80.796, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-07-29T11:16:38+0500", "elapsed_seconds": 81.515, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-07-29T11:16:38+0500", "elapsed_seconds": 81.953, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:16:38+0500", "elapsed_seconds": 81.953, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:16:39+0500", "elapsed_seconds": 82.953, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:16:44+0500", "elapsed_seconds": 87.796, "event": "guidance_started", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:44+0500", "elapsed_seconds": 87.796, "event": "guidance_queued", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:46+0500", "elapsed_seconds": 89.906, "event": "guidance_finished", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:47+0500", "elapsed_seconds": 90.796, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-07-29T11:16:47+0500", "elapsed_seconds": 90.796, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-07-29T11:16:49+0500", "elapsed_seconds": 92.484, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-07-29T11:16:50+0500", "elapsed_seconds": 93.484, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:16:50+0500", "elapsed_seconds": 93.484, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:16:51+0500", "elapsed_seconds": 94.5, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:16:52+0500", "elapsed_seconds": 95.687, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-07-29T11:16:52+0500", "elapsed_seconds": 95.687, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-07-29T11:16:54+0500", "elapsed_seconds": 97.703, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-07-29T11:16:58+0500", "elapsed_seconds": 102.14, "event": "guidance_started", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:16:58+0500", "elapsed_seconds": 102.14, "event": "guidance_queued", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:17:00+0500", "elapsed_seconds": 104.25, "event": "guidance_finished", "state": "bad_lighting", "prompt": "Lighting is uneven. Improve it."}
+{"wall_time": "2026-07-29T11:17:04+0500", "elapsed_seconds": 107.781, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:04+0500", "elapsed_seconds": 107.781, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:05+0500", "elapsed_seconds": 108.796, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:08+0500", "elapsed_seconds": 112.093, "event": "automatic_capture", "generation": 66, "frame_sequence": 287, "stability_count": 3}
+{"wall_time": "2026-07-29T11:17:50+0500", "elapsed_seconds": 153.64, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-07-29T11:17:50+0500", "elapsed_seconds": 153.64, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-07-29T11:17:51+0500", "elapsed_seconds": 155.187, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-07-29T11:17:51+0500", "elapsed_seconds": 155.234, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-07-29T11:17:51+0500", "elapsed_seconds": 155.234, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-07-29T11:17:53+0500", "elapsed_seconds": 156.515, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:54+0500", "elapsed_seconds": 157.703, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-07-29T11:17:54+0500", "elapsed_seconds": 157.703, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:55+0500", "elapsed_seconds": 158.703, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:58+0500", "elapsed_seconds": 161.718, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:58+0500", "elapsed_seconds": 161.718, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:17:59+0500", "elapsed_seconds": 162.734, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:18:03+0500", "elapsed_seconds": 166.64, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:18:03+0500", "elapsed_seconds": 166.64, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:18:04+0500", "elapsed_seconds": 167.64, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-07-29T11:18:09+0500", "elapsed_seconds": 173.171, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-07-29T11:18:09+0500", "elapsed_seconds": 173.171, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-07-29T11:18:11+0500", "elapsed_seconds": 175.046, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-07-29T11:18:14+0500", "elapsed_seconds": 177.625, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-07-29T11:18:14+0500", "elapsed_seconds": 177.625, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-07-29T11:18:14+0500", "elapsed_seconds": 178.343, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-07-29T11:18:14+0500", "elapsed_seconds": 178.343, "event": "automatic_capture", "generation": 38, "frame_sequence": 635, "stability_count": 3}

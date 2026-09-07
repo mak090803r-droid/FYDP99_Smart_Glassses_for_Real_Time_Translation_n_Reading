@@ -1,0 +1,22 @@
+{
+  "ocr_log": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\TEST\\paragraph_test_outputs\\run_010_20260723_151236_ocr.txt",
+  "ground_truth": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\TEST\\paragraph_test_outputs\\ground truth\\English_OCR_Test_2x16pt_2x18pt.docx",
+  "selected_ground_truth_page": 2,
+  "ground_truth_page_count": 4,
+  "normalization": {
+    "ignore_case": false,
+    "ignore_punctuation": false
+  },
+  "character_accuracy": 98.82121807465619,
+  "character_error_rate": 1.1787819253438114,
+  "word_accuracy": 99.20424403183023,
+  "word_error_rate": 0.7957559681697612,
+  "mean_region_confidence": 99.46,
+  "character_edits": 30,
+  "reference_characters": 2545,
+  "ocr_characters": 2527,
+  "word_edits": 3,
+  "reference_words": 377,
+  "ocr_words": 378,
+  "region_count": 5
+}

@@ -1,0 +1,29 @@
+[DEBUG] Recording this complete session in: C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\live_debug_sessions\session_20260901_121644
+[TTS] Speed set to 1.0x
+[TTS] Speed set to 1.0x
+[LOAD] Conservative SymSpell dictionary loaded in 2.87s
+
+[SERVER] Listening on port 9999 ...
+  Waiting for Pi to connect ...
+
+[SERVER] Pi connected from ('192.168.137.151', 52294)
+
+[QUALITY] Box4c text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.91s, edges=none, bandLap=104, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=95, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.23, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.06s, edges=none, bandLap=100, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.30, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=95, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=88, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 006] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=65, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.24, stable=0/3
+[QUALITY] ⚠ FORCE-CAPTURE from keyboard: all Box4c safety gates were bypassed.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260901_121833.jpg
+[POST-CAPTURE] LapVar=54.0, score components: sharp=0, bright=30, even=14
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (54.0 < 100).

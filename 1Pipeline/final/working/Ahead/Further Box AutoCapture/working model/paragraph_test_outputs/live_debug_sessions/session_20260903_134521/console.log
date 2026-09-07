@@ -1,0 +1,76 @@
+[DEBUG] Recording this complete session in: C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\live_debug_sessions\session_20260903_134521
+[TTS] Speed set to 1.0x
+[TTS] Speed set to 1.0x
+[LOAD] Conservative SymSpell dictionary loaded in 2.91s
+
+[SERVER] Listening on port 9999 ...
+  Waiting for Pi to connect ...
+
+[SERVER] Pi connected from ('192.168.137.169', 34196)
+
+[QUALITY] Box4c text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=checking, rows=19/19, age=1.38s, edges=B, bandLap=387, lineLap=498, lightStd=7.3, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=look_down, rows=20/20, age=0.38s, edges=B, bandLap=1638, lineLap=2007, lightStd=6.8, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 003] state=look_down, rows=28/27, age=0.45s, edges=B, bandLap=2222, lineLap=2956, lightStd=4.6, belowText=0.0, motion=0.72, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 004] state=look_down, rows=28/28, age=0.41s, edges=B, bandLap=3618, lineLap=4017, lightStd=7.4, belowText=0.0, motion=0.22, stable=0/3
+  [OBS 005] state=look_down, rows=28/28, age=0.44s, edges=B, bandLap=3106, lineLap=3382, lightStd=7.9, belowText=0.0, motion=0.32, stable=0/3
+  [OBS 006] state=look_down, rows=28/28, age=0.47s, edges=B, bandLap=3306, lineLap=3704, lightStd=8.0, belowText=30.3, motion=0.08, stable=0/3
+  [OBS 007] state=page_not_found, rows=0/28, age=0.09s, edges=none, bandLap=95, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.76, stable=0/3
+  [OBS 008] state=hold_still, rows=31/30, age=0.52s, edges=none, bandLap=919, lineLap=1653, lightStd=9.1, belowText=1.9, motion=3.08, stable=0/3
+  [OBS 009] state=hold_still, rows=32/31, age=0.48s, edges=none, bandLap=1967, lineLap=2546, lightStd=10.1, belowText=1.1, motion=1.10, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 010] state=almost_ready, rows=32/32, age=0.48s, edges=none, bandLap=2726, lineLap=3254, lightStd=10.4, belowText=1.0, motion=0.08, stable=1/3
+  [OBS 011] state=almost_ready, rows=28/32, age=0.42s, edges=none, bandLap=2732, lineLap=3335, lightStd=9.4, belowText=1.1, motion=0.08, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 012] state=almost_ready, rows=29/32, age=0.45s, edges=none, bandLap=2565, lineLap=3694, lightStd=11.1, belowText=1.0, motion=0.07, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #411.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260903_134624.jpg
+[POST-CAPTURE] LapVar=369.4, score components: sharp=40, bright=30, even=19
+[STAGE 1] Preprocessing image …
+[STAGE 1] Running PaddleOCR …
+[STAGE 1] OCR complete in 0.559s  (35 detections -> 35 lines, 4 regions: 1 title, 0 headings, 3 paragraphs)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 9 line(s) | confidence=0.992 | in the upper part of the page
+    able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.993 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.992 | in the lower part of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] Translating 4 classified region(s) -> English in one NLLB batch …
+[STAGE 2] Region translation complete in 1.854s (4 translation chunks)
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Field evaluation of wearable translation glasses
+[P1] The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+[P2] Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partially shaded, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the entire frame and again over the upper portion, because a slanted sheet often appears near the bottom while the first soft lines remain clear A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to move back, improve left or right, or hold the lighting steady
+[P3] After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using count character recognition, focus statistics, and processing time Ground-truth text is retained for important experiments so that character confidence rate error and word confidence rate error can be calculated instead of relying on confidence alone
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.020s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260903_134627_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260903_134627_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A = pause/resume, S = stop)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] P2 — in the middle of the page
+[TTS] Paused

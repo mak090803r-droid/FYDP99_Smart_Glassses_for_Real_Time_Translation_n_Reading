@@ -1,0 +1,23 @@
+WEARABLE PI 4B CASE — STL VALIDATION
+Generated: 2026-07-29
+
+Every STL was exported with OpenSCAD CGAL rendering and independently loaded
+with Trimesh. All five files are:
+
+- one connected component;
+- watertight;
+- consistently wound;
+- positive-volume meshes.
+
+FILE                                         SIZE (mm)
+pi4_wearable_base.stl                        122.0 x 76.0 x 34.0
+pi4_wearable_lid_3button_30mmfan.stl          122.0 x 76.0 x 4.2
+infinix_xp04_belt_cradle.stl                  142.0 x 75.0 x 20.2
+xp04_fit_gauge.stl                             20.0 x 75.0 x 20.2
+button_12mm_fit_gauge.stl                      78.0 x 28.0 x 3.0
+
+IMPORTANT
+
+Mesh validity does not prove that an unmeasured physical button, fan or retail
+power-bank variation will fit. Print both gauges first. Confirm the exact fan
+thickness and hole spacing before printing the final lid.

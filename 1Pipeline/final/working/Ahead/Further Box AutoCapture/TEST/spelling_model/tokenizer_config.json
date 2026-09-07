@@ -1,0 +1,21 @@
+{
+  "add_prefix_space": false,
+  "backend": "tokenizers",
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "errors": "replace",
+  "is_local": false,
+  "local_files_only": true,
+  "mask_token": "<mask>",
+  "max_length": 1024,
+  "model_max_length": 1024,
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "stride": 0,
+  "tokenizer_class": "RobertaTokenizer",
+  "trim_offsets": true,
+  "truncation_side": "right",
+  "truncation_strategy": "longest_first",
+  "unk_token": "<unk>"
+}

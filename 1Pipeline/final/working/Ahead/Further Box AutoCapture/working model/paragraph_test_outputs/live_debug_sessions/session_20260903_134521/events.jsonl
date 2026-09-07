@@ -1,0 +1,11 @@
+{"wall_time": "2026-09-03T13:45:21+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260903_134521"}
+{"wall_time": "2026-09-03T13:46:18+0500", "elapsed_seconds": 56.25, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-03T13:46:18+0500", "elapsed_seconds": 56.25, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-03T13:46:19+0500", "elapsed_seconds": 58.188, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-03T13:46:22+0500", "elapsed_seconds": 60.547, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-03T13:46:22+0500", "elapsed_seconds": 60.547, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-03T13:46:23+0500", "elapsed_seconds": 61.547, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-03T13:46:23+0500", "elapsed_seconds": 61.906, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-03T13:46:23+0500", "elapsed_seconds": 61.906, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-03T13:46:24+0500", "elapsed_seconds": 62.516, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-03T13:46:24+0500", "elapsed_seconds": 62.61, "event": "automatic_capture", "generation": 10, "frame_sequence": 411, "stability_count": 3}

@@ -1,0 +1,46 @@
+{"wall_time": "2026-08-06T20:57:45+0500", "elapsed_seconds": 0.015, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260806_205745"}
+{"wall_time": "2026-08-06T20:58:26+0500", "elapsed_seconds": 40.531, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-08-06T20:58:26+0500", "elapsed_seconds": 40.531, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-08-06T20:58:27+0500", "elapsed_seconds": 41.953, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-08-06T20:58:31+0500", "elapsed_seconds": 45.109, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:31+0500", "elapsed_seconds": 45.109, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:32+0500", "elapsed_seconds": 46.156, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:33+0500", "elapsed_seconds": 47.921, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-08-06T20:58:33+0500", "elapsed_seconds": 47.921, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-08-06T20:58:34+0500", "elapsed_seconds": 48.64, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-08-06T20:58:35+0500", "elapsed_seconds": 49.328, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:35+0500", "elapsed_seconds": 49.328, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:37+0500", "elapsed_seconds": 51.218, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:40+0500", "elapsed_seconds": 54.453, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:40+0500", "elapsed_seconds": 54.453, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:42+0500", "elapsed_seconds": 56.343, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:43+0500", "elapsed_seconds": 57.968, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:43+0500", "elapsed_seconds": 57.968, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:45+0500", "elapsed_seconds": 59.015, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:45+0500", "elapsed_seconds": 59.39, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-08-06T20:58:45+0500", "elapsed_seconds": 59.39, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-08-06T20:58:47+0500", "elapsed_seconds": 61.203, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-08-06T20:58:52+0500", "elapsed_seconds": 66.546, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:52+0500", "elapsed_seconds": 66.546, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:54+0500", "elapsed_seconds": 68.453, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:55+0500", "elapsed_seconds": 69.64, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:55+0500", "elapsed_seconds": 69.64, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:56+0500", "elapsed_seconds": 70.687, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:58:59+0500", "elapsed_seconds": 73.406, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:58:59+0500", "elapsed_seconds": 73.406, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:59:01+0500", "elapsed_seconds": 75.312, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:59:02+0500", "elapsed_seconds": 76.359, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:59:02+0500", "elapsed_seconds": 76.359, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:59:03+0500", "elapsed_seconds": 77.406, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:59:08+0500", "elapsed_seconds": 82.421, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:59:08+0500", "elapsed_seconds": 82.421, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:59:09+0500", "elapsed_seconds": 83.484, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-08-06T20:59:12+0500", "elapsed_seconds": 86.25, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:59:12+0500", "elapsed_seconds": 86.25, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:59:14+0500", "elapsed_seconds": 88.14, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-08-06T20:59:15+0500", "elapsed_seconds": 89.859, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-08-06T20:59:15+0500", "elapsed_seconds": 89.859, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-08-06T20:59:16+0500", "elapsed_seconds": 90.546, "event": "automatic_capture", "generation": 70, "frame_sequence": 325, "stability_count": 3}
+{"wall_time": "2026-08-06T20:59:16+0500", "elapsed_seconds": 90.75, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-08-06T21:00:39+0500", "elapsed_seconds": 173.453, "event": "pi_disconnected"}
+{"wall_time": "2026-08-06T21:00:39+0500", "elapsed_seconds": 173.468, "event": "session_ending"}
