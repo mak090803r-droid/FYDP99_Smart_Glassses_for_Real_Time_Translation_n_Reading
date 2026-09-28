@@ -1,0 +1,24 @@
+# Box10 PC environment, direct packages observed in the working Python 3.11.1 environment.
+# Install PyTorch 2.6.0 + cu124 and piper-tts separately as shown in README.md.
+# piper-tts declares a CPU onnxruntime dependency; the working setup uses
+# onnxruntime-gpu instead, so install piper-tts --no-deps after this file.
+# These are direct requirements, not a full transitive lockfile.
+numpy==2.3.5
+opencv-python==5.0.0.93
+pillow==12.2.0
+pandas==3.0.3
+paddleocr==3.7.0
+paddlex==3.7.2
+paddlepaddle==3.3.1
+onnxruntime-gpu==1.20.2
+ctranslate2==4.8.0
+transformers==5.12.1
+huggingface_hub==1.21.0
+sentencepiece==0.2.1
+sacremoses==0.1.1
+pathvalidate==3.3.1
+sounddevice==0.5.5
+symspellpy==6.10.0
+psutil==7.2.2
+jiwer==4.0.0
+scipy==1.17.1
