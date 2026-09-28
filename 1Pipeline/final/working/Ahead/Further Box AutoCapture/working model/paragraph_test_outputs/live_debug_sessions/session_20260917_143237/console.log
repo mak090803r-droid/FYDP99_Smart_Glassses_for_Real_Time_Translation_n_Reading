@@ -1,0 +1,208 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.62s
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 2.03s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.22s
+[LOAD] Conservative SymSpell dictionary loaded in 2.96s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=8/8, age=0.98s, edges=none, bandLap=26, lineLap=30, lightStd=14.8, belowText=2.1, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=14/14, age=0.16s, edges=none, bandLap=116, lineLap=91, lightStd=10.8, belowText=0.8, motion=0.05, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=blurry, rows=10/10, age=0.19s, edges=none, bandLap=34, lineLap=60, lightStd=7.3, belowText=0.8, motion=0.71, stable=0/3
+  [OBS 004] state=almost_ready, rows=13/13, age=0.16s, edges=none, bandLap=118, lineLap=191, lightStd=7.7, belowText=0.7, motion=0.41, stable=1/3
+  [OBS 005] state=almost_ready, rows=12/13, age=0.27s, edges=none, bandLap=159, lineLap=225, lightStd=7.9, belowText=0.8, motion=0.35, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=12/13, age=0.26s, edges=none, bandLap=131, lineLap=169, lightStd=8.5, belowText=0.8, motion=0.51, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3588.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260917_143836.jpg
+[POST-CAPTURE] LapVar=20.7, score components: sharp=0, bright=30, even=22
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (20.7 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=22/22, age=0.38s, edges=none, bandLap=1786, lineLap=2071, lightStd=13.3, belowText=0.9, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=22/22, age=0.20s, edges=none, bandLap=1404, lineLap=1319, lightStd=11.5, belowText=0.9, motion=0.28, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=22/22, age=0.16s, edges=none, bandLap=2137, lineLap=2156, lightStd=11.9, belowText=1.0, motion=0.22, stable=3/3
+  [OBS 004] state=almost_ready, rows=22/22, age=0.09s, edges=none, bandLap=1437, lineLap=1881, lightStd=12.1, belowText=0.9, motion=0.67, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3731.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260917_143847.jpg
+[POST-CAPTURE] LapVar=290.8, score components: sharp=38, bright=30, even=22
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.328s (37 detections, 27 lines, 13 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93 1% Detected Good 88.7% Detected Moderate Curved page Motion blur 81.9% Partial Poor Table 2 Example recognition results under different conditions Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+============================================================
+
+[REGIONS] Detected 13 text region(s): 1 title, 0 heading(s), 12 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Experimental Evaluation
+  P1 | type=paragraph | 8 line(s) | confidence=0.997 | in the upper part of the page
+    Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Table Structure
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Clear page
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    97.4% Detected Excellent
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Perspective
+  P6 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    93 1% Detected Good
+  P7 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    88.7% Detected Moderate
+  P8 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    Curved page
+  P9 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Motion blur
+  P10 | type=paragraph | 1 line(s) | confidence=0.981 | in the middle of the page
+    81.9% Partial Poor
+  P11 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    Table 2 Example recognition results under different conditions
+  P12 | type=paragraph | 8 line(s) | confidence=0.998 | in the lower part of the page
+    Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+[STAGE 2] 13 regions, 0 NLLB chunks, english -> english: 0.010s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.009s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260917_143848_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260917_143848_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.328s
+  Translation  : skipped
+  Spell Corr   : 0.009s
+  TTS Playback : 29.955s
+────────────────────────────────────────
+  TOTAL        : 31.964s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.42s, edges=none, bandLap=79, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.08s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.03, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.09s, edges=none, bandLap=8, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.08, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=hold_still, rows=0/0, age=0.06s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.39, stable=0/3
+  [OBS 005] state=hold_still, rows=0/0, age=0.08s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.71, stable=0/3
+  [OBS 006] state=blurry, rows=3/3, age=0.08s, edges=none, bandLap=22, lineLap=32, lightStd=6.4, belowText=2.1, motion=0.29, stable=0/3
+  [OBS 007] state=blurry, rows=16/16, age=0.30s, edges=none, bandLap=40, lineLap=59, lightStd=7.9, belowText=0.9, motion=2.20, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 008] state=almost_ready, rows=16/16, age=0.12s, edges=none, bandLap=689, lineLap=897, lightStd=8.2, belowText=1.1, motion=0.88, stable=1/3
+  [OBS 009] state=almost_ready, rows=16/16, age=0.11s, edges=none, bandLap=827, lineLap=1111, lightStd=7.9, belowText=1.1, motion=0.73, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 010] state=almost_ready, rows=16/16, age=0.14s, edges=none, bandLap=805, lineLap=1077, lightStd=7.9, belowText=1.1, motion=0.17, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4472.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260917_143950.jpg
+[POST-CAPTURE] LapVar=90.5, score components: sharp=6, bright=30, even=19
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (90.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=13/13, age=0.41s, edges=TR, bandLap=29, lineLap=62, lightStd=19.9, belowText=1.3, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=8/8, age=0.12s, edges=T, bandLap=26, lineLap=32, lightStd=9.1, belowText=2.9, motion=3.18, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=blurry, rows=20/20, age=0.08s, edges=none, bandLap=58, lineLap=137, lightStd=7.0, belowText=1.1, motion=2.45, stable=0/3
+  [OBS 004] state=look_up, rows=16/16, age=0.17s, edges=T, bandLap=386, lineLap=626, lightStd=8.8, belowText=1.3, motion=0.82, stable=0/3
+  [OBS 005] state=almost_ready, rows=14/16, age=0.17s, edges=none, bandLap=651, lineLap=1061, lightStd=7.7, belowText=1.3, motion=0.21, stable=1/3
+  [OBS 006] state=almost_ready, rows=16/16, age=0.27s, edges=none, bandLap=811, lineLap=895, lightStd=7.8, belowText=1.3, motion=0.69, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 007] state=almost_ready, rows=17/17, age=0.14s, edges=none, bandLap=885, lineLap=1544, lightStd=8.5, belowText=1.3, motion=0.35, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4579.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260917_143958.jpg
+[POST-CAPTURE] LapVar=161.8, score components: sharp=17, bright=30, even=23
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.437s (30 detections, 23 lines, 9 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Document Recognition System Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page. Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline. Module Function Output PaddleOCR Recognizes printed text Text Table Detector Finds table regions Bounding box Structure Model Finds rows and columns Table layout RoBERTa Answers text questions Answer Table 1. Main modules of the document-probessing pipeline System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings. This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand.
+============================================================
+
+[REGIONS] Detected 9 text region(s): 1 title, 2 heading(s), 6 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.988 | at the top of the page
+    Document Recognition System
+  P1 | type=paragraph | 7 line(s) | confidence=0.993 | in the upper part of the page
+    Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page. Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline. Module Function
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Output
+  P3 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    PaddleOCR
+  H1 | type=section_heading | 1 line(s) | confidence=1.000 | in the middle of the page
+    Recognizes printed text Text
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Table Detector Finds table regions
+  P5 | type=paragraph | 3 line(s) | confidence=1.000 | in the middle of the page
+    Bounding box Structure Model Finds rows and columns Table layout RoBERTa Answers text questions Answer
+  H2 | type=section_heading | 1 line(s) | confidence=0.986 | in the middle of the page
+    Table 1. Main modules of the document-probessing pipeline
+  P6 | type=paragraph | 7 line(s) | confidence=0.995 | in the lower part of the page
+    System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings. This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand.
+[STAGE 2] 9 regions, 0 NLLB chunks, english -> english: 0.001s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.015s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260917_144000_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260917_144000_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.437s
+  Translation  : skipped
+  Spell Corr   : 0.015s
+  TTS Playback : 101.361s
+────────────────────────────────────────
+  TOTAL        : 103.464s
+────────────────────────────────────────
+
+  Ready for next capture!
+

@@ -1,0 +1,279 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.48s
+[STATUS] Welcome to F Y D P Glasses
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.81s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.12s
+[LOAD] Conservative SymSpell dictionary loaded in 2.73s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=30/30, age=0.66s, edges=B, bandLap=1450, lineLap=1678, lightStd=12.5, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=look_down, rows=31/31, age=0.14s, edges=B, bandLap=3220, lineLap=4023, lightStd=12.3, belowText=0.0, motion=0.47, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 003] state=look_down, rows=31/31, age=0.17s, edges=B, bandLap=1246, lineLap=1538, lightStd=12.9, belowText=0.0, motion=0.14, stable=0/3
+  [OBS 004] state=look_down, rows=31/31, age=0.25s, edges=B, bandLap=2753, lineLap=3548, lightStd=12.5, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 005] state=look_down, rows=33/32, age=0.11s, edges=B, bandLap=3124, lineLap=4209, lightStd=12.6, belowText=0.0, motion=0.80, stable=0/3
+  [OBS 006] state=look_down, rows=33/33, age=0.17s, edges=B, bandLap=3059, lineLap=3882, lightStd=12.3, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 007] state=look_down, rows=32/33, age=0.26s, edges=B, bandLap=3314, lineLap=3821, lightStd=12.0, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 008] state=look_down, rows=32/33, age=0.33s, edges=B, bandLap=3446, lineLap=4187, lightStd=12.3, belowText=0.0, motion=0.10, stable=0/3
+  [OBS 009] state=look_down, rows=32/33, age=0.25s, edges=B, bandLap=3017, lineLap=3572, lightStd=12.8, belowText=0.0, motion=0.11, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 010] state=look_down, rows=33/33, age=0.14s, edges=B, bandLap=3005, lineLap=3861, lightStd=12.2, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 011] state=look_down, rows=33/33, age=0.22s, edges=B, bandLap=1845, lineLap=2248, lightStd=12.3, belowText=0.0, motion=0.49, stable=0/3
+  [OBS 012] state=look_down, rows=34/33, age=0.23s, edges=B, bandLap=2890, lineLap=3787, lightStd=12.1, belowText=0.0, motion=0.34, stable=0/3
+  [OBS 013] state=look_down, rows=35/34, age=0.31s, edges=B, bandLap=3288, lineLap=4043, lightStd=12.3, belowText=0.0, motion=0.03, stable=0/3
+  [OBS 014] state=look_down, rows=32/34, age=0.12s, edges=B, bandLap=880, lineLap=963, lightStd=12.1, belowText=0.0, motion=0.51, stable=0/3
+  [OBS 015] state=look_down, rows=22/34, age=0.12s, edges=B, bandLap=1765, lineLap=2293, lightStd=12.5, belowText=0.0, motion=0.97, stable=0/3
+  [OBS 016] state=look_down, rows=24/34, age=0.28s, edges=B, bandLap=2712, lineLap=3144, lightStd=12.4, belowText=0.0, motion=0.51, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 017] state=look_down, rows=28/34, age=0.22s, edges=B, bandLap=1874, lineLap=2137, lightStd=13.0, belowText=0.0, motion=0.45, stable=0/3
+  [OBS 018] state=look_down, rows=31/34, age=0.20s, edges=B, bandLap=1262, lineLap=1697, lightStd=12.3, belowText=0.0, motion=0.31, stable=0/3
+  [OBS 019] state=look_down, rows=29/34, age=0.17s, edges=B, bandLap=1176, lineLap=1431, lightStd=13.8, belowText=0.0, motion=0.82, stable=0/3
+  [OBS 020] state=look_down, rows=29/34, age=0.17s, edges=B, bandLap=1356, lineLap=1807, lightStd=14.0, belowText=0.0, motion=0.86, stable=0/3
+  [OBS 021] state=look_down, rows=17/34, age=0.25s, edges=B, bandLap=384, lineLap=404, lightStd=11.6, belowText=0.0, motion=0.91, stable=0/3
+  [OBS 022] state=look_down, rows=23/34, age=0.41s, edges=B, bandLap=1570, lineLap=1878, lightStd=11.3, belowText=0.0, motion=0.33, stable=0/3
+  [OBS 023] state=hold_still, rows=19/34, age=0.23s, edges=T, bandLap=123, lineLap=174, lightStd=11.8, belowText=1.4, motion=3.16, stable=0/3
+  [OBS 024] state=hold_still, rows=4/32, age=0.11s, edges=none, bandLap=1063, lineLap=1771, lightStd=8.6, belowText=1.7, motion=1.01, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 025] state=hold_still, rows=6/31, age=0.14s, edges=none, bandLap=1036, lineLap=1501, lightStd=8.2, belowText=1.2, motion=0.70, stable=0/3
+  [OBS 026] state=hold_still, rows=5/29, age=0.30s, edges=none, bandLap=1565, lineLap=2240, lightStd=8.0, belowText=1.3, motion=0.40, stable=0/3
+  [OBS 027] state=hold_still, rows=6/29, age=0.11s, edges=none, bandLap=1446, lineLap=1979, lightStd=8.5, belowText=1.2, motion=0.16, stable=0/3
+  [OBS 028] state=hold_still, rows=7/29, age=0.16s, edges=none, bandLap=1381, lineLap=1704, lightStd=8.3, belowText=1.2, motion=0.07, stable=0/3
+  [OBS 029] state=look_up, rows=23/29, age=0.30s, edges=T, bandLap=1586, lineLap=2241, lightStd=11.9, belowText=1.7, motion=0.27, stable=0/3
+  [OBS 030] state=hold_still, rows=5/28, age=0.17s, edges=none, bandLap=1124, lineLap=1893, lightStd=8.1, belowText=1.2, motion=0.03, stable=0/3
+  [OBS 031] state=almost_ready, rows=24/24, age=0.11s, edges=none, bandLap=1547, lineLap=2125, lightStd=11.6, belowText=1.5, motion=0.41, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 032] state=hold_still, rows=6/23, age=0.14s, edges=none, bandLap=1265, lineLap=1756, lightStd=8.5, belowText=1.3, motion=0.19, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 033] state=hold_still, rows=3/23, age=0.28s, edges=none, bandLap=1645, lineLap=2544, lightStd=7.6, belowText=1.2, motion=0.16, stable=1/3
+  [GUIDANCE] Hold still.
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 034] state=hold_still, rows=6/23, age=0.33s, edges=none, bandLap=1104, lineLap=1645, lightStd=8.7, belowText=1.3, motion=0.18, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 035] state=look_down, rows=8/22, age=0.19s, edges=B, bandLap=1688, lineLap=2276, lightStd=8.4, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 036] state=look_down, rows=7/22, age=0.16s, edges=B, bandLap=1734, lineLap=2294, lightStd=8.3, belowText=0.0, motion=0.04, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 037] state=hold_still, rows=4/22, age=0.31s, edges=none, bandLap=1269, lineLap=1940, lightStd=8.1, belowText=1.3, motion=0.14, stable=0/3
+  [OBS 038] state=hold_still, rows=17/22, age=0.14s, edges=T, bandLap=766, lineLap=940, lightStd=11.8, belowText=1.5, motion=1.38, stable=0/3
+  [OBS 039] state=hold_still, rows=4/22, age=0.30s, edges=none, bandLap=1239, lineLap=1803, lightStd=8.1, belowText=1.2, motion=0.14, stable=0/3
+  [OBS 040] state=hold_still, rows=6/22, age=0.30s, edges=none, bandLap=1202, lineLap=1702, lightStd=8.3, belowText=1.2, motion=0.35, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 041] state=blurry, rows=23/22, age=0.20s, edges=B, bandLap=283, lineLap=391, lightStd=13.3, belowText=4.4, motion=1.49, stable=0/3
+  [OBS 042] state=hold_still, rows=25/24, age=0.19s, edges=T, bandLap=692, lineLap=858, lightStd=12.8, belowText=1.8, motion=1.91, stable=0/3
+  [OBS 043] state=hold_still, rows=28/25, age=0.25s, edges=B, bandLap=1809, lineLap=2298, lightStd=14.9, belowText=0.0, motion=2.63, stable=0/3
+  [OBS 044] state=look_down, rows=29/28, age=0.11s, edges=B, bandLap=512, lineLap=773, lightStd=15.1, belowText=0.0, motion=0.47, stable=0/3
+  [OBS 045] state=look_down, rows=33/29, age=0.22s, edges=B, bandLap=1564, lineLap=2346, lightStd=15.9, belowText=0.0, motion=0.34, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 046] state=look_down, rows=26/29, age=0.16s, edges=B, bandLap=2071, lineLap=2943, lightStd=16.8, belowText=13.8, motion=0.01, stable=0/3
+  [OBS 047] state=look_down, rows=24/29, age=0.17s, edges=B, bandLap=2356, lineLap=3367, lightStd=16.2, belowText=18.5, motion=0.03, stable=0/3
+  [OBS 048] state=look_down, rows=27/29, age=0.23s, edges=B, bandLap=1909, lineLap=2671, lightStd=16.4, belowText=17.7, motion=0.11, stable=0/3
+  [OBS 049] state=look_down, rows=27/29, age=0.19s, edges=B, bandLap=2261, lineLap=2732, lightStd=16.0, belowText=15.6, motion=0.03, stable=0/3
+  [OBS 050] state=look_down, rows=29/29, age=0.12s, edges=B, bandLap=2556, lineLap=3127, lightStd=15.9, belowText=18.2, motion=0.06, stable=0/3
+  [OBS 051] state=look_down, rows=33/33, age=0.16s, edges=B, bandLap=2088, lineLap=2659, lightStd=16.0, belowText=11.4, motion=0.10, stable=0/3
+  [OBS 052] state=look_down, rows=30/33, age=0.11s, edges=B, bandLap=2031, lineLap=3076, lightStd=16.5, belowText=0.0, motion=0.30, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 053] state=hold_still, rows=0/33, age=0.23s, edges=none, bandLap=174, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.09, stable=0/3
+  [OBS 054] state=hold_still, rows=32/33, age=0.30s, edges=none, bandLap=629, lineLap=765, lightStd=12.6, belowText=1.3, motion=3.17, stable=0/3
+  [OBS 055] state=almost_ready, rows=28/33, age=0.26s, edges=none, bandLap=345, lineLap=640, lightStd=13.8, belowText=1.1, motion=0.63, stable=1/3
+  [OBS 056] state=almost_ready, rows=28/33, age=0.12s, edges=none, bandLap=1647, lineLap=2211, lightStd=13.3, belowText=1.2, motion=0.59, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 057] state=almost_ready, rows=28/33, age=0.11s, edges=none, bandLap=1510, lineLap=2138, lightStd=13.6, belowText=1.2, motion=0.33, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #731.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260912_140524.jpg
+[POST-CAPTURE] LapVar=321.6, score components: sharp=40, bright=30, even=24
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.672s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently Image acquisition is the first major difficulty. A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it. It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason. several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale, local contrast enhancement. mild gamma correction, edge-preserving fitering and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.989 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.993 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.993 | in the middle of the page
+    Image acquisition is the first major difficulty. A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it. It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.992 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason. several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale, local contrast enhancement. mild gamma correction, edge-preserving fitering and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.028s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260912_140527_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260912_140527_ocr.txt
+[RUN ERROR] RuntimeError: Audio(Pi) selected but Pi3 audio is disconnected. Start piweb_cli3.py or uncheck Audio(Pi).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.41s, edges=none, bandLap=118, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.08s, edges=none, bandLap=128, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.24, stable=0/3
+  [OBS 003] state=look_down, rows=12/12, age=0.11s, edges=B, bandLap=817, lineLap=1218, lightStd=2.8, belowText=0.0, motion=0.60, stable=0/3
+  [OBS 004] state=look_down, rows=11/12, age=0.09s, edges=B, bandLap=1877, lineLap=2822, lightStd=2.4, belowText=0.0, motion=0.36, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 005] state=look_down, rows=15/14, age=0.20s, edges=B, bandLap=2102, lineLap=3320, lightStd=3.4, belowText=0.0, motion=0.88, stable=0/3
+  [OBS 006] state=look_down, rows=15/15, age=0.14s, edges=B, bandLap=2025, lineLap=3029, lightStd=2.5, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 007] state=look_down, rows=15/15, age=0.25s, edges=B, bandLap=1429, lineLap=2157, lightStd=2.7, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 008] state=hold_still, rows=0/15, age=0.12s, edges=none, bandLap=123, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.09, stable=0/3
+  [OBS 009] state=hold_still, rows=25/20, age=0.17s, edges=B, bandLap=2179, lineLap=3134, lightStd=7.6, belowText=0.0, motion=2.34, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 010] state=look_down, rows=25/25, age=0.19s, edges=B, bandLap=2913, lineLap=4058, lightStd=11.7, belowText=0.0, motion=0.57, stable=0/3
+  [OBS 011] state=look_down, rows=26/25, age=0.22s, edges=B, bandLap=2616, lineLap=3454, lightStd=10.8, belowText=25.7, motion=0.64, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 012] state=look_down, rows=27/26, age=0.36s, edges=B, bandLap=1023, lineLap=1409, lightStd=11.4, belowText=0.0, motion=0.17, stable=0/3
+  [OBS 013] state=look_down, rows=26/26, age=0.22s, edges=B, bandLap=3184, lineLap=3712, lightStd=11.1, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 014] state=look_down, rows=26/26, age=0.08s, edges=B, bandLap=3663, lineLap=4906, lightStd=11.0, belowText=0.0, motion=0.25, stable=0/3
+  [OBS 015] state=hold_still, rows=27/27, age=0.19s, edges=B, bandLap=2075, lineLap=2371, lightStd=12.2, belowText=0.0, motion=1.83, stable=0/3
+  [OBS 016] state=look_down, rows=28/27, age=0.11s, edges=B, bandLap=2965, lineLap=3021, lightStd=12.4, belowText=0.0, motion=0.22, stable=0/3
+  [OBS 017] state=look_down, rows=28/28, age=0.25s, edges=B, bandLap=3088, lineLap=4037, lightStd=12.4, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 018] state=look_down, rows=26/28, age=0.30s, edges=B, bandLap=2732, lineLap=3633, lightStd=12.1, belowText=0.0, motion=0.13, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 019] state=look_down, rows=26/28, age=0.16s, edges=B, bandLap=3106, lineLap=3167, lightStd=12.6, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 020] state=look_down, rows=26/28, age=0.14s, edges=B, bandLap=3160, lineLap=4141, lightStd=12.3, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 021] state=look_down, rows=28/28, age=0.16s, edges=B, bandLap=2911, lineLap=4124, lightStd=11.9, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 022] state=hold_still, rows=28/28, age=0.19s, edges=B, bandLap=1927, lineLap=1920, lightStd=12.2, belowText=1.1, motion=1.86, stable=0/3
+  [OBS 023] state=look_down, rows=27/28, age=0.17s, edges=B, bandLap=2733, lineLap=2904, lightStd=12.4, belowText=19.6, motion=0.32, stable=0/3
+  [OBS 024] state=look_down, rows=28/28, age=0.34s, edges=B, bandLap=3033, lineLap=3103, lightStd=12.5, belowText=0.0, motion=0.45, stable=0/3
+  [OBS 025] state=look_down, rows=28/28, age=0.36s, edges=B, bandLap=3123, lineLap=3093, lightStd=12.6, belowText=0.0, motion=0.03, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 026] state=look_down, rows=29/28, age=0.30s, edges=B, bandLap=3596, lineLap=3684, lightStd=12.2, belowText=0.0, motion=0.03, stable=0/3
+  [OBS 027] state=look_down, rows=27/28, age=0.11s, edges=B, bandLap=3022, lineLap=4150, lightStd=12.4, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 028] state=look_down, rows=28/28, age=0.12s, edges=B, bandLap=3590, lineLap=4113, lightStd=12.5, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 029] state=hold_still, rows=28/28, age=0.25s, edges=B, bandLap=2103, lineLap=2261, lightStd=12.3, belowText=1.3, motion=1.16, stable=0/3
+  [OBS 030] state=almost_ready, rows=28/28, age=0.33s, edges=none, bandLap=2431, lineLap=2765, lightStd=12.1, belowText=1.2, motion=0.34, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 031] state=look_up, rows=27/28, age=0.26s, edges=T, bandLap=1517, lineLap=1637, lightStd=12.3, belowText=1.1, motion=0.42, stable=0/3
+  [OBS 032] state=almost_ready, rows=27/28, age=0.22s, edges=none, bandLap=2726, lineLap=3174, lightStd=12.1, belowText=1.1, motion=0.43, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 033] state=look_up, rows=29/29, age=0.20s, edges=T, bandLap=2222, lineLap=2466, lightStd=12.1, belowText=1.2, motion=0.09, stable=0/3
+  [OBS 034] state=look_up, rows=28/29, age=0.16s, edges=T, bandLap=2607, lineLap=3032, lightStd=11.9, belowText=1.1, motion=0.28, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 035] state=look_up, rows=29/29, age=0.17s, edges=T, bandLap=2691, lineLap=3326, lightStd=11.9, belowText=1.1, motion=0.05, stable=0/3
+  [OBS 036] state=look_up, rows=31/29, age=0.36s, edges=T, bandLap=2915, lineLap=3469, lightStd=11.5, belowText=1.2, motion=0.04, stable=0/3
+  [OBS 037] state=look_up, rows=30/30, age=0.31s, edges=T, bandLap=2610, lineLap=3036, lightStd=11.4, belowText=1.2, motion=0.04, stable=0/3
+  [OBS 038] state=hold_still, rows=17/30, age=0.08s, edges=none, bandLap=1510, lineLap=1721, lightStd=4.3, belowText=14.9, motion=1.88, stable=0/3
+  [OBS 039] state=hold_still, rows=27/30, age=0.19s, edges=B, bandLap=1197, lineLap=1438, lightStd=11.1, belowText=0.0, motion=1.77, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 040] state=look_down, rows=25/30, age=0.34s, edges=B, bandLap=3428, lineLap=4515, lightStd=9.2, belowText=23.2, motion=0.32, stable=0/3
+  [OBS 041] state=look_down, rows=26/30, age=0.28s, edges=B, bandLap=3191, lineLap=4388, lightStd=10.9, belowText=0.0, motion=0.12, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 042] state=look_down, rows=28/30, age=0.17s, edges=B, bandLap=2951, lineLap=3485, lightStd=10.7, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 043] state=look_down, rows=26/30, age=0.12s, edges=B, bandLap=3522, lineLap=4395, lightStd=10.9, belowText=0.0, motion=0.16, stable=0/3
+  [OBS 044] state=page_not_found, rows=0/30, age=0.30s, edges=none, bandLap=281, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.36, stable=0/3
+  [OBS 045] state=hold_still, rows=31/31, age=0.11s, edges=T, bandLap=1992, lineLap=2676, lightStd=11.4, belowText=1.2, motion=2.81, stable=0/3
+  [OBS 046] state=look_up, rows=30/31, age=0.09s, edges=T, bandLap=2872, lineLap=3605, lightStd=11.4, belowText=1.1, motion=0.47, stable=0/3
+  [OBS 047] state=look_up, rows=32/31, age=0.14s, edges=T, bandLap=2557, lineLap=2985, lightStd=12.0, belowText=1.2, motion=0.11, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 048] state=look_up, rows=32/32, age=0.31s, edges=T, bandLap=2757, lineLap=3381, lightStd=11.8, belowText=1.2, motion=0.29, stable=0/3
+  [OBS 049] state=almost_ready, rows=32/32, age=0.11s, edges=none, bandLap=2719, lineLap=3460, lightStd=12.0, belowText=1.2, motion=0.22, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 050] state=look_down, rows=27/32, age=0.14s, edges=B, bandLap=1236, lineLap=1121, lightStd=11.7, belowText=0.0, motion=0.61, stable=0/3
+  [OBS 051] state=hold_still, rows=26/32, age=0.30s, edges=B, bandLap=1372, lineLap=1392, lightStd=10.2, belowText=0.0, motion=3.49, stable=0/3
+  [OBS 052] state=almost_ready, rows=25/32, age=0.33s, edges=none, bandLap=3059, lineLap=3093, lightStd=9.4, belowText=5.6, motion=0.50, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 053] state=look_down, rows=26/32, age=0.09s, edges=B, bandLap=3285, lineLap=3648, lightStd=9.6, belowText=0.0, motion=0.30, stable=0/3
+  [OBS 054] state=look_down, rows=26/32, age=0.09s, edges=B, bandLap=3833, lineLap=4278, lightStd=9.8, belowText=0.0, motion=0.15, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 055] state=look_down, rows=26/32, age=0.31s, edges=B, bandLap=3522, lineLap=4010, lightStd=10.0, belowText=34.7, motion=0.01, stable=0/3
+  [OBS 056] state=look_down, rows=26/32, age=0.19s, edges=B, bandLap=3195, lineLap=3968, lightStd=9.9, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 057] state=look_down, rows=25/32, age=0.19s, edges=B, bandLap=2982, lineLap=4082, lightStd=9.1, belowText=16.6, motion=0.06, stable=0/3
+  [OBS 058] state=hold_still, rows=30/32, age=0.20s, edges=none, bandLap=2703, lineLap=3204, lightStd=11.1, belowText=1.3, motion=3.77, stable=0/3
+  [OBS 059] state=almost_ready, rows=28/32, age=0.38s, edges=none, bandLap=2924, lineLap=3645, lightStd=11.3, belowText=1.3, motion=0.09, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 060] state=look_down, rows=30/30, age=0.20s, edges=B, bandLap=3244, lineLap=3618, lightStd=11.2, belowText=24.6, motion=0.57, stable=0/3
+  [OBS 061] state=look_down, rows=29/30, age=0.23s, edges=B, bandLap=3026, lineLap=3518, lightStd=11.4, belowText=0.0, motion=0.23, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 062] state=look_down, rows=26/30, age=0.30s, edges=B, bandLap=2831, lineLap=3136, lightStd=11.2, belowText=26.3, motion=0.10, stable=0/3
+  [OBS 063] state=look_down, rows=26/30, age=0.11s, edges=B, bandLap=2822, lineLap=3442, lightStd=11.4, belowText=27.6, motion=0.09, stable=0/3
+  [OBS 064] state=look_down, rows=27/30, age=0.22s, edges=B, bandLap=2298, lineLap=2583, lightStd=11.5, belowText=0.0, motion=0.16, stable=0/3
+  [OBS 065] state=hold_still, rows=15/30, age=0.16s, edges=T, bandLap=907, lineLap=860, lightStd=11.6, belowText=1.0, motion=2.46, stable=0/3
+  [OBS 066] state=look_up, rows=22/30, age=0.31s, edges=T, bandLap=2865, lineLap=3589, lightStd=10.8, belowText=1.4, motion=0.68, stable=0/3
+  [OBS 067] state=look_up, rows=24/30, age=0.25s, edges=T, bandLap=2394, lineLap=2943, lightStd=10.9, belowText=1.2, motion=0.22, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 068] state=look_up, rows=24/30, age=0.25s, edges=T, bandLap=2693, lineLap=3236, lightStd=11.1, belowText=1.2, motion=0.24, stable=0/3
+  [OBS 069] state=look_up, rows=25/30, age=0.11s, edges=T, bandLap=2493, lineLap=3119, lightStd=11.6, belowText=1.2, motion=0.79, stable=0/3
+  [OBS 070] state=look_up, rows=26/29, age=0.19s, edges=T, bandLap=2641, lineLap=3216, lightStd=11.6, belowText=1.2, motion=0.10, stable=0/3
+  [OBS 071] state=hold_still, rows=2/29, age=0.23s, edges=B, bandLap=234, lineLap=278, lightStd=3.6, belowText=0.0, motion=4.35, stable=0/3
+  [OBS 072] state=hold_still, rows=3/29, age=0.09s, edges=B, bandLap=1078, lineLap=1527, lightStd=4.2, belowText=0.0, motion=3.59, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 073] state=page_not_found, rows=0/29, age=0.08s, edges=none, bandLap=175, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.45, stable=0/3
+  [OBS 074] state=hold_still, rows=0/29, age=0.09s, edges=none, bandLap=333, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.49, stable=0/3
+  [OBS 075] state=hold_still, rows=0/29, age=0.16s, edges=none, bandLap=106, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.58, stable=0/3
+  [OBS 076] state=hold_still, rows=26/27, age=0.19s, edges=B, bandLap=810, lineLap=970, lightStd=7.6, belowText=0.0, motion=2.23, stable=0/3
+  [OBS 077] state=hold_still, rows=0/27, age=0.30s, edges=none, bandLap=30, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.72, stable=0/3
+  [OBS 078] state=look_down, rows=37/27, age=0.22s, edges=B, bandLap=468, lineLap=673, lightStd=11.6, belowText=0.0, motion=0.44, stable=0/3
+  [OBS 079] state=look_down, rows=34/33, age=0.34s, edges=B, bandLap=1952, lineLap=2637, lightStd=11.5, belowText=0.0, motion=0.43, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 080] state=look_down, rows=30/34, age=0.28s, edges=B, bandLap=2099, lineLap=2995, lightStd=12.9, belowText=0.0, motion=0.41, stable=0/3
+  [OBS 081] state=almost_ready, rows=27/34, age=0.16s, edges=none, bandLap=1618, lineLap=2353, lightStd=15.2, belowText=1.3, motion=0.67, stable=1/3
+  [OBS 082] state=almost_ready, rows=27/34, age=0.34s, edges=none, bandLap=1983, lineLap=2676, lightStd=15.2, belowText=1.3, motion=0.09, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 083] state=almost_ready, rows=28/34, age=0.16s, edges=none, bandLap=1873, lineLap=2669, lightStd=14.9, belowText=1.2, motion=0.30, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1691.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260912_140715.jpg
+[POST-CAPTURE] LapVar=382.8, score components: sharp=40, bright=30, even=17
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.422s (36 detections, 36 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted, partly shadowed, or closer at the top than at the bottom. Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only sharpening can create bright halos around letters. while aggressive thresholding can erase punctuation and thin strokes For that reason. several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction. edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.993 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.992 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.992 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted, partly shadowed, or closer at the top than at the bottom. Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 11 line(s) | confidence=0.994 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only sharpening can create bright halos around letters. while aggressive thresholding can erase punctuation and thin strokes For that reason. several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction. edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.022s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260912_140717_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260912_140717_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.422s
+  Translation  : skipped
+  Spell Corr   : 0.022s
+  TTS Playback : 42.441s
+────────────────────────────────────────
+  TOTAL        : 45.388s
+────────────────────────────────────────
+
+  Ready for next capture!
+

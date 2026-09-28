@@ -1,0 +1,107 @@
+{"wall_time": "2026-09-25T11:13:23+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260925_111323"}
+{"wall_time": "2026-09-25T12:01:48+0500", "elapsed_seconds": 2904.953, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T12:01:48+0500", "elapsed_seconds": 2904.969, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T12:07:55+0500", "elapsed_seconds": 3272.328, "event": "voice", "message": "Pi voice disconnected: Voice connection closed", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T12:07:55+0500", "elapsed_seconds": 3272.328, "event": "pi_disconnected", "error": "Camera connection closed"}
+{"wall_time": "2026-09-25T12:07:55+0500", "elapsed_seconds": 3272.328, "event": "audio_route", "connected": false, "message": "Pi audio connection closed", "enabled": false}
+{"wall_time": "2026-09-25T12:07:55+0500", "elapsed_seconds": 3272.344, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T12:08:02+0500", "elapsed_seconds": 3278.75, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T12:08:02+0500", "elapsed_seconds": 3278.75, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T12:08:23+0500", "elapsed_seconds": 3299.969, "event": "pi_disconnected", "error": "Camera connection closed"}
+{"wall_time": "2026-09-25T12:08:23+0500", "elapsed_seconds": 3299.969, "event": "voice", "message": "Pi voice disconnected: Voice connection closed", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T12:08:23+0500", "elapsed_seconds": 3299.969, "event": "audio_route", "connected": false, "message": "Pi audio connection closed", "enabled": false}
+{"wall_time": "2026-09-25T12:08:23+0500", "elapsed_seconds": 3300.016, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T12:28:22+0500", "elapsed_seconds": 4499.437, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T12:28:22+0500", "elapsed_seconds": 4499.437, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T12:28:57+0500", "elapsed_seconds": 4534.266, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T12:28:59+0500", "elapsed_seconds": 4535.875, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:28:59+0500", "elapsed_seconds": 4535.875, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:00+0500", "elapsed_seconds": 4536.969, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:02+0500", "elapsed_seconds": 4539.297, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T12:29:02+0500", "elapsed_seconds": 4539.297, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T12:29:04+0500", "elapsed_seconds": 4540.766, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:04+0500", "elapsed_seconds": 4540.828, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T12:29:04+0500", "elapsed_seconds": 4540.828, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:06+0500", "elapsed_seconds": 4543.172, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:09+0500", "elapsed_seconds": 4545.734, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T12:29:09+0500", "elapsed_seconds": 4545.734, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T12:29:10+0500", "elapsed_seconds": 4547.516, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T12:29:14+0500", "elapsed_seconds": 4551.359, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T12:29:14+0500", "elapsed_seconds": 4551.359, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T12:29:16+0500", "elapsed_seconds": 4553.141, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T12:29:17+0500", "elapsed_seconds": 4554.359, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:17+0500", "elapsed_seconds": 4554.359, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:19+0500", "elapsed_seconds": 4555.625, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:20+0500", "elapsed_seconds": 4556.703, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:20+0500", "elapsed_seconds": 4556.703, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:20+0500", "elapsed_seconds": 4557.375, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:24+0500", "elapsed_seconds": 4560.531, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:24+0500", "elapsed_seconds": 4560.531, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:25+0500", "elapsed_seconds": 4561.562, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:29+0500", "elapsed_seconds": 4566.25, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:29+0500", "elapsed_seconds": 4566.25, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:32+0500", "elapsed_seconds": 4568.578, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:32+0500", "elapsed_seconds": 4569.141, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:32+0500", "elapsed_seconds": 4569.141, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:33+0500", "elapsed_seconds": 4570.187, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:34+0500", "elapsed_seconds": 4571.344, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:34+0500", "elapsed_seconds": 4571.344, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:37+0500", "elapsed_seconds": 4573.687, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T12:29:40+0500", "elapsed_seconds": 4577.078, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:40+0500", "elapsed_seconds": 4577.078, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:41+0500", "elapsed_seconds": 4577.641, "event": "automatic_capture", "generation": 60, "frame_sequence": 884, "stability_count": 3}
+{"wall_time": "2026-09-25T12:29:41+0500", "elapsed_seconds": 4577.766, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:44+0500", "elapsed_seconds": 4581.422, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T12:29:46+0500", "elapsed_seconds": 4582.953, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:46+0500", "elapsed_seconds": 4582.953, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:47+0500", "elapsed_seconds": 4584.0, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T12:29:47+0500", "elapsed_seconds": 4584.484, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:47+0500", "elapsed_seconds": 4584.484, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:48+0500", "elapsed_seconds": 4585.047, "event": "automatic_capture", "generation": 5, "frame_sequence": 984, "stability_count": 3}
+{"wall_time": "2026-09-25T12:29:48+0500", "elapsed_seconds": 4585.172, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T12:29:52+0500", "elapsed_seconds": 4588.547, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-25T12:29:52+0500", "elapsed_seconds": 4588.672, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-25T12:29:56+0500", "elapsed_seconds": 4593.5, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-25T12:29:56+0500", "elapsed_seconds": 4593.5, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-25T12:30:00+0500", "elapsed_seconds": 4597.484, "event": "box8", "message": "Table analysis: 0 table(s), 5.66s", "tables": []}
+{"wall_time": "2026-09-25T12:30:27+0500", "elapsed_seconds": 4623.562, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "finished"}
+{"wall_time": "2026-09-25T12:30:27+0500", "elapsed_seconds": 4623.578, "event": "paragraph_started", "region_id": 3, "index": 2, "label": "P2"}
+{"wall_time": "2026-09-25T12:30:58+0500", "elapsed_seconds": 4655.437, "event": "paragraph_playback_result", "region_id": 3, "index": 2, "action": "finished"}
+{"wall_time": "2026-09-25T12:30:58+0500", "elapsed_seconds": 4655.437, "event": "paragraph_started", "region_id": 4, "index": 3, "label": "P3"}
+{"wall_time": "2026-09-25T12:31:14+0500", "elapsed_seconds": 4671.234, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:15+0500", "elapsed_seconds": 4671.625, "event": "voice", "message": "LISTENING on Pi earbuds — release to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:18+0500", "elapsed_seconds": 4674.781, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:20+0500", "elapsed_seconds": 4677.156, "event": "voice", "message": "Heard: When did the desktop occur?", "enabled": true, "busy": true, "transcript": "When did the desktop occur?", "action": "question", "asr_seconds": 0.44657770000048913}
+{"wall_time": "2026-09-25T12:31:20+0500", "elapsed_seconds": 4677.187, "event": "paragraph_playback_result", "region_id": 4, "index": 3, "action": "box7_voice"}
+{"wall_time": "2026-09-25T12:31:20+0500", "elapsed_seconds": 4677.219, "event": "box8", "message": "Answering from this page; normal reading is temporarily interrupted"}
+{"wall_time": "2026-09-25T12:31:30+0500", "elapsed_seconds": 4686.656, "event": "box8_answer", "question": "When did the desktop occur?", "answer": {"answer": "", "reason": "No sufficiently supported answer in the captured page.", "model_device": "cuda"}}
+{"wall_time": "2026-09-25T12:31:30+0500", "elapsed_seconds": 4686.656, "event": "box8", "message": "Optional reading"}
+{"wall_time": "2026-09-25T12:31:34+0500", "elapsed_seconds": 4690.609, "event": "paragraph_started", "region_id": 4, "index": 3, "label": "P3"}
+{"wall_time": "2026-09-25T12:31:36+0500", "elapsed_seconds": 4693.016, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:36+0500", "elapsed_seconds": 4693.359, "event": "voice", "message": "LISTENING on Pi earbuds — release to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:36+0500", "elapsed_seconds": 4693.406, "event": "voice", "message": "Recording too short; hold until LISTENING and speak", "enabled": true, "busy": false}
+{"wall_time": "2026-09-25T12:31:37+0500", "elapsed_seconds": 4694.281, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:38+0500", "elapsed_seconds": 4694.719, "event": "voice", "message": "LISTENING on Pi earbuds — release to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:41+0500", "elapsed_seconds": 4698.5, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:31:44+0500", "elapsed_seconds": 4700.859, "event": "voice", "message": "Heard: When did the dust storm occur?", "enabled": true, "busy": true, "transcript": "When did the dust storm occur?", "action": "question", "asr_seconds": 0.4400565999967512}
+{"wall_time": "2026-09-25T12:31:44+0500", "elapsed_seconds": 4700.875, "event": "paragraph_playback_result", "region_id": 4, "index": 3, "action": "box7_voice"}
+{"wall_time": "2026-09-25T12:31:44+0500", "elapsed_seconds": 4700.875, "event": "box8", "message": "Answering from this page; normal reading is temporarily interrupted"}
+{"wall_time": "2026-09-25T12:31:53+0500", "elapsed_seconds": 4709.766, "event": "box8_answer", "question": "When did the dust storm occur?", "answer": {"answer": "18 October 2025", "quote": "On 18 October 2025, a dust storm reduced solar output by 34% in fifteen minutes.", "region_id": 3, "bbox": [363, 442, 1221, 660], "table": null, "row": null, "margin": 24.97370719909668, "score": 0.9999999999857421, "source_text": "On 18 October 2025, a dust storm reduced solar output by 34% in fifteen minutes. The temperature of the battery cabinet rose by 8 °C, while the inverter fan produced an abnormal vibration instead of shutting down the station. The system turned off the secondary heating, reduced some of the lights, and started the rescue group. He identified three possible causes of the debris on the panels, a worn bearing, and increasing resistance in a battery connector.", "translated": true, "model_device": "cuda"}}
+{"wall_time": "2026-09-25T12:31:53+0500", "elapsed_seconds": 4709.766, "event": "box8", "message": "P2"}
+{"wall_time": "2026-09-25T12:31:57+0500", "elapsed_seconds": 4714.0, "event": "paragraph_started", "region_id": 4, "index": 3, "label": "P3"}
+{"wall_time": "2026-09-25T12:38:01+0500", "elapsed_seconds": 5078.078, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-25T12:38:01+0500", "elapsed_seconds": 5078.156, "event": "audio_error", "message": "Unanticipated host error [PaErrorCode -9999]: 'There is no driver installed on your system.' [MME error 6]"}
+{"wall_time": "2026-09-25T12:38:01+0500", "elapsed_seconds": 5078.172, "event": "run_failed", "run": 2, "error": "Unanticipated host error [PaErrorCode -9999]: 'There is no driver installed on your system.' [MME error 6]"}
+{"wall_time": "2026-09-25T12:38:05+0500", "elapsed_seconds": 5081.781, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-25T12:38:07+0500", "elapsed_seconds": 5083.781, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-25T12:38:09+0500", "elapsed_seconds": 5086.437, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-25T12:38:20+0500", "elapsed_seconds": 5096.609, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:38:20+0500", "elapsed_seconds": 5097.062, "event": "voice", "message": "LISTENING on Pi earbuds — release to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:38:21+0500", "elapsed_seconds": 5098.0, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-25T12:38:21+0500", "elapsed_seconds": 5098.016, "event": "voice", "message": "Heard: [no speech]", "enabled": true, "busy": true, "transcript": "", "action": "unknown", "asr_seconds": 0.012765000006766059}
+{"wall_time": "2026-09-25T12:38:21+0500", "elapsed_seconds": 5098.016, "event": "voice", "message": "Command not recognized; say 'voice help'", "enabled": true, "busy": false}
+{"wall_time": "2026-09-25T12:39:19+0500", "elapsed_seconds": 5156.484, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-25T13:06:46+0500", "elapsed_seconds": 6803.406, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-25T13:06:46+0500", "elapsed_seconds": 6803.406, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-25T13:06:46+0500", "elapsed_seconds": 6803.453, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-25T13:06:46+0500", "elapsed_seconds": 6803.453, "event": "session_ending"}

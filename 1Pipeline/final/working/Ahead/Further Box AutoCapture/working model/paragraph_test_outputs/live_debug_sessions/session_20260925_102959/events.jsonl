@@ -1,0 +1,362 @@
+{"wall_time": "2026-09-25T10:29:59+0500", "elapsed_seconds": 0.016, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260925_102959"}
+{"wall_time": "2026-09-25T10:30:02+0500", "elapsed_seconds": 2.75, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T10:30:31+0500", "elapsed_seconds": 31.312, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:30:31+0500", "elapsed_seconds": 32.156, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:31+0500", "elapsed_seconds": 32.156, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:34+0500", "elapsed_seconds": 34.719, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:36+0500", "elapsed_seconds": 37.109, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:36+0500", "elapsed_seconds": 37.109, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:39+0500", "elapsed_seconds": 39.609, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:41+0500", "elapsed_seconds": 42.062, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:41+0500", "elapsed_seconds": 42.062, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:44+0500", "elapsed_seconds": 44.547, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:46+0500", "elapsed_seconds": 47.047, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:46+0500", "elapsed_seconds": 47.047, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:49+0500", "elapsed_seconds": 49.547, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:51+0500", "elapsed_seconds": 52.141, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:51+0500", "elapsed_seconds": 52.141, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:54+0500", "elapsed_seconds": 54.656, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:30:57+0500", "elapsed_seconds": 57.703, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:30:57+0500", "elapsed_seconds": 57.703, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:30:58+0500", "elapsed_seconds": 58.875, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:00+0500", "elapsed_seconds": 60.531, "event": "guidance_started", "state": "too_dark", "prompt": "Too dark. Improve the lighting."}
+{"wall_time": "2026-09-25T10:31:00+0500", "elapsed_seconds": 60.531, "event": "guidance_queued", "state": "too_dark", "prompt": "Too dark. Improve the lighting."}
+{"wall_time": "2026-09-25T10:31:02+0500", "elapsed_seconds": 62.641, "event": "guidance_finished", "state": "too_dark", "prompt": "Too dark. Improve the lighting."}
+{"wall_time": "2026-09-25T10:31:02+0500", "elapsed_seconds": 62.687, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:02+0500", "elapsed_seconds": 62.687, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:03+0500", "elapsed_seconds": 63.875, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:07+0500", "elapsed_seconds": 67.641, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:07+0500", "elapsed_seconds": 67.641, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:08+0500", "elapsed_seconds": 68.828, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:08+0500", "elapsed_seconds": 69.078, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:08+0500", "elapsed_seconds": 69.078, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:11+0500", "elapsed_seconds": 71.578, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:12+0500", "elapsed_seconds": 72.578, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:12+0500", "elapsed_seconds": 72.578, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:13+0500", "elapsed_seconds": 73.766, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:14+0500", "elapsed_seconds": 74.875, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:14+0500", "elapsed_seconds": 74.875, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:17+0500", "elapsed_seconds": 77.359, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:18+0500", "elapsed_seconds": 78.297, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:18+0500", "elapsed_seconds": 78.297, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:19+0500", "elapsed_seconds": 79.469, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:19+0500", "elapsed_seconds": 79.859, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:31:19+0500", "elapsed_seconds": 79.859, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:31:21+0500", "elapsed_seconds": 81.469, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:31:22+0500", "elapsed_seconds": 83.25, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:22+0500", "elapsed_seconds": 83.25, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:24+0500", "elapsed_seconds": 84.672, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:31:25+0500", "elapsed_seconds": 85.75, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:25+0500", "elapsed_seconds": 85.75, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:31:26+0500", "elapsed_seconds": 86.922, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:27+0500", "elapsed_seconds": 87.375, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:31:27+0500", "elapsed_seconds": 87.375, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:28+0500", "elapsed_seconds": 88.547, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:31+0500", "elapsed_seconds": 91.812, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:31+0500", "elapsed_seconds": 91.812, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:32+0500", "elapsed_seconds": 92.984, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:31:35+0500", "elapsed_seconds": 96.094, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:35+0500", "elapsed_seconds": 96.094, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:38+0500", "elapsed_seconds": 98.594, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:42+0500", "elapsed_seconds": 102.437, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:42+0500", "elapsed_seconds": 102.437, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:44+0500", "elapsed_seconds": 104.937, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:47+0500", "elapsed_seconds": 107.391, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:47+0500", "elapsed_seconds": 107.391, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:49+0500", "elapsed_seconds": 109.891, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:31:50+0500", "elapsed_seconds": 111.203, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:31:50+0500", "elapsed_seconds": 111.234, "event": "forced_capture", "source": "control", "frame_sequence": 1142}
+{"wall_time": "2026-09-25T10:31:51+0500", "elapsed_seconds": 111.781, "event": "post_capture_quality_overridden", "sharpness": 10.7, "threshold": 100.0}
+{"wall_time": "2026-09-25T10:32:01+0500", "elapsed_seconds": 121.609, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-25T10:32:32+0500", "elapsed_seconds": 152.922, "event": "voice", "message": "Pi voice disconnected: Voice connection closed", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T10:32:32+0500", "elapsed_seconds": 152.922, "event": "audio_route", "connected": false, "message": "Pi audio connection closed", "enabled": false}
+{"wall_time": "2026-09-25T10:32:32+0500", "elapsed_seconds": 152.937, "event": "pi_disconnected", "error": "Camera connection closed"}
+{"wall_time": "2026-09-25T10:32:32+0500", "elapsed_seconds": 152.969, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T10:32:36+0500", "elapsed_seconds": 156.531, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T10:32:36+0500", "elapsed_seconds": 156.531, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T10:32:54+0500", "elapsed_seconds": 175.031, "event": "voice", "message": "Pi voice disconnected: [WinError 10054] An existing connection was forcibly closed by the remote host", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T10:32:54+0500", "elapsed_seconds": 175.031, "event": "pi_disconnected", "error": "[WinError 10054] An existing connection was forcibly closed by the remote host"}
+{"wall_time": "2026-09-25T10:32:54+0500", "elapsed_seconds": 175.031, "event": "audio_route", "connected": false, "message": "[WinError 10054] An existing connection was forcibly closed by the remote host", "enabled": false}
+{"wall_time": "2026-09-25T10:32:54+0500", "elapsed_seconds": 175.047, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T10:33:12+0500", "elapsed_seconds": 193.109, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T10:33:13+0500", "elapsed_seconds": 194.125, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T10:33:13+0500", "elapsed_seconds": 194.219, "event": "voice", "message": "Pi voice disconnected: Voice connection closed", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T10:33:13+0500", "elapsed_seconds": 194.219, "event": "audio_route", "connected": false, "message": "Pi audio connection closed", "enabled": false}
+{"wall_time": "2026-09-25T10:33:13+0500", "elapsed_seconds": 194.219, "event": "pi_disconnected", "error": "Camera connection closed"}
+{"wall_time": "2026-09-25T10:33:16+0500", "elapsed_seconds": 196.562, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T10:33:38+0500", "elapsed_seconds": 219.062, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T10:33:38+0500", "elapsed_seconds": 219.062, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T10:33:54+0500", "elapsed_seconds": 234.687, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:33:54+0500", "elapsed_seconds": 234.687, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:33:56+0500", "elapsed_seconds": 237.25, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:33:59+0500", "elapsed_seconds": 239.75, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:33:59+0500", "elapsed_seconds": 239.75, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:01+0500", "elapsed_seconds": 242.25, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:04+0500", "elapsed_seconds": 244.734, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:04+0500", "elapsed_seconds": 244.734, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:06+0500", "elapsed_seconds": 247.234, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:09+0500", "elapsed_seconds": 249.609, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:09+0500", "elapsed_seconds": 249.609, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:11+0500", "elapsed_seconds": 252.109, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:14+0500", "elapsed_seconds": 254.641, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:14+0500", "elapsed_seconds": 254.641, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:15+0500", "elapsed_seconds": 255.812, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:17+0500", "elapsed_seconds": 258.234, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:17+0500", "elapsed_seconds": 258.234, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:20+0500", "elapsed_seconds": 260.734, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:22+0500", "elapsed_seconds": 263.219, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:22+0500", "elapsed_seconds": 263.219, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:25+0500", "elapsed_seconds": 265.719, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:27+0500", "elapsed_seconds": 267.516, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:27+0500", "elapsed_seconds": 267.516, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:28+0500", "elapsed_seconds": 268.703, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:28+0500", "elapsed_seconds": 268.734, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:34:28+0500", "elapsed_seconds": 268.734, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:34:29+0500", "elapsed_seconds": 269.5, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:34:29+0500", "elapsed_seconds": 270.172, "event": "automatic_capture", "generation": 54, "frame_sequence": 572, "stability_count": 3}
+{"wall_time": "2026-09-25T10:34:34+0500", "elapsed_seconds": 274.531, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:34:35+0500", "elapsed_seconds": 276.031, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:35+0500", "elapsed_seconds": 276.031, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:38+0500", "elapsed_seconds": 278.531, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:34:39+0500", "elapsed_seconds": 279.656, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:34:39+0500", "elapsed_seconds": 279.656, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:34:41+0500", "elapsed_seconds": 281.328, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:34:44+0500", "elapsed_seconds": 284.625, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:34:44+0500", "elapsed_seconds": 284.625, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:34:46+0500", "elapsed_seconds": 286.312, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:34:50+0500", "elapsed_seconds": 291.0, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:34:50+0500", "elapsed_seconds": 291.0, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:34:52+0500", "elapsed_seconds": 293.109, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:34:54+0500", "elapsed_seconds": 294.641, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:54+0500", "elapsed_seconds": 294.641, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:34:55+0500", "elapsed_seconds": 295.812, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:02+0500", "elapsed_seconds": 302.328, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:02+0500", "elapsed_seconds": 302.328, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:03+0500", "elapsed_seconds": 303.562, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:04+0500", "elapsed_seconds": 304.609, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:04+0500", "elapsed_seconds": 304.609, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:06+0500", "elapsed_seconds": 307.094, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:08+0500", "elapsed_seconds": 308.875, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:08+0500", "elapsed_seconds": 308.875, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:09+0500", "elapsed_seconds": 310.047, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:11+0500", "elapsed_seconds": 311.562, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:35:11+0500", "elapsed_seconds": 311.562, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:35:12+0500", "elapsed_seconds": 313.172, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:35:13+0500", "elapsed_seconds": 313.703, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:13+0500", "elapsed_seconds": 313.703, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:14+0500", "elapsed_seconds": 314.891, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:18+0500", "elapsed_seconds": 318.672, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:18+0500", "elapsed_seconds": 318.672, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:20+0500", "elapsed_seconds": 321.187, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:23+0500", "elapsed_seconds": 323.781, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:23+0500", "elapsed_seconds": 323.781, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:26+0500", "elapsed_seconds": 326.281, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:29+0500", "elapsed_seconds": 329.437, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:29+0500", "elapsed_seconds": 329.437, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:31+0500", "elapsed_seconds": 331.937, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:35+0500", "elapsed_seconds": 335.703, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:35:35+0500", "elapsed_seconds": 335.703, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:35:37+0500", "elapsed_seconds": 337.687, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:35:38+0500", "elapsed_seconds": 338.594, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:38+0500", "elapsed_seconds": 338.594, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:40+0500", "elapsed_seconds": 341.094, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:45+0500", "elapsed_seconds": 345.641, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:45+0500", "elapsed_seconds": 345.641, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:46+0500", "elapsed_seconds": 346.812, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:35:47+0500", "elapsed_seconds": 347.766, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:47+0500", "elapsed_seconds": 347.766, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:50+0500", "elapsed_seconds": 350.281, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:35:51+0500", "elapsed_seconds": 352.25, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:35:51+0500", "elapsed_seconds": 352.266, "event": "forced_capture", "source": "control", "frame_sequence": 1585}
+{"wall_time": "2026-09-25T10:35:52+0500", "elapsed_seconds": 352.812, "event": "post_capture_quality_overridden", "sharpness": 9.4, "threshold": 100.0}
+{"wall_time": "2026-09-25T10:35:53+0500", "elapsed_seconds": 353.406, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "P1"}
+{"wall_time": "2026-09-25T10:35:53+0500", "elapsed_seconds": 353.531, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-25T10:35:56+0500", "elapsed_seconds": 357.094, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:35:56+0500", "elapsed_seconds": 357.094, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "stop"}
+{"wall_time": "2026-09-25T10:37:41+0500", "elapsed_seconds": 462.031, "event": "voice", "message": "Pi voice disconnected: Voice heartbeat timed out", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T10:37:46+0500", "elapsed_seconds": 467.172, "event": "audio_route", "connected": false, "message": "timed out", "enabled": false}
+{"wall_time": "2026-09-25T10:37:48+0500", "elapsed_seconds": 468.297, "event": "pi_disconnected", "error": "timed out"}
+{"wall_time": "2026-09-25T10:37:48+0500", "elapsed_seconds": 468.312, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T10:39:36+0500", "elapsed_seconds": 576.703, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-25T10:39:36+0500", "elapsed_seconds": 576.703, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T10:40:00+0500", "elapsed_seconds": 600.328, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:40:02+0500", "elapsed_seconds": 602.703, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:02+0500", "elapsed_seconds": 602.703, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:04+0500", "elapsed_seconds": 605.25, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:08+0500", "elapsed_seconds": 608.922, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:08+0500", "elapsed_seconds": 608.922, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:11+0500", "elapsed_seconds": 611.422, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:13+0500", "elapsed_seconds": 613.875, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:13+0500", "elapsed_seconds": 613.875, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:16+0500", "elapsed_seconds": 616.375, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:18+0500", "elapsed_seconds": 618.969, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:18+0500", "elapsed_seconds": 618.969, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:21+0500", "elapsed_seconds": 621.453, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:40:24+0500", "elapsed_seconds": 624.469, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:24+0500", "elapsed_seconds": 624.469, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:26+0500", "elapsed_seconds": 626.594, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:30+0500", "elapsed_seconds": 630.344, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:30+0500", "elapsed_seconds": 630.344, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:31+0500", "elapsed_seconds": 632.016, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:35+0500", "elapsed_seconds": 635.281, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:35+0500", "elapsed_seconds": 635.281, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:37+0500", "elapsed_seconds": 637.406, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:39+0500", "elapsed_seconds": 640.156, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:39+0500", "elapsed_seconds": 640.156, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:42+0500", "elapsed_seconds": 642.266, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:42+0500", "elapsed_seconds": 642.984, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:42+0500", "elapsed_seconds": 642.984, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:44+0500", "elapsed_seconds": 644.672, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:47+0500", "elapsed_seconds": 647.281, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:40:47+0500", "elapsed_seconds": 647.281, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:40:48+0500", "elapsed_seconds": 649.266, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:40:50+0500", "elapsed_seconds": 650.844, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:50+0500", "elapsed_seconds": 650.844, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:52+0500", "elapsed_seconds": 652.953, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:54+0500", "elapsed_seconds": 654.406, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:54+0500", "elapsed_seconds": 654.406, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:55+0500", "elapsed_seconds": 656.094, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:40:59+0500", "elapsed_seconds": 659.359, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:40:59+0500", "elapsed_seconds": 659.359, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:01+0500", "elapsed_seconds": 661.469, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:06+0500", "elapsed_seconds": 666.453, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:06+0500", "elapsed_seconds": 666.453, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:08+0500", "elapsed_seconds": 668.578, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:11+0500", "elapsed_seconds": 671.437, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:11+0500", "elapsed_seconds": 671.437, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:13+0500", "elapsed_seconds": 673.562, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-25T10:41:16+0500", "elapsed_seconds": 676.547, "event": "automatic_capture", "generation": 106, "frame_sequence": 1161, "stability_count": 3}
+{"wall_time": "2026-09-25T10:41:22+0500", "elapsed_seconds": 682.812, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:41:24+0500", "elapsed_seconds": 684.297, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:41:24+0500", "elapsed_seconds": 684.297, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:41:25+0500", "elapsed_seconds": 685.484, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:41:30+0500", "elapsed_seconds": 690.734, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:41:30+0500", "elapsed_seconds": 690.734, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:41:31+0500", "elapsed_seconds": 691.906, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:41:34+0500", "elapsed_seconds": 694.281, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:34+0500", "elapsed_seconds": 694.281, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:36+0500", "elapsed_seconds": 696.781, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:41+0500", "elapsed_seconds": 702.078, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:41+0500", "elapsed_seconds": 702.078, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:44+0500", "elapsed_seconds": 704.578, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:46+0500", "elapsed_seconds": 707.125, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:46+0500", "elapsed_seconds": 707.125, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:49+0500", "elapsed_seconds": 709.625, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:51+0500", "elapsed_seconds": 711.937, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:51+0500", "elapsed_seconds": 711.937, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:54+0500", "elapsed_seconds": 714.437, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:56+0500", "elapsed_seconds": 716.891, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:56+0500", "elapsed_seconds": 716.891, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:41:59+0500", "elapsed_seconds": 719.406, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:01+0500", "elapsed_seconds": 721.797, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:01+0500", "elapsed_seconds": 721.797, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:04+0500", "elapsed_seconds": 724.281, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:06+0500", "elapsed_seconds": 726.922, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:06+0500", "elapsed_seconds": 726.922, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:09+0500", "elapsed_seconds": 729.437, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:11+0500", "elapsed_seconds": 731.734, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:11+0500", "elapsed_seconds": 731.734, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:12+0500", "elapsed_seconds": 732.906, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:15+0500", "elapsed_seconds": 735.437, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:15+0500", "elapsed_seconds": 735.437, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:17+0500", "elapsed_seconds": 737.937, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:20+0500", "elapsed_seconds": 741.0, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:20+0500", "elapsed_seconds": 741.0, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:23+0500", "elapsed_seconds": 743.5, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:42:23+0500", "elapsed_seconds": 744.203, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:42:23+0500", "elapsed_seconds": 744.234, "event": "forced_capture", "source": "control", "frame_sequence": 2029}
+{"wall_time": "2026-09-25T10:42:24+0500", "elapsed_seconds": 744.781, "event": "post_capture_quality_overridden", "sharpness": 23.2, "threshold": 100.0}
+{"wall_time": "2026-09-25T10:42:25+0500", "elapsed_seconds": 745.75, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "P1"}
+{"wall_time": "2026-09-25T10:42:25+0500", "elapsed_seconds": 746.109, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-25T10:42:31+0500", "elapsed_seconds": 751.562, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:42:31+0500", "elapsed_seconds": 751.594, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "stop"}
+{"wall_time": "2026-09-25T10:42:44+0500", "elapsed_seconds": 764.594, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:42:45+0500", "elapsed_seconds": 765.391, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:42:45+0500", "elapsed_seconds": 765.391, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:42:46+0500", "elapsed_seconds": 767.078, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:42:48+0500", "elapsed_seconds": 768.953, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:48+0500", "elapsed_seconds": 768.953, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:49+0500", "elapsed_seconds": 770.141, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:55+0500", "elapsed_seconds": 775.5, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:42:55+0500", "elapsed_seconds": 775.5, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:42:56+0500", "elapsed_seconds": 777.125, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:42:57+0500", "elapsed_seconds": 778.203, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:57+0500", "elapsed_seconds": 778.203, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:42:59+0500", "elapsed_seconds": 779.391, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:43:00+0500", "elapsed_seconds": 780.344, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:43:00+0500", "elapsed_seconds": 780.344, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:43:01+0500", "elapsed_seconds": 781.953, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:43:05+0500", "elapsed_seconds": 786.062, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:43:05+0500", "elapsed_seconds": 786.062, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:43:06+0500", "elapsed_seconds": 787.234, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:43:07+0500", "elapsed_seconds": 788.156, "event": "guidance_started", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:43:07+0500", "elapsed_seconds": 788.156, "event": "guidance_queued", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:43:09+0500", "elapsed_seconds": 789.672, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:43:10+0500", "elapsed_seconds": 790.641, "event": "guidance_finished", "state": "blurry", "prompt": "Text is blurry. Adjust distance."}
+{"wall_time": "2026-09-25T10:43:10+0500", "elapsed_seconds": 790.641, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:43:11+0500", "elapsed_seconds": 792.266, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-25T10:43:15+0500", "elapsed_seconds": 795.984, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:43:15+0500", "elapsed_seconds": 795.984, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:43:16+0500", "elapsed_seconds": 796.75, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:43:17+0500", "elapsed_seconds": 797.437, "event": "automatic_capture", "generation": 45, "frame_sequence": 2680, "stability_count": 4}
+{"wall_time": "2026-09-25T10:43:56+0500", "elapsed_seconds": 836.875, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:43:58+0500", "elapsed_seconds": 838.406, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:43:58+0500", "elapsed_seconds": 838.406, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:43:59+0500", "elapsed_seconds": 839.656, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:02+0500", "elapsed_seconds": 842.781, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:44:02+0500", "elapsed_seconds": 842.781, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:44:04+0500", "elapsed_seconds": 844.469, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-25T10:44:06+0500", "elapsed_seconds": 846.312, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:06+0500", "elapsed_seconds": 846.312, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:06+0500", "elapsed_seconds": 847.016, "event": "automatic_capture", "generation": 14, "frame_sequence": 3309, "stability_count": 3}
+{"wall_time": "2026-09-25T10:44:06+0500", "elapsed_seconds": 847.078, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:11+0500", "elapsed_seconds": 852.047, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:44:13+0500", "elapsed_seconds": 853.578, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:13+0500", "elapsed_seconds": 853.578, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:14+0500", "elapsed_seconds": 854.75, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:16+0500", "elapsed_seconds": 857.141, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:16+0500", "elapsed_seconds": 857.141, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:17+0500", "elapsed_seconds": 857.875, "event": "automatic_capture", "generation": 7, "frame_sequence": 3438, "stability_count": 3}
+{"wall_time": "2026-09-25T10:44:17+0500", "elapsed_seconds": 857.906, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:21+0500", "elapsed_seconds": 861.562, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:44:22+0500", "elapsed_seconds": 863.094, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:22+0500", "elapsed_seconds": 863.094, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:24+0500", "elapsed_seconds": 864.281, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:24+0500", "elapsed_seconds": 865.219, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:44:24+0500", "elapsed_seconds": 865.219, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:44:26+0500", "elapsed_seconds": 867.203, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:44:28+0500", "elapsed_seconds": 868.75, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:28+0500", "elapsed_seconds": 868.75, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:29+0500", "elapsed_seconds": 869.516, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:29+0500", "elapsed_seconds": 869.609, "event": "automatic_capture", "generation": 11, "frame_sequence": 3590, "stability_count": 3}
+{"wall_time": "2026-09-25T10:44:31+0500", "elapsed_seconds": 872.187, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-25T10:44:32+0500", "elapsed_seconds": 872.359, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-25T10:44:37+0500", "elapsed_seconds": 878.187, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-25T10:44:37+0500", "elapsed_seconds": 878.187, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-25T10:44:40+0500", "elapsed_seconds": 880.484, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:44:40+0500", "elapsed_seconds": 880.5, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "stop"}
+{"wall_time": "2026-09-25T10:44:48+0500", "elapsed_seconds": 888.766, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:44:50+0500", "elapsed_seconds": 890.281, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:50+0500", "elapsed_seconds": 890.297, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:51+0500", "elapsed_seconds": 891.531, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-25T10:44:52+0500", "elapsed_seconds": 892.437, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:52+0500", "elapsed_seconds": 892.437, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:52+0500", "elapsed_seconds": 893.187, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:54+0500", "elapsed_seconds": 894.578, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:44:54+0500", "elapsed_seconds": 894.578, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:44:56+0500", "elapsed_seconds": 896.562, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-25T10:44:58+0500", "elapsed_seconds": 898.859, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:58+0500", "elapsed_seconds": 898.859, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:59+0500", "elapsed_seconds": 899.609, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-25T10:44:59+0500", "elapsed_seconds": 899.687, "event": "automatic_capture", "generation": 15, "frame_sequence": 3961, "stability_count": 3}
+{"wall_time": "2026-09-25T10:45:02+0500", "elapsed_seconds": 903.0, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-25T10:45:02+0500", "elapsed_seconds": 903.172, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-25T10:45:08+0500", "elapsed_seconds": 909.0, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-25T10:45:08+0500", "elapsed_seconds": 909.0, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-25T10:45:11+0500", "elapsed_seconds": 912.141, "event": "box8", "message": "Table analysis: 0 table(s), 5.69s", "tables": []}
+{"wall_time": "2026-09-25T10:45:31+0500", "elapsed_seconds": 932.078, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-25T10:45:31+0500", "elapsed_seconds": 932.109, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "stop"}
+{"wall_time": "2026-09-25T10:49:04+0500", "elapsed_seconds": 1144.312, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-25T10:49:04+0500", "elapsed_seconds": 1144.312, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-25T10:49:04+0500", "elapsed_seconds": 1144.328, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-25T10:49:04+0500", "elapsed_seconds": 1144.328, "event": "session_ending"}

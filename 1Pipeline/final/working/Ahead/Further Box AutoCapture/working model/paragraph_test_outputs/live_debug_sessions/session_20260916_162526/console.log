@@ -1,0 +1,127 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.53s
+[LOAD] Preparing local Urdu Piper voice ...
+[TTS] Loading voice: ur_PK-fasih-medium …
+[TTS] Voice ready.
+[LOAD] Urdu Piper voice ready.
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.87s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.13s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.05s
+[LOAD] Conservative SymSpell dictionary loaded in 2.70s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=25/25, age=0.70s, edges=B, bandLap=275, lineLap=314, lightStd=15.4, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=26/26, age=0.16s, edges=B, bandLap=560, lineLap=578, lightStd=10.5, belowText=0.0, motion=1.15, stable=0/3
+  [OBS 003] state=look_down, rows=27/27, age=0.12s, edges=B, bandLap=550, lineLap=553, lightStd=10.9, belowText=17.3, motion=0.17, stable=0/3
+  [OBS 004] state=look_down, rows=28/28, age=0.12s, edges=B, bandLap=627, lineLap=721, lightStd=10.1, belowText=0.0, motion=0.11, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 005] state=look_down, rows=28/28, age=0.12s, edges=B, bandLap=834, lineLap=836, lightStd=10.0, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 006] state=look_down, rows=29/28, age=0.16s, edges=B, bandLap=775, lineLap=725, lightStd=9.9, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 007] state=look_down, rows=27/28, age=0.30s, edges=B, bandLap=492, lineLap=437, lightStd=10.8, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 008] state=hold_still, rows=23/28, age=0.27s, edges=T, bandLap=399, lineLap=476, lightStd=10.2, belowText=1.5, motion=3.06, stable=0/3
+  [OBS 009] state=look_up, rows=25/28, age=0.17s, edges=T, bandLap=660, lineLap=668, lightStd=10.7, belowText=1.5, motion=0.07, stable=0/3
+  [OBS 010] state=look_up, rows=27/28, age=0.12s, edges=T, bandLap=639, lineLap=713, lightStd=11.1, belowText=1.4, motion=0.54, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 011] state=look_up, rows=24/28, age=0.14s, edges=T, bandLap=751, lineLap=792, lightStd=10.8, belowText=1.5, motion=0.19, stable=0/3
+  [OBS 012] state=look_up, rows=23/28, age=0.14s, edges=T, bandLap=592, lineLap=629, lightStd=11.1, belowText=1.4, motion=0.13, stable=0/3
+  [OBS 013] state=hold_still, rows=37/29, age=0.17s, edges=T, bandLap=121, lineLap=194, lightStd=8.7, belowText=1.7, motion=1.69, stable=0/3
+  [OBS 014] state=hold_still, rows=37/36, age=0.25s, edges=none, bandLap=284, lineLap=391, lightStd=9.0, belowText=2.1, motion=1.23, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 015] state=almost_ready, rows=37/37, age=0.26s, edges=none, bandLap=267, lineLap=413, lightStd=8.9, belowText=1.6, motion=0.25, stable=1/3
+  [OBS 016] state=almost_ready, rows=36/37, age=0.30s, edges=none, bandLap=287, lineLap=431, lightStd=9.0, belowText=1.7, motion=0.07, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 017] state=almost_ready, rows=37/37, age=0.09s, edges=none, bandLap=511, lineLap=678, lightStd=8.5, belowText=1.6, motion=0.10, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #192.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_162607.jpg
+[POST-CAPTURE] LapVar=80.5, score components: sharp=4, bright=30, even=23
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (80.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=35/35, age=0.30s, edges=B, bandLap=941, lineLap=1278, lightStd=11.4, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=look_down, rows=36/36, age=0.12s, edges=B, bandLap=1028, lineLap=1122, lightStd=10.5, belowText=8.1, motion=0.50, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 003] state=look_down, rows=32/36, age=0.12s, edges=B, bandLap=660, lineLap=909, lightStd=11.1, belowText=0.0, motion=0.96, stable=0/3
+  [OBS 004] state=look_down, rows=33/36, age=0.09s, edges=B, bandLap=1008, lineLap=1246, lightStd=10.5, belowText=0.0, motion=0.17, stable=0/3
+  [OBS 005] state=hold_still, rows=31/36, age=0.16s, edges=none, bandLap=123, lineLap=169, lightStd=12.2, belowText=1.3, motion=2.57, stable=0/3
+  [OBS 006] state=almost_ready, rows=37/36, age=0.23s, edges=none, bandLap=704, lineLap=983, lightStd=11.7, belowText=2.2, motion=0.97, stable=1/3
+  [OBS 007] state=almost_ready, rows=36/36, age=0.23s, edges=none, bandLap=405, lineLap=561, lightStd=11.3, belowText=2.2, motion=0.05, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 008] state=almost_ready, rows=37/37, age=0.23s, edges=none, bandLap=530, lineLap=737, lightStd=11.4, belowText=2.0, motion=0.05, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #463.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_162630.jpg
+[POST-CAPTURE] LapVar=122.4, score components: sharp=11, bright=30, even=17
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.344s (36 detections, 36 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page pause briefly, and hear a clear rendering without holding a telephone or searching through menus in the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection optical character recognition language translation and speech synthesis are performed The complete pipeline documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted. partly shadowed. or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controlier therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back move left or right, hold still. or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters. while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement mild gamma correction, edge-preserving fitering. and adaptive binarization Each alternative is evaluated using character count recognition confidence. focus statistics. and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.996 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 10 line(s) | confidence=0.991 | at the top of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page pause briefly, and hear a clear rendering without holding a telephone or searching through menus in the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection optical character recognition language translation and speech synthesis are performed The complete pipeline documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.991 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted. partly shadowed. or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controlier therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back move left or right, hold still. or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.990 | in the lower part of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters. while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement mild gamma correction, edge-preserving fitering. and adaptive binarization Each alternative is evaluated using character count recognition confidence. focus statistics. and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] 4 regions, 14 NLLB chunks, english -> urdu: 2.098s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن
+[P1] پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کی بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک پرنٹ شدہ صفحے کا مختصر وقفہ کرنا چاہئے ، اور یہاں بیان کردہ پروٹو ٹائپ میں فون کو تھامے بغیر یا مینو کے ذریعے تلاش کیے بغیر واضح رینڈرنگ سننا چاہئے ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے۔ جہاں متن کا پتہ لگانے آپٹیکل کردار کی شناخت زبان کا ترجمہ اور تقریر کی ترکیب انجام دی جاتی ہے مکمل پائپ لائن دستاویزات، ایک غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے تاخیر سے بچتا ہے. اور ہر سافٹ ویئر کے اجزاء کو آزادانہ طور پر ماپا جا سکتا ہے
+[P2] تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا ہے کہ آیا کسی صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں۔ صفحہ جھکا ہوا ہوسکتا ہے۔ جزوی طور پر سایہ دار. یا نیچے کی نسبت اوپر قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے ارد گرد ایک محفوظ سرحد باقی رہتی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ نیچے کے قریب ایک جھکا ہوا شیٹ اکثر صاف نظر آتا ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے کے لئے کہتے ہیں بائیں یا دائیں منتقل کریں ، ابھی ٹھہریں۔ یا روشنی کو بہتر بنانا
+[P3] گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس وقت درست کیا جاتا ہے جب اصلاح سے پیمائش کی شناخت میں بہتری آتی ہے۔ جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پہلے سے پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل بھی شامل ہے۔ مقامی تضاد بڑھانے ہلکی گاما اصلاح، کنارے کو برقرار رکھنے کے فٹنگ. اور موافقت پذیر بائنریکرن ہر متبادل کا اندازہ حروف کی گنتی کی شناخت کے اعتماد کا استعمال کرتے ہوئے کیا جاتا ہے۔ توجہ مرکوز کے اعداد و شمار. اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے حروف کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_162634_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_162634_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.344s
+  Translation  : 2.098s
+  Spell Corr   : 0.000s
+  TTS Playback : 161.090s
+────────────────────────────────────────
+  TOTAL        : 165.180s
+────────────────────────────────────────
+
+  Ready for next capture!
+

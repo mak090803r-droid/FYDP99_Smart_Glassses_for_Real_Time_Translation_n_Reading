@@ -1,0 +1,229 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.68s
+[LOAD] OCR language audit: chinese -> PaddleOCR lang='ch'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.94s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.19s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.09s
+[LOAD] Conservative SymSpell dictionary loaded in 2.84s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=5/5, age=0.62s, edges=none, bandLap=650, lineLap=1684, lightStd=6.7, belowText=1.2, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=4/5, age=0.11s, edges=none, bandLap=743, lineLap=1869, lightStd=6.6, belowText=1.2, motion=0.10, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=5/5, age=0.09s, edges=none, bandLap=969, lineLap=2189, lightStd=7.0, belowText=1.2, motion=0.13, stable=3/3
+  [OBS 004] state=almost_ready, rows=4/5, age=0.27s, edges=none, bandLap=972, lineLap=2213, lightStd=7.0, belowText=1.4, motion=0.55, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #98.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_130522.jpg
+[POST-CAPTURE] LapVar=126.9, score components: sharp=12, bright=30, even=28
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.047s (28 detections, 13 lines, 11 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。 结束含水率 变化 区域 用水量(L) 初始含水率 29.8% 8.4% A区 18.5 21.4% 30.0% 7.9% B区 17.9 22.1% 28.6% 7.8% C区 19.2 20.8% 29.1% 7.4% D区 18.1 21.7%
+============================================================
+
+[REGIONS] Detected 11 text region(s): 0 title, 0 heading(s), 11 paragraph(s)
+  P1 | type=paragraph | 3 line(s) | confidence=0.990 | at the top of the page
+    TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    结束含水率 变化
+  P3 | type=paragraph | 1 line(s) | confidence=0.997 | in the upper part of the page
+    区域 用水量(L) 初始含水率
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    29.8% 8.4%
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    A区 18.5 21.4%
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    30.0% 7.9%
+  P7 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    B区 17.9 22.1%
+  P8 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    28.6% 7.8%
+  P9 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    C区 19.2 20.8%
+  P10 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    29.1% 7.4%
+  P11 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    D区 18.1 21.7%
+[STAGE 2] 11 regions, 7 NLLB chunks, chinese -> english: 0.602s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] TABLE-ZH16 - Greenhouse Irrigation Efficiency Record The following table lists the change in water use and soil moisture content of the four test areas after the same irrigation to check if the valve settings are consistent.
+[P2] Ending the Changes in Water Level
+[P3] Regional water use (L) Initial water content
+[P4] 29.8% 8.4%
+[P5] Area A 18.5 21.4%
+[P6] 30.0% 7.9%
+[P7] Area B 17.9 22.1%
+[P8] 28.6% 7.8%
+[P9] Area C 19.2 20.8%
+[P10] 29.1% 7.4%
+[P11] District D 18.1 21.7%
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.003s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_130524_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_130524_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.047s
+  Translation  : 0.602s
+  Spell Corr   : 0.003s
+  TTS Playback : 14.146s
+────────────────────────────────────────
+  TOTAL        : 16.468s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=3/3, age=0.30s, edges=none, bandLap=247, lineLap=449, lightStd=7.3, belowText=1.4, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=hold_still, rows=4/4, age=0.09s, edges=none, bandLap=240, lineLap=582, lightStd=8.8, belowText=1.4, motion=1.05, stable=1/3
+  [OBS 003] state=almost_ready, rows=3/4, age=0.09s, edges=none, bandLap=520, lineLap=1217, lightStd=4.2, belowText=1.5, motion=0.84, stable=2/3
+  [OBS 004] state=almost_ready, rows=4/4, age=0.08s, edges=none, bandLap=518, lineLap=1314, lightStd=5.3, belowText=1.5, motion=0.37, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #365.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_130543.jpg
+[POST-CAPTURE] LapVar=62.2, score components: sharp=1, bright=30, even=20
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (62.2 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_up, rows=3/3, age=0.42s, edges=T, bandLap=445, lineLap=1033, lightStd=5.6, belowText=1.6, motion=0.00, stable=0/3
+  [OBS 002] state=almost_ready, rows=4/4, age=0.14s, edges=none, bandLap=547, lineLap=1432, lightStd=4.9, belowText=1.6, motion=0.87, stable=1/3
+  [OBS 003] state=almost_ready, rows=3/4, age=0.11s, edges=none, bandLap=411, lineLap=1008, lightStd=6.6, belowText=1.6, motion=0.09, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 004] state=almost_ready, rows=3/4, age=0.09s, edges=none, bandLap=561, lineLap=1381, lightStd=5.2, belowText=1.5, motion=0.20, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #413.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260916_130548.jpg
+[POST-CAPTURE] LapVar=91.3, score components: sharp=6, bright=30, even=21
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (91.3 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=3/3, age=0.42s, edges=none, bandLap=247, lineLap=753, lightStd=7.6, belowText=1.6, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=3/3, age=0.12s, edges=none, bandLap=568, lineLap=1538, lightStd=5.4, belowText=1.7, motion=0.45, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=3/3, age=0.11s, edges=none, bandLap=473, lineLap=1198, lightStd=5.5, belowText=1.7, motion=0.16, stable=3/3
+  [OBS 004] state=almost_ready, rows=3/3, age=0.11s, edges=none, bandLap=473, lineLap=1351, lightStd=4.8, belowText=1.7, motion=0.07, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #500.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260916_130555.jpg
+[POST-CAPTURE] LapVar=100.4, score components: sharp=8, bright=30, even=18
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.000s (30 detections, 15 lines, 11 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-ZH12-冷藏库环境与电源巡检 值班人员在四个时间点记录冷藏库环境和备用电源状态。表头分为环境参数和电源状态两个分组。 环境参数 电源状态 温度(°C) 湿度 电压(V) 电流(A) 08:00 4.2 61% 24.3 1.8 12:00 4.5 63% 24.1 1.9 4.4 62% 24.2 1.8 20:00 4.1 60% 24.4 1.7
+============================================================
+
+[REGIONS] Detected 11 text region(s): 0 title, 1 heading(s), 10 paragraph(s)
+  P1 | type=paragraph | 2 line(s) | confidence=1.000 | at the top of the page
+    TABLE-ZH12-冷藏库环境与电源巡检 值班人员在四个时间点记录冷藏库环境和备用电源状态。表头分为环境参数和电源状态两个分组。
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    环境参数
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    电源状态
+  P4 | type=paragraph | 1 line(s) | confidence=0.965 | in the upper part of the page
+    温度(°C) 湿度
+  P5 | type=paragraph | 1 line(s) | confidence=0.998 | in the upper part of the page
+    电压(V) 电流(A)
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    08:00 4.2
+  P7 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    61% 24.3 1.8
+  P8 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    12:00 4.5
+  P9 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    63% 24.1 1.9
+  H1 | type=section_heading | 1 line(s) | confidence=1.000 | in the upper part of the page
+    4.4 62% 24.2 1.8
+  P10 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    20:00 4.1 60% 24.4 1.7
+[STAGE 2] 11 regions, 6 NLLB chunks, chinese -> english: 0.313s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] TABLE-ZH12 - Chiller environment and power patrol personnel recording refrigerator environment and back-up power status at four time points. The headline is divided into two sub-groups: environmental parameters and power status.
+[P2] Environmental parameters
+[P3] Power supply status
+[P4] Temperature (°C) Humidity
+[P5] Voltage (V) Current (A)
+[P6] 08:00 4.2
+[P7] 61% 24.3 1.8
+[P8] 12:00 4.5
+[P9] 63% 24.1 1.9
+[H1] 4.4 62% 24.2 1.8
+[P10] 20:00 4.1 60% 24.4 1.7
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.000s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_130557_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_130557_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.000s
+  Translation  : 0.313s
+  Spell Corr   : 0.000s
+  TTS Playback : 45.582s
+────────────────────────────────────────
+  TOTAL        : 47.562s
+────────────────────────────────────────
+
+  Ready for next capture!
+

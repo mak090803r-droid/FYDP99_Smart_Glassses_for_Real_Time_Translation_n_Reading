@@ -1,0 +1,20 @@
+{
+  "script": "pipeline_cli_box6.py",
+  "session_dir": "c:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260924_141722",
+  "active": false,
+  "started_wall_time": 1790241442.7074482,
+  "ended_wall_time": 1790241472.0028284,
+  "video_target_fps": 5.0,
+  "video_size": [
+    640,
+    360
+  ],
+  "input_size": null,
+  "video_file": null,
+  "video_codec": null,
+  "video_frames_written": 0,
+  "video_frames_dropped": 0,
+  "analysis_records": 0,
+  "analysis_images_dropped": 0,
+  "capture_required_distinct_frames": 3
+}

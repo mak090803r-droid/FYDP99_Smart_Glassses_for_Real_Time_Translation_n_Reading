@@ -1,0 +1,212 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.54s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.87s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.27s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.14s
+[LOAD] Conservative SymSpell dictionary loaded in 2.88s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=13/13, age=0.67s, edges=none, bandLap=55, lineLap=82, lightStd=11.4, belowText=0.9, motion=0.00, stable=0/3
+  [OBS 002] state=almost_ready, rows=14/14, age=0.11s, edges=none, bandLap=584, lineLap=886, lightStd=11.0, belowText=0.9, motion=0.47, stable=1/3
+  [OBS 003] state=almost_ready, rows=15/15, age=0.14s, edges=none, bandLap=401, lineLap=579, lightStd=10.9, belowText=0.9, motion=0.04, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 004] state=almost_ready, rows=14/15, age=0.19s, edges=none, bandLap=572, lineLap=686, lightStd=10.0, belowText=0.9, motion=0.25, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2046.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260915_140017.jpg
+[POST-CAPTURE] LapVar=61.7, score components: sharp=1, bright=30, even=24
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (61.7 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=20/20, age=0.34s, edges=none, bandLap=89, lineLap=75, lightStd=9.8, belowText=0.9, motion=0.00, stable=0/3
+  [OBS 002] state=almost_ready, rows=22/22, age=0.09s, edges=none, bandLap=782, lineLap=980, lightStd=9.1, belowText=1.0, motion=0.42, stable=1/3
+  [OBS 003] state=almost_ready, rows=22/22, age=0.08s, edges=none, bandLap=785, lineLap=903, lightStd=9.6, belowText=1.0, motion=0.07, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 004] state=almost_ready, rows=22/22, age=0.11s, edges=none, bandLap=598, lineLap=696, lightStd=9.5, belowText=1.0, motion=0.14, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2123.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260915_140024.jpg
+[POST-CAPTURE] LapVar=118.2, score components: sharp=10, bright=30, even=24
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.157s (36 detections, 29 lines, 15 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective Good 93.1% Detected Curved page Moderate 88.7% Detected Motion blur Poor 81.9% Partial Table 2 Example recogrition results under different conditions. Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+============================================================
+
+[REGIONS] Detected 15 text region(s): 1 title, 0 heading(s), 14 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Experimental Evaluation
+  P1 | type=paragraph | 9 line(s) | confidence=0.995 | in the upper part of the page
+    Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table Structure Clear page
+  P2 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    97.4%
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Detected Excellent
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Perspective
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Good
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    93.1% Detected
+  P7 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Curved page
+  P8 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Moderate
+  P9 | type=paragraph | 1 line(s) | confidence=0.995 | in the middle of the page
+    88.7% Detected
+  P10 | type=paragraph | 1 line(s) | confidence=0.978 | in the middle of the page
+    Motion blur
+  P11 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Poor
+  P12 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    81.9% Partial
+  P13 | type=paragraph | 1 line(s) | confidence=0.963 | in the middle of the page
+    Table 2 Example recogrition results under different conditions.
+  P14 | type=paragraph | 7 line(s) | confidence=0.996 | in the lower part of the page
+    Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+[STAGE 2] 15 regions, 20 NLLB chunks, french -> english: 0.526s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Experimental evaluation
+[P1] Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table structure recognition. OCR condition Table Structure Clear page
+[P2] 97.4%
+[P3] Detected Excellent
+[P4] Prospects
+[P5] Good .
+[P6] 93.1% Detected
+[P7] Curved page
+[P8] Moderate
+[P9] 88.7% Detected
+[P10] Blurred motion
+[P11] Poor
+[P12] 81.9% Partial
+[P13] Table 2 Example recogression results under different conditions.
+[P14] A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.009s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260915_140026_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260915_140026_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.157s
+  Translation  : 0.526s
+  Spell Corr   : 0.009s
+  TTS Playback : 32.849s
+────────────────────────────────────────
+  TOTAL        : 35.198s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=16/16, age=0.28s, edges=none, bandLap=954, lineLap=1506, lightStd=10.2, belowText=1.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=20/20, age=0.16s, edges=none, bandLap=1227, lineLap=1779, lightStd=10.5, belowText=1.0, motion=0.08, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=20/20, age=0.08s, edges=none, bandLap=433, lineLap=562, lightStd=10.7, belowText=1.0, motion=0.12, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2697.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260915_140111.jpg
+[POST-CAPTURE] LapVar=162.4, score components: sharp=17, bright=30, even=16
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.281s (30 detections, 22 lines, 8 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Document Recognition System Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline. Output Module Function PaddleOCR Recognizes printed text Text Table Detector Finds table regions Bounding box Structure Model Finds rows and columns Table layout Answer RoBERTa Answers text questions Table 1 Main modules of the document-processing pipeline System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand
+============================================================
+
+[REGIONS] Detected 8 text region(s): 1 title, 1 heading(s), 6 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Document Recognition System
+  P1 | type=paragraph | 6 line(s) | confidence=0.997 | in the upper part of the page
+    Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline.
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Output
+  P3 | type=paragraph | 4 line(s) | confidence=0.999 | in the middle of the page
+    Module Function PaddleOCR Recognizes printed text Text Table Detector Finds table regions Bounding box Structure Model Finds rows and columns Table layout
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the lower part of the page
+    Answer
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the lower part of the page
+    RoBERTa Answers text questions
+  H1 | type=section_heading | 1 line(s) | confidence=0.990 | in the lower part of the page
+    Table 1 Main modules of the document-processing pipeline
+  P6 | type=paragraph | 7 line(s) | confidence=0.994 | in the lower part of the page
+    System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand
+[STAGE 2] 8 regions, 12 NLLB chunks, french -> english: 0.500s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Document recognition system
+[P1] Modern document reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline.
+[P2] Production
+[P3] Module Function PaddleOCR Recognizes printed text Text Table Detector Finds table regions Bounding box Structure Model Finds rows and columns Table layout
+[P4] Answer
+[P5] RoBERTa answers text questions
+[H1] Table 1 Main modules of the document processing pipeline
+[P6] After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.010s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260915_140113_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260915_140113_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.281s
+  Translation  : 0.500s
+  Spell Corr   : 0.010s
+  TTS Playback : 11.997s
+────────────────────────────────────────
+  TOTAL        : 14.449s
+────────────────────────────────────────
+
+  Ready for next capture!
+

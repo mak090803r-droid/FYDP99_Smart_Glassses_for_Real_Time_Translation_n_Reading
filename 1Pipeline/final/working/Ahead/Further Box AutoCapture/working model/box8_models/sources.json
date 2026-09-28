@@ -1,0 +1,5 @@
+{
+  "table_detection": "microsoft/table-transformer-detection",
+  "table_structure": "microsoft/table-transformer-structure-recognition",
+  "qa": "deepset/roberta-base-squad2"
+}

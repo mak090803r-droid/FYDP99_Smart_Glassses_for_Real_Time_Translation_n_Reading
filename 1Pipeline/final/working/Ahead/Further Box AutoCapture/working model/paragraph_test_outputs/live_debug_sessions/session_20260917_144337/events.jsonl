@@ -1,0 +1,113 @@
+{"wall_time": "2026-09-17T14:43:37+0500", "elapsed_seconds": 0.015, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260917_144337"}
+{"wall_time": "2026-09-17T14:43:40+0500", "elapsed_seconds": 2.953, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-17T14:45:00+0500", "elapsed_seconds": 82.906, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:00+0500", "elapsed_seconds": 82.906, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:01+0500", "elapsed_seconds": 84.203, "event": "forced_capture", "source": "control", "frame_sequence": 656}
+{"wall_time": "2026-09-17T14:45:02+0500", "elapsed_seconds": 85.047, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:11+0500", "elapsed_seconds": 93.718, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:11+0500", "elapsed_seconds": 93.718, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:12+0500", "elapsed_seconds": 95.14, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:19+0500", "elapsed_seconds": 101.531, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:45:19+0500", "elapsed_seconds": 101.531, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:45:19+0500", "elapsed_seconds": 102.234, "event": "automatic_capture", "generation": 14, "frame_sequence": 811, "stability_count": 3}
+{"wall_time": "2026-09-17T14:45:19+0500", "elapsed_seconds": 102.297, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:45:23+0500", "elapsed_seconds": 105.609, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-17T14:45:30+0500", "elapsed_seconds": 112.906, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "stop"}
+{"wall_time": "2026-09-17T14:45:38+0500", "elapsed_seconds": 121.406, "event": "guidance_started", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:38+0500", "elapsed_seconds": 121.406, "event": "guidance_queued", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:41+0500", "elapsed_seconds": 123.703, "event": "guidance_finished", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:44+0500", "elapsed_seconds": 126.468, "event": "guidance_started", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:44+0500", "elapsed_seconds": 126.468, "event": "guidance_queued", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:46+0500", "elapsed_seconds": 128.781, "event": "guidance_finished", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:48+0500", "elapsed_seconds": 131.328, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:45:48+0500", "elapsed_seconds": 131.328, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:45:49+0500", "elapsed_seconds": 132.39, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:45:50+0500", "elapsed_seconds": 132.75, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:50+0500", "elapsed_seconds": 132.75, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:51+0500", "elapsed_seconds": 134.156, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:55+0500", "elapsed_seconds": 137.859, "event": "guidance_started", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:55+0500", "elapsed_seconds": 137.859, "event": "guidance_queued", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:56+0500", "elapsed_seconds": 139.14, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:57+0500", "elapsed_seconds": 140.172, "event": "guidance_finished", "state": "glare", "prompt": "Glare detected. Change the angle."}
+{"wall_time": "2026-09-17T14:45:57+0500", "elapsed_seconds": 140.172, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:45:59+0500", "elapsed_seconds": 141.578, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:01+0500", "elapsed_seconds": 144.109, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:01+0500", "elapsed_seconds": 144.109, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:02+0500", "elapsed_seconds": 145.172, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:04+0500", "elapsed_seconds": 146.953, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:04+0500", "elapsed_seconds": 146.953, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:05+0500", "elapsed_seconds": 148.39, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:10+0500", "elapsed_seconds": 153.328, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:10+0500", "elapsed_seconds": 153.328, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:12+0500", "elapsed_seconds": 154.765, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:15+0500", "elapsed_seconds": 158.328, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:15+0500", "elapsed_seconds": 158.328, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:17+0500", "elapsed_seconds": 159.765, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:18+0500", "elapsed_seconds": 160.484, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:18+0500", "elapsed_seconds": 160.484, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:19+0500", "elapsed_seconds": 161.547, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:24+0500", "elapsed_seconds": 166.906, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:46:24+0500", "elapsed_seconds": 166.906, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:46:26+0500", "elapsed_seconds": 168.968, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:46:28+0500", "elapsed_seconds": 170.453, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:28+0500", "elapsed_seconds": 170.453, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:29+0500", "elapsed_seconds": 171.515, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:29+0500", "elapsed_seconds": 171.843, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:46:29+0500", "elapsed_seconds": 171.843, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:46:30+0500", "elapsed_seconds": 172.593, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:46:30+0500", "elapsed_seconds": 172.703, "event": "automatic_capture", "generation": 72, "frame_sequence": 1468, "stability_count": 3}
+{"wall_time": "2026-09-17T14:46:36+0500", "elapsed_seconds": 179.343, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:36+0500", "elapsed_seconds": 179.343, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:38+0500", "elapsed_seconds": 180.422, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:42+0500", "elapsed_seconds": 185.015, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:42+0500", "elapsed_seconds": 185.015, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:44+0500", "elapsed_seconds": 186.437, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:44+0500", "elapsed_seconds": 187.125, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:44+0500", "elapsed_seconds": 187.125, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:45+0500", "elapsed_seconds": 188.203, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:49+0500", "elapsed_seconds": 192.093, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:49+0500", "elapsed_seconds": 192.093, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:50+0500", "elapsed_seconds": 193.156, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:51+0500", "elapsed_seconds": 193.703, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:51+0500", "elapsed_seconds": 193.703, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:52+0500", "elapsed_seconds": 195.125, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:58+0500", "elapsed_seconds": 200.672, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:58+0500", "elapsed_seconds": 200.672, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:59+0500", "elapsed_seconds": 201.734, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:46:59+0500", "elapsed_seconds": 202.093, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:46:59+0500", "elapsed_seconds": 202.093, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:47:01+0500", "elapsed_seconds": 203.5, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:47:04+0500", "elapsed_seconds": 207.234, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:04+0500", "elapsed_seconds": 207.234, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:06+0500", "elapsed_seconds": 209.281, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:09+0500", "elapsed_seconds": 212.031, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:09+0500", "elapsed_seconds": 212.031, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:09+0500", "elapsed_seconds": 212.125, "event": "forced_capture", "source": "control", "frame_sequence": 1973}
+{"wall_time": "2026-09-17T14:47:10+0500", "elapsed_seconds": 213.109, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:25+0500", "elapsed_seconds": 227.437, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:25+0500", "elapsed_seconds": 227.437, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:26+0500", "elapsed_seconds": 228.515, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:27+0500", "elapsed_seconds": 230.281, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:47:27+0500", "elapsed_seconds": 230.281, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:47:29+0500", "elapsed_seconds": 231.703, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-17T14:47:31+0500", "elapsed_seconds": 233.859, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:31+0500", "elapsed_seconds": 233.859, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:32+0500", "elapsed_seconds": 234.937, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-17T14:47:32+0500", "elapsed_seconds": 235.265, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:32+0500", "elapsed_seconds": 235.265, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:34+0500", "elapsed_seconds": 237.312, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:37+0500", "elapsed_seconds": 239.781, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:37+0500", "elapsed_seconds": 239.781, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:39+0500", "elapsed_seconds": 241.812, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:47:39+0500", "elapsed_seconds": 241.843, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-17T14:47:39+0500", "elapsed_seconds": 241.843, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:47:40+0500", "elapsed_seconds": 242.593, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-17T14:47:40+0500", "elapsed_seconds": 243.047, "event": "automatic_capture", "generation": 23, "frame_sequence": 2310, "stability_count": 4}
+{"wall_time": "2026-09-17T14:47:43+0500", "elapsed_seconds": 246.172, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-17T14:47:50+0500", "elapsed_seconds": 253.39, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-17T14:47:50+0500", "elapsed_seconds": 253.39, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-17T14:48:06+0500", "elapsed_seconds": 268.422, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "stop"}
+{"wall_time": "2026-09-17T14:51:50+0500", "elapsed_seconds": 493.281, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-17T14:51:50+0500", "elapsed_seconds": 493.281, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-17T14:51:50+0500", "elapsed_seconds": 493.312, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-17T14:51:50+0500", "elapsed_seconds": 493.312, "event": "session_ending"}

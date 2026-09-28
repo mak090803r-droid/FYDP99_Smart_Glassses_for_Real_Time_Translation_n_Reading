@@ -1,0 +1,21 @@
+{"wall_time": "2026-09-24T14:18:46+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260924_141846"}
+{"wall_time": "2026-09-24T14:24:00+0500", "elapsed_seconds": 313.61, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-24T14:24:21+0500", "elapsed_seconds": 335.0, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-24T14:24:22+0500", "elapsed_seconds": 335.594, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-24T14:24:22+0500", "elapsed_seconds": 335.61, "event": "forced_capture", "source": "control", "frame_sequence": 219}
+{"wall_time": "2026-09-24T14:24:22+0500", "elapsed_seconds": 336.219, "event": "post_capture_quality_overridden", "sharpness": 6.1, "threshold": 100.0}
+{"wall_time": "2026-09-24T14:24:27+0500", "elapsed_seconds": 340.672, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-24T14:24:27+0500", "elapsed_seconds": 341.485, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-24T14:24:27+0500", "elapsed_seconds": 341.485, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-24T14:24:29+0500", "elapsed_seconds": 342.969, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-24T14:24:33+0500", "elapsed_seconds": 346.516, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-24T14:24:33+0500", "elapsed_seconds": 346.516, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-24T14:24:34+0500", "elapsed_seconds": 348.016, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-24T14:24:36+0500", "elapsed_seconds": 349.75, "event": "pi_message", "message": {"resp": "tts_control", "action": "pause", "cmd": "tts_pause_toggle_from_pi"}}
+{"wall_time": "2026-09-24T14:24:37+0500", "elapsed_seconds": 351.25, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-24T14:24:37+0500", "elapsed_seconds": 351.266, "event": "forced_capture", "source": "control", "frame_sequence": 407}
+{"wall_time": "2026-09-24T14:24:38+0500", "elapsed_seconds": 351.828, "event": "post_capture_quality_overridden", "sharpness": 6.1, "threshold": 100.0}
+{"wall_time": "2026-09-24T14:24:46+0500", "elapsed_seconds": 359.578, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-24T14:24:46+0500", "elapsed_seconds": 359.578, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-24T14:24:46+0500", "elapsed_seconds": 359.61, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-24T14:24:46+0500", "elapsed_seconds": 359.61, "event": "session_ending"}

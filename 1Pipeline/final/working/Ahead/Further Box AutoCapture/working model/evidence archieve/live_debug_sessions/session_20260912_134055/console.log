@@ -1,0 +1,245 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.50s
+[STATUS] Welcome to F Y D P Glasses
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.87s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.13s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 4.99s
+[LOAD] Conservative SymSpell dictionary loaded in 2.89s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_up, rows=17/17, age=0.69s, edges=T, bandLap=243, lineLap=313, lightStd=17.4, belowText=1.1, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=15/17, age=0.11s, edges=B, bandLap=442, lineLap=600, lightStd=18.7, belowText=0.0, motion=1.78, stable=0/3
+  [OBS 003] state=look_down, rows=14/17, age=0.12s, edges=B, bandLap=236, lineLap=303, lightStd=17.1, belowText=0.0, motion=0.43, stable=0/3
+  [OBS 004] state=look_down, rows=12/16, age=0.17s, edges=B, bandLap=230, lineLap=313, lightStd=18.8, belowText=0.0, motion=0.39, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 005] state=almost_ready, rows=16/17, age=0.25s, edges=none, bandLap=588, lineLap=756, lightStd=18.2, belowText=1.2, motion=0.67, stable=1/3
+  [OBS 006] state=almost_ready, rows=16/16, age=0.19s, edges=none, bandLap=605, lineLap=761, lightStd=18.6, belowText=1.2, motion=0.09, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 007] state=look_down, rows=16/16, age=0.23s, edges=B, bandLap=642, lineLap=780, lightStd=18.4, belowText=0.0, motion=0.61, stable=0/3
+  [OBS 008] state=look_down, rows=14/16, age=0.14s, edges=B, bandLap=792, lineLap=974, lightStd=14.1, belowText=0.0, motion=0.17, stable=0/3
+  [OBS 009] state=look_down, rows=19/17, age=0.22s, edges=B, bandLap=653, lineLap=745, lightStd=14.5, belowText=0.0, motion=0.16, stable=0/3
+  [OBS 010] state=look_down, rows=13/17, age=0.27s, edges=B, bandLap=1150, lineLap=1160, lightStd=15.4, belowText=1.1, motion=0.48, stable=0/3
+  [OBS 011] state=look_down, rows=15/17, age=0.19s, edges=B, bandLap=599, lineLap=574, lightStd=15.6, belowText=0.0, motion=0.25, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 012] state=look_down, rows=5/17, age=0.17s, edges=B, bandLap=975, lineLap=1314, lightStd=6.4, belowText=0.0, motion=0.47, stable=0/3
+  [OBS 013] state=look_down, rows=14/16, age=0.11s, edges=B, bandLap=1104, lineLap=1228, lightStd=16.4, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 014] state=look_down, rows=6/16, age=0.12s, edges=B, bandLap=426, lineLap=548, lightStd=8.4, belowText=0.0, motion=0.20, stable=0/3
+  [OBS 015] state=hold_still, rows=4/16, age=0.14s, edges=none, bandLap=529, lineLap=690, lightStd=8.4, belowText=1.1, motion=1.26, stable=0/3
+  [OBS 016] state=hold_still, rows=4/16, age=0.30s, edges=none, bandLap=521, lineLap=822, lightStd=8.3, belowText=1.1, motion=0.12, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 017] state=hold_still, rows=5/16, age=0.28s, edges=none, bandLap=490, lineLap=745, lightStd=8.8, belowText=1.0, motion=0.30, stable=0/3
+  [OBS 018] state=hold_still, rows=4/16, age=0.20s, edges=none, bandLap=807, lineLap=1234, lightStd=8.6, belowText=1.1, motion=0.25, stable=0/3
+  [OBS 019] state=hold_still, rows=4/15, age=0.14s, edges=none, bandLap=645, lineLap=1005, lightStd=9.2, belowText=1.1, motion=0.27, stable=0/3
+  [OBS 020] state=hold_still, rows=3/15, age=0.27s, edges=none, bandLap=499, lineLap=714, lightStd=9.3, belowText=1.0, motion=0.12, stable=0/3
+  [OBS 021] state=hold_still, rows=4/14, age=0.34s, edges=none, bandLap=491, lineLap=826, lightStd=8.3, belowText=1.1, motion=0.10, stable=0/3
+  [OBS 022] state=hold_still, rows=4/13, age=0.14s, edges=none, bandLap=602, lineLap=930, lightStd=9.0, belowText=1.1, motion=0.05, stable=0/3
+  [OBS 023] state=hold_still, rows=4/6, age=0.22s, edges=none, bandLap=707, lineLap=937, lightStd=8.8, belowText=1.2, motion=0.05, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 024] state=hold_still, rows=4/6, age=0.14s, edges=none, bandLap=419, lineLap=696, lightStd=9.7, belowText=1.1, motion=0.06, stable=0/3
+  [OBS 025] state=almost_ready, rows=5/5, age=0.20s, edges=none, bandLap=457, lineLap=741, lightStd=10.0, belowText=1.1, motion=0.12, stable=1/3
+  [OBS 026] state=almost_ready, rows=5/5, age=0.31s, edges=none, bandLap=445, lineLap=578, lightStd=10.0, belowText=1.1, motion=0.08, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 027] state=look_down, rows=21/5, age=0.25s, edges=B, bandLap=803, lineLap=1048, lightStd=15.7, belowText=10.4, motion=0.33, stable=0/3
+  [OBS 028] state=look_down, rows=37/19, age=0.23s, edges=B, bandLap=1240, lineLap=1756, lightStd=14.1, belowText=0.0, motion=0.03, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 029] state=look_down, rows=36/35, age=0.14s, edges=B, bandLap=1502, lineLap=2067, lightStd=13.5, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 030] state=look_down, rows=36/36, age=0.20s, edges=B, bandLap=1527, lineLap=2251, lightStd=13.3, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 031] state=look_down, rows=37/37, age=0.31s, edges=B, bandLap=1205, lineLap=1642, lightStd=13.7, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 032] state=look_down, rows=34/37, age=0.14s, edges=B, bandLap=1293, lineLap=2081, lightStd=13.3, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 033] state=look_down, rows=34/37, age=0.34s, edges=B, bandLap=891, lineLap=1376, lightStd=13.6, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 034] state=almost_ready, rows=35/37, age=0.30s, edges=none, bandLap=729, lineLap=1193, lightStd=14.0, belowText=1.0, motion=0.83, stable=1/3
+  [OBS 035] state=almost_ready, rows=35/37, age=0.12s, edges=none, bandLap=821, lineLap=1359, lightStd=13.2, belowText=1.0, motion=0.15, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 036] state=almost_ready, rows=36/37, age=0.17s, edges=none, bandLap=897, lineLap=1480, lightStd=14.0, belowText=1.0, motion=0.27, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #977.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260912_134246.jpg
+[POST-CAPTURE] LapVar=204.1, score components: sharp=24, bright=30, even=16
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.625s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation. and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently Image acquisition is the first major difficulty. A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it. It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region. Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first Jines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters. while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction. edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics. and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.999 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.989 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation. and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.993 | in the middle of the page
+    Image acquisition is the first major difficulty. A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it. It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region. Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first Jines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters. while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction. edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics. and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] 4 regions, 21 NLLB chunks, french -> english: 1.139s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Field evaluation of wearable translation glasses
+[P1] A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. pause briefly, and hear a clear rendering without holding a phone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation. and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently
+[P2] Image acquisition is the first major difficulty. A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted. Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it. It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region. Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first Jines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+[P3] After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. Local contrast enhancement, slight gamma correction. edge-preserving filtering Each alternative is evaluated using character count. This is the first time we've seen this. and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.034s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260912_134249_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260912_134249_ocr.txt
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_gui.py", line 150, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.625s
+  Translation  : 1.139s
+  Spell Corr   : 0.034s
+  TTS Playback : 185.424s
+────────────────────────────────────────
+  TOTAL        : 189.370s
+────────────────────────────────────────
+
+  Ready for next capture!
+

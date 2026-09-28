@@ -1,0 +1,184 @@
+======================================================================
+RUN          : 3
+TIMESTAMP    : 20260915_120248
+IMAGE FILE   : capture_cli_003_20260915_120247.jpg
+LANGUAGE     : french
+TEXT REGIONS : 22
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 21
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor Table 2 Example recognition results under different conditions Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=1.000 | font_scale=1.04 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=24.75 | bbox=(783, 85, 1080, 132)
+  SOURCE    : Experimental Evaluation
+  LAYOUT LINES:
+    L01 | bbox=(787, 89, 1076, 136) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=28.07 | font_scale=1.04 | heading=top_title_geometry | decision=start_of_page | text=Experimental Evaluation
+  TRANSLATED: Experimental evaluation
+  SPOKEN    : Experimental evaluation
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=4 | conf=0.996 | font_scale=1.11 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=24.75 | bbox=(564, 132, 1242, 244)
+  SOURCE    : Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy.
+  LAYOUT LINES:
+    L01 | bbox=(571, 115, 1226, 186) | pitch=38.00 | gap_ratio=1.54 | indent=2.50 | font_height=27.07 | font_scale=0.98 | heading=ordinary_text | decision=after_heading | text=Image quality has a direct effect on document recognition. Good
+    L02 | bbox=(568, 141, 1169, 212) | pitch=26.00 | gap_ratio=1.05 | indent=-0.50 | font_height=30.07 | font_scale=1.11 | heading=ordinary_text | decision=continuation | text=focus and lighting generally improve text recognition, while
+    L03 | bbox=(569, 171, 1238, 242) | pitch=30.00 | gap_ratio=1.21 | indent=1.00 | font_height=27.07 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=perspective distortion, page curvature and motion blur can reduce
+    L04 | bbox=(568, 199, 675, 235) | pitch=10.50 | gap_ratio=0.42 | indent=0.50 | font_height=28.15 | font_scale=1.04 | heading=sentence_ending | decision=continuation | text=accuracy.
+  TRANSLATED: Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy.
+  SPOKEN    : Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy.
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=4 | conf=0.995 | font_scale=1.00 | heading_evidence=ordinary_text | break=large_gap_after_sentence | normal_pitch=24.75 | bbox=(563, 244, 1252, 365)
+  SOURCE    : The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition Condition
+  LAYOUT LINES:
+    L01 | bbox=(568, 235, 1247, 309) | pitch=55.00 | gap_ratio=2.22 | indent=1.00 | font_height=27.07 | font_scale=1.00 | heading=ordinary_text | decision=large_gap_after_sentence | text=The table below presents example observations for several capture
+    L02 | bbox=(567, 262, 1248, 336) | pitch=27.00 | gap_ratio=1.09 | indent=-6.50 | font_height=27.07 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=conditions. These values are provided as test content for evaluating
+    L03 | bbox=(567, 290, 939, 342) | pitch=17.00 | gap_ratio=0.69 | indent=-115.50 | font_height=26.08 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=OCR and table-structure recognition
+    L04 | bbox=(580, 344, 674, 374) | pitch=43.00 | gap_ratio=1.74 | indent=1.00 | font_height=24.01 | font_scale=0.90 | heading=ordinary_text | decision=continuation | text=Condition
+  TRANSLATED: The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition
+  SPOKEN    : The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(781, 365, 839, 376)
+  SOURCE    : OCR
+  LAYOUT LINES:
+    L01 | bbox=(785, 357, 835, 384) | pitch=11.50 | gap_ratio=0.46 | indent=-33.00 | font_height=23.09 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=OCR
+  TRANSLATED: OCR
+  SPOKEN    : OCR
+------------------------------------------------------------
+P4 | region_id=5 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.04 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(919, 376, 986, 387)
+  SOURCE    : Table
+  LAYOUT LINES:
+    L01 | bbox=(923, 366, 982, 395) | pitch=10.00 | gap_ratio=0.40 | indent=-38.00 | font_height=25.08 | font_scale=1.04 | heading=ordinary_text | decision=column_change | text=Table
+  TRANSLATED: Table
+  SPOKEN    : Table
+------------------------------------------------------------
+P5 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.88 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(1086, 387, 1182, 397)
+  SOURCE    : Structure
+  LAYOUT LINES:
+    L01 | bbox=(1090, 379, 1178, 407) | pitch=12.50 | gap_ratio=0.51 | indent=-34.00 | font_height=21.09 | font_scale=0.88 | heading=ordinary_text | decision=column_change | text=Structure
+  TRANSLATED: Structure and structure
+  SPOKEN    : Structure and structure
+------------------------------------------------------------
+P6 | region_id=7 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.04 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(575, 397, 681, 407)
+  SOURCE    : Clear page
+  LAYOUT LINES:
+    L01 | bbox=(579, 386, 677, 415) | pitch=7.50 | gap_ratio=0.30 | indent=0.00 | font_height=24.02 | font_scale=1.04 | heading=ordinary_text | decision=column_change | text=Clear page
+  TRANSLATED: Clear page
+  SPOKEN    : Clear page
+------------------------------------------------------------
+P7 | region_id=8 | type=paragraph | lines=1 | conf=0.984 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(814, 407, 882, 419)
+  SOURCE    : 97.4%
+  LAYOUT LINES:
+    L01 | bbox=(818, 400, 878, 427) | pitch=13.00 | gap_ratio=0.53 | indent=1.00 | font_height=22.09 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=97.4%
+  TRANSLATED: 97.4%
+  SPOKEN    : 97.4%
+------------------------------------------------------------
+P8 | region_id=9 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(957, 419, 1044, 430)
+  SOURCE    : Detected
+  LAYOUT LINES:
+    L01 | bbox=(961, 411, 1040, 438) | pitch=11.00 | gap_ratio=0.44 | indent=2.00 | font_height=22.02 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Detected
+  TRANSLATED: Detected
+  SPOKEN    : Detected
+------------------------------------------------------------
+P9 | region_id=10 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.09 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(1120, 430, 1211, 438)
+  SOURCE    : Excellent
+  LAYOUT LINES:
+    L01 | bbox=(1124, 420, 1207, 450) | pitch=10.50 | gap_ratio=0.42 | indent=-11.00 | font_height=24.08 | font_scale=1.09 | heading=ordinary_text | decision=column_change | text=Excellent
+  TRANSLATED: It 's excellent .
+  SPOKEN    : It 's excellent .
+------------------------------------------------------------
+P10 | region_id=11 | type=paragraph | lines=1 | conf=0.989 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(575, 438, 685, 448)
+  SOURCE    : Perspective
+  LAYOUT LINES:
+    L01 | bbox=(579, 427, 681, 455) | pitch=6.00 | gap_ratio=0.24 | indent=1.00 | font_height=22.02 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Perspective
+  TRANSLATED: Prospects
+  SPOKEN    : Prospects
+------------------------------------------------------------
+P11 | region_id=12 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(813, 448, 879, 459)
+  SOURCE    : 93.1%
+  LAYOUT LINES:
+    L01 | bbox=(817, 441, 875, 467) | pitch=13.00 | gap_ratio=0.53 | indent=2.00 | font_height=22.02 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=93.1%
+  TRANSLATED: 93.1%
+  SPOKEN    : 93.1%
+------------------------------------------------------------
+P12 | region_id=13 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(955, 459, 1041, 470)
+  SOURCE    : Detected
+  LAYOUT LINES:
+    L01 | bbox=(959, 451, 1037, 478) | pitch=10.50 | gap_ratio=0.42 | indent=3.00 | font_height=22.02 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Detected
+  TRANSLATED: Detected
+  SPOKEN    : Detected
+------------------------------------------------------------
+P13 | region_id=14 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.05 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(1131, 470, 1192, 478)
+  SOURCE    : Good
+  LAYOUT LINES:
+    L01 | bbox=(1135, 462, 1188, 489) | pitch=11.00 | gap_ratio=0.44 | indent=175.50 | font_height=23.09 | font_scale=1.05 | heading=ordinary_text | decision=column_change | text=Good
+  TRANSLATED: Good .
+  SPOKEN    : Good .
+------------------------------------------------------------
+P14 | region_id=15 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.14 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(574, 478, 693, 487)
+  SOURCE    : Curved page
+  LAYOUT LINES:
+    L01 | bbox=(578, 465, 689, 496) | pitch=5.00 | gap_ratio=0.20 | indent=1.00 | font_height=25.02 | font_scale=1.14 | heading=ordinary_text | decision=column_change | text=Curved page
+  TRANSLATED: Curved page
+  SPOKEN    : Curved page
+------------------------------------------------------------
+P15 | region_id=16 | type=paragraph | lines=1 | conf=0.965 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(811, 487, 877, 502)
+  SOURCE    : 88.7%
+  LAYOUT LINES:
+    L01 | bbox=(815, 481, 873, 507) | pitch=13.50 | gap_ratio=0.55 | indent=62.00 | font_height=22.02 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=88.7%
+  TRANSLATED: 88.7%
+  SPOKEN    : 88.7%
+------------------------------------------------------------
+P16 | region_id=17 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(952, 502, 1201, 514)
+  SOURCE    : Detected Moderate
+  LAYOUT LINES:
+    L01 | bbox=(956, 491, 1197, 528) | pitch=15.50 | gap_ratio=0.63 | indent=128.00 | font_height=22.01 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Detected Moderate
+  TRANSLATED: Detected Moderate
+  SPOKEN    : Detected Moderate
+------------------------------------------------------------
+P17 | region_id=18 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(573, 514, 678, 526)
+  SOURCE    : Motion blur
+  LAYOUT LINES:
+    L01 | bbox=(577, 506, 674, 531) | pitch=9.00 | gap_ratio=0.36 | indent=14.50 | font_height=22.02 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Motion blur
+  TRANSLATED: Blurred motion
+  SPOKEN    : Blurred motion
+------------------------------------------------------------
+P18 | region_id=19 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(809, 526, 875, 540)
+  SOURCE    : 81.9%
+  LAYOUT LINES:
+    L01 | bbox=(813, 521, 871, 545) | pitch=14.50 | gap_ratio=0.59 | indent=186.00 | font_height=21.02 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=81.9%
+  TRANSLATED: 81.9%
+  SPOKEN    : 81.9%
+------------------------------------------------------------
+P19 | region_id=20 | type=paragraph | lines=2 | conf=0.993 | font_scale=0.98 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(689, 540, 1181, 584)
+  SOURCE    : Partial Poor Table 2 Example recognition results under different conditions
+  LAYOUT LINES:
+    L01 | bbox=(963, 531, 1177, 565) | pitch=15.00 | gap_ratio=0.61 | indent=336.00 | font_height=22.10 | font_scale=0.98 | heading=ordinary_text | decision=column_change | text=Partial Poor
+    L02 | bbox=(693, 546, 1114, 598) | pitch=24.00 | gap_ratio=0.97 | indent=131.50 | font_height=23.08 | font_scale=0.94 | heading=ordinary_text | decision=continuation | text=Table 2 Example recognition results under different conditions
+  TRANSLATED: Table 2 Example recognition results under different conditions
+  SPOKEN    : Table 2 Example recognition results under different conditions
+------------------------------------------------------------
+P20 | region_id=21 | type=paragraph | lines=5 | conf=0.995 | font_scale=1.13 | heading_evidence=ordinary_text | break=column_change | normal_pitch=24.75 | bbox=(557, 584, 1230, 728)
+  SOURCE    : Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells.
+  LAYOUT LINES:
+    L01 | bbox=(564, 580, 695, 611) | pitch=23.50 | gap_ratio=0.95 | indent=2.50 | font_height=26.99 | font_scale=1.02 | heading=ordinary_text | decision=column_change | text=Discussion
+    L02 | bbox=(561, 612, 1129, 671) | pitch=46.00 | gap_ratio=1.86 | indent=-0.50 | font_height=30.06 | font_scale=1.13 | heading=ordinary_text | decision=continuation | text=A table detector first identifies where the table is located. A
+    L03 | bbox=(562, 638, 1152, 696) | pitch=25.50 | gap_ratio=1.03 | indent=0.50 | font_height=30.01 | font_scale=1.05 | heading=ordinary_text | decision=continuation | text=structure-recognition model then identifies rows, columns and
+    L04 | bbox=(561, 662, 1226, 725) | pitch=26.50 | gap_ratio=1.07 | indent=-0.50 | font_height=31.01 | font_scale=1.03 | heading=ordinary_text | decision=continuation | text=headers. OCR can finally associate recognized words with the correct
+    L05 | bbox=(562, 692, 618, 718) | pitch=11.50 | gap_ratio=0.46 | indent=1.50 | font_height=26.00 | font_scale=0.85 | heading=sentence_ending | decision=continuation | text=cells.
+  TRANSLATED: A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells.
+  SPOKEN    : A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells.
+------------------------------------------------------------
+P21 | region_id=22 | type=paragraph | lines=3 | conf=0.999 | font_scale=1.03 | heading_evidence=ordinary_text | break=blank_gap_after_short_line | normal_pitch=24.75 | bbox=(556, 728, 1209, 819)
+  SOURCE    : This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+  LAYOUT LINES:
+    L01 | bbox=(561, 720, 1205, 780) | pitch=45.00 | gap_ratio=1.82 | indent=1.00 | font_height=30.01 | font_scale=0.98 | heading=ordinary_text | decision=blank_gap_after_short_line | text=This approach is useful for wearable document readers because the
+    L02 | bbox=(560, 746, 1127, 800) | pitch=23.00 | gap_ratio=0.93 | indent=0.00 | font_height=31.02 | font_scale=1.03 | heading=ordinary_text | decision=continuation | text=system can speak information row by row instead of reading
+    L03 | bbox=(560, 769, 917, 815) | pitch=19.00 | gap_ratio=0.77 | indent=-0.50 | font_height=31.01 | font_scale=1.03 | heading=ordinary_text | decision=continuation | text=unrelated words in an incorrect order
+  TRANSLATED: This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+  SPOKEN    : This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+
+======================================================================

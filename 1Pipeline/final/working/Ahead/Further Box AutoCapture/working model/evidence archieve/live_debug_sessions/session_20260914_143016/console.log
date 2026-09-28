@@ -1,0 +1,189 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.56s
+[STATUS] Welcome to F Y D P Glasses
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.85s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.16s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.02s
+[LOAD] Conservative SymSpell dictionary loaded in 2.93s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=17/17, age=0.72s, edges=none, bandLap=89, lineLap=130, lightStd=8.2, belowText=1.5, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=20/20, age=0.12s, edges=none, bandLap=47, lineLap=141, lightStd=8.5, belowText=1.5, motion=0.30, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=almost_ready, rows=25/25, age=0.11s, edges=none, bandLap=237, lineLap=541, lightStd=10.5, belowText=2.2, motion=0.53, stable=1/3
+  [OBS 004] state=almost_ready, rows=25/25, age=0.25s, edges=none, bandLap=137, lineLap=338, lightStd=10.4, belowText=1.8, motion=0.11, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 005] state=look_down, rows=22/25, age=0.11s, edges=B, bandLap=146, lineLap=542, lightStd=12.7, belowText=0.0, motion=0.26, stable=0/3
+  [OBS 006] state=hold_still, rows=19/25, age=0.20s, edges=none, bandLap=348, lineLap=1480, lightStd=13.2, belowText=7.0, motion=0.13, stable=0/3
+  [OBS 007] state=blurry, rows=2/25, age=0.17s, edges=none, bandLap=46, lineLap=159, lightStd=6.5, belowText=1.8, motion=3.97, stable=0/3
+  [OBS 008] state=hold_still, rows=0/25, age=0.09s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.70, stable=0/3
+  [OBS 009] state=hold_still, rows=26/26, age=0.34s, edges=T, bandLap=186, lineLap=942, lightStd=14.8, belowText=2.7, motion=4.27, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 010] state=blurry, rows=15/26, age=0.22s, edges=T, bandLap=94, lineLap=346, lightStd=13.2, belowText=1.8, motion=1.71, stable=0/3
+  [OBS 011] state=hold_still, rows=16/26, age=0.09s, edges=none, bandLap=121, lineLap=554, lightStd=13.8, belowText=1.1, motion=1.52, stable=0/3
+  [OBS 012] state=look_up, rows=26/26, age=0.28s, edges=T, bandLap=280, lineLap=1411, lightStd=14.2, belowText=2.8, motion=0.54, stable=0/3
+  [OBS 013] state=almost_ready, rows=24/26, age=0.30s, edges=none, bandLap=307, lineLap=1527, lightStd=13.9, belowText=3.0, motion=0.65, stable=1/3
+  [OBS 014] state=almost_ready, rows=23/26, age=0.11s, edges=none, bandLap=315, lineLap=1297, lightStd=14.2, belowText=3.2, motion=0.16, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 015] state=almost_ready, rows=26/26, age=0.14s, edges=none, bandLap=322, lineLap=1405, lightStd=14.8, belowText=3.2, motion=0.08, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #446.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260914_143113.jpg
+[POST-CAPTURE] LapVar=230.1, score components: sharp=28, bright=30, even=28
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.516s (69 detections, 52 lines, 33 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+CAE-F-10-04 Revision No 3 Date. 09 06 2026 Page 1 of 2 pages PROJECT REPORT / PAPER (SURVEY /RESEARCH) EVALUATION PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR STUDENT ADVISOR/CO-ADVISOR/EVALUATOR Name: Name: Pak No: Rank: Course: Semester No: Project Title: Score Weighted PLO PLO PLO Title Description / Sub Categories Weightage Score Score (1-10) Analysis requirements. problem 2 Problem Analysis formulation and quality of (proposed) X3 solution Literalure survey / comparative analysis of the solution vis-à-vis state-of-the-art X5 4 Investigation techniques/designs Commitment to professional ethics highlighted by originality of work / X2 8 Ethics Similanty Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research Communication paper (graphs / plots. data presented. X5 10(a) (Written) references etc) Formatting of report / survey paper / research paper Total Weights = 220 EWeighted Score Total Score(%) = ×100= ∑ Weights E Waighted Score for PLO ×100= PLO Score (%) = ∑Woights forPLO Remarks: Date Signature
+============================================================
+
+[REGIONS] Detected 33 text region(s): 0 title, 0 heading(s), 33 paragraph(s)
+  P1 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    CAE-F-10-04
+  P2 | type=paragraph | 3 line(s) | confidence=0.979 | at the top of the page
+    Revision No 3 Date. 09 06 2026 Page 1 of 2 pages PROJECT REPORT / PAPER (SURVEY /RESEARCH) EVALUATION PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    STUDENT
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    ADVISOR/CO-ADVISOR/EVALUATOR
+  P5 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Name:
+  P6 | type=paragraph | 1 line(s) | confidence=0.998 | in the upper part of the page
+    Name:
+  P7 | type=paragraph | 1 line(s) | confidence=0.972 | in the upper part of the page
+    Pak No:
+  P8 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Rank:
+  P9 | type=paragraph | 3 line(s) | confidence=0.988 | in the upper part of the page
+    Course: Semester No: Project Title:
+  P10 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Score Weighted PLO
+  P11 | type=paragraph | 1 line(s) | confidence=0.984 | in the upper part of the page
+    PLO PLO Title
+  P12 | type=paragraph | 2 line(s) | confidence=0.998 | in the upper part of the page
+    Description / Sub Categories Weightage Score Score (1-10)
+  P13 | type=paragraph | 1 line(s) | confidence=0.998 | in the upper part of the page
+    Analysis requirements. problem
+  P14 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    2 Problem Analysis
+  P15 | type=paragraph | 4 line(s) | confidence=0.995 | in the middle of the page
+    formulation and quality of (proposed) X3 solution Literalure survey / comparative analysis of the solution vis-à-vis state-of-the-art X5
+  P16 | type=paragraph | 1 line(s) | confidence=0.974 | in the middle of the page
+    4 Investigation
+  P17 | type=paragraph | 3 line(s) | confidence=0.990 | in the middle of the page
+    techniques/designs Commitment to professional ethics highlighted by originality of work / X2
+  P18 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    8 Ethics
+  P19 | type=paragraph | 4 line(s) | confidence=0.994 | in the middle of the page
+    Similanty Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+  P20 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Communication
+  P21 | type=paragraph | 1 line(s) | confidence=0.993 | in the middle of the page
+    paper (graphs / plots. data presented. X5
+  P22 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    10(a)
+  P23 | type=paragraph | 1 line(s) | confidence=0.998 | in the middle of the page
+    (Written)
+  P24 | type=paragraph | 3 line(s) | confidence=0.990 | in the lower part of the page
+    references etc) Formatting of report / survey paper / research paper
+  P25 | type=paragraph | 1 line(s) | confidence=0.996 | in the lower part of the page
+    Total Weights = 220
+  P26 | type=paragraph | 3 line(s) | confidence=0.973 | in the lower part of the page
+    EWeighted Score Total Score(%) = ×100= ∑ Weights
+  P27 | type=paragraph | 1 line(s) | confidence=0.962 | in the lower part of the page
+    E Waighted Score for PLO
+  P28 | type=paragraph | 1 line(s) | confidence=0.915 | in the lower part of the page
+    ×100=
+  P29 | type=paragraph | 1 line(s) | confidence=0.971 | in the lower part of the page
+    PLO Score (%) =
+  P30 | type=paragraph | 1 line(s) | confidence=0.903 | in the lower part of the page
+    ∑Woights forPLO
+  P31 | type=paragraph | 1 line(s) | confidence=0.939 | at the bottom of the page
+    Remarks:
+  P32 | type=paragraph | 1 line(s) | confidence=1.000 | at the bottom of the page
+    Date
+  P33 | type=paragraph | 1 line(s) | confidence=1.000 | at the bottom of the page
+    Signature
+[TRANSLATION REVIEW] Region 4: Review numerical rendering: new output digits: 290
+[TRANSLATION REVIEW] Region 12: Review identifier rendering: 1-10
+[STAGE 2] 33 regions, 35 NLLB chunks, french -> english: 1.215s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] CAE-F-10-04
+[P2] Revision No 3 Date of issue 09 06 2026 Page 1 of 2 pages PROJECT REPORT/PAPER (SURVEY/RESEARCH) Evaluation PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/Evaluator The purpose of the project is to evaluate the results of the work carried out by the project team.
+[P3] The student
+[P4] The Commission shall be empowered to adopt delegated acts in accordance with Article 290 concerning:
+[P5] Name:
+[P6] Name:
+[P7] Pack number:
+[P8] Rank one:
+[P9] Course: Semester No: Project title:
+[P10] Score Weighted PLO
+[P11] PLO PLO Title
+[P12] Description / Sub Categories Weightage Score Score (1 to 10)
+[P13] Analysis requirements. the problem
+[P14] 2 Problems and their analysis
+[P15] formulation and quality of (proposed) X3 solution Literalure survey / comparative analysis of the solution vis-à-vis state-of-the-art X5
+[P16] 4 Investigation
+[P17] Commitment to professional ethics highlighted by originality of work / X2
+[P18] 8 Ethics
+[P19] Similanty Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+[P20] Communication
+[P21] paper (graphs / plots. data presented. X5
+[P22] 10 (a)
+[P23] (Written)
+[P24] References etc) Formatting of report / survey paper / research paper
+[P25] Total Weights = 220
+[P26] EWeighted Score Total Score ((%) = ×100=  Weights
+[P27] E Waighted Score for PLO
+[P28] ×100=
+[P29] PLO score (%) =
+[P30] Woights for PLO
+[P31] The Commission shall adopt implementing acts.
+[P32] Date of issue
+[P33] Signature
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.011s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260914_143116_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260914_143116_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.516s
+  Translation  : 1.215s
+  Spell Corr   : 0.011s
+  TTS Playback : 194.126s
+────────────────────────────────────────
+  TOTAL        : 197.906s
+────────────────────────────────────────
+
+  Ready for next capture!
+

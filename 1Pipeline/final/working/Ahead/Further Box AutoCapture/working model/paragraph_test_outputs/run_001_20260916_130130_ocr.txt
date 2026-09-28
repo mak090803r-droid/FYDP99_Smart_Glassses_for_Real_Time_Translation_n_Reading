@@ -1,0 +1,73 @@
+======================================================================
+RUN          : 1
+TIMESTAMP    : 20260916_130130
+IMAGE FILE   : capture_cli_001_20260916_130128.jpg
+LANGUAGE     : french
+TEXT REGIONS : 7
+PAGE TITLES  : 0
+HEADINGS     : 0
+PARAGRAPHS   : 7
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-FR16 - Planning des prêts de matériel Ce tableau résume les créneaux réservés pour quatre équipements du laboratoire pendant une journée de travaux pratiques. Équipement Début Fin Responsable Caméra 08:30 09:20 L. Martin thermique Luxmètre 09:40 10:15 S. Diallo Sonomètre 11:00 12:00 C. Perrin Anémomètre 14:10 15:00 N. Faure Enregistreur 15:20 16:30 A. Leroy CO2
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=5 | conf=0.996 | font_scale=1.25 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=39.50 | bbox=(799, 191, 1642, 391)
+  SOURCE    : TABLE-FR16 - Planning des prêts de matériel Ce tableau résume les créneaux réservés pour quatre équipements du laboratoire pendant une journée de travaux pratiques. Équipement Début Fin Responsable Caméra
+  LAYOUT LINES:
+    L01 | bbox=(806, 198, 1453, 243) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=37.00 | font_scale=1.21 | heading=ordinary_text | decision=start_of_page | text=TABLE-FR16 - Planning des prêts de matériel
+    L02 | bbox=(809, 242, 1635, 298) | pitch=49.50 | gap_ratio=1.25 | indent=-18.00 | font_height=38.01 | font_scale=1.25 | heading=ordinary_text | decision=continuation | text=Ce tableau résume les créneaux réservés pour quatre équipements du
+    L03 | bbox=(810, 277, 1425, 320) | pitch=28.50 | gap_ratio=0.72 | indent=-46.00 | font_height=33.00 | font_scale=1.08 | heading=sentence_ending | decision=continuation | text=laboratoire pendant une journée de travaux pratiques.
+    L04 | bbox=(844, 326, 1606, 369) | pitch=49.00 | gap_ratio=1.24 | indent=-134.50 | font_height=30.50 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=Équipement Début Fin Responsable
+    L05 | bbox=(868, 367, 964, 396) | pitch=34.00 | gap_ratio=0.86 | indent=11.00 | font_height=29.00 | font_scale=0.91 | heading=ordinary_text | decision=continuation | text=Caméra
+  TRANSLATED: TABLE-FR16 - Planning of equipment loans This table summarizes the slots reserved for four laboratory equipment during a day of practical work. Equipment Start to finish Cameraman
+  SPOKEN    : TABLE-FR16 - Planning of equipment loans This table summarizes the slots reserved for four laboratory equipment during a day of practical work. Equipment Start to finish Cameraman
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=1 | conf=0.991 | font_scale=0.98 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.50 | bbox=(1082, 391, 1589, 406)
+  SOURCE    : 08:30 09:20 L. Martin
+  LAYOUT LINES:
+    L01 | bbox=(1089, 382, 1582, 419) | pitch=19.00 | gap_ratio=0.48 | indent=235.00 | font_height=30.00 | font_scale=0.98 | heading=ordinary_text | decision=column_change | text=08:30 09:20 L. Martin
+  TRANSLATED: 8:30 to 9:20 L. - What ?
+  SPOKEN    : 8:30 to 9:20 L. - What ?
+------------------------------------------------------------
+P3 | region_id=3 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.02 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.50 | bbox=(848, 406, 981, 433)
+  SOURCE    : thermique
+  LAYOUT LINES:
+    L01 | bbox=(855, 397, 974, 428) | pitch=12.00 | gap_ratio=0.30 | indent=1.00 | font_height=31.00 | font_scale=1.02 | heading=ordinary_text | decision=column_change | text=thermique
+  TRANSLATED: thermal
+  SPOKEN    : thermal
+------------------------------------------------------------
+P4 | region_id=4 | type=paragraph | lines=4 | conf=0.996 | font_scale=1.03 | heading_evidence=ordinary_text | break=short_final_line_plus_indent | normal_pitch=39.50 | bbox=(830, 433, 1596, 580)
+  SOURCE    : Luxmètre 09:40 10:15 S. Diallo Sonomètre 11:00 12:00 C. Perrin Anémomètre 14:10 15:00 N. Faure Enregistreur
+  LAYOUT LINES:
+    L01 | bbox=(859, 434, 1583, 472) | pitch=40.50 | gap_ratio=1.03 | indent=16.00 | font_height=30.50 | font_scale=1.03 | heading=ordinary_text | decision=short_final_line_plus_indent | text=Luxmètre 09:40 10:15 S. Diallo
+    L02 | bbox=(849, 476, 1588, 511) | pitch=40.50 | gap_ratio=1.03 | indent=11.00 | font_height=29.00 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=Sonomètre 11:00 12:00 C. Perrin
+    L03 | bbox=(837, 517, 1589, 550) | pitch=40.00 | gap_ratio=1.01 | indent=-129.00 | font_height=28.00 | font_scale=0.93 | heading=ordinary_text | decision=continuation | text=Anémomètre 14:10 15:00 N. Faure
+    L04 | bbox=(839, 557, 989, 588) | pitch=39.00 | gap_ratio=0.99 | indent=-45.00 | font_height=29.00 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=Enregistreur
+  TRANSLATED: Luxometer from 09:40 to 10:15 S. Diallo Sonometer is 11:00 to 12:00. Perrin Anemometer 14:10 15:00 north I need a recorder.
+  SPOKEN    : Luxometer from 09:40 to 10:15 S. Diallo Sonometer is 11:00 to 12:00. Perrin Anemometer 14:10 15:00 north I need a recorder.
+------------------------------------------------------------
+P5 | region_id=5 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.98 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.50 | bbox=(1086, 580, 1171, 588)
+  SOURCE    : 15:20
+  LAYOUT LINES:
+    L01 | bbox=(1093, 573, 1164, 602) | pitch=15.00 | gap_ratio=0.38 | indent=250.00 | font_height=29.00 | font_scale=0.98 | heading=ordinary_text | decision=column_change | text=15:20
+  TRANSLATED: 15:20
+  SPOKEN    : 15:20
+------------------------------------------------------------
+P6 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.50 | bbox=(1301, 588, 1594, 595)
+  SOURCE    : 16:30 A. Leroy
+  LAYOUT LINES:
+    L01 | bbox=(1308, 574, 1587, 603) | pitch=1.00 | gap_ratio=0.03 | indent=465.00 | font_height=28.50 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=16:30 A. Leroy
+  TRANSLATED: 4:30 A.M. I 'm going .
+  SPOKEN    : 4:30 A.M. I 'm going .
+------------------------------------------------------------
+P7 | region_id=7 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.50 | bbox=(877, 595, 953, 622)
+  SOURCE    : CO2
+  LAYOUT LINES:
+    L01 | bbox=(884, 587, 946, 615) | pitch=12.50 | gap_ratio=0.32 | indent=46.00 | font_height=28.00 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=CO2
+  TRANSLATED: CO2
+  SPOKEN    : CO2
+
+======================================================================

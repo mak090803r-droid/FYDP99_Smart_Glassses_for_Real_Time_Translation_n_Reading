@@ -1,0 +1,38 @@
+======================================================================
+RUN          : 12
+TIMESTAMP    : 20260916_125807
+IMAGE FILE   : capture_cli_012_20260916_125805.jpg
+LANGUAGE     : chinese
+TEXT REGIONS : 2
+PAGE TITLES  : 0
+HEADINGS     : 0
+PARAGRAPHS   : 2
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。 区域 用水量(L) 初始含水率 结束含水率 变化 A区 18.5 21.4% 29.8% 8.4% 7.9% B区 17.9 22.1% 30.0% C区 19.2 20.8% 28.6% 7.8% D区 18.1 21.7% 29.1% 7.4%
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=6 | conf=0.999 | font_scale=1.10 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=54.50 | bbox=(198, 118, 1280, 440)
+  SOURCE    : TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。 区域 用水量(L) 初始含水率 结束含水率 变化 A区 18.5 21.4% 29.8% 8.4% 7.9%
+  LAYOUT LINES:
+    L01 | bbox=(219, 128, 789, 173) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=43.00 | font_scale=1.10 | heading=ordinary_text | decision=start_of_page | text=TABLE-ZH16-温室灌溉效率记录
+    L02 | bbox=(213, 187, 1270, 236) | pitch=61.00 | gap_ratio=1.12 | indent=-26.50 | font_height=43.00 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检
+    L03 | bbox=(208, 240, 532, 278) | pitch=47.50 | gap_ratio=0.87 | indent=-63.00 | font_height=38.00 | font_scale=0.92 | heading=sentence_ending | decision=continuation | text=查阀门设置是否一致。
+    L04 | bbox=(271, 294, 1196, 350) | pitch=63.00 | gap_ratio=1.16 | indent=-417.00 | font_height=43.00 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=区域 用水量(L) 初始含水率 结束含水率 变化
+    L05 | bbox=(271, 358, 1196, 410) | pitch=62.00 | gap_ratio=1.14 | indent=-417.00 | font_height=38.00 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=A区 18.5 21.4% 29.8% 8.4%
+    L06 | bbox=(1105, 417, 1189, 456) | pitch=52.50 | gap_ratio=0.96 | indent=841.50 | font_height=39.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=7.9%
+  TRANSLATED: TABLE-ZH16 - Greenhouse Irrigation Efficiency Record The following table lists the change in water use and soil moisture content of the four test areas after the same irrigation to check if the valve settings are consistent. Regional water use ((L) Initial water content end water content change Area A 18.5 21.4% 29.8% 8.4% 7.9%
+  SPOKEN    : TABLE-ZH16 - Greenhouse Irrigation Efficiency Record The following table lists the change in water use and soil moisture content of the four test areas after the same irrigation to check if the valve settings are consistent. Regional water use ((L) Initial water content end water content change Area A 18.5 21.4% 29.8% 8.4% 7.9%
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=3 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.50 | bbox=(250, 440, 1188, 587)
+  SOURCE    : B区 17.9 22.1% 30.0% C区 19.2 20.8% 28.6% 7.8% D区 18.1 21.7% 29.1% 7.4%
+  LAYOUT LINES:
+    L01 | bbox=(271, 419, 989, 467) | pitch=6.50 | gap_ratio=0.12 | indent=7.50 | font_height=40.00 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=B区 17.9 22.1% 30.0%
+    L02 | bbox=(267, 472, 1178, 523) | pitch=54.50 | gap_ratio=1.00 | indent=7.00 | font_height=38.00 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=C区 19.2 20.8% 28.6% 7.8%
+    L03 | bbox=(260, 527, 1170, 577) | pitch=54.50 | gap_ratio=1.00 | indent=-9.00 | font_height=38.00 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=D区 18.1 21.7% 29.1% 7.4%
+  TRANSLATED: Area B 17.9 22.1% 30.0% Area C 19.2 20.8% 28.6% 7.8% Area D 18.1 21.7% 29.1% 7.4%
+  SPOKEN    : Area B 17.9 22.1% 30.0% Area C 19.2 20.8% 28.6% 7.8% Area D 18.1 21.7% 29.1% 7.4%
+
+======================================================================

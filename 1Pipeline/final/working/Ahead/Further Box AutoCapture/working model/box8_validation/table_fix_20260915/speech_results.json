@@ -1,0 +1,54 @@
+[
+  {
+    "image": "capture_cli_001_20260915_101420.json",
+    "action": "finished",
+    "spoken": [
+      "Table 1. 4 data rows and 4 columns. Columns: Condition, OCR, Table, Structure.",
+      "Row 1. Condition: Clear page; OCR: 97.4%; Table: Detected; Structure: Excellent.",
+      "Row 2. Condition: Perspective; OCR: 93.1%; Table: Detected; Structure: Good.",
+      "Row 3. Condition: Curved page; OCR: 88.7%; Table: Detected; Structure: Moderate.",
+      "Row 4. Condition: Motion blur; OCR: 81.9%; Table: Partial; Structure: Poor."
+    ],
+    "wav": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\box8_validation\\table_fix_20260915\\capture_cli_001_20260915_101420_spoken.wav",
+    "seconds": 41.25786848072563,
+    "non_silent": true
+  },
+  {
+    "image": "capture_cli_003_20260915_101526.json",
+    "action": "finished",
+    "spoken": [
+      "Table 1. 4 data rows and 3 columns. Columns: Module, Function, Output.",
+      "Row 1. Module: PaddleOCR; Function: Recognizes printed text; Output: Text.",
+      "Row 2. Module: Table Detector; Function: Finds table regions; Output: Bounding box.",
+      "Row 3. Module: Structure Model; Function: Finds rows and columns; Output: Table layout.",
+      "Row 4. Module: RoBERTa; Function: Answers text questions; Output: Answer."
+    ],
+    "wav": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\box8_validation\\table_fix_20260915\\capture_cli_003_20260915_101526_spoken.wav",
+    "seconds": 33.7578231292517,
+    "non_silent": true
+  },
+  {
+    "image": "capture_cli_004_20260915_101708.json",
+    "action": "finished",
+    "spoken": [
+      "Table 1. 4 data rows and 4 columns. Columns: Condition, OCR, Table, Structure.",
+      "Row 1. Condition: Clear page; OCR: 97.4%; Table: Detected; Structure: Excellent.",
+      "Row 2. Condition: Perspective; OCR: 93.1%; Table: Detected; Structure: Good.",
+      "Row 3. Condition: Curved page; OCR: 88.7%; Table: Detected; Structure: Moderate.",
+      "Row 4. Condition: Motion blur; OCR: 81.9%; Table: Partial; Structure: Poor."
+    ],
+    "wav": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\box8_validation\\table_fix_20260915\\capture_cli_004_20260915_101708_spoken.wav",
+    "seconds": 40.758639455782316,
+    "non_silent": true
+  },
+  {
+    "image": "capture_cli_005_20260914_144056.json",
+    "action": "finished",
+    "spoken": [
+      "This table structure is uncertain. Please check the table panel or recapture. Visible ruled table, but a complete reliable grid could not be recovered. Flatten the page and keep fingers outside the table."
+    ],
+    "wav": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\box8_validation\\table_fix_20260915\\capture_cli_005_20260914_144056_spoken.wav",
+    "seconds": 11.360725623582766,
+    "non_silent": true
+  }
+]

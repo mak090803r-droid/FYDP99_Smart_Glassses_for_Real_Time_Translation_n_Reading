@@ -1,0 +1,7 @@
+{"wall_time": "2026-09-16T14:06:00+0500", "elapsed_seconds": 0.015, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260916_140600"}
+{"wall_time": "2026-09-16T14:06:44+0500", "elapsed_seconds": 44.25, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-16T14:16:32+0500", "elapsed_seconds": 632.187, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-16T14:16:36+0500", "elapsed_seconds": 636.187, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-16T14:16:36+0500", "elapsed_seconds": 636.187, "event": "pi_disconnected", "error": "[WinError 10053] An established connection was aborted by the software in your host machine"}
+{"wall_time": "2026-09-16T14:16:36+0500", "elapsed_seconds": 636.203, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-16T14:16:36+0500", "elapsed_seconds": 636.203, "event": "session_ending"}

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "blank",
+    "tables": [],
+    "suspended_cpu_seconds": 0.0,
+    "seconds": 2.266000000000531
+  },
+  {
+    "name": "real_prose",
+    "tables": [],
+    "suspended_cpu_seconds": 0.0,
+    "seconds": 4.219000000000051
+  }
+]

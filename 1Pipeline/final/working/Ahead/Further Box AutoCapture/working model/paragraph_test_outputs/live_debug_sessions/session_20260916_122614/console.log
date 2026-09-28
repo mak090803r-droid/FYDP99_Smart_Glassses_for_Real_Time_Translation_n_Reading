@@ -1,0 +1,510 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.56s
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.93s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.18s
+[LOAD] Conservative SymSpell dictionary loaded in 2.87s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.59s, edges=none, bandLap=22, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=33/33, age=0.16s, edges=B, bandLap=794, lineLap=726, lightStd=8.0, belowText=0.0, motion=2.40, stable=0/3
+  [OBS 003] state=look_down, rows=32/33, age=0.16s, edges=B, bandLap=887, lineLap=932, lightStd=11.0, belowText=0.0, motion=0.54, stable=0/3
+  [OBS 004] state=hold_still, rows=29/33, age=0.09s, edges=B, bandLap=244, lineLap=262, lightStd=10.1, belowText=0.0, motion=1.55, stable=0/3
+  [OBS 005] state=hold_still, rows=33/33, age=0.27s, edges=B, bandLap=1458, lineLap=1483, lightStd=11.9, belowText=0.0, motion=1.38, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 006] state=look_down, rows=35/34, age=0.16s, edges=B, bandLap=1525, lineLap=1723, lightStd=11.8, belowText=0.0, motion=0.62, stable=0/3
+  [OBS 007] state=look_down, rows=36/36, age=0.12s, edges=B, bandLap=2216, lineLap=2415, lightStd=11.5, belowText=0.0, motion=0.74, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 008] state=almost_ready, rows=37/36, age=0.34s, edges=none, bandLap=1684, lineLap=1932, lightStd=11.6, belowText=1.1, motion=0.59, stable=1/3
+  [OBS 009] state=almost_ready, rows=37/37, age=0.17s, edges=none, bandLap=2150, lineLap=2300, lightStd=11.0, belowText=1.1, motion=0.43, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 010] state=almost_ready, rows=37/37, age=0.16s, edges=none, bandLap=1066, lineLap=1149, lightStd=11.5, belowText=1.0, motion=0.24, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #186.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_122648.jpg
+[POST-CAPTURE] LapVar=334.6, score components: sharp=40, bright=30, even=22
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.563s (37 detections, 37 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN16-01- Calibrating Portable Air-Quality Sensors A teaching laboratory received twelve portable air-quality monitors for a field course on indoor ventilation. Before students could use them, the instruments had to be checked against the laboratory reference station. The monitors measured carbon dioxide, temperature and relative humidity, and they were expected to agree closely enough for comparative surveys. On 8 September 2026, the technician placed all units on the same bench for forty minutes so that their temperature could stabilize, Windows were kept closed, no one stood directly beside the sensors, and the reference station logged one reading every 30 seconds Morning Calibration Sequence The first comparison showed that most carbon-dioxide readings were within 35 ppm of the reference, but two monitors differed by more than 90 ppm. Their humidity channels also responded slowly after a brief change in room conditions. Rather than applying a correction immediately, the technician inspected the intake openings and found a thin layer of packing dust on both units. After cleaning the vents with dry air and repeating the stabilization period, the large offsets disappeared. The event was recorded because it demonstrated that a poor result can come from handling and storage rather than from a failed sensing element For the final check, the room was occupied by six students for fifteen minutes, raising the carbon-dioxide level from approximately 510 ppm to 1,120 ppm. Each monitor had to follow the rise and fall without sudden steps or frozen values. The reference unit remained on mains power, while the portable units ran on their internal batteries. The slowest sensor reached 90% of the reference change in 74 seconds; the fastest required 41 seconds. These response times were acceptable for the planned room-to-room survey, which focused on ventilation trends rather than second-by-second exposure. The calibration record was printed and attached to the equipment case. Students were instructed to repeat a short co-location check before every major field session and to note any unusual delay, battery warning or blocked vent. The procedure did not turn inexpensive monitors into laboratory instruments, but it established a traceable baseline for the course. More importantly, it gave students a clear example of why measurement quality depends on preparation, environmental control and careful documentation, not only on the number shown on a display
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.997 | at the top of the page
+    EN16-01- Calibrating Portable Air-Quality Sensors
+  P1 | type=paragraph | 36 line(s) | confidence=0.995 | in the middle of the page
+    A teaching laboratory received twelve portable air-quality monitors for a field course on indoor ventilation. Before students could use them, the instruments had to be checked against the laboratory reference station. The monitors measured carbon dioxide, temperature and relative humidity, and they were expected to agree closely enough for comparative surveys. On 8 September 2026, the technician placed all units on the same bench for forty minutes so that their temperature could stabilize, Windows were kept closed, no one stood directly beside the sensors, and the reference station logged one reading every 30 seconds Morning Calibration Sequence The first comparison showed that most carbon-dioxide readings were within 35 ppm of the reference, but two monitors differed by more than 90 ppm. Their humidity channels also responded slowly after a brief change in room conditions. Rather than applying a correction immediately, the technician inspected the intake openings and found a thin layer of packing dust on both units. After cleaning the vents with dry air and repeating the stabilization period, the large offsets disappeared. The event was recorded because it demonstrated that a poor result can come from handling and storage rather than from a failed sensing element For the final check, the room was occupied by six students for fifteen minutes, raising the carbon-dioxide level from approximately 510 ppm to 1,120 ppm. Each monitor had to follow the rise and fall without sudden steps or frozen values. The reference unit remained on mains power, while the portable units ran on their internal batteries. The slowest sensor reached 90% of the reference change in 74 seconds; the fastest required 41 seconds. These response times were acceptable for the planned room-to-room survey, which focused on ventilation trends rather than second-by-second exposure. The calibration record was printed and attached to the equipment case. Students were instructed to repeat a short co-location check before every major field session and to note any unusual delay, battery warning or blocked vent. The procedure did not turn inexpensive monitors into laboratory instruments, but it established a traceable baseline for the course. More importantly, it gave students a clear example of why measurement quality depends on preparation, environmental control and careful documentation, not only on the number shown on a display
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.021s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_122650_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_122650_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.563s
+  Translation  : skipped
+  Spell Corr   : 0.021s
+  TTS Playback : 72.723s
+────────────────────────────────────────
+  TOTAL        : 74.990s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=31/31, age=0.45s, edges=B, bandLap=1510, lineLap=1793, lightStd=9.2, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=look_down, rows=30/31, age=0.16s, edges=B, bandLap=2820, lineLap=3052, lightStd=8.9, belowText=0.0, motion=0.18, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 003] state=look_down, rows=28/31, age=0.09s, edges=B, bandLap=1732, lineLap=2268, lightStd=8.6, belowText=0.0, motion=0.33, stable=0/3
+  [OBS 004] state=look_down, rows=30/31, age=0.19s, edges=B, bandLap=2841, lineLap=3534, lightStd=8.1, belowText=0.0, motion=0.32, stable=0/3
+  [OBS 005] state=hold_still, rows=32/32, age=0.16s, edges=B, bandLap=570, lineLap=620, lightStd=10.2, belowText=0.0, motion=1.30, stable=0/3
+  [OBS 006] state=look_down, rows=33/32, age=0.14s, edges=B, bandLap=1385, lineLap=1855, lightStd=11.7, belowText=0.0, motion=0.77, stable=0/3
+  [OBS 007] state=look_down, rows=31/32, age=0.17s, edges=B, bandLap=1422, lineLap=1798, lightStd=11.8, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 008] state=look_down, rows=31/32, age=0.30s, edges=B, bandLap=1437, lineLap=1988, lightStd=11.5, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 009] state=look_down, rows=34/33, age=0.12s, edges=B, bandLap=1651, lineLap=2000, lightStd=11.4, belowText=0.0, motion=0.02, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 010] state=look_down, rows=33/33, age=0.12s, edges=B, bandLap=1655, lineLap=2030, lightStd=11.2, belowText=0.0, motion=0.15, stable=0/3
+  [OBS 011] state=look_down, rows=33/33, age=0.19s, edges=B, bandLap=1582, lineLap=1978, lightStd=11.4, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 012] state=hold_still, rows=33/33, age=0.12s, edges=none, bandLap=1175, lineLap=1863, lightStd=11.6, belowText=1.4, motion=1.34, stable=0/3
+  [OBS 013] state=almost_ready, rows=33/33, age=0.12s, edges=none, bandLap=1045, lineLap=1427, lightStd=11.3, belowText=1.4, motion=0.14, stable=1/3
+  [OBS 014] state=almost_ready, rows=33/33, age=0.33s, edges=none, bandLap=896, lineLap=1493, lightStd=11.3, belowText=1.5, motion=0.20, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 015] state=almost_ready, rows=32/33, age=0.28s, edges=none, bandLap=832, lineLap=1331, lightStd=11.5, belowText=1.4, motion=0.07, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1154.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_122819.jpg
+[POST-CAPTURE] LapVar=183.1, score components: sharp=21, bright=30, even=12
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.281s (35 detections, 35 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN16-02 - Planning a Small Observatory Night Shift The university astronomy club planned a four-hour observing session for 21 October 2026 at a hilltop site outside the city. The goal was not to collect publishable research data, but to train new members in safe telescope setup. sky navigation and log keeping. Sunset was expected shortly after 17:40, so the equipment team scheduled arrival for 16:50. This left enough daylight to inspect tripods, route power cables and confirm that the emergency lamps worked before the observing area became dark. Weather forecasts from three services disagreed about the amount of high cloud. One predicted 20% cloud cover, another 45%, and the local station suggested thin cloud would arrive after 21:00. The club therefore chose targets that could be observed in a flexible order. Bright objects. including Jupiter and several double stars, were placed early in the plan. Fainter nebulae were listed as optional. A small digital thermometer and hygrometer would record conditions every twenty minutes, because dew formation on optical surfaces was considered a greater operational risk than moderate high cloud. Roles and Safety Checks New members were divided into three pairs. One pair handled the 200 mm reflector, one operated the smaller refractor, and the third maintained the written observing log and checked red-light discipline. Every forty minutes the roles would rotate. Nobody was allowed to move a tripod without first announcing the movement, and food was kept away from the optical tables. The organizers also marked a two-metre clear path between the instruments and the vehicles so that people could leave safely without stepping over cases or cables. The session plan included a simple cancellation rule. If wind remained above 35 km/h for ten minutes, if rain was detected, or if visibility on the access road became poor, the group would pack immediately. A successful night was defined as safe practice and complete logs, not the number of objects seen By setting that expectation in advance, the club reduced pressure to continue in marginal conditions and gave beginners a structured introduction to field observing. A paper checklist at the counted before the group left the site
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.984 | at the top of the page
+    EN16-02 - Planning a Small Observatory Night Shift
+  P1 | type=paragraph | 34 line(s) | confidence=0.996 | in the middle of the page
+    The university astronomy club planned a four-hour observing session for 21 October 2026 at a hilltop site outside the city. The goal was not to collect publishable research data, but to train new members in safe telescope setup. sky navigation and log keeping. Sunset was expected shortly after 17:40, so the equipment team scheduled arrival for 16:50. This left enough daylight to inspect tripods, route power cables and confirm that the emergency lamps worked before the observing area became dark. Weather forecasts from three services disagreed about the amount of high cloud. One predicted 20% cloud cover, another 45%, and the local station suggested thin cloud would arrive after 21:00. The club therefore chose targets that could be observed in a flexible order. Bright objects. including Jupiter and several double stars, were placed early in the plan. Fainter nebulae were listed as optional. A small digital thermometer and hygrometer would record conditions every twenty minutes, because dew formation on optical surfaces was considered a greater operational risk than moderate high cloud. Roles and Safety Checks New members were divided into three pairs. One pair handled the 200 mm reflector, one operated the smaller refractor, and the third maintained the written observing log and checked red-light discipline. Every forty minutes the roles would rotate. Nobody was allowed to move a tripod without first announcing the movement, and food was kept away from the optical tables. The organizers also marked a two-metre clear path between the instruments and the vehicles so that people could leave safely without stepping over cases or cables. The session plan included a simple cancellation rule. If wind remained above 35 km/h for ten minutes, if rain was detected, or if visibility on the access road became poor, the group would pack immediately. A successful night was defined as safe practice and complete logs, not the number of objects seen By setting that expectation in advance, the club reduced pressure to continue in marginal conditions and gave beginners a structured introduction to field observing. A paper checklist at the counted before the group left the site
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.001s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.021s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_122821_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_122821_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.281s
+  Translation  : skipped
+  Spell Corr   : 0.021s
+  TTS Playback : 41.855s
+────────────────────────────────────────
+  TOTAL        : 43.857s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.36s, edges=none, bandLap=40, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=74, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.11, stable=0/3
+  [OBS 003] state=look_down, rows=26/26, age=0.08s, edges=B, bandLap=1552, lineLap=2355, lightStd=4.2, belowText=0.0, motion=0.48, stable=0/3
+  [OBS 004] state=look_down, rows=26/26, age=0.09s, edges=B, bandLap=3100, lineLap=3921, lightStd=7.7, belowText=0.0, motion=0.37, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 005] state=look_down, rows=26/26, age=0.09s, edges=B, bandLap=3077, lineLap=3498, lightStd=8.5, belowText=0.0, motion=0.20, stable=0/3
+  [OBS 006] state=look_down, rows=26/26, age=0.28s, edges=B, bandLap=2979, lineLap=3531, lightStd=8.9, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 007] state=look_down, rows=26/26, age=0.17s, edges=B, bandLap=2389, lineLap=2672, lightStd=9.3, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 008] state=hold_still, rows=29/28, age=0.14s, edges=B, bandLap=1019, lineLap=1218, lightStd=9.6, belowText=0.0, motion=1.15, stable=0/3
+  [OBS 009] state=hold_still, rows=28/28, age=0.19s, edges=B, bandLap=680, lineLap=1106, lightStd=8.9, belowText=0.0, motion=1.59, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 010] state=look_down, rows=29/29, age=0.28s, edges=B, bandLap=2376, lineLap=2751, lightStd=9.2, belowText=0.0, motion=0.18, stable=0/3
+  [OBS 011] state=look_down, rows=29/29, age=0.17s, edges=B, bandLap=2306, lineLap=2559, lightStd=9.3, belowText=0.0, motion=0.23, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 012] state=look_down, rows=28/29, age=0.12s, edges=B, bandLap=1344, lineLap=2019, lightStd=9.3, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 013] state=look_down, rows=27/29, age=0.14s, edges=B, bandLap=2488, lineLap=2952, lightStd=9.2, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 014] state=hold_still, rows=30/29, age=0.12s, edges=B, bandLap=837, lineLap=1163, lightStd=9.4, belowText=1.4, motion=1.58, stable=0/3
+  [OBS 015] state=look_up, rows=26/29, age=0.20s, edges=T, bandLap=1688, lineLap=1865, lightStd=7.4, belowText=14.0, motion=0.30, stable=0/3
+  [OBS 016] state=look_down, rows=29/29, age=0.33s, edges=B, bandLap=1296, lineLap=1918, lightStd=9.1, belowText=1.4, motion=0.29, stable=0/3
+  [OBS 017] state=look_down, rows=30/30, age=0.23s, edges=B, bandLap=1500, lineLap=2293, lightStd=9.2, belowText=1.4, motion=0.07, stable=0/3
+  [OBS 018] state=look_down, rows=26/30, age=0.22s, edges=B, bandLap=1944, lineLap=2915, lightStd=7.5, belowText=16.4, motion=0.09, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 019] state=look_down, rows=28/30, age=0.17s, edges=B, bandLap=1946, lineLap=2722, lightStd=8.6, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 020] state=look_down, rows=26/30, age=0.19s, edges=B, bandLap=2030, lineLap=2995, lightStd=7.4, belowText=16.4, motion=0.07, stable=0/3
+  [OBS 021] state=look_up, rows=31/30, age=0.23s, edges=T, bandLap=725, lineLap=867, lightStd=9.5, belowText=1.4, motion=0.60, stable=0/3
+  [OBS 022] state=hold_still, rows=25/30, age=0.14s, edges=T, bandLap=931, lineLap=1453, lightStd=8.3, belowText=2.3, motion=1.07, stable=0/3
+  [OBS 023] state=look_up, rows=24/30, age=0.17s, edges=T, bandLap=1512, lineLap=1861, lightStd=8.2, belowText=2.9, motion=0.81, stable=0/3
+  [OBS 024] state=look_up, rows=25/30, age=0.11s, edges=T, bandLap=1082, lineLap=2038, lightStd=8.1, belowText=2.7, motion=0.12, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 025] state=look_up, rows=24/30, age=0.20s, edges=T, bandLap=1155, lineLap=2207, lightStd=8.5, belowText=2.4, motion=0.35, stable=0/3
+  [OBS 026] state=look_up, rows=26/30, age=0.16s, edges=T, bandLap=1392, lineLap=2416, lightStd=8.5, belowText=2.2, motion=0.26, stable=0/3
+  [OBS 027] state=hold_still, rows=0/30, age=0.22s, edges=none, bandLap=57, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.33, stable=0/3
+  [OBS 028] state=hold_still, rows=2/30, age=0.09s, edges=none, bandLap=360, lineLap=392, lightStd=6.8, belowText=9.6, motion=0.04, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 029] state=hold_still, rows=28/30, age=0.12s, edges=B, bandLap=1413, lineLap=1665, lightStd=8.9, belowText=0.0, motion=3.56, stable=0/3
+  [OBS 030] state=look_down, rows=30/30, age=0.17s, edges=B, bandLap=2821, lineLap=3451, lightStd=9.4, belowText=11.9, motion=0.52, stable=0/3
+  [OBS 031] state=look_down, rows=30/30, age=0.12s, edges=B, bandLap=2450, lineLap=2743, lightStd=9.2, belowText=0.0, motion=0.24, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 032] state=look_down, rows=31/31, age=0.14s, edges=B, bandLap=3004, lineLap=3295, lightStd=10.3, belowText=0.0, motion=0.16, stable=0/3
+  [OBS 033] state=look_down, rows=31/31, age=0.27s, edges=B, bandLap=2668, lineLap=3418, lightStd=10.5, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 034] state=hold_still, rows=33/31, age=0.27s, edges=none, bandLap=792, lineLap=997, lightStd=10.5, belowText=1.8, motion=1.09, stable=0/3
+  [OBS 035] state=hold_still, rows=33/33, age=0.23s, edges=none, bandLap=2191, lineLap=3258, lightStd=8.2, belowText=3.0, motion=1.09, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 036] state=almost_ready, rows=33/33, age=0.16s, edges=none, bandLap=2132, lineLap=3248, lightStd=8.7, belowText=2.9, motion=0.25, stable=1/3
+  [OBS 037] state=almost_ready, rows=30/33, age=0.17s, edges=none, bandLap=2135, lineLap=3195, lightStd=9.3, belowText=2.9, motion=0.17, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 038] state=almost_ready, rows=31/33, age=0.20s, edges=none, bandLap=2287, lineLap=3477, lightStd=9.2, belowText=3.0, motion=0.05, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2138.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260916_122946.jpg
+[POST-CAPTURE] LapVar=364.6, score components: sharp=40, bright=30, even=13
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.235s (36 detections, 36 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN16-03 - Measuring Quiet Zones in a Public Library Survey Method A public library wanted to understand why visitors described one reading room as quiet even when the sound meter showed levels similar to those in another room. Staff designed a short acoustic survey using a calibrated handheld meter and a written observation sheet. Measurements were taken at five marked positions during three periods of the day The meter was mounted 1.2 m above the floor and kept at least 1 m from walls or large furniture. Each sample lasted sixty seconds and recorded both the average sound level and the highest short-duration peak The morning survey produced averages between 36.8 and 39 5 dBA During the afternoon, the values rose by roughly 4 dB as more people used the study tables. The highest peak, 61.2 dBA, occurred when a metal water bottle fell near the entrance. Surprisingly, the room that visitors considered calmer did not always have the lowest average level Observers noted that its sounds were more continuous: ventilation noise, turning pages and distant footsteps. In the other room, sudden chair movements and brief conversations were more noticeable even when the overall average remained modest. Staff used the observations to test small changes rather than imposing strict silence rules. Felt pads were added to twenty-four chair legs, a return trolley was moved away from the main reading area, and a soft- close strip was fitted to one cabinet door One week later the same measurement route was repeated Average levels changed only slightly. but the number of peaks above 55 dBA fell from seventeen to nine during the busiest hour. Visitor comments also mentioned fewer abrupt interruptions The survey showed that a single average number could not describe the entire experience of a space Frequency, timing and character of sounds also mattered The library therefore kept the simple route as a quarterly check and added a column for notable sound events This gave staff a repeatable way to evaluate practical changes without treating the sound meter as a complete measure of comfort The same marked positions were retained on a floor plan so that future measurements could be taken at comparable locations rather than wherever space happened to be available
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.991 | at the top of the page
+    EN16-03 - Measuring Quiet Zones in a Public Library
+  P1 | type=paragraph | 35 line(s) | confidence=0.994 | in the middle of the page
+    Survey Method A public library wanted to understand why visitors described one reading room as quiet even when the sound meter showed levels similar to those in another room. Staff designed a short acoustic survey using a calibrated handheld meter and a written observation sheet. Measurements were taken at five marked positions during three periods of the day The meter was mounted 1.2 m above the floor and kept at least 1 m from walls or large furniture. Each sample lasted sixty seconds and recorded both the average sound level and the highest short-duration peak The morning survey produced averages between 36.8 and 39 5 dBA During the afternoon, the values rose by roughly 4 dB as more people used the study tables. The highest peak, 61.2 dBA, occurred when a metal water bottle fell near the entrance. Surprisingly, the room that visitors considered calmer did not always have the lowest average level Observers noted that its sounds were more continuous: ventilation noise, turning pages and distant footsteps. In the other room, sudden chair movements and brief conversations were more noticeable even when the overall average remained modest. Staff used the observations to test small changes rather than imposing strict silence rules. Felt pads were added to twenty-four chair legs, a return trolley was moved away from the main reading area, and a soft- close strip was fitted to one cabinet door One week later the same measurement route was repeated Average levels changed only slightly. but the number of peaks above 55 dBA fell from seventeen to nine during the busiest hour. Visitor comments also mentioned fewer abrupt interruptions The survey showed that a single average number could not describe the entire experience of a space Frequency, timing and character of sounds also mattered The library therefore kept the simple route as a quarterly check and added a column for notable sound events This gave staff a repeatable way to evaluate practical changes without treating the sound meter as a complete measure of comfort The same marked positions were retained on a floor plan so that future measurements could be taken at comparable locations rather than wherever space happened to be available
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.020s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_122947_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_122947_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.235s
+  Translation  : skipped
+  Spell Corr   : 0.020s
+  TTS Playback : 91.942s
+────────────────────────────────────────
+  TOTAL        : 93.879s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=2/2, age=0.38s, edges=T, bandLap=97, lineLap=358, lightStd=48.7, belowText=3.7, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=0/0, age=0.06s, edges=none, bandLap=50, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.71, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=55, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.92, stable=0/3
+  [OBS 004] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=79, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.00, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 005] state=hold_still, rows=30/30, age=0.14s, edges=none, bandLap=2127, lineLap=2317, lightStd=10.7, belowText=1.0, motion=1.86, stable=0/3
+  [OBS 006] state=almost_ready, rows=30/30, age=0.12s, edges=none, bandLap=1782, lineLap=2417, lightStd=13.4, belowText=1.1, motion=0.27, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 007] state=hold_still, rows=29/30, age=0.28s, edges=none, bandLap=228, lineLap=365, lightStd=12.2, belowText=1.0, motion=1.00, stable=1/3
+  [OBS 008] state=almost_ready, rows=30/30, age=0.14s, edges=none, bandLap=2033, lineLap=2915, lightStd=12.3, belowText=1.1, motion=0.28, stable=2/3
+  [OBS 009] state=almost_ready, rows=30/30, age=0.17s, edges=none, bandLap=1604, lineLap=2432, lightStd=12.6, belowText=1.1, motion=0.02, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3156.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260916_123132.jpg
+[POST-CAPTURE] LapVar=341.7, score components: sharp=40, bright=30, even=23
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.344s (29 detections, 29 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-01 - Managing Emergency Water Storage on a Campus reserve, but it did not specify how often containers should be inspected or who was responsible for replacing them. A working group therefore mapped the locations of tanks, portable containers and drinking-water dispensers across eight buildings. The review focused on short interruptions lasting less than one day, because longer emergencies would require outside supply and a different distribution plan Storage and Inspection Rules The group estimated a minimum planning quantity of 3 litres of drinking water per person for a 24- hour period, with additional water needed for basic hygiene and food preparation Rather than filling every available container, staff selected food-grade vessels that could be sealed, labelled and moved safely Each label showed the fill date, intended use and responsible building. Containers were kept away from direct sunlight, cleaning chemicals and fuel. The largest portable vessel weighed almost 24 kg when full, so it was placed on a low trolley instead of a high shelf Inspection became the most important part of the new plan On the first Monday of every month, a building representative checked seals, leaks, labels and storage conditions Any container with a damaged cap, unusual odour or unclear history was emptied and cleaned rather than kept for convenience. The fixed tanks were included in the facilities maintenance schedule, with records of cleaning dates and inlet-screen condition A small sample of stored water was also checked after long periods of non-use according to the campus health office procedure. A short exercise was held on 14 August 2026. One residence floor was told that tap water was unavailable for two hours, and volunteers practised retrieving, carrying and issuing the stored supply. The exercise revealed that the written map was accurate but one trolley could not pass through a narrow service doorway Moving two containers to a different room solved the problem The group also learned that people needed clear instructions about which reserve was suitable for drinking and which was intended only for cleaning. The final plan treated stored water as a managed resource rather than a pile of containers. It assigned ownership, inspection intervals. safe lifting arrangements and a method for recording use The reserve was modest, but the process reduced confusion during routine interruptions and provided a stronger starting point for larger emergency planning.
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.999 | at the top of the page
+    EN12-01 - Managing Emergency Water Storage on a Campus
+  P1 | type=paragraph | 28 line(s) | confidence=0.994 | in the middle of the page
+    reserve, but it did not specify how often containers should be inspected or who was responsible for replacing them. A working group therefore mapped the locations of tanks, portable containers and drinking-water dispensers across eight buildings. The review focused on short interruptions lasting less than one day, because longer emergencies would require outside supply and a different distribution plan Storage and Inspection Rules The group estimated a minimum planning quantity of 3 litres of drinking water per person for a 24- hour period, with additional water needed for basic hygiene and food preparation Rather than filling every available container, staff selected food-grade vessels that could be sealed, labelled and moved safely Each label showed the fill date, intended use and responsible building. Containers were kept away from direct sunlight, cleaning chemicals and fuel. The largest portable vessel weighed almost 24 kg when full, so it was placed on a low trolley instead of a high shelf Inspection became the most important part of the new plan On the first Monday of every month, a building representative checked seals, leaks, labels and storage conditions Any container with a damaged cap, unusual odour or unclear history was emptied and cleaned rather than kept for convenience. The fixed tanks were included in the facilities maintenance schedule, with records of cleaning dates and inlet-screen condition A small sample of stored water was also checked after long periods of non-use according to the campus health office procedure. A short exercise was held on 14 August 2026. One residence floor was told that tap water was unavailable for two hours, and volunteers practised retrieving, carrying and issuing the stored supply. The exercise revealed that the written map was accurate but one trolley could not pass through a narrow service doorway Moving two containers to a different room solved the problem The group also learned that people needed clear instructions about which reserve was suitable for drinking and which was intended only for cleaning. The final plan treated stored water as a managed resource rather than a pile of containers. It assigned ownership, inspection intervals. safe lifting arrangements and a method for recording use The reserve was modest, but the process reduced confusion during routine interruptions and provided a stronger starting point for larger emergency planning.
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.016s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_123134_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_123134_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.344s
+  Translation  : skipped
+  Spell Corr   : 0.016s
+  TTS Playback : 10.096s
+────────────────────────────────────────
+  TOTAL        : 12.131s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+[CONTROL] Current document cancelled.
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+
+────────────────────────────────────────────────────────────
+  RUN #6
+────────────────────────────────────────────────────────────
+
+[CONTROL] Current document cancelled.
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+
+────────────────────────────────────────────────────────────
+  RUN #7
+────────────────────────────────────────────────────────────
+
+[CONTROL] Current document cancelled.
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+
+────────────────────────────────────────────────────────────
+  RUN #8
+────────────────────────────────────────────────────────────
+
+[CONTROL] Current document cancelled.
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=26/26, age=0.27s, edges=none, bandLap=331, lineLap=308, lightStd=11.7, belowText=0.9, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=23/26, age=0.12s, edges=none, bandLap=306, lineLap=267, lightStd=11.5, belowText=0.9, motion=0.14, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=20/25, age=0.08s, edges=none, bandLap=286, lineLap=263, lightStd=11.3, belowText=0.9, motion=0.08, stable=3/3
+  [OBS 004] state=almost_ready, rows=24/25, age=0.11s, edges=none, bandLap=328, lineLap=304, lightStd=11.3, belowText=0.9, motion=0.10, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3380.
+
+────────────────────────────────────────────────────────────
+  RUN #9
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_009_20260916_123152.jpg
+[POST-CAPTURE] LapVar=47.1, score components: sharp=0, bright=30, even=13
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (47.1 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.33s, edges=none, bandLap=11, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.50, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=hold_still, rows=21/21, age=0.12s, edges=none, bandLap=192, lineLap=214, lightStd=11.6, belowText=0.9, motion=1.03, stable=0/3
+  [OBS 004] state=almost_ready, rows=16/20, age=0.12s, edges=none, bandLap=213, lineLap=294, lightStd=8.5, belowText=8.0, motion=0.24, stable=1/3
+  [OBS 005] state=almost_ready, rows=22/22, age=0.12s, edges=none, bandLap=1118, lineLap=1783, lightStd=10.1, belowText=1.0, motion=0.38, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=22/22, age=0.17s, edges=none, bandLap=1353, lineLap=1718, lightStd=9.9, belowText=1.0, motion=0.19, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3505.
+
+────────────────────────────────────────────────────────────
+  RUN #10
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_010_20260916_123201.jpg
+[POST-CAPTURE] LapVar=187.6, score components: sharp=22, bright=30, even=16
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.469s (30 detections, 30 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-01 - Managing Emergency Water Storage on a Campus A residential campus reviewed its emergency water plan after a scheduled pipeline repair lasted longer than expected. The existing guidance stated that each residence block should keep a small reserve, but it did not specify how often containers should be inspected or who was responsible for replacing them. A working group therefore mapped the locations of tanks. portable containers and drinking-water dispensers across eight buildings. The review focused on short interruptions lasting less than one day, because longer emergencies would require outside supply and a different distribution plan Storage and Inspection Rules The group estimated a minimum planning quantity of 3 litres of drinking water per person for a 24- hour period, with additional water needed for basic hygiene and food preparation. Rather than filling every available container, staff selected food-grade vessels that could be sealed, labelled and moved safely Each label showed the fill date, intended use and responsible building. Containers were kept away from direct sunlight, cleaning chemicals and fuel. The largest portable vessel weighed almost 24 kg when full, so it was placed on a low trolley instead of a high shelf Inspection became the most important part of the new plan. On the first Monday of every month, a building representative checked seals, leaks, labels and storage conditions. Any container with a damaged cap, unusual odour or unclear history was emptied and cleaned rather than kept for convenience The fixed tanks were included in the facilities maintenance schedule, with records of cleaning dates and inlet-screen condition A small sample of stored water was also checked after long periods of non-use according to the campus health office procedure A short exercise was held on 14 August 2026 One residence floor was told that tap water was unavailable for two hours, and volunteers practised retrieving, carrying and issuing the stored supply The exercise revealed that the written map was accurate but one trolley could not pass through a narrow service doorway Moving two containers to a different room solved the problem The group also learned that people needed clear instructions about which reserve was suitable for managed resource rather than a pile of containers. It assigned ownership, inspection intervals. safe lifting arrangements and a method for recording use. The reserve was modest. but the process reduced confusion during routine interruptions and provided a stronger starting point for larger emergency planning
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.977 | at the top of the page
+    EN12-01 - Managing Emergency Water Storage on a Campus
+  P1 | type=paragraph | 29 line(s) | confidence=0.993 | in the middle of the page
+    A residential campus reviewed its emergency water plan after a scheduled pipeline repair lasted longer than expected. The existing guidance stated that each residence block should keep a small reserve, but it did not specify how often containers should be inspected or who was responsible for replacing them. A working group therefore mapped the locations of tanks. portable containers and drinking-water dispensers across eight buildings. The review focused on short interruptions lasting less than one day, because longer emergencies would require outside supply and a different distribution plan Storage and Inspection Rules The group estimated a minimum planning quantity of 3 litres of drinking water per person for a 24- hour period, with additional water needed for basic hygiene and food preparation. Rather than filling every available container, staff selected food-grade vessels that could be sealed, labelled and moved safely Each label showed the fill date, intended use and responsible building. Containers were kept away from direct sunlight, cleaning chemicals and fuel. The largest portable vessel weighed almost 24 kg when full, so it was placed on a low trolley instead of a high shelf Inspection became the most important part of the new plan. On the first Monday of every month, a building representative checked seals, leaks, labels and storage conditions. Any container with a damaged cap, unusual odour or unclear history was emptied and cleaned rather than kept for convenience The fixed tanks were included in the facilities maintenance schedule, with records of cleaning dates and inlet-screen condition A small sample of stored water was also checked after long periods of non-use according to the campus health office procedure A short exercise was held on 14 August 2026 One residence floor was told that tap water was unavailable for two hours, and volunteers practised retrieving, carrying and issuing the stored supply The exercise revealed that the written map was accurate but one trolley could not pass through a narrow service doorway Moving two containers to a different room solved the problem The group also learned that people needed clear instructions about which reserve was suitable for managed resource rather than a pile of containers. It assigned ownership, inspection intervals. safe lifting arrangements and a method for recording use. The reserve was modest. but the process reduced confusion during routine interruptions and provided a stronger starting point for larger emergency planning
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.022s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_010_20260916_123203_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_010_20260916_123203_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.469s
+  Translation  : skipped
+  Spell Corr   : 0.022s
+  TTS Playback : 49.617s
+────────────────────────────────────────
+  TOTAL        : 51.800s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=glare, rows=7/7, age=0.12s, edges=none, bandLap=23, lineLap=19, lightStd=0.0, belowText=4.4, motion=3.75, stable=0/3
+  [OBS 003] state=almost_ready, rows=29/29, age=0.08s, edges=none, bandLap=363, lineLap=607, lightStd=9.3, belowText=0.9, motion=0.41, stable=1/3
+  [OBS 004] state=almost_ready, rows=29/29, age=0.11s, edges=none, bandLap=792, lineLap=1166, lightStd=11.7, belowText=1.0, motion=0.79, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 005] state=almost_ready, rows=29/29, age=0.16s, edges=none, bandLap=1184, lineLap=1636, lightStd=10.0, belowText=1.0, motion=0.82, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4078.
+
+────────────────────────────────────────────────────────────
+  RUN #11
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_011_20260916_123305.jpg
+[POST-CAPTURE] LapVar=111.5, score components: sharp=9, bright=30, even=16
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.531s (31 detections, 31 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-02 - A Pilot Bicycle Counter on a Campus Road A transport research class installed a temporary bicycle counter on a campus road to compare manual observations with an electronic sensing system. The site was chosen because it carred steady bicycle traffic but had only one vehicle lane in each direction, making visual verification practical Two students marked a 12 m observation zone with removable tape and positioned the sensor so that passing bicycles crossed its detection area at a consistent angle. Data collection began at 07 30 on 3 September 2026 and continued until 18:30. For validation, observers counted bicycles manually during six separate thirty-minute windows They recorded direction, bicycle type and whether two riders passed side by side The electronic counter stored a timestamp and direction estimate for every detected event. During the moming period. the system counted 146 bicycles while the observers counted 150 Review of the uimestamps showed that most missed events occurred when pairs travelled close together A second issue appeared when a grounds vehicle moved slowly along the edge of the detection zone and produced two false bicycle events. Installation Adjustment The class adjusted the installation rather than changing the data after collection. The sensor was rotated by 7 degrees and moved 0.6 m farther from the road edge so that maintenance vehicles were less likely to enter its strongest detection region. The next validation window produced 132 electronic counts against 134 manual counts. Side-by-side riders still presented a challenge. but the false vehicle detections stopped. Students noted that a small numerical improvement was useful only because the physical reason for the change was understood and documented Daily traffic patterns were also informative. The largest thirty-minute total occurred between 08 10 and 08 40, while a second peak appeared after classes ended. Rain beginning at 15:20 reduced bicycle traffic by approximately 38% compared with the previous dry hour. The class did not treat this single day as representative of an entire semester: instead, it used the exercise to practise installation, validation and uncertainty reporting. At the end of the pilot, all temporary markings were removed and the dataset was archived with a site photograph, sensor orientation sketch and calibration notes. The main lesson was that automated counters can reduce labour, but they sill require field checks. Without manual observations, the class would not have known whether an unusual count reflected real travel behaviour, a passing service vehicle or limitations in separating closely spaced riders
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.983 | in the upper part of the page
+    EN12-02 - A Pilot Bicycle Counter on a Campus Road
+  P1 | type=paragraph | 30 line(s) | confidence=0.991 | in the middle of the page
+    A transport research class installed a temporary bicycle counter on a campus road to compare manual observations with an electronic sensing system. The site was chosen because it carred steady bicycle traffic but had only one vehicle lane in each direction, making visual verification practical Two students marked a 12 m observation zone with removable tape and positioned the sensor so that passing bicycles crossed its detection area at a consistent angle. Data collection began at 07 30 on 3 September 2026 and continued until 18:30. For validation, observers counted bicycles manually during six separate thirty-minute windows They recorded direction, bicycle type and whether two riders passed side by side The electronic counter stored a timestamp and direction estimate for every detected event. During the moming period. the system counted 146 bicycles while the observers counted 150 Review of the uimestamps showed that most missed events occurred when pairs travelled close together A second issue appeared when a grounds vehicle moved slowly along the edge of the detection zone and produced two false bicycle events. Installation Adjustment The class adjusted the installation rather than changing the data after collection. The sensor was rotated by 7 degrees and moved 0.6 m farther from the road edge so that maintenance vehicles were less likely to enter its strongest detection region. The next validation window produced 132 electronic counts against 134 manual counts. Side-by-side riders still presented a challenge. but the false vehicle detections stopped. Students noted that a small numerical improvement was useful only because the physical reason for the change was understood and documented Daily traffic patterns were also informative. The largest thirty-minute total occurred between 08 10 and 08 40, while a second peak appeared after classes ended. Rain beginning at 15:20 reduced bicycle traffic by approximately 38% compared with the previous dry hour. The class did not treat this single day as representative of an entire semester: instead, it used the exercise to practise installation, validation and uncertainty reporting. At the end of the pilot, all temporary markings were removed and the dataset was archived with a site photograph, sensor orientation sketch and calibration notes. The main lesson was that automated counters can reduce labour, but they sill require field checks. Without manual observations, the class would not have known whether an unusual count reflected real travel behaviour, a passing service vehicle or limitations in separating closely spaced riders
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] Applied 1 conservative correction(s) in 0.030s:
+  P1: moming -> morning
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_011_20260916_123307_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_011_20260916_123307_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.531s
+  Translation  : skipped
+  Spell Corr   : 0.030s
+  TTS Playback : 75.453s
+────────────────────────────────────────
+  TOTAL        : 77.708s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=29/29, age=0.27s, edges=none, bandLap=419, lineLap=529, lightStd=17.0, belowText=1.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=29/29, age=0.11s, edges=none, bandLap=1368, lineLap=1606, lightStd=15.7, belowText=1.1, motion=0.55, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=28/29, age=0.11s, edges=none, bandLap=1449, lineLap=1746, lightStd=15.5, belowText=1.1, motion=0.12, stable=3/3
+  [OBS 004] state=almost_ready, rows=27/29, age=0.09s, edges=none, bandLap=1298, lineLap=1433, lightStd=15.5, belowText=1.1, motion=0.19, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4859.
+
+────────────────────────────────────────────────────────────
+  RUN #12
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_012_20260916_123436.jpg
+[POST-CAPTURE] LapVar=180.7, score components: sharp=20, bright=30, even=24
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.250s (32 detections, 32 lines, 3 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-03 - Digitizing Handwritten Field Notebooks A small environmental archive began digitizing field notebooks created by survey teams between 1987 and 2004. The notebooks contained handwritten observations, sketches, pasted labels and occasional measurements written in pencil. Because the originals were unique. the project was designed around preservation first and speed second Every notebook received a temporary work number, and staff photographed its cover and condition before scanning. Pages with loose inserts were flagged so that no item would be lost when the binding was opened. The scanning station used an overhead camera rather than a flatbed scanner because several bindings could not be pressed safely. Pages were supported at a gentle angle and illuminaled by two diffuse lamps positioned to reduce glare. A grey reference card appeared in the first image of each session. Most pages were captured at 400 ppi equivalent resolution, while maps and pages containing very small annotations were recorded at higher resolution. Operators checked focus at the centre and corners before continuing through a notebook. File naming was deliberately simple. A notebook identified as FN-1994-17 produced images such as FN-1994-17_P001 and FN-1994-17_P002. If a loose insert belonged between pages 18 and 19. it received a suffix rather than forcing the rest of the sequence to be renamed A checksum was generated after transfer to the archive server, and a second copy was written to offline storage. The project log recorded the operator, capture date, equipment settings and any unusual page condition Access Copy Versus Original Evidence Text recognition was treated as an access aid, not a replacement for the image. Handwriting quality varied widely. and technical abbreviations often confused automated systems. Staff therefore created a short verified transcription only for titles, dates. locations and selected measurements Search users could find a notebook through those fields and then inspect the original page image. Where a number was uncertain, the transcription included a visible uncertainty marker rather than silently choosing a value By the end of the first month, 2,480 pages had been captured from thirly-six notebooks The team intentionally avoided setting a daily page quota because fragile material required different handling times. Instead. quality was reviewed through weekly sample checks of focus, sequence, colour reference and file integrity This slower but controlled workflow preserved the relationship between the digital files and the physical notebooks, which was more important than maximizing the number of scans completed each day
+============================================================
+
+[REGIONS] Detected 3 text region(s): 1 title, 0 heading(s), 2 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.992 | at the top of the page
+    EN12-03 - Digitizing Handwritten Field Notebooks
+  P1 | type=paragraph | 14 line(s) | confidence=0.991 | in the upper part of the page
+    A small environmental archive began digitizing field notebooks created by survey teams between 1987 and 2004. The notebooks contained handwritten observations, sketches, pasted labels and occasional measurements written in pencil. Because the originals were unique. the project was designed around preservation first and speed second Every notebook received a temporary work number, and staff photographed its cover and condition before scanning. Pages with loose inserts were flagged so that no item would be lost when the binding was opened. The scanning station used an overhead camera rather than a flatbed scanner because several bindings could not be pressed safely. Pages were supported at a gentle angle and illuminaled by two diffuse lamps positioned to reduce glare. A grey reference card appeared in the first image of each session. Most pages were captured at 400 ppi equivalent resolution, while maps and pages containing very small annotations were recorded at higher resolution. Operators checked focus at the centre and corners before continuing through a notebook. File naming was deliberately simple. A notebook identified as FN-1994-17 produced images such as FN-1994-17_P001 and FN-1994-17_P002. If a loose insert belonged between pages 18 and
+  P2 | type=paragraph | 17 line(s) | confidence=0.994 | in the middle of the page
+    19. it received a suffix rather than forcing the rest of the sequence to be renamed A checksum was generated after transfer to the archive server, and a second copy was written to offline storage. The project log recorded the operator, capture date, equipment settings and any unusual page condition Access Copy Versus Original Evidence Text recognition was treated as an access aid, not a replacement for the image. Handwriting quality varied widely. and technical abbreviations often confused automated systems. Staff therefore created a short verified transcription only for titles, dates. locations and selected measurements Search users could find a notebook through those fields and then inspect the original page image. Where a number was uncertain, the transcription included a visible uncertainty marker rather than silently choosing a value By the end of the first month, 2,480 pages had been captured from thirly-six notebooks The team intentionally avoided setting a daily page quota because fragile material required different handling times. Instead. quality was reviewed through weekly sample checks of focus, sequence, colour reference and file integrity This slower but controlled workflow preserved the relationship between the digital files and the physical notebooks, which was more important than maximizing the number of scans completed each day
+[STAGE 2] 3 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.028s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_012_20260916_123438_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_012_20260916_123438_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.250s
+  Translation  : skipped
+  Spell Corr   : 0.028s
+  TTS Playback : 71.147s
+────────────────────────────────────────
+  TOTAL        : 73.104s
+────────────────────────────────────────
+
+  Ready for next capture!
+

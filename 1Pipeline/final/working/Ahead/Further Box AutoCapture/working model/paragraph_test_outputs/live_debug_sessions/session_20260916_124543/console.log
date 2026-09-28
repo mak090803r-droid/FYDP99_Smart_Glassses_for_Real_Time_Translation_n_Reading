@@ -1,0 +1,778 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.72s
+[LOAD] OCR language audit: chinese -> PaddleOCR lang='ch'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.92s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.18s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.28s
+[LOAD] Conservative SymSpell dictionary loaded in 2.85s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.62s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=glare, rows=2/2, age=0.31s, edges=B, bandLap=95, lineLap=83, lightStd=0.0, belowText=3.9, motion=1.44, stable=0/3
+  [OBS 003] state=blurry, rows=23/23, age=0.17s, edges=B, bandLap=97, lineLap=90, lightStd=14.8, belowText=1.1, motion=1.57, stable=0/3
+  [OBS 004] state=almost_ready, rows=25/25, age=0.14s, edges=none, bandLap=194, lineLap=207, lightStd=16.5, belowText=0.9, motion=0.87, stable=1/3
+  [OBS 005] state=almost_ready, rows=24/25, age=0.22s, edges=none, bandLap=358, lineLap=419, lightStd=16.0, belowText=1.2, motion=0.66, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=24/25, age=0.28s, edges=none, bandLap=1024, lineLap=1229, lightStd=15.4, belowText=1.3, motion=0.51, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #405.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_124640.jpg
+[POST-CAPTURE] LapVar=22.9, score components: sharp=0, bright=30, even=23
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (22.9 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=24/24, age=0.52s, edges=B, bandLap=1058, lineLap=1176, lightStd=14.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=look_down, rows=25/25, age=0.09s, edges=B, bandLap=432, lineLap=434, lightStd=16.2, belowText=1.1, motion=0.65, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 003] state=hold_still, rows=25/25, age=0.12s, edges=none, bandLap=928, lineLap=977, lightStd=18.7, belowText=1.0, motion=1.26, stable=0/3
+  [OBS 004] state=almost_ready, rows=24/25, age=0.11s, edges=none, bandLap=1405, lineLap=1575, lightStd=18.3, belowText=1.0, motion=0.21, stable=1/3
+  [OBS 005] state=almost_ready, rows=24/25, age=0.25s, edges=none, bandLap=929, lineLap=1170, lightStd=16.1, belowText=1.0, motion=0.85, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=25/25, age=0.33s, edges=none, bandLap=656, lineLap=957, lightStd=14.9, belowText=1.3, motion=0.84, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #534.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_124650.jpg
+[POST-CAPTURE] LapVar=125.1, score components: sharp=12, bright=30, even=15
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.172s (25 detections, 25 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+ZH16-01-城市屋顶雨水收集试验 一所职业学院在教学楼屋顶开展了小规模雨水收集试验，目的是让学生观 察降雨、屋面面积和储水量之间的关系。试验系统没有接入生活用水管 网，只为绿化浇灌和设备清洗提供非饮用水。屋顶有效汇水面积约为86平 方米，落水管前端安装了可拆洗滤网，并设置初期弃流装置。2026年6月 18日第一次记录完整降雨过程时，值班学生同时抄录了校内气象站的降雨 量和储水桶液位。 过滤与记录 最初的两次降雨暴露出一个简单问题：滤网上的树叶会明显降低进水速 度。一次12.6毫米的降雨中，理论可收集水量并没有完全进入储水桶，溢 流水反而从屋檐附近排走。维护人员清理滤网后，又在进水口上方加了一 层较粗的拦叶网，使大块杂物在到达细滤网前被截住。修改后的系统在下 一场8.4毫米降雨中运行更稳定，学生也能更清楚地区分“降雨不 足”和“入口受阻”这两种情况。 储水桶外侧标有容量刻度，每次记录都包括起始液位、结束液位、降雨量 和明显的溢流情况。为了避免把蒸发或前一次残留水量误认为本次降雨成 果，课程要求学生按同一时间窗口读取数据。教师还强调，雨量计与屋顶 实际受雨情况并不完全相同，风向、屋面坡度和初期弃流都会造成差异， 因此试验的重点是建立可重复的记录方法，而不是追求某个固定的收集效 率。 一个月后，班级根据数据调整了绿化用水安排。储存的雨水优先用于距离 教学楼最近的花坛，避免用小车长距离搬运。系统旁增加了醒目的“非饮 用水”标识，并规定长期无雨后重新使用前要先检查气味、颜色和容器内 部情况。这个试验规模很小，却让学生看到，简单的节水设施同样需要过 滤、标识、维护和数据记录，才能从演示装置变成可管理的工程系统。
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 25 line(s) | confidence=0.997 | in the middle of the page
+    ZH16-01-城市屋顶雨水收集试验 一所职业学院在教学楼屋顶开展了小规模雨水收集试验，目的是让学生观 察降雨、屋面面积和储水量之间的关系。试验系统没有接入生活用水管 网，只为绿化浇灌和设备清洗提供非饮用水。屋顶有效汇水面积约为86平 方米，落水管前端安装了可拆洗滤网，并设置初期弃流装置。2026年6月 18日第一次记录完整降雨过程时，值班学生同时抄录了校内气象站的降雨 量和储水桶液位。 过滤与记录 最初的两次降雨暴露出一个简单问题：滤网上的树叶会明显降低进水速 度。一次12.6毫米的降雨中，理论可收集水量并没有完全进入储水桶，溢 流水反而从屋檐附近排走。维护人员清理滤网后，又在进水口上方加了一 层较粗的拦叶网，使大块杂物在到达细滤网前被截住。修改后的系统在下 一场8.4毫米降雨中运行更稳定，学生也能更清楚地区分“降雨不 足”和“入口受阻”这两种情况。 储水桶外侧标有容量刻度，每次记录都包括起始液位、结束液位、降雨量 和明显的溢流情况。为了避免把蒸发或前一次残留水量误认为本次降雨成 果，课程要求学生按同一时间窗口读取数据。教师还强调，雨量计与屋顶 实际受雨情况并不完全相同，风向、屋面坡度和初期弃流都会造成差异， 因此试验的重点是建立可重复的记录方法，而不是追求某个固定的收集效 率。 一个月后，班级根据数据调整了绿化用水安排。储存的雨水优先用于距离 教学楼最近的花坛，避免用小车长距离搬运。系统旁增加了醒目的“非饮 用水”标识，并规定长期无雨后重新使用前要先检查气味、颜色和容器内 部情况。这个试验规模很小，却让学生看到，简单的节水设施同样需要过 滤、标识、维护和数据记录，才能从演示装置变成可管理的工程系统。
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: new output digits: 86, 18, 2026, 12.6, 8.4
+[STAGE 2] 1 regions, 15 NLLB chunks, chinese -> english: 1.248s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] ZH16-01- Urban rooftop rainfall collection experiment A vocational college conducted a small-scale rainfall collection experiment on the roof of a school building to get students to observe the relationship between rainfall, roof area and water storage. The experimental system does not connect to the residential water supply network and provides non-potable water only for green irrigation and equipment cleaning. The roof has an effective drainage area of about 86 square meters, and a removable flush net has been installed at the front of the falling water pipes, and an initial drainage system has been installed. On June 18, 2026, when the first full rainfall was recorded, the students on duty simultaneously transcribed the rainfall and the water level of the water tank stored at the school's weather station. Filtering and recording the first two rains exposed a simple problem: the leaves on the netting significantly slowed the rate of water entry. In a single 12.6 mm rainfall, theoretically the water collected does not enter the reservoir completely, and the overflow drains away from near the roof. After cleaning the netting, the maintenance crew adds a thicker layer of barrier netting above the inlet to stop the large debris before it reaches the net. The modified system operates more steadily in the next 8.4 mm of rainfall, and students are more aware of the two scenarios of insufficient rainfall in the area and blocked entrance of mud. The outer side of the tank is marked with a capacity mark, and each record includes the initial liquid level, the final liquid level, the amount of rainfall and the apparent overflow conditions. In order to avoid mistaking evaporation or previous residual water for the result of this rainfall, the course requires students to read the data in the same time window. The teacher also emphasized that the rainfall measurement is not exactly the same as the actual rainfall on the roof, and that wind direction, roof slope and initial runoff will all make a difference, so the focus of the experiment is to establish a repeatable recording method, rather than pursuing a fixed collection efficiency. A month later, the class adjusted the green water arrangement based on the data. Stored rainwater is preferred for use in flower beds near the school building, avoiding transportation by small trucks. A distinctive non-drinking water fountain logo was added to the system, and it was stipulated that the smell, color and condition of the container should be checked before re-use after a long period of no rain. This small-scale experiment shows students that even a simple water-saving facility needs filtering, labeling, maintenance, and data recording before it can be transformed from a demonstration device into a manageable engineering system.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.022s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_124653_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_124653_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.172s
+  Translation  : 1.248s
+  Spell Corr   : 0.022s
+  TTS Playback : 96.564s
+────────────────────────────────────────
+  TOTAL        : 99.705s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.27s, edges=none, bandLap=206, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=47, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.58, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=hold_still, rows=8/8, age=0.09s, edges=none, bandLap=158, lineLap=282, lightStd=4.9, belowText=6.9, motion=4.19, stable=0/3
+  [OBS 004] state=almost_ready, rows=23/22, age=0.17s, edges=none, bandLap=197, lineLap=237, lightStd=14.7, belowText=1.0, motion=0.17, stable=1/3
+  [OBS 005] state=almost_ready, rows=23/23, age=0.30s, edges=none, bandLap=1007, lineLap=1137, lightStd=14.4, belowText=1.0, motion=0.92, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=23/23, age=0.22s, edges=none, bandLap=1621, lineLap=2011, lightStd=14.9, belowText=1.0, motion=0.31, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1575.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260916_124835.jpg
+[POST-CAPTURE] LapVar=218.2, score components: sharp=26, bright=30, even=24
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.062s (23 detections, 23 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+ZH16-02-小型无人船的河道测绘练习 某高校测绘社团在一段封闭管理的人工河道内使用小型无人船进行训练。 船体搭载卫星定位模块、测深传感器和低速无线链路，任务是沿预先规划 的航线记录水深变化，而不是进行正式水文调查。训练区长约420米，水 面较平静，两端都设有岸边观察员。下水前，操作员检查螺旋桨、天线和 电池固定带，并确认手动接管开关能够立即停止自动航行。 第一条航线由十六个航点组成，设定速度为每秒1.2米。无人船在开阔水 面上能够稳定跟踪路径，但靠近一处混凝土弯道时出现连续偏移。观察员 没有直接修改测深数据，而是先查看定位状态和船体姿态记录。结果发 现，弯道附近高墙使卫星信号质量下降，同时侧风把船头推向外侧。第二 次航行降低了该区域的速度，并把两个航点向河道中央移动约3米，路径 误差明显减小。 异常点处理 测深数据也需要质量检查。传感器在水草密集位置偶尔给出突然变浅的读 数，与前后点变化不一致。社团成员在地图上保留这些原始点，并用标记 注明“疑似水草反射”，没有直接删除。随后他们从岸边使用带刻度测杆 抽查了三个位置，确认其中两个异常点并不代表真实河床起伏。这个过程 让学生理解，自动采集的数据仍然需要结合环境和独立检查来解释。 训练结束后，所有航迹、深度记录和操作日志按日期归档。报告中特别区 分了“传感器读数”“经现场核查的读数”和“尚未确认的异常值”。社 团计划下一次加入更严格的重复航线测试，以比较同一路径在不同风速下 的差异。此次练习没有追求漂亮的三维图，而是把重点放在安全接管、异 常保留和可追溯的数据处理上。
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 23 line(s) | confidence=1.000 | in the middle of the page
+    ZH16-02-小型无人船的河道测绘练习 某高校测绘社团在一段封闭管理的人工河道内使用小型无人船进行训练。 船体搭载卫星定位模块、测深传感器和低速无线链路，任务是沿预先规划 的航线记录水深变化，而不是进行正式水文调查。训练区长约420米，水 面较平静，两端都设有岸边观察员。下水前，操作员检查螺旋桨、天线和 电池固定带，并确认手动接管开关能够立即停止自动航行。 第一条航线由十六个航点组成，设定速度为每秒1.2米。无人船在开阔水 面上能够稳定跟踪路径，但靠近一处混凝土弯道时出现连续偏移。观察员 没有直接修改测深数据，而是先查看定位状态和船体姿态记录。结果发 现，弯道附近高墙使卫星信号质量下降，同时侧风把船头推向外侧。第二 次航行降低了该区域的速度，并把两个航点向河道中央移动约3米，路径 误差明显减小。 异常点处理 测深数据也需要质量检查。传感器在水草密集位置偶尔给出突然变浅的读 数，与前后点变化不一致。社团成员在地图上保留这些原始点，并用标记 注明“疑似水草反射”，没有直接删除。随后他们从岸边使用带刻度测杆 抽查了三个位置，确认其中两个异常点并不代表真实河床起伏。这个过程 让学生理解，自动采集的数据仍然需要结合环境和独立检查来解释。 训练结束后，所有航迹、深度记录和操作日志按日期归档。报告中特别区 分了“传感器读数”“经现场核查的读数”和“尚未确认的异常值”。社 团计划下一次加入更严格的重复航线测试，以比较同一路径在不同风速下 的差异。此次练习没有追求漂亮的三维图，而是把重点放在安全接管、异 常保留和可追溯的数据处理上。
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: new output digits: 420, 1.2, 3
+[STAGE 2] 1 regions, 18 NLLB chunks, chinese -> english: 1.051s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] ZH16-02- A small unmanned riverboat mapping exercise for a university mapping society using a small unmanned boat for training in a closed managed artificial river. The vessels are equipped with satellite positioning modules, depth sensors and low-speed wireless links, and are tasked with recording depth changes along pre-planned routes, rather than conducting formal hydrological surveys. The training area is about 420 meters long, the water is calm, and there are shore observers at both ends. Before the dive, the operator checks the propeller, antenna and battery fastener and confirms that the manual take-off switch can stop automatically immediately. The first route consists of sixteen runways with a speed of 1.2 m/s. The drones are able to steadily track the path on open water, but there is a continuous deflection when approaching a concrete tunnel. The observer does not directly modify the depth measurement data, but first checks the position and body posture records. The results showed that the high walls near the tunnel reduced the quality of the satellite signal, while the side winds pushed the boat's bow outwards. The second voyage slowed down the area and moved the two points of navigation about 3 meters to the center of the canal, significantly reducing the error of course. Data processing at abnormalities also requires a quality check. The sensor occasionally gives sudden shallow readings in densely watered areas, which are inconsistent with the change in the anterior and posterior dots. The members of the society kept these original points on the map and did not directly delete them, with the markings indicating that the moss is suspected of reflecting water grass moss. They then sampled three locations from the shore using a ribbon gauge, confirming that two of the anomalies did not represent real riverbed swings. This process helps students understand that the data collected automatically still needs to be interpreted in conjunction with environmental and independent checks. At the end of the training, all flight tracks, depth records and operations logs are archived by date. The report specifically distinguishes between lithium sensor readings that have been verified in the field and abnormal values that have not yet been confirmed. The society plans to add a more rigorous repeat route test next time to compare differences in the same route at different wind speeds. This exercise does not seek beautiful 3D graphics, but instead focuses on secure takeover, exception retention and traceable data processing.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.024s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_124837_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_124837_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.062s
+  Translation  : 1.051s
+  Spell Corr   : 0.024s
+  TTS Playback : 57.638s
+────────────────────────────────────────
+  TOTAL        : 60.438s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=18/18, age=0.25s, edges=B, bandLap=940, lineLap=1386, lightStd=5.2, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=look_down, rows=19/19, age=0.16s, edges=B, bandLap=1474, lineLap=2001, lightStd=6.8, belowText=0.0, motion=0.36, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 003] state=look_down, rows=19/19, age=0.08s, edges=B, bandLap=712, lineLap=834, lightStd=7.0, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 004] state=look_down, rows=18/19, age=0.25s, edges=B, bandLap=1336, lineLap=1855, lightStd=6.3, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 005] state=hold_still, rows=14/19, age=0.09s, edges=B, bandLap=254, lineLap=340, lightStd=7.6, belowText=0.0, motion=1.51, stable=0/3
+  [OBS 006] state=blurry, rows=2/19, age=0.08s, edges=none, bandLap=101, lineLap=140, lightStd=1.6, belowText=7.0, motion=0.54, stable=0/3
+  [OBS 007] state=hold_still, rows=22/20, age=0.11s, edges=none, bandLap=591, lineLap=780, lightStd=6.6, belowText=0.7, motion=3.38, stable=0/3
+  [OBS 008] state=almost_ready, rows=22/22, age=0.16s, edges=none, bandLap=988, lineLap=1357, lightStd=6.2, belowText=0.9, motion=0.55, stable=1/3
+  [OBS 009] state=almost_ready, rows=21/22, age=0.17s, edges=none, bandLap=824, lineLap=1101, lightStd=8.3, belowText=1.1, motion=0.26, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 010] state=almost_ready, rows=21/22, age=0.31s, edges=none, bandLap=981, lineLap=1431, lightStd=8.3, belowText=1.1, motion=0.09, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4249.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260916_125224.jpg
+[POST-CAPTURE] LapVar=133.5, score components: sharp=13, bright=30, even=20
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.297s (20 detections, 20 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+ZH16-03-山区自动气象站的冬季维护 现场检查流程 一座山区自动气象站在冬季前进行年度维护。站点海拔约2140米，主要 记录气温、相对湿度、风速、风向和降水。由于冬季道路可能结冰，维护 人员希望在10月底之前完成传感器检查和备用电源测试。到达现场后，工 作人员先拍摄设备整体状态，再查看立杆、拉线和防雷连接是否松动。所 有拆下的螺钉都放入带盖盒中，避免掉入碎石和积雪区域。 风速传感器是本次检查的重点。过去一个月的记录中，有两段时间出现风 速长时间保持不变的现象。现场转动风杯时能感到轻微阻力，拆开防护罩 后发现内部积有细小砂尘。清洁并重新安装后，风杯转动恢复顺畅。工作 人员没有删除原有异常数据，而是在维护日志中标明检查时间和可能原 因，便于后续分析人员判断哪些时段需要谨慎使用。 电源系统由太阳能板、充电控制器和蓄电池组成。中午测试时，面板表面 部分被薄雪覆盖，清理前后的充电电流差异明显。蓄电池静置电压为12.5 V，接入站点负载后仍保持稳定。维护人员同时检查了防水接头和电缆弯曲 处，因为低温会使老化护套更容易开裂。两个出现硬化迹象的扎带被更 换，并在电缆入口处重新固定应力释放。 离站前，团队让气象站连续运行四十分钟，并将实时数据与手持温湿度仪 和便携式风速仪进行简单对照。这个对照不能代替正式校准，但能发现明 量减少已知风险，并让任何后续异常都有清晰的背景记录。
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 20 line(s) | confidence=0.999 | in the middle of the page
+    ZH16-03-山区自动气象站的冬季维护 现场检查流程 一座山区自动气象站在冬季前进行年度维护。站点海拔约2140米，主要 记录气温、相对湿度、风速、风向和降水。由于冬季道路可能结冰，维护 人员希望在10月底之前完成传感器检查和备用电源测试。到达现场后，工 作人员先拍摄设备整体状态，再查看立杆、拉线和防雷连接是否松动。所 有拆下的螺钉都放入带盖盒中，避免掉入碎石和积雪区域。 风速传感器是本次检查的重点。过去一个月的记录中，有两段时间出现风 速长时间保持不变的现象。现场转动风杯时能感到轻微阻力，拆开防护罩 后发现内部积有细小砂尘。清洁并重新安装后，风杯转动恢复顺畅。工作 人员没有删除原有异常数据，而是在维护日志中标明检查时间和可能原 因，便于后续分析人员判断哪些时段需要谨慎使用。 电源系统由太阳能板、充电控制器和蓄电池组成。中午测试时，面板表面 部分被薄雪覆盖，清理前后的充电电流差异明显。蓄电池静置电压为12.5 V，接入站点负载后仍保持稳定。维护人员同时检查了防水接头和电缆弯曲 处，因为低温会使老化护套更容易开裂。两个出现硬化迹象的扎带被更 换，并在电缆入口处重新固定应力释放。 离站前，团队让气象站连续运行四十分钟，并将实时数据与手持温湿度仪 和便携式风速仪进行简单对照。这个对照不能代替正式校准，但能发现明 量减少已知风险，并让任何后续异常都有清晰的背景记录。
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: source digits absent: 5
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: new output digits: 2140, 12.5
+[STAGE 2] 1 regions, 17 NLLB chunks, chinese -> english: 0.923s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] ZH16-03- Winter maintenance on-site inspection process of a mountain automatic weather station An automatic weather station in the mountains performs annual maintenance before winter. The site is located at an altitude of about 2140 meters above sea level and records mainly temperature, relative humidity, wind speed, wind direction and precipitation. Due to the possibility of freezing roads in winter, maintenance workers hope to complete sensor inspection and backup power testing by the end of October. Upon arrival at the site, the staff takes pictures of the overall condition of the equipment and then checks whether the poles, the tow lines and the mine-proof connections are loose. All the torn screws are placed in a ribbon-covered box to avoid falling into debris and snow areas. Wind speed sensors are the focus of this test. In the last month, there have been two periods of sustained winds in the record. A small resistance can be felt when the windshield is turned on the spot, and when the protective cover is removed, it is found that there is a small accumulation of sand dust inside. After cleaning and reinstalling, the windshield rotates back to normal. Staff did not delete the original data of anomalies, but instead indicated the time of inspection and possible reasons in the maintenance logs, allowing subsequent analysts to determine which times should be used with caution. The power system consists of a solar panel, a charging controller and a battery. During the midday test, the panel surface was partially covered in thin snow, clearing the difference in charging current before and after. The battery has a standby voltage of 12.5 V, which remains stable after the access station load. Maintenance workers also inspected the waterproof connections and cable bends, as the low temperatures make the aging protective covers more likely to crack. Two straps showing signs of hardening are replaced and the stress release is re-fixed at the cable entrance. Before leaving the station, the team had the weather station run continuously for forty minutes, and the real-time data was easily compared with handheld thermometers and portable wind speedometers. This comparison does not replace formal calibration, but it does find a clear reduction in known risk and provides a clear background record for any subsequent abnormalities.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.018s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_125226_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_125226_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.297s
+  Translation  : 0.923s
+  Spell Corr   : 0.018s
+  TTS Playback : 87.022s
+────────────────────────────────────────
+  TOTAL        : 89.936s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=17/17, age=0.34s, edges=none, bandLap=1480, lineLap=1986, lightStd=9.7, belowText=0.9, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=16/17, age=0.11s, edges=none, bandLap=1038, lineLap=1495, lightStd=9.7, belowText=0.9, motion=0.12, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=15/17, age=0.08s, edges=none, bandLap=1477, lineLap=1817, lightStd=10.2, belowText=0.9, motion=0.16, stable=3/3
+  [OBS 004] state=almost_ready, rows=15/17, age=0.26s, edges=none, bandLap=1467, lineLap=1816, lightStd=8.8, belowText=0.9, motion=0.02, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #5387.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260916_125404.jpg
+[POST-CAPTURE] LapVar=216.7, score components: sharp=26, bright=30, even=9
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.297s (21 detections, 21 lines, 3 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+ZH12-01-校园照明节能改造的分区测试 一所综合院校准备更换两栋教学楼的走廊照明，但在全面采购之前，后勤部门先选择一个楼层做分 区测试。原有灯具使用时间较长，部分区域照度不均，夜间又常出现整层无人但灯光全开的情况。 试验区被分成普通走廊、楼梯口和自习区三类空间，每类空间分别记录白天、傍晚和夜间的照度与 用电情况。项目要求在降低能耗的同时，不能因为追求节电而造成明显的昏暗区域。 普通走廊安装了高效LED灯具和分组控制，自习区则保留较高照度。楼梯口增加了存在感应器，但 设置了延时关闭，避免人员短暂停留时灯光反复闪烁。调试初期，感应器在一个转角处出现盲区， 学生从侧门进入时有时不能及时触发。技术人员没有简单提高所有传感器的灵敏度，而是改变了其 中一个探头的安装角度，并把检测范围限制在主要通行区域，减少对隔壁房间活动的误触发。 两周运行结果 连续两周记录显示，试验楼层夜间照明用电量比改造前同期下降约31%，但后勤部门没有把这个比 例直接推广到整栋楼。考试周和普通教学周的使用规律不同，天气也会影响白天需要开灯的时间。 为了获得更可比的数据，下一阶段计划保留一层未改造区域作为参考，并在相同课表周期内同步记 录。自习区还增加了问卷二维码，用来收集对亮度和眩光的主观意见。 照度检查使用同一台经过核查的照度计，测点高度和位置保持一致。发现某处低于设计目标时，工 作人员先检查灯具是否被标牌遮挡，再决定是否调整布局。项目同时记录灯具型号、额定功率、安 装日期和控制器编号，便于后续维护时追踪。这样的记录遵免了“节能改造完成后就不再关注”的 情况，因为控制策略和实际使用方式仍可能随着学期变化。试验结束时，后勤部门把结果分成三 类：可以直接复制的安装做法、需要进一步观察的控制参数，以及不适合其他区域的局部方案。最 终采购数量将依据下一轮测试决定。这个过程虽然比一次性更换更慢，却减少了在整栋楼里重复同 一种错误的风险，也为以后评估节能效果留下了清楚的基线。
+============================================================
+
+[REGIONS] Detected 3 text region(s): 0 title, 0 heading(s), 3 paragraph(s)
+  P1 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    ZH12-01-校园照明节能改造的分区测试
+  P2 | type=paragraph | 9 line(s) | confidence=0.995 | in the middle of the page
+    一所综合院校准备更换两栋教学楼的走廊照明，但在全面采购之前，后勤部门先选择一个楼层做分 区测试。原有灯具使用时间较长，部分区域照度不均，夜间又常出现整层无人但灯光全开的情况。 试验区被分成普通走廊、楼梯口和自习区三类空间，每类空间分别记录白天、傍晚和夜间的照度与 用电情况。项目要求在降低能耗的同时，不能因为追求节电而造成明显的昏暗区域。 普通走廊安装了高效LED灯具和分组控制，自习区则保留较高照度。楼梯口增加了存在感应器，但 设置了延时关闭，避免人员短暂停留时灯光反复闪烁。调试初期，感应器在一个转角处出现盲区， 学生从侧门进入时有时不能及时触发。技术人员没有简单提高所有传感器的灵敏度，而是改变了其 中一个探头的安装角度，并把检测范围限制在主要通行区域，减少对隔壁房间活动的误触发。 两周运行结果
+  P3 | type=paragraph | 11 line(s) | confidence=0.997 | in the lower part of the page
+    连续两周记录显示，试验楼层夜间照明用电量比改造前同期下降约31%，但后勤部门没有把这个比 例直接推广到整栋楼。考试周和普通教学周的使用规律不同，天气也会影响白天需要开灯的时间。 为了获得更可比的数据，下一阶段计划保留一层未改造区域作为参考，并在相同课表周期内同步记 录。自习区还增加了问卷二维码，用来收集对亮度和眩光的主观意见。 照度检查使用同一台经过核查的照度计，测点高度和位置保持一致。发现某处低于设计目标时，工 作人员先检查灯具是否被标牌遮挡，再决定是否调整布局。项目同时记录灯具型号、额定功率、安 装日期和控制器编号，便于后续维护时追踪。这样的记录遵免了“节能改造完成后就不再关注”的 情况，因为控制策略和实际使用方式仍可能随着学期变化。试验结束时，后勤部门把结果分成三 类：可以直接复制的安装做法、需要进一步观察的控制参数，以及不适合其他区域的局部方案。最 终采购数量将依据下一轮测试决定。这个过程虽然比一次性更换更慢，却减少了在整栋楼里重复同 一种错误的风险，也为以后评估节能效果留下了清楚的基线。
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 31
+[STAGE 2] 3 regions, 21 NLLB chunks, chinese -> english: 1.282s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] ZH12-01- Campus lighting energy-efficient transformation of district testing
+[P2] A comprehensive school is preparing to replace the corridor lighting in the two-storey school building, but the logistics department has chosen one floor to test the partitioning before the full procurement. There was a long use of lamps, uneven lighting in some areas, and at night there was often a situation where the whole floor was empty but the lights were on. The test area was divided into three categories of space: a common corridor, a stairway and a self-study area, each of which recorded lighting and electricity usage during the day, evening and night. The project requires that, while reducing energy consumption, no conspicuous dark areas can be created in the pursuit of energy savings. Normal corridors are equipped with efficient LED lighting and group controls, while the self-contained area maintains a high illumination. The staircase has an added presence sensor, but a delayed shutdown is set to prevent the lights from flashing repeatedly when personnel are stopped for a short time. In the early stages of the decoy, the sensor appears to have a blind spot at a corner, and students sometimes fail to trigger it in time when entering through a side door. Instead of simply improving the sensitivity of all sensors, the technicians changed the mounting angle of one of the probes and limited the detection range to the main passage area, reducing the mis-triggering of activity in adjacent rooms. Two-week run results
+[P3] For two consecutive weeks, records show that the nighttime lighting consumption on the test floors decreased by about 31% compared to the same period before the renovation, but the logistics department did not directly extend this proportion to the entire building. Exam week and regular school week are different, and the weather also affects the time of day when lights need to be turned on. In order to obtain more comparable data, the next stage is planned to keep an unmodified area as a reference layer and record it in sync during the same class cycle. The self-study area also added a two-dimensional questionnaire code to collect subjective opinions on brightness and fluorescence. The illumination is checked using the same verified illuminator and the height and position of the measuring point are consistent. When a location is found below the design target, the staff first checks whether the lighting is covered by the sign and then decides whether to adjust the layout. The project also records the lamp model, rated power, installation date and controller number for easy tracking during subsequent maintenance. Such records are not considered to be of interest to aluminum once the energy-saving conversion of aluminum is completed, as control strategies and actual usage patterns may still change as the semester progresses. At the end of the trial, the logistics department divided the results into three categories: installation practices that could be directly replicated, control parameters that needed further observation, and local solutions that were not suitable for other areas. The final number of purchases will be decided based on the next round of testing. This process, while slower than a one-time replacement, reduces the risk of repeating the same error throughout the building and provides a clear baseline for later evaluation of energy savings.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.033s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260916_125407_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260916_125407_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.297s
+  Translation  : 1.282s
+  Spell Corr   : 0.033s
+  TTS Playback : 41.521s
+────────────────────────────────────────
+  TOTAL        : 44.819s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=18/18, age=0.44s, edges=none, bandLap=861, lineLap=1024, lightStd=5.4, belowText=0.8, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=hold_still, rows=19/19, age=0.06s, edges=none, bandLap=1084, lineLap=1221, lightStd=6.7, belowText=0.8, motion=1.06, stable=1/3
+  [OBS 003] state=almost_ready, rows=20/20, age=0.08s, edges=none, bandLap=804, lineLap=1116, lightStd=6.7, belowText=0.8, motion=0.45, stable=2/3
+  [OBS 004] state=almost_ready, rows=17/20, age=0.16s, edges=none, bandLap=1234, lineLap=1283, lightStd=10.8, belowText=0.9, motion=0.17, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #5895.
+
+────────────────────────────────────────────────────────────
+  RUN #6
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_006_20260916_125458.jpg
+[POST-CAPTURE] LapVar=114.9, score components: sharp=10, bright=30, even=5
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.156s (21 detections, 21 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+ZH12-02-社区图书馆自助归还系统试运行 一家社区图书馆在入口处安装了自助还书设备，希望在闭馆前后的高峰时段减少服务台排队。设备 通过射频标签识别图书，读者把书放入入口槽后，屏幕会显示识别结果并打印简短凭条。图书馆没 有立即取消人工还书窗口，而是安排四周试运行，对识别成功率、误报警、书箱容量和读者操作时 间进行记录。工作人员每天开馆前先检查设备内部是否有卡书或标签未读取的情况。 操作方式的调整 第一周最常见的问题并不是设备故障，而是读者一次放入多本书。系统虽然允许连续处理，但当三 四本书叠在一起进入时，标签位置不同会增加漏读概率。图书馆随后在入口处增加图示，要求一次 放入一本，并把屏幕提示从长句改成两步短指令。第二周的重复操作明显减少。对于没有射频标签 的旧书，设备会明确提示转交人工窗口，而不是把它们当作未知错误。 还书箱的容量也需要重新估算。原设计按平均书厚计算，但儿童绘本和大型画册会更快占满空间。 一次周末活动后，箱体在预计时间前约50分钟达到警戒线。工作人员根据记录调整了周末清空频 率，并在后台加入80%容量提醒。这个提醒只作为工作提示。仍要求工作人员实际查看箱内堆叠情 况，因为书本倾斜可能影响机械测量。 为了检查账户处理是否一致，技术人员每天随机抽取二十笔自助还书记录，与图书管理系统中的借 阅状态进行核对。发现时间戳不一致时，会保留原始日志并检查网络间步，而不是直接修改读者记 录。试运行第三周曾出现一次短暂断网，设备转入离线缓存模式，网络恢复后再同步。工作人员随 后验证了缓存队列中所有记录是否成功写入。四周结束后，自助设备被保留，但人工窗口仍继续开 放。图书馆认为成功的标准不是完全替代工作人员，而是让简单、标准的还书操作更顺畅，同时为 异常情况保留清听的人工处理路径。试运行形成的日志也成为后续维护依据，包括清箱时间，同络 中断、标签读取失放和读者取消操作等信息。
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 21 line(s) | confidence=0.986 | in the lower part of the page
+    ZH12-02-社区图书馆自助归还系统试运行 一家社区图书馆在入口处安装了自助还书设备，希望在闭馆前后的高峰时段减少服务台排队。设备 通过射频标签识别图书，读者把书放入入口槽后，屏幕会显示识别结果并打印简短凭条。图书馆没 有立即取消人工还书窗口，而是安排四周试运行，对识别成功率、误报警、书箱容量和读者操作时 间进行记录。工作人员每天开馆前先检查设备内部是否有卡书或标签未读取的情况。 操作方式的调整 第一周最常见的问题并不是设备故障，而是读者一次放入多本书。系统虽然允许连续处理，但当三 四本书叠在一起进入时，标签位置不同会增加漏读概率。图书馆随后在入口处增加图示，要求一次 放入一本，并把屏幕提示从长句改成两步短指令。第二周的重复操作明显减少。对于没有射频标签 的旧书，设备会明确提示转交人工窗口，而不是把它们当作未知错误。 还书箱的容量也需要重新估算。原设计按平均书厚计算，但儿童绘本和大型画册会更快占满空间。 一次周末活动后，箱体在预计时间前约50分钟达到警戒线。工作人员根据记录调整了周末清空频 率，并在后台加入80%容量提醒。这个提醒只作为工作提示。仍要求工作人员实际查看箱内堆叠情 况，因为书本倾斜可能影响机械测量。 为了检查账户处理是否一致，技术人员每天随机抽取二十笔自助还书记录，与图书管理系统中的借 阅状态进行核对。发现时间戳不一致时，会保留原始日志并检查网络间步，而不是直接修改读者记 录。试运行第三周曾出现一次短暂断网，设备转入离线缓存模式，网络恢复后再同步。工作人员随 后验证了缓存队列中所有记录是否成功写入。四周结束后，自助设备被保留，但人工窗口仍继续开 放。图书馆认为成功的标准不是完全替代工作人员，而是让简单、标准的还书操作更顺畅，同时为 异常情况保留清听的人工处理路径。试运行形成的日志也成为后续维护依据，包括清箱时间，同络 中断、标签读取失放和读者取消操作等信息。
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: new output digits: 50, 80
+[STAGE 2] 1 regions, 22 NLLB chunks, chinese -> english: 1.086s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] ZH12-02- A community library has installed a self-return device at the entrance of a community library to reduce queues at service desks during peak hours before and after closing. The device identifies the book by means of a radiofrequency tag, and after the reader places the book in the input slot, the screen displays the identification results and prints a short credential. Instead of cancelling the manual return window immediately, the library arranged a four-week trial run to record the success rate of identification, false alarms, bookcase capacity and reader operation time. The staff checks every day before opening the facility for unread cards or labels. The most common problem in the first week of adjusting the operating system is not a device failure, but the reader placing multiple books at once. While the system allows for continuous processing, when three or four books are stacked together, different labeling locations increase the likelihood of misses. The library then added a sign at the entrance, asked to put in one book at a time, and changed the screen prompt from a long sentence to a two-step short instruction. The second week saw a marked decrease in repetition. For older books that do not have RF labels, the device will explicitly prompt to turn over the artificial windows instead of treating them as unknown errors. The capacity of the bookcase also needs to be re-estimated. The original design was based on an average book thickness, but children's drawings and large picture books filled the space faster. After a weekend activity, the tank reached the alert line about 50 minutes before the expected time. Staff adjusted the frequency of the weekend clearance based on the records and added an 80% capacity reminder in the background. This reminder is for work only. Staff are still required to actually inspect the stacking inside the box, as the tilt of the book may affect mechanical measurements. To check for consistency in the accounting process, technicians randomly extract twenty self-refund records per day to check with the borrowing status in the bookkeeping system. When a timestamp is found to be inconsistent, the original logs are kept and network pacing is checked, rather than the reader record being directly modified. During the third week of the trial, there was a brief outage, the device switched to offline caching mode, and the network was restored and synced again. Staff then verified that all records in the cache queue had been successfully written. At the end of the four weeks, the self-help equipment was retained, but the artificial window remained open. The library believes that the criteria for success are not to completely replace the staff, but to make simple, standard book returns work more smoothly, while preserving a clear path for exceptional cases. The logs formed during the trial run also serve as a basis for subsequent maintenance, including information such as check-in times, synchronization interruptions, label read misses, and reader cancellations.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.023s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260916_125501_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260916_125501_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.156s
+  Translation  : 1.086s
+  Spell Corr   : 0.023s
+  TTS Playback : 62.428s
+────────────────────────────────────────
+  TOTAL        : 65.381s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.33s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=almost_ready, rows=16/16, age=0.09s, edges=none, bandLap=232, lineLap=222, lightStd=6.7, belowText=0.9, motion=0.97, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 003] state=blurry, rows=8/15, age=0.14s, edges=none, bandLap=126, lineLap=147, lightStd=7.4, belowText=5.1, motion=0.09, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/15, age=0.11s, edges=none, bandLap=57, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/15, age=0.14s, edges=none, bandLap=64, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.25, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 006] state=almost_ready, rows=20/19, age=0.14s, edges=none, bandLap=175, lineLap=177, lightStd=16.8, belowText=1.3, motion=0.03, stable=1/3
+  [OBS 007] state=almost_ready, rows=20/20, age=0.25s, edges=none, bandLap=182, lineLap=179, lightStd=9.3, belowText=0.9, motion=0.51, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 008] state=almost_ready, rows=19/20, age=0.31s, edges=none, bandLap=235, lineLap=232, lightStd=8.4, belowText=1.1, motion=0.07, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #6692.
+
+────────────────────────────────────────────────────────────
+  RUN #7
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_007_20260916_125616.jpg
+[POST-CAPTURE] LapVar=34.0, score components: sharp=0, bright=30, even=4
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (34.0 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=12/12, age=0.36s, edges=B, bandLap=664, lineLap=878, lightStd=6.1, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/12, age=0.06s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.80, stable=0/3
+  [OBS 003] state=blurry, rows=9/12, age=0.12s, edges=none, bandLap=122, lineLap=119, lightStd=6.1, belowText=7.1, motion=1.12, stable=0/3
+  [OBS 004] state=blurry, rows=12/12, age=0.11s, edges=none, bandLap=155, lineLap=171, lightStd=7.5, belowText=5.1, motion=1.39, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 005] state=almost_ready, rows=20/18, age=0.22s, edges=none, bandLap=117, lineLap=164, lightStd=7.1, belowText=0.9, motion=0.65, stable=1/3
+  [OBS 006] state=almost_ready, rows=20/20, age=0.11s, edges=none, bandLap=164, lineLap=196, lightStd=7.0, belowText=1.1, motion=0.88, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 007] state=almost_ready, rows=20/20, age=0.11s, edges=none, bandLap=676, lineLap=930, lightStd=7.3, belowText=1.0, motion=0.29, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #6861.
+
+────────────────────────────────────────────────────────────
+  RUN #8
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_008_20260916_125630.jpg
+[POST-CAPTURE] LapVar=98.9, score components: sharp=7, bright=30, even=18
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (98.9 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.30s, edges=none, bandLap=448, lineLap=551, lightStd=7.7, belowText=0.9, motion=0.00, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 002] state=hold_still, rows=0/20, age=0.14s, edges=none, bandLap=19, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.25, stable=0/3
+  [OBS 003] state=almost_ready, rows=19/20, age=0.09s, edges=none, bandLap=655, lineLap=835, lightStd=8.7, belowText=1.5, motion=0.10, stable=1/3
+  [OBS 004] state=almost_ready, rows=20/20, age=0.23s, edges=none, bandLap=1044, lineLap=1341, lightStd=8.3, belowText=1.6, motion=0.45, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 005] state=almost_ready, rows=20/20, age=0.09s, edges=none, bandLap=1291, lineLap=1648, lightStd=8.1, belowText=1.6, motion=0.05, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #6942.
+
+────────────────────────────────────────────────────────────
+  RUN #9
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_009_20260916_125636.jpg
+[POST-CAPTURE] LapVar=144.1, score components: sharp=15, bright=30, even=18
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.266s (20 detections, 20 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+ZH12-03-海边风机叶片的定期巡检记录 沿海试验场的一台小型风力机需要进行季度巡检。设备长期暴露在盐雾、强风和砂粒环境中，叶片 表面容易出现细小侵蚀。维护团队选择在风速较低的早晨停机检查，并按照锁定程序切断自动启动 功能。地面人员先确认叶轮完全停止，再使用望远镜和高分辨率相机观察三片叶片的前缘、根部和 排水孔。当天环境温度约23℃，平均风速低于4m/s。 与上一次记录相比，第二片叶片靠近尖端的位置出现一条约38毫米长的浅色磨损带。照片显示损 伤仍局限在表面涂层，没有看到明显裂纹。团队用同一拍摄角度和比例尺重新记录该区域，并在维 护图上标出位置。为了避免把光照反射误认为损伤，检查人员又从不同方向拍摄两张照片。三组图 像都能看到相同边界后，该点才被列入跟踪清单。 叶片根部的紧固区域没有发现松动迹象，但一个排水孔周围有盐结晶。技术人员使用规定的软工具 清理表面，没有扩大孔径。机舱外壳和电缆入口也同时检查，因为海边环境中的水汽可能从多个位 置进入。控制柜内的湿度指示片仍处于正常范围，接线端子没有明显变色。维护人员记录了这 些“未发现异常”的项目，避免下一次巡检无法判断某处是否曾经被检查。 恢复运行与复查条件 巡检完成后，风机以低转速恢复运行十五分钟。监控系统中的振动和转速曲线与停机前没有明显差 异。团队没有因此取消对叶尖磨损的后续观察，而是把复查时间设为六周后，并规定如果磨损长度 增长超过10毫米或出现裂纹，就提前安排更详细检查。这样可以在不过度维修的情况下保持明确 的触发条件。最终记录包括停机时间、天气条件、照片编号、检查项目和待办事项。所有照片保留 原始文件，不在归档版本中进行会改变细节的锐化处理。季度巡检的价值不仅在于发现问题，也在 于建立连续证据，使维护人员能够判断一个表面变化是稳定、缓慢发展还是需要立即处理。
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    ZH12-03-海边风机叶片的定期巡检记录
+  P1 | type=paragraph | 19 line(s) | confidence=0.998 | in the upper part of the page
+    沿海试验场的一台小型风力机需要进行季度巡检。设备长期暴露在盐雾、强风和砂粒环境中，叶片 表面容易出现细小侵蚀。维护团队选择在风速较低的早晨停机检查，并按照锁定程序切断自动启动 功能。地面人员先确认叶轮完全停止，再使用望远镜和高分辨率相机观察三片叶片的前缘、根部和 排水孔。当天环境温度约23℃，平均风速低于4m/s。 与上一次记录相比，第二片叶片靠近尖端的位置出现一条约38毫米长的浅色磨损带。照片显示损 伤仍局限在表面涂层，没有看到明显裂纹。团队用同一拍摄角度和比例尺重新记录该区域，并在维 护图上标出位置。为了避免把光照反射误认为损伤，检查人员又从不同方向拍摄两张照片。三组图 像都能看到相同边界后，该点才被列入跟踪清单。 叶片根部的紧固区域没有发现松动迹象，但一个排水孔周围有盐结晶。技术人员使用规定的软工具 清理表面，没有扩大孔径。机舱外壳和电缆入口也同时检查，因为海边环境中的水汽可能从多个位 置进入。控制柜内的湿度指示片仍处于正常范围，接线端子没有明显变色。维护人员记录了这 些“未发现异常”的项目，避免下一次巡检无法判断某处是否曾经被检查。 恢复运行与复查条件 巡检完成后，风机以低转速恢复运行十五分钟。监控系统中的振动和转速曲线与停机前没有明显差 异。团队没有因此取消对叶尖磨损的后续观察，而是把复查时间设为六周后，并规定如果磨损长度 增长超过10毫米或出现裂纹，就提前安排更详细检查。这样可以在不过度维修的情况下保持明确 的触发条件。最终记录包括停机时间、天气条件、照片编号、检查项目和待办事项。所有照片保留 原始文件，不在归档版本中进行会改变细节的锐化处理。季度巡检的价值不仅在于发现问题，也在 于建立连续证据，使维护人员能够判断一个表面变化是稳定、缓慢发展还是需要立即处理。
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: new output digits: 23, 4, 38, 10
+[STAGE 2] 2 regions, 23 NLLB chunks, chinese -> english: 1.140s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] ZH12-03- Regular patrol records of offshore fan blades
+[P1] A small wind turbine at a coastal test site needs quarterly patrol. Long-term exposure to salt fog, strong winds and sand particles can lead to minor erosion of the surface of the leaf. The maintenance team chooses to check the shutdown in the morning at a low wind speed and disconnect the auto-start function according to the locking procedure. The ground crew first confirms that the leaflet has completely stopped, and then uses telescopes and high-resolution cameras to observe the front edges, roots and drainage holes of the three leaflets. The daytime ambient temperature is about 23°C, with an average wind speed of less than 4 m/s. Compared to the previous record, the second leaf has a light-colored stripe of abrasion 38 mm long near the tip of the leaf. The photos show that the damage is still limited to the surface coating, with no visible cracks. The team re-recorded the area with the same angle and scale and marked the location on the maintenance map. In order to avoid mistaking the light reflection for damage, the inspector took two more photographs from different directions. When all three sets of images see the same boundary, the point is added to the tracking list. The tight areas of the leaf roots show no signs of loosening, but one drainage hole is surrounded by salt crystals. The technician uses the specified soft tools to clean the surface without enlarging the porosity. The cabin shell and cable entrances are also checked at the same time, as water vapour in the seaward environment may enter from multiple locations. The humidity indicator in the control cabinet is still in the normal range, and there is no noticeable discoloration of the wiring terminals. Maintenance personnel recorded the items where no abnormal leaks were found, so that the next inspection would not be able to determine if something had been inspected. After the restoration of operation and the review of conditions, the fan was restored to low speed for fifteen minutes. Vibration and speed curves in the monitoring system did not differ significantly from before the shutdown. The team did not cancel the follow-up observation of the leaf tip wear as a result, but instead set the review time to six weeks later and stipulated that more detailed examinations should be scheduled in advance if the wear length increases by more than 10 mm or if cracks occur. This allows for clear trigger conditions to be maintained without excessive maintenance. The final record includes downtime, weather conditions, photo numbering, check items and pending items. All photos retain their original file and are not subject to incubation which would alter the details in the archived version. The value of a quarterly patrol is not only in discovering problems, but also in establishing continuous evidence that enables maintenance personnel to judge whether a surface change is stable, slow-moving or needs immediate treatment.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.028s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_009_20260916_125639_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_009_20260916_125639_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.266s
+  Translation  : 1.140s
+  Spell Corr   : 0.028s
+  TTS Playback : 69.697s
+────────────────────────────────────────
+  TOTAL        : 72.806s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=8/8, age=0.48s, edges=none, bandLap=45, lineLap=94, lightStd=7.3, belowText=0.9, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=8/8, age=0.11s, edges=none, bandLap=58, lineLap=145, lightStd=8.2, belowText=1.0, motion=0.99, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=almost_ready, rows=8/8, age=0.08s, edges=none, bandLap=487, lineLap=1007, lightStd=8.4, belowText=0.9, motion=0.07, stable=1/3
+  [OBS 004] state=almost_ready, rows=8/8, age=0.16s, edges=none, bandLap=357, lineLap=801, lightStd=8.0, belowText=0.9, motion=0.88, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 005] state=hold_still, rows=5/8, age=0.23s, edges=none, bandLap=250, lineLap=429, lightStd=9.1, belowText=1.0, motion=0.56, stable=2/3
+  [OBS 006] state=almost_ready, rows=7/8, age=0.31s, edges=none, bandLap=687, lineLap=1435, lightStd=8.7, belowText=1.1, motion=0.58, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #7881.
+
+────────────────────────────────────────────────────────────
+  RUN #10
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_010_20260916_125756.jpg
+[POST-CAPTURE] LapVar=57.7, score components: sharp=1, bright=30, even=24
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (57.7 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=8/8, age=0.28s, edges=none, bandLap=304, lineLap=586, lightStd=7.3, belowText=1.0, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=hold_still, rows=4/8, age=0.08s, edges=none, bandLap=501, lineLap=1008, lightStd=7.0, belowText=1.2, motion=0.05, stable=1/3
+  [OBS 003] state=almost_ready, rows=7/8, age=0.16s, edges=none, bandLap=612, lineLap=1410, lightStd=7.7, belowText=1.1, motion=0.52, stable=2/3
+  [OBS 004] state=almost_ready, rows=8/8, age=0.45s, edges=none, bandLap=835, lineLap=1464, lightStd=7.8, belowText=1.1, motion=0.27, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #7964.
+
+────────────────────────────────────────────────────────────
+  RUN #11
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_011_20260916_125801.jpg
+[POST-CAPTURE] LapVar=99.7, score components: sharp=7, bright=30, even=22
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (99.7 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=8/8, age=0.41s, edges=none, bandLap=895, lineLap=2067, lightStd=7.2, belowText=1.1, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=8/8, age=0.08s, edges=none, bandLap=461, lineLap=1075, lightStd=7.3, belowText=1.1, motion=0.05, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 003] state=hold_still, rows=7/8, age=0.06s, edges=none, bandLap=149, lineLap=334, lightStd=7.3, belowText=1.2, motion=1.02, stable=2/3
+  [OBS 004] state=almost_ready, rows=8/8, age=0.16s, edges=none, bandLap=710, lineLap=1304, lightStd=7.6, belowText=1.3, motion=0.22, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #7994.
+
+────────────────────────────────────────────────────────────
+  RUN #12
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_012_20260916_125805.jpg
+[POST-CAPTURE] LapVar=111.2, score components: sharp=9, bright=30, even=23
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.063s (28 detections, 9 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。 区域 用水量(L) 初始含水率 结束含水率 变化 A区 18.5 21.4% 29.8% 8.4% 7.9% B区 17.9 22.1% 30.0% C区 19.2 20.8% 28.6% 7.8% D区 18.1 21.7% 29.1% 7.4%
+============================================================
+
+[REGIONS] Detected 2 text region(s): 0 title, 0 heading(s), 2 paragraph(s)
+  P1 | type=paragraph | 6 line(s) | confidence=0.999 | in the upper part of the page
+    TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。 区域 用水量(L) 初始含水率 结束含水率 变化 A区 18.5 21.4% 29.8% 8.4% 7.9%
+  P2 | type=paragraph | 3 line(s) | confidence=1.000 | in the middle of the page
+    B区 17.9 22.1% 30.0% C区 19.2 20.8% 28.6% 7.8% D区 18.1 21.7% 29.1% 7.4%
+[STAGE 2] 2 regions, 3 NLLB chunks, chinese -> english: 0.546s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] TABLE-ZH16 - Greenhouse Irrigation Efficiency Record The following table lists the change in water use and soil moisture content of the four test areas after the same irrigation to check if the valve settings are consistent. Regional water use ((L) Initial water content end water content change Area A 18.5 21.4% 29.8% 8.4% 7.9%
+[P2] Area B 17.9 22.1% 30.0% Area C 19.2 20.8% 28.6% 7.8% Area D 18.1 21.7% 29.1% 7.4%
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.000s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_012_20260916_125807_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_012_20260916_125807_ocr.txt
+[STAGE 2] 1 regions, 1 NLLB chunks, chinese -> english: 0.416s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.063s
+  Translation  : 0.546s
+  Spell Corr   : 0.000s
+  TTS Playback : 50.544s
+────────────────────────────────────────
+  TOTAL        : 52.827s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=8/8, age=0.39s, edges=none, bandLap=115, lineLap=180, lightStd=5.1, belowText=0.9, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=hold_still, rows=3/8, age=0.08s, edges=none, bandLap=368, lineLap=1121, lightStd=4.8, belowText=0.9, motion=4.05, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 003] state=hold_still, rows=3/7, age=0.08s, edges=none, bandLap=396, lineLap=776, lightStd=6.1, belowText=1.1, motion=0.92, stable=1/3
+  [GUIDANCE] Hold still.
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 004] state=hold_still, rows=3/7, age=0.11s, edges=none, bandLap=261, lineLap=820, lightStd=5.2, belowText=1.0, motion=0.44, stable=1/3
+  [STABLE HOLD] One soft failure retained; 0/3 good frames remain.
+  [OBS 005] state=hold_still, rows=3/6, age=0.12s, edges=none, bandLap=176, lineLap=628, lightStd=5.7, belowText=1.0, motion=0.77, stable=0/3
+  [OBS 006] state=hold_still, rows=4/6, age=0.25s, edges=none, bandLap=457, lineLap=1264, lightStd=5.2, belowText=1.1, motion=0.13, stable=0/3
+  [OBS 007] state=almost_ready, rows=5/6, age=0.22s, edges=none, bandLap=472, lineLap=1533, lightStd=6.0, belowText=1.1, motion=0.32, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 008] state=hold_still, rows=4/6, age=0.06s, edges=none, bandLap=445, lineLap=1087, lightStd=7.2, belowText=1.1, motion=0.31, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 009] state=hold_still, rows=4/6, age=0.06s, edges=none, bandLap=364, lineLap=834, lightStd=6.8, belowText=1.1, motion=0.08, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 010] state=hold_still, rows=3/5, age=0.22s, edges=none, bandLap=481, lineLap=1293, lightStd=5.4, belowText=1.1, motion=0.15, stable=1/3
+  [GUIDANCE] Hold still.
+
+────────────────────────────────────────────────────────────
+  RUN #13
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_013_20260916_125920.jpg
+[POST-CAPTURE] LapVar=69.8, score components: sharp=3, bright=30, even=20
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (69.8 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=3/3, age=0.17s, edges=none, bandLap=373, lineLap=847, lightStd=5.3, belowText=1.1, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=4/4, age=0.30s, edges=none, bandLap=158, lineLap=461, lightStd=6.3, belowText=1.1, motion=0.26, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=3/4, age=0.31s, edges=none, bandLap=441, lineLap=1101, lightStd=6.0, belowText=1.1, motion=0.67, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #8962.
+
+────────────────────────────────────────────────────────────
+  RUN #14
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_014_20260916_125924.jpg
+[POST-CAPTURE] LapVar=37.9, score components: sharp=0, bright=30, even=23
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (37.9 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=4/4, age=0.27s, edges=none, bandLap=473, lineLap=1230, lightStd=6.7, belowText=1.2, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=4/4, age=0.09s, edges=none, bandLap=321, lineLap=780, lightStd=5.8, belowText=1.1, motion=0.10, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=4/4, age=0.08s, edges=none, bandLap=456, lineLap=1282, lightStd=6.8, belowText=1.2, motion=0.11, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #8998.
+
+────────────────────────────────────────────────────────────
+  RUN #15
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_015_20260916_125927.jpg
+[POST-CAPTURE] LapVar=85.8, score components: sharp=5, bright=30, even=19
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (85.8 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=3/3, age=0.27s, edges=none, bandLap=242, lineLap=612, lightStd=7.0, belowText=1.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=4/4, age=0.08s, edges=none, bandLap=521, lineLap=1214, lightStd=7.1, belowText=1.0, motion=0.27, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=4/4, age=0.08s, edges=none, bandLap=527, lineLap=1205, lightStd=6.4, belowText=1.0, motion=0.24, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #9074.
+
+────────────────────────────────────────────────────────────
+  RUN #16
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_016_20260916_125932.jpg
+[POST-CAPTURE] LapVar=69.0, score components: sharp=3, bright=30, even=19
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (69.0 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_up, rows=3/3, age=0.33s, edges=T, bandLap=322, lineLap=630, lightStd=3.9, belowText=1.1, motion=0.00, stable=0/3
+  [OBS 002] state=look_up, rows=4/4, age=0.11s, edges=T, bandLap=714, lineLap=1849, lightStd=4.0, belowText=1.2, motion=0.23, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 003] state=look_up, rows=4/4, age=0.11s, edges=T, bandLap=652, lineLap=1494, lightStd=3.4, belowText=1.1, motion=0.09, stable=0/3
+  [OBS 004] state=look_up, rows=4/4, age=0.12s, edges=T, bandLap=705, lineLap=1673, lightStd=3.7, belowText=1.1, motion=0.17, stable=0/3
+  [OBS 005] state=almost_ready, rows=4/4, age=0.16s, edges=none, bandLap=244, lineLap=645, lightStd=4.4, belowText=1.1, motion=0.51, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 006] state=hold_still, rows=3/4, age=0.19s, edges=none, bandLap=636, lineLap=1501, lightStd=4.5, belowText=1.1, motion=0.72, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 007] state=hold_still, rows=3/4, age=0.25s, edges=none, bandLap=553, lineLap=1237, lightStd=4.6, belowText=1.1, motion=0.13, stable=1/3
+  [GUIDANCE] Hold still.
+  [OBS 008] state=almost_ready, rows=6/5, age=0.23s, edges=none, bandLap=181, lineLap=449, lightStd=5.0, belowText=1.0, motion=0.12, stable=2/3
+  [OBS 009] state=almost_ready, rows=8/6, age=0.08s, edges=none, bandLap=475, lineLap=1095, lightStd=6.2, belowText=1.1, motion=0.09, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 010] state=almost_ready, rows=8/8, age=0.16s, edges=none, bandLap=604, lineLap=1124, lightStd=6.4, belowText=1.1, motion=0.03, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #9191.
+
+────────────────────────────────────────────────────────────
+  RUN #17
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_017_20260916_125941.jpg
+[POST-CAPTURE] LapVar=73.6, score components: sharp=3, bright=30, even=18
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (73.6 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=4/4, age=0.33s, edges=none, bandLap=280, lineLap=343, lightStd=4.1, belowText=1.2, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=4/4, age=0.14s, edges=none, bandLap=149, lineLap=296, lightStd=4.3, belowText=1.2, motion=0.28, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 003] state=hold_still, rows=4/4, age=0.09s, edges=T, bandLap=416, lineLap=914, lightStd=3.2, belowText=1.3, motion=1.64, stable=0/3
+  [OBS 004] state=hold_still, rows=2/4, age=0.23s, edges=none, bandLap=511, lineLap=1149, lightStd=3.3, belowText=1.3, motion=0.28, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 005] state=look_up, rows=2/4, age=0.19s, edges=T, bandLap=667, lineLap=1544, lightStd=3.8, belowText=1.3, motion=0.06, stable=0/3
+  [OBS 006] state=look_up, rows=3/4, age=0.11s, edges=T, bandLap=622, lineLap=1552, lightStd=3.0, belowText=1.3, motion=0.15, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 007] state=look_up, rows=2/4, age=0.09s, edges=T, bandLap=579, lineLap=1429, lightStd=3.1, belowText=1.3, motion=0.06, stable=0/3
+  [OBS 008] state=hold_still, rows=2/4, age=0.31s, edges=none, bandLap=673, lineLap=1591, lightStd=1.8, belowText=1.2, motion=0.06, stable=0/3
+  [OBS 009] state=look_up, rows=2/4, age=0.27s, edges=T, bandLap=301, lineLap=738, lightStd=2.7, belowText=1.2, motion=0.11, stable=0/3
+  [OBS 010] state=almost_ready, rows=8/4, age=0.17s, edges=none, bandLap=317, lineLap=623, lightStd=3.4, belowText=1.2, motion=0.80, stable=1/3
+  [OBS 011] state=almost_ready, rows=8/8, age=0.17s, edges=none, bandLap=454, lineLap=939, lightStd=3.5, belowText=1.3, motion=0.27, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 012] state=almost_ready, rows=8/8, age=0.12s, edges=none, bandLap=373, lineLap=698, lightStd=4.7, belowText=1.2, motion=0.31, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #9331.
+
+────────────────────────────────────────────────────────────
+  RUN #18
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_018_20260916_125953.jpg
+[POST-CAPTURE] LapVar=58.0, score components: sharp=1, bright=30, even=17
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (58.0 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=8/8, age=0.28s, edges=none, bandLap=75, lineLap=91, lightStd=14.5, belowText=1.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=8/8, age=0.08s, edges=none, bandLap=121, lineLap=234, lightStd=14.1, belowText=1.1, motion=2.66, stable=0/3
+  [OBS 003] state=hold_still, rows=8/8, age=0.12s, edges=none, bandLap=117, lineLap=181, lightStd=9.5, belowText=1.0, motion=2.79, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=almost_ready, rows=8/8, age=0.27s, edges=none, bandLap=256, lineLap=392, lightStd=10.4, belowText=1.3, motion=0.31, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 005] state=hold_still, rows=8/8, age=0.25s, edges=none, bandLap=185, lineLap=297, lightStd=11.1, belowText=1.3, motion=1.06, stable=1/3
+  [OBS 006] state=almost_ready, rows=8/8, age=0.12s, edges=none, bandLap=216, lineLap=529, lightStd=11.0, belowText=1.2, motion=0.41, stable=2/3
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 007] state=blurry, rows=8/8, age=0.08s, edges=none, bandLap=122, lineLap=102, lightStd=10.8, belowText=1.3, motion=0.34, stable=2/3
+  [OBS 008] state=almost_ready, rows=8/8, age=0.12s, edges=none, bandLap=339, lineLap=713, lightStd=11.6, belowText=1.3, motion=0.07, stable=2/3
+  [OBS 009] state=almost_ready, rows=8/8, age=0.11s, edges=none, bandLap=385, lineLap=676, lightStd=11.2, belowText=1.3, motion=0.06, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #9455.
+
+────────────────────────────────────────────────────────────
+  RUN #19
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_019_20260916_130002.jpg
+[POST-CAPTURE] LapVar=47.9, score components: sharp=0, bright=30, even=2
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (47.9 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.48s, edges=none, bandLap=61, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.17s, edges=none, bandLap=49, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.35, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=39, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.88, stable=0/3
+  [OBS 004] state=blurry, rows=6/6, age=0.14s, edges=none, bandLap=98, lineLap=195, lightStd=9.8, belowText=0.9, motion=2.51, stable=0/3
+  [OBS 005] state=almost_ready, rows=4/4, age=0.22s, edges=none, bandLap=373, lineLap=804, lightStd=10.7, belowText=1.0, motion=0.63, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 006] state=hold_still, rows=3/4, age=0.20s, edges=none, bandLap=402, lineLap=878, lightStd=9.1, belowText=1.0, motion=0.10, stable=1/3
+  [OBS 007] state=almost_ready, rows=3/4, age=0.31s, edges=none, bandLap=381, lineLap=1000, lightStd=9.7, belowText=1.0, motion=0.13, stable=2/3
+  [OBS 008] state=almost_ready, rows=3/4, age=0.28s, edges=none, bandLap=402, lineLap=984, lightStd=10.0, belowText=1.0, motion=0.13, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #9526.
+
+────────────────────────────────────────────────────────────
+  RUN #20
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_020_20260916_130010.jpg
+[POST-CAPTURE] LapVar=60.5, score components: sharp=1, bright=30, even=16
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (60.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.39s, edges=none, bandLap=135, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=26, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.68, stable=0/3
+  [OBS 003] state=blurry, rows=8/8, age=0.11s, edges=none, bandLap=45, lineLap=92, lightStd=9.5, belowText=0.7, motion=0.06, stable=0/3
+  [OBS 004] state=blurry, rows=4/4, age=0.14s, edges=none, bandLap=104, lineLap=169, lightStd=7.5, belowText=0.8, motion=0.36, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 005] state=blurry, rows=3/3, age=0.12s, edges=none, bandLap=58, lineLap=91, lightStd=8.8, belowText=0.8, motion=0.99, stable=0/3
+  [OBS 006] state=blurry, rows=3/3, age=0.23s, edges=none, bandLap=46, lineLap=72, lightStd=7.9, belowText=0.8, motion=0.07, stable=0/3
+  [OBS 007] state=almost_ready, rows=3/3, age=0.30s, edges=none, bandLap=483, lineLap=1006, lightStd=7.1, belowText=0.9, motion=0.05, stable=1/3
+  [OBS 008] state=almost_ready, rows=3/3, age=0.08s, edges=none, bandLap=348, lineLap=645, lightStd=6.4, belowText=0.8, motion=0.36, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 009] state=almost_ready, rows=3/3, age=0.12s, edges=none, bandLap=469, lineLap=956, lightStd=5.5, belowText=0.9, motion=0.42, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #9653.
+
+────────────────────────────────────────────────────────────
+  RUN #21
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_021_20260916_130019.jpg
+[POST-CAPTURE] LapVar=68.9, score components: sharp=3, bright=30, even=19
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (68.9 < 100).

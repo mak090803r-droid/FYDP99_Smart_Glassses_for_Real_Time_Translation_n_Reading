@@ -1,0 +1,243 @@
+======================================================================
+RUN          : 4
+TIMESTAMP    : 20260914_144005
+IMAGE FILE   : capture_cli_004_20260914_144002.jpg
+LANGUAGE     : french
+TEXT REGIONS : 30
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 29
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+CAE-F-10-04 Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages PROJECT REPORT / PAPER (SURVEY/ RESEARCH) EVALUATION PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR STUDENT ADVISOR/CO-ADVISOR/EVALUATOR Name: Name: Pak No: Rank: Course: Semester No: Project Title: Score Weighted PLO PLO PLO Title Description / Sub Categories Weightage (1-10) Score Score Analysis of requirements. problem 2 Problem Analysis formulation and quality of (proposed) X3 solution Literature survey / comparative analysis of 4 Investigation the solution vis-à-vis state-of-the-art X5 techniques/designs Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research Communication paper (graphs / plots. data presented X5 10(a) (Written) references etc.) Formatting of report / survey paper / X2 research paper Total Weights = 220 ∑Weighted Score TotalScore(%)= x100= ∑ Weights E Weighted Score for PLO ×100= PLO Score (%) = ∑Weights forPLO Remarks:
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.13 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=20.50 | bbox=(665, 66, 831, 92)
+  SOURCE    : CAE-F-10-04
+  LAYOUT LINES:
+    L01 | bbox=(669, 70, 827, 108) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=31.01 | font_scale=1.13 | heading=ordinary_text | decision=start_of_page | text=CAE-F-10-04
+  TRANSLATED: CAE-F-10-04
+  SPOKEN    : CAE-F-10-04
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=1 | conf=0.991 | font_scale=0.83 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(945, 92, 1505, 115)
+  SOURCE    : Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages
+  LAYOUT LINES:
+    L01 | bbox=(949, 81, 1501, 111) | pitch=7.00 | gap_ratio=0.34 | indent=215.00 | font_height=24.50 | font_scale=0.83 | heading=ordinary_text | decision=column_change | text=Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages
+  TRANSLATED: Revised edition No. 3 The date. 09.06.2026 Page 1 of 2
+  SPOKEN    : Revised edition No. 3 The date. 09.06.2026 Page 1 of 2
+------------------------------------------------------------
+TITLE | region_id=3 | type=page_title | lines=1 | conf=0.967 | font_scale=1.38 | heading_evidence=very_large_font_plus_spacing | break=heading | normal_pitch=20.50 | bbox=(719, 132, 1484, 172)
+  SOURCE    : PROJECT REPORT / PAPER (SURVEY/ RESEARCH) EVALUATION
+  LAYOUT LINES:
+    L01 | bbox=(723, 136, 1480, 177) | pitch=60.50 | gap_ratio=2.95 | indent=32.00 | font_height=38.00 | font_scale=1.38 | heading=very_large_font_plus_spacing | decision=heading | text=PROJECT REPORT / PAPER (SURVEY/ RESEARCH) EVALUATION
+  TRANSLATED: This is the first time that the European Commission has been involved in an evaluation of a project.
+  SPOKEN    : This is the first time that the European Commission has been involved in an evaluation of a project.
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.24 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=20.50 | bbox=(741, 172, 1463, 208)
+  SOURCE    : PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR
+  LAYOUT LINES:
+    L01 | bbox=(745, 169, 1459, 204) | pitch=30.00 | gap_ratio=1.46 | indent=-342.00 | font_height=34.00 | font_scale=1.24 | heading=ordinary_text | decision=after_heading | text=PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR
+  TRANSLATED: Proforma for use by advisor/co-advisor/evaluator
+  SPOKEN    : Proforma for use by advisor/co-advisor/evaluator
+------------------------------------------------------------
+P4 | region_id=5 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.97 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(633, 221, 752, 240)
+  SOURCE    : STUDENT
+  LAYOUT LINES:
+    L01 | bbox=(637, 225, 748, 253) | pitch=52.50 | gap_ratio=2.56 | indent=-5.50 | font_height=28.00 | font_scale=0.97 | heading=ordinary_text | decision=column_change | text=STUDENT
+  TRANSLATED: The student
+  SPOKEN    : The student
+------------------------------------------------------------
+P5 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.02 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1082, 240, 1477, 254)
+  SOURCE    : ADVISOR/CO-ADVISOR/EVALUATOR
+  LAYOUT LINES:
+    L01 | bbox=(1086, 226, 1473, 257) | pitch=2.50 | gap_ratio=0.12 | indent=-5.00 | font_height=27.00 | font_scale=1.02 | heading=ordinary_text | decision=column_change | text=ADVISOR/CO-ADVISOR/EVALUATOR
+  TRANSLATED: The Commission shall be empowered to adopt delegated acts in accordance with Article 290 concerning:
+  SPOKEN    : The Commission shall be empowered to adopt delegated acts in accordance with Article 290 concerning:
+------------------------------------------------------------
+P6 | region_id=7 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.84 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(638, 254, 724, 270)
+  SOURCE    : Name:
+  LAYOUT LINES:
+    L01 | bbox=(642, 256, 720, 279) | pitch=26.00 | gap_ratio=1.27 | indent=-2.50 | font_height=23.00 | font_scale=0.84 | heading=ordinary_text | decision=column_change | text=Name:
+  TRANSLATED: Name:
+  SPOKEN    : Name:
+------------------------------------------------------------
+P7 | region_id=8 | type=paragraph | lines=1 | conf=0.999 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1084, 270, 1163, 284)
+  SOURCE    : Name:
+  LAYOUT LINES:
+    L01 | bbox=(1088, 259, 1159, 286) | pitch=5.00 | gap_ratio=0.24 | indent=-6.00 | font_height=25.02 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=Name:
+  TRANSLATED: Name:
+  SPOKEN    : Name:
+------------------------------------------------------------
+P8 | region_id=9 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.93 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(639, 284, 740, 298)
+  SOURCE    : Pak No:
+  LAYOUT LINES:
+    L01 | bbox=(643, 282, 736, 307) | pitch=22.00 | gap_ratio=1.07 | indent=-5.00 | font_height=25.00 | font_scale=0.93 | heading=ordinary_text | decision=column_change | text=Pak No:
+  TRANSLATED: Pack number:
+  SPOKEN    : Pack number:
+------------------------------------------------------------
+P9 | region_id=10 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1090, 298, 1161, 312)
+  SOURCE    : Rank:
+  LAYOUT LINES:
+    L01 | bbox=(1094, 288, 1157, 314) | pitch=6.50 | gap_ratio=0.32 | indent=395.00 | font_height=26.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Rank:
+  TRANSLATED: Rank one:
+  SPOKEN    : Rank one:
+------------------------------------------------------------
+P10 | region_id=11 | type=paragraph | lines=3 | conf=0.997 | font_scale=1.14 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(642, 312, 807, 398)
+  SOURCE    : Course: Semester No: Project Title:
+  LAYOUT LINES:
+    L01 | bbox=(646, 310, 742, 337) | pitch=22.50 | gap_ratio=1.10 | indent=-6.50 | font_height=24.99 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=Course:
+    L02 | bbox=(650, 336, 803, 365) | pitch=27.00 | gap_ratio=1.32 | indent=-27.00 | font_height=27.00 | font_scale=1.13 | heading=ordinary_text | decision=continuation | text=Semester No:
+    L03 | bbox=(655, 367, 801, 394) | pitch=30.00 | gap_ratio=1.46 | indent=-44.00 | font_height=27.00 | font_scale=1.14 | heading=ordinary_text | decision=continuation | text=Project Title:
+  TRANSLATED: Course: Semester No: Project title:
+  SPOKEN    : Course: Semester No: Project title:
+------------------------------------------------------------
+P11 | region_id=12 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.80 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1259, 436, 1316, 450)
+  SOURCE    : Score
+  LAYOUT LINES:
+    L01 | bbox=(1263, 440, 1312, 459) | pitch=69.00 | gap_ratio=3.37 | indent=283.00 | font_height=19.00 | font_scale=0.80 | heading=ordinary_text | decision=column_change | text=Score
+  TRANSLATED: Score
+  SPOKEN    : Score
+------------------------------------------------------------
+P12 | region_id=13 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.93 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1406, 450, 1555, 454)
+  SOURCE    : Weighted PLO
+  LAYOUT LINES:
+    L01 | bbox=(1410, 437, 1551, 462) | pitch=0.00 | gap_ratio=0.00 | indent=-13.00 | font_height=22.00 | font_scale=0.93 | heading=ordinary_text | decision=column_change | text=Weighted PLO
+  TRANSLATED: Weighted PLO
+  SPOKEN    : Weighted PLO
+------------------------------------------------------------
+P13 | region_id=14 | type=paragraph | lines=2 | conf=0.999 | font_scale=1.01 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(695, 454, 1406, 469)
+  SOURCE    : PLO PLO Title Description / Sub Categories Weightage (1-10)
+  LAYOUT LINES:
+    L01 | bbox=(699, 442, 1402, 473) | pitch=8.00 | gap_ratio=0.39 | indent=-397.50 | font_height=22.50 | font_scale=1.01 | heading=ordinary_text | decision=column_change | text=PLO PLO Title Description / Sub Categories Weightage
+    L02 | bbox=(1261, 458, 1310, 479) | pitch=11.00 | gap_ratio=0.54 | indent=540.50 | font_height=21.00 | font_scale=0.94 | heading=ordinary_text | decision=continuation | text=(1-10)
+  TRANSLATED: PLO PLO Title Description / Sub Categories Weighting (1 to 10)
+  SPOKEN    : PLO PLO Title Description / Sub Categories Weighting (1 to 10)
+------------------------------------------------------------
+P14 | region_id=15 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.79 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1419, 469, 1556, 479)
+  SOURCE    : Score Score
+  LAYOUT LINES:
+    L01 | bbox=(1423, 461, 1552, 479) | pitch=1.50 | gap_ratio=0.07 | indent=13.00 | font_height=17.50 | font_scale=0.79 | heading=ordinary_text | decision=column_change | text=Score Score
+  TRANSLATED: Score Score
+  SPOKEN    : Score Score
+------------------------------------------------------------
+P15 | region_id=16 | type=paragraph | lines=3 | conf=0.997 | font_scale=1.07 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(715, 479, 1376, 540)
+  SOURCE    : Analysis of requirements. problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+  LAYOUT LINES:
+    L01 | bbox=(932, 474, 1257, 501) | pitch=17.50 | gap_ratio=0.85 | indent=106.00 | font_height=22.02 | font_scale=1.02 | heading=ordinary_text | decision=column_change | text=Analysis of requirements. problem
+    L02 | bbox=(719, 493, 1372, 523) | pitch=20.50 | gap_ratio=1.00 | indent=-213.50 | font_height=22.50 | font_scale=1.07 | heading=ordinary_text | decision=continuation | text=2 Problem Analysis formulation and quality of (proposed) X3
+    L03 | bbox=(933, 518, 997, 539) | pitch=20.50 | gap_ratio=1.00 | indent=106.00 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=solution
+  TRANSLATED: Analysis of requirements problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+  SPOKEN    : Analysis of requirements problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+------------------------------------------------------------
+P16 | region_id=17 | type=paragraph | lines=3 | conf=0.995 | font_scale=1.00 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=20.50 | bbox=(718, 540, 1376, 605)
+  SOURCE    : Literature survey / comparative analysis of 4 Investigation the solution vis-à-vis state-of-the-art X5 techniques/designs
+  LAYOUT LINES:
+    L01 | bbox=(932, 540, 1256, 564) | pitch=23.50 | gap_ratio=1.15 | indent=106.00 | font_height=20.00 | font_scale=0.95 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=Literature survey / comparative analysis of
+    L02 | bbox=(722, 560, 1372, 585) | pitch=20.50 | gap_ratio=1.00 | indent=-207.50 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=4 Investigation the solution vis-à-vis state-of-the-art X5
+    L03 | bbox=(930, 581, 1088, 605) | pitch=20.50 | gap_ratio=1.00 | indent=106.00 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=techniques/designs
+  TRANSLATED: Literature survey / comparative analysis of 4 Investigation of the solution to state-of-the-art X5 techniques/designs
+  SPOKEN    : Literature survey / comparative analysis of 4 Investigation of the solution to state-of-the-art X5 techniques/designs
+------------------------------------------------------------
+P17 | region_id=18 | type=paragraph | lines=6 | conf=0.977 | font_scale=1.09 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=20.50 | bbox=(715, 605, 1255, 738)
+  SOURCE    : Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+  LAYOUT LINES:
+    L01 | bbox=(929, 605, 1251, 629) | pitch=24.00 | gap_ratio=1.17 | indent=106.50 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=Commitment to professional ethics
+    L02 | bbox=(719, 625, 1250, 652) | pitch=21.50 | gap_ratio=1.05 | indent=-205.00 | font_height=21.00 | font_scale=0.93 | heading=ordinary_text | decision=continuation | text=8 Ethics highlighted by originality of .work /
+    L03 | bbox=(926, 645, 1108, 672) | pitch=20.00 | gap_ratio=0.98 | indent=5.50 | font_height=24.00 | font_scale=1.09 | heading=ordinary_text | decision=continuation | text=Similarity Index (< 15%)
+    L04 | bbox=(922, 673, 1245, 700) | pitch=28.00 | gap_ratio=1.37 | indent=4.00 | font_height=24.00 | font_scale=1.09 | heading=ordinary_text | decision=continuation | text=Soundness of Approach (Proposed
+    L05 | bbox=(919, 693, 1026, 720) | pitch=20.00 | gap_ratio=0.98 | indent=3.00 | font_height=24.02 | font_scale=1.09 | heading=ordinary_text | decision=continuation | text=Methodology)
+    L06 | bbox=(917, 721, 1240, 745) | pitch=26.50 | gap_ratio=1.29 | indent=4.00 | font_height=23.00 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=Quality of report / survey paper / research
+  TRANSLATED: Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+  SPOKEN    : Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+------------------------------------------------------------
+P18 | region_id=19 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.79 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(752, 738, 901, 747)
+  SOURCE    : Communication
+  LAYOUT LINES:
+    L01 | bbox=(756, 733, 897, 752) | pitch=9.50 | gap_ratio=0.46 | indent=6.00 | font_height=19.00 | font_scale=0.79 | heading=ordinary_text | decision=column_change | text=Communication
+  TRANSLATED: Communication
+  SPOKEN    : Communication
+------------------------------------------------------------
+P19 | region_id=20 | type=paragraph | lines=1 | conf=0.960 | font_scale=0.87 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(911, 747, 1360, 752)
+  SOURCE    : paper (graphs / plots. data presented X5
+  LAYOUT LINES:
+    L01 | bbox=(915, 739, 1356, 763) | pitch=8.50 | gap_ratio=0.41 | indent=6.00 | font_height=20.50 | font_scale=0.87 | heading=ordinary_text | decision=column_change | text=paper (graphs / plots. data presented X5
+  TRANSLATED: paper (graphs / plots. data presented X5
+  SPOKEN    : paper (graphs / plots. data presented X5
+------------------------------------------------------------
+P20 | region_id=21 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.16 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(684, 752, 751, 758)
+  SOURCE    : 10(a)
+  LAYOUT LINES:
+    L01 | bbox=(688, 742, 747, 766) | pitch=3.00 | gap_ratio=0.15 | indent=0.00 | font_height=24.00 | font_scale=1.16 | heading=ordinary_text | decision=column_change | text=10(a)
+  TRANSLATED: 10 (a)
+  SPOKEN    : 10 (a)
+------------------------------------------------------------
+P21 | region_id=22 | type=paragraph | lines=1 | conf=0.978 | font_scale=1.16 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(746, 758, 839, 768)
+  SOURCE    : (Written)
+  LAYOUT LINES:
+    L01 | bbox=(750, 751, 835, 775) | pitch=9.00 | gap_ratio=0.44 | indent=-6.00 | font_height=24.00 | font_scale=1.16 | heading=ordinary_text | decision=column_change | text=(Written)
+  TRANSLATED: (Written)
+  SPOKEN    : (Written)
+------------------------------------------------------------
+P22 | region_id=23 | type=paragraph | lines=3 | conf=0.989 | font_scale=1.01 | heading_evidence=sentence_ending | break=column_change | normal_pitch=20.50 | bbox=(900, 768, 1354, 835)
+  SOURCE    : references etc.) Formatting of report / survey paper / X2 research paper
+  LAYOUT LINES:
+    L01 | bbox=(911, 761, 1031, 784) | pitch=9.50 | gap_ratio=0.46 | indent=5.50 | font_height=21.00 | font_scale=1.01 | heading=sentence_ending | decision=column_change | text=references etc.)
+    L02 | bbox=(907, 789, 1350, 815) | pitch=29.50 | gap_ratio=1.44 | indent=-129.00 | font_height=20.50 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=Formatting of report / survey paper / X2
+    L03 | bbox=(904, 810, 1020, 831) | pitch=18.50 | gap_ratio=0.90 | indent=-10.00 | font_height=21.00 | font_scale=0.95 | heading=ordinary_text | decision=continuation | text=research paper
+  TRANSLATED: References etc.) Formatting of report / survey paper / X2 research paper
+  SPOKEN    : References etc.) Formatting of report / survey paper / X2 research paper
+------------------------------------------------------------
+P23 | region_id=24 | type=paragraph | lines=1 | conf=0.996 | font_scale=1.14 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1164, 842, 1341, 876)
+  SOURCE    : Total Weights = 220
+  LAYOUT LINES:
+    L01 | bbox=(1168, 846, 1337, 872) | pitch=38.50 | gap_ratio=1.88 | indent=163.50 | font_height=24.00 | font_scale=1.14 | heading=ordinary_text | decision=column_change | text=Total Weights = 220
+  TRANSLATED: Total Weights = 220
+  SPOKEN    : Total Weights = 220
+------------------------------------------------------------
+P24 | region_id=25 | type=paragraph | lines=3 | conf=0.960 | font_scale=1.10 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=20.50 | bbox=(910, 886, 1310, 938)
+  SOURCE    : ∑Weighted Score TotalScore(%)= x100= ∑ Weights
+  LAYOUT LINES:
+    L01 | bbox=(1095, 890, 1237, 911) | pitch=41.50 | gap_ratio=2.02 | indent=77.00 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=∑Weighted Score
+    L02 | bbox=(914, 899, 1306, 925) | pitch=11.50 | gap_ratio=0.56 | indent=-173.50 | font_height=23.00 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=TotalScore(%)= x100=
+    L03 | bbox=(1122, 916, 1211, 934) | pitch=13.00 | gap_ratio=0.63 | indent=53.50 | font_height=18.00 | font_scale=0.82 | heading=ordinary_text | decision=continuation | text=∑ Weights
+  TRANSLATED: Weighted Score TotalScore ((%) = x100=  Weights
+  SPOKEN    : Weighted Score TotalScore ((%) = x100=  Weights
+------------------------------------------------------------
+P25 | region_id=26 | type=paragraph | lines=1 | conf=0.940 | font_scale=0.95 | heading_evidence=ordinary_text | break=blank_gap_after_short_line | normal_pitch=20.50 | bbox=(1049, 954, 1269, 972)
+  SOURCE    : E Weighted Score for PLO
+  LAYOUT LINES:
+    L01 | bbox=(1053, 958, 1265, 979) | pitch=43.50 | gap_ratio=2.12 | indent=-31.00 | font_height=21.00 | font_scale=0.95 | heading=ordinary_text | decision=blank_gap_after_short_line | text=E Weighted Score for PLO
+  TRANSLATED: E Weighted Score for PLO
+  SPOKEN    : E Weighted Score for PLO
+------------------------------------------------------------
+P26 | region_id=27 | type=paragraph | lines=1 | conf=0.927 | font_scale=1.14 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1256, 972, 1335, 979)
+  SOURCE    : ×100=
+  LAYOUT LINES:
+    L01 | bbox=(1260, 964, 1331, 989) | pitch=8.00 | gap_ratio=0.39 | indent=219.00 | font_height=25.00 | font_scale=1.14 | heading=ordinary_text | decision=column_change | text=×100=
+  TRANSLATED: ×100=
+  SPOKEN    : ×100=
+------------------------------------------------------------
+P27 | region_id=28 | type=paragraph | lines=1 | conf=0.971 | font_scale=1.33 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(876, 979, 1055, 987)
+  SOURCE    : PLO Score (%) =
+  LAYOUT LINES:
+    L01 | bbox=(880, 968, 1051, 996) | pitch=5.50 | gap_ratio=0.27 | indent=-34.00 | font_height=28.00 | font_scale=1.33 | heading=ordinary_text | decision=column_change | text=PLO Score (%) =
+  TRANSLATED: PLO score (%) =
+  SPOKEN    : PLO score (%) =
+------------------------------------------------------------
+P28 | region_id=29 | type=paragraph | lines=1 | conf=0.965 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(1080, 987, 1239, 1007)
+  SOURCE    : ∑Weights forPLO
+  LAYOUT LINES:
+    L01 | bbox=(1084, 980, 1235, 1003) | pitch=9.50 | gap_ratio=0.46 | indent=-3.50 | font_height=21.00 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=∑Weights forPLO
+  TRANSLATED: Weights for PLO
+  SPOKEN    : Weights for PLO
+------------------------------------------------------------
+P29 | region_id=30 | type=paragraph | lines=1 | conf=0.999 | font_scale=1.33 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.50 | bbox=(635, 1036, 752, 1076)
+  SOURCE    : Remarks:
+  LAYOUT LINES:
+    L01 | bbox=(639, 1040, 748, 1072) | pitch=64.50 | gap_ratio=3.15 | indent=0.00 | font_height=28.02 | font_scale=1.33 | heading=ordinary_text | decision=column_change | text=Remarks:
+  TRANSLATED: The Commission shall adopt implementing acts.
+  SPOKEN    : The Commission shall adopt implementing acts.
+
+======================================================================

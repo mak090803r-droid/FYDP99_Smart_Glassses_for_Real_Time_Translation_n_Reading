@@ -1,0 +1,460 @@
+{
+  "runs": [
+    {
+      "name": "box7",
+      "target": "english",
+      "timings": {
+        "ocr": 0.5,
+        "translation": 0.0006859999999733191,
+        "spell": 0.001001119613647461,
+        "tts": 4.315027236938477,
+        "total": 4.912039756774902,
+        "processing_before_audio": 0.5950164794921875
+      },
+      "speech_requests": [
+        "Title, at the top of the page. Field Evaluation of Wearable Translation Glasses",
+        "Paragraph 1 of 3, in the upper part of the page. able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+        "Paragraph 2 of 3, in the middle of the page. Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or",
+        "improve the lighting",
+        "Paragraph 3 of 3, in the lower part of the page. After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone"
+      ],
+      "regions": [
+        {
+          "region_id": 1,
+          "region_type": "page_title",
+          "bbox": [
+            602,
+            138,
+            1042,
+            195
+          ],
+          "source_text": "Field Evaluation of Wearable Translation Glasses",
+          "translated_text": "Field Evaluation of Wearable Translation Glasses",
+          "spoken_text": "Field Evaluation of Wearable Translation Glasses"
+        },
+        {
+          "region_id": 2,
+          "region_type": "paragraph",
+          "bbox": [
+            520,
+            210,
+            1133,
+            433
+          ],
+          "source_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+          "translated_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+          "spoken_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently"
+        },
+        {
+          "region_id": 3,
+          "region_type": "paragraph",
+          "bbox": [
+            530,
+            433,
+            1148,
+            738
+          ],
+          "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+          "translated_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+          "spoken_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting"
+        },
+        {
+          "region_id": 4,
+          "region_type": "paragraph",
+          "bbox": [
+            538,
+            738,
+            1172,
+            1027
+          ],
+          "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "translated_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "spoken_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone"
+        }
+      ],
+      "pcm_clips": 5,
+      "table_started": false
+    },
+    {
+      "name": "box8_off",
+      "target": "english",
+      "timings": {
+        "ocr": 0.7190000000000509,
+        "translation": 0.0007015999999566702,
+        "spell": 0.0010063648223876953,
+        "tts": 4.110306262969971,
+        "total": 4.913835525512695,
+        "processing_before_audio": 0.8022541999816895
+      },
+      "speech_requests": [
+        "Title, at the top of the page. Field Evaluation of Wearable Translation Glasses",
+        "Paragraph 1 of 3, in the upper part of the page. able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+        "Paragraph 2 of 3, in the middle of the page. Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or",
+        "improve the lighting",
+        "Paragraph 3 of 3, in the lower part of the page. After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone"
+      ],
+      "regions": [
+        {
+          "region_id": 1,
+          "region_type": "page_title",
+          "bbox": [
+            602,
+            138,
+            1042,
+            195
+          ],
+          "source_text": "Field Evaluation of Wearable Translation Glasses",
+          "translated_text": "Field Evaluation of Wearable Translation Glasses",
+          "spoken_text": "Field Evaluation of Wearable Translation Glasses"
+        },
+        {
+          "region_id": 2,
+          "region_type": "paragraph",
+          "bbox": [
+            520,
+            210,
+            1133,
+            433
+          ],
+          "source_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+          "translated_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+          "spoken_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently"
+        },
+        {
+          "region_id": 3,
+          "region_type": "paragraph",
+          "bbox": [
+            530,
+            433,
+            1148,
+            738
+          ],
+          "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+          "translated_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+          "spoken_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting"
+        },
+        {
+          "region_id": 4,
+          "region_type": "paragraph",
+          "bbox": [
+            538,
+            738,
+            1172,
+            1027
+          ],
+          "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "translated_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "spoken_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone"
+        }
+      ],
+      "pcm_clips": 5,
+      "table_started": false
+    },
+    {
+      "name": "box8_on",
+      "target": "english",
+      "timings": {
+        "ocr": 0.7650000000001,
+        "translation": 0.0007382000000006883,
+        "spell": 0.0010023117065429688,
+        "tts": 4.082136631011963,
+        "total": 4.948486566543579,
+        "processing_before_audio": 0.8615419864654541
+      },
+      "speech_requests": [
+        "Title, at the top of the page. Field Evaluation of Wearable Translation Glasses",
+        "Paragraph 1 of 3, in the upper part of the page. able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+        "Paragraph 2 of 3, in the middle of the page. Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or",
+        "improve the lighting",
+        "Paragraph 3 of 3, in the lower part of the page. After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone"
+      ],
+      "regions": [
+        {
+          "region_id": 1,
+          "region_type": "page_title",
+          "bbox": [
+            602,
+            138,
+            1042,
+            195
+          ],
+          "source_text": "Field Evaluation of Wearable Translation Glasses",
+          "translated_text": "Field Evaluation of Wearable Translation Glasses",
+          "spoken_text": "Field Evaluation of Wearable Translation Glasses"
+        },
+        {
+          "region_id": 2,
+          "region_type": "paragraph",
+          "bbox": [
+            520,
+            210,
+            1133,
+            433
+          ],
+          "source_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+          "translated_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+          "spoken_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently"
+        },
+        {
+          "region_id": 3,
+          "region_type": "paragraph",
+          "bbox": [
+            530,
+            433,
+            1148,
+            738
+          ],
+          "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+          "translated_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+          "spoken_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting"
+        },
+        {
+          "region_id": 4,
+          "region_type": "paragraph",
+          "bbox": [
+            538,
+            738,
+            1172,
+            1027
+          ],
+          "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "translated_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "spoken_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone"
+        }
+      ],
+      "pcm_clips": 5,
+      "table_started": true
+    },
+    {
+      "name": "box7",
+      "target": "urdu",
+      "timings": {
+        "ocr": 0.875,
+        "translation": 2.144460800000047,
+        "spell": 0.0,
+        "tts": 5.02544903755188,
+        "total": 8.121087551116943,
+        "processing_before_audio": 3.0936193466186523
+      },
+      "speech_requests": [
+        "عنوان، صفحے کے اوپری حصے میں۔ قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن",
+        "پیراگراف 1، کل 3 میں سے، صفحے کے بالائی حصے میں۔ پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔",
+        "پیراگراف 2، کل 3 میں سے، صفحے کے درمیان میں۔ تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔",
+        "زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا",
+        "پیراگراف 3، کل 3 میں سے، صفحے کے آخر میں۔ گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے"
+      ],
+      "regions": [
+        {
+          "region_id": 1,
+          "region_type": "page_title",
+          "bbox": [
+            540,
+            137,
+            993,
+            172
+          ],
+          "source_text": "Field Evaluation of Wearable Translation Glasses",
+          "translated_text": "قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن",
+          "spoken_text": "قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن"
+        },
+        {
+          "region_id": 2,
+          "region_type": "paragraph",
+          "bbox": [
+            449,
+            172,
+            1091,
+            425
+          ],
+          "source_text": "A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently",
+          "translated_text": "پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔",
+          "spoken_text": "پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔"
+        },
+        {
+          "region_id": 3,
+          "region_type": "paragraph",
+          "bbox": [
+            455,
+            425,
+            1102,
+            738
+          ],
+          "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting",
+          "translated_text": "تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا",
+          "spoken_text": "تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا"
+        },
+        {
+          "region_id": 4,
+          "region_type": "paragraph",
+          "bbox": [
+            462,
+            738,
+            1118,
+            1039
+          ],
+          "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "translated_text": "گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے",
+          "spoken_text": "گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے"
+        }
+      ],
+      "pcm_clips": 5,
+      "table_started": false
+    },
+    {
+      "name": "box8_off",
+      "target": "urdu",
+      "timings": {
+        "ocr": 0.75,
+        "translation": 2.091324400000076,
+        "spell": 0.0,
+        "tts": 4.839977502822876,
+        "total": 7.753955364227295,
+        "processing_before_audio": 2.9119255542755127
+      },
+      "speech_requests": [
+        "عنوان، صفحے کے اوپری حصے میں۔ قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن",
+        "پیراگراف 1، کل 3 میں سے، صفحے کے بالائی حصے میں۔ پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔",
+        "پیراگراف 2، کل 3 میں سے، صفحے کے درمیان میں۔ تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔",
+        "زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا",
+        "پیراگراف 3، کل 3 میں سے، صفحے کے آخر میں۔ گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے"
+      ],
+      "regions": [
+        {
+          "region_id": 1,
+          "region_type": "page_title",
+          "bbox": [
+            540,
+            137,
+            993,
+            172
+          ],
+          "source_text": "Field Evaluation of Wearable Translation Glasses",
+          "translated_text": "قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن",
+          "spoken_text": "قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن"
+        },
+        {
+          "region_id": 2,
+          "region_type": "paragraph",
+          "bbox": [
+            449,
+            172,
+            1091,
+            425
+          ],
+          "source_text": "A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently",
+          "translated_text": "پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔",
+          "spoken_text": "پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔"
+        },
+        {
+          "region_id": 3,
+          "region_type": "paragraph",
+          "bbox": [
+            455,
+            425,
+            1102,
+            738
+          ],
+          "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting",
+          "translated_text": "تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا",
+          "spoken_text": "تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا"
+        },
+        {
+          "region_id": 4,
+          "region_type": "paragraph",
+          "bbox": [
+            462,
+            738,
+            1118,
+            1039
+          ],
+          "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "translated_text": "گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے",
+          "spoken_text": "گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے"
+        }
+      ],
+      "pcm_clips": 5,
+      "table_started": false
+    },
+    {
+      "name": "box8_on",
+      "target": "urdu",
+      "timings": {
+        "ocr": 0.7810000000000628,
+        "translation": 2.1630634999999074,
+        "spell": 0.0,
+        "tts": 4.965648889541626,
+        "total": 8.004000902175903,
+        "processing_before_audio": 3.0363402366638184
+      },
+      "speech_requests": [
+        "عنوان، صفحے کے اوپری حصے میں۔ قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن",
+        "پیراگراف 1، کل 3 میں سے، صفحے کے بالائی حصے میں۔ پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔",
+        "پیراگراف 2، کل 3 میں سے، صفحے کے درمیان میں۔ تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔",
+        "زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا",
+        "پیراگراف 3، کل 3 میں سے، صفحے کے آخر میں۔ گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے"
+      ],
+      "regions": [
+        {
+          "region_id": 1,
+          "region_type": "page_title",
+          "bbox": [
+            540,
+            137,
+            993,
+            172
+          ],
+          "source_text": "Field Evaluation of Wearable Translation Glasses",
+          "translated_text": "قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن",
+          "spoken_text": "قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن"
+        },
+        {
+          "region_id": 2,
+          "region_type": "paragraph",
+          "bbox": [
+            449,
+            172,
+            1091,
+            425
+          ],
+          "source_text": "A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently",
+          "translated_text": "پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔",
+          "spoken_text": "پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔"
+        },
+        {
+          "region_id": 3,
+          "region_type": "paragraph",
+          "bbox": [
+            455,
+            425,
+            1102,
+            738
+          ],
+          "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting",
+          "translated_text": "تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا",
+          "spoken_text": "تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا"
+        },
+        {
+          "region_id": 4,
+          "region_type": "paragraph",
+          "bbox": [
+            462,
+            738,
+            1118,
+            1039
+          ],
+          "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+          "translated_text": "گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے",
+          "spoken_text": "گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے"
+        }
+      ],
+      "pcm_clips": 5,
+      "table_started": true
+    }
+  ],
+  "physical_audio_tested": false,
+  "microphone_tested": false,
+  "english_regions_identical": true,
+  "english_speech_identical": true,
+  "urdu_regions_identical": true,
+  "urdu_speech_identical": true
+}

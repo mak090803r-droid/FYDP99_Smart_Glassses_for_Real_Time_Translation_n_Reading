@@ -1,0 +1,115 @@
+{"wall_time": "2026-09-12T14:03:54+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260912_140354"}
+{"wall_time": "2026-09-12T14:03:54+0500", "elapsed_seconds": 0.0, "event": "audio_route", "enabled": true, "connected": false, "message": "Pi audio disconnected", "route_changed": true}
+{"wall_time": "2026-09-12T14:03:56+0500", "elapsed_seconds": 2.141, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": true}
+{"wall_time": "2026-09-12T14:04:43+0500", "elapsed_seconds": 49.266, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:43+0500", "elapsed_seconds": 49.266, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:46+0500", "elapsed_seconds": 51.469, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:49+0500", "elapsed_seconds": 54.36, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:49+0500", "elapsed_seconds": 54.36, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:51+0500", "elapsed_seconds": 56.75, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:54+0500", "elapsed_seconds": 59.329, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:54+0500", "elapsed_seconds": 59.329, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:56+0500", "elapsed_seconds": 61.672, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:04:59+0500", "elapsed_seconds": 64.922, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:04:59+0500", "elapsed_seconds": 64.922, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:01+0500", "elapsed_seconds": 66.469, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:06+0500", "elapsed_seconds": 71.438, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:06+0500", "elapsed_seconds": 71.438, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:07+0500", "elapsed_seconds": 73.016, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:08+0500", "elapsed_seconds": 73.438, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:08+0500", "elapsed_seconds": 73.438, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:10+0500", "elapsed_seconds": 75.813, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:11+0500", "elapsed_seconds": 76.391, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:11+0500", "elapsed_seconds": 76.391, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:12+0500", "elapsed_seconds": 77.954, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:05:14+0500", "elapsed_seconds": 79.907, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:14+0500", "elapsed_seconds": 79.907, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:16+0500", "elapsed_seconds": 82.313, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:19+0500", "elapsed_seconds": 84.891, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:19+0500", "elapsed_seconds": 84.891, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:21+0500", "elapsed_seconds": 87.25, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:05:22+0500", "elapsed_seconds": 87.719, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-12T14:05:22+0500", "elapsed_seconds": 87.719, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-12T14:05:23+0500", "elapsed_seconds": 88.422, "event": "automatic_capture", "generation": 56, "frame_sequence": 731, "stability_count": 3}
+{"wall_time": "2026-09-12T14:05:23+0500", "elapsed_seconds": 88.985, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-12T14:05:27+0500", "elapsed_seconds": 92.797, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-12T14:05:34+0500", "elapsed_seconds": 99.36, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-12T14:05:34+0500", "elapsed_seconds": 99.36, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-12T14:05:36+0500", "elapsed_seconds": 101.907, "event": "audio_route", "enabled": false, "connected": true, "message": "PC audio", "route_changed": true}
+{"wall_time": "2026-09-12T14:05:36+0500", "elapsed_seconds": 101.922, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "repeat"}
+{"wall_time": "2026-09-12T14:05:36+0500", "elapsed_seconds": 101.922, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-12T14:05:38+0500", "elapsed_seconds": 103.907, "event": "audio_route", "connected": false, "message": "Pi did not acknowledge stopping audio", "enabled": false}
+{"wall_time": "2026-09-12T14:05:41+0500", "elapsed_seconds": 107.032, "event": "audio_route", "enabled": true, "connected": false, "message": "Pi audio disconnected", "route_changed": true}
+{"wall_time": "2026-09-12T14:05:41+0500", "elapsed_seconds": 107.047, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "repeat"}
+{"wall_time": "2026-09-12T14:05:41+0500", "elapsed_seconds": 107.047, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-12T14:05:41+0500", "elapsed_seconds": 107.063, "event": "audio_error", "message": "Audio(Pi) selected but Pi3 audio is disconnected. Start piweb_cli3.py or uncheck Audio(Pi)."}
+{"wall_time": "2026-09-12T14:05:41+0500", "elapsed_seconds": 107.094, "event": "run_failed", "run": 1, "error": "Audio(Pi) selected but Pi3 audio is disconnected. Start piweb_cli3.py or uncheck Audio(Pi)."}
+{"wall_time": "2026-09-12T14:05:44+0500", "elapsed_seconds": 109.36, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": true}
+{"wall_time": "2026-09-12T14:06:16+0500", "elapsed_seconds": 142.266, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:16+0500", "elapsed_seconds": 142.266, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:19+0500", "elapsed_seconds": 144.641, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:20+0500", "elapsed_seconds": 145.766, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:06:20+0500", "elapsed_seconds": 145.766, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:06:21+0500", "elapsed_seconds": 147.204, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:21+0500", "elapsed_seconds": 147.297, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:06:21+0500", "elapsed_seconds": 147.297, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:24+0500", "elapsed_seconds": 149.657, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:27+0500", "elapsed_seconds": 152.313, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:27+0500", "elapsed_seconds": 152.313, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:29+0500", "elapsed_seconds": 154.688, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:32+0500", "elapsed_seconds": 157.313, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:32+0500", "elapsed_seconds": 157.313, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:34+0500", "elapsed_seconds": 159.704, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:38+0500", "elapsed_seconds": 163.61, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:06:38+0500", "elapsed_seconds": 163.61, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:06:40+0500", "elapsed_seconds": 165.844, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:06:41+0500", "elapsed_seconds": 167.188, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:06:41+0500", "elapsed_seconds": 167.188, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:06:43+0500", "elapsed_seconds": 168.704, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:06:43+0500", "elapsed_seconds": 168.735, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:43+0500", "elapsed_seconds": 168.735, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:45+0500", "elapsed_seconds": 171.094, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:47+0500", "elapsed_seconds": 172.891, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:06:47+0500", "elapsed_seconds": 172.891, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:06:49+0500", "elapsed_seconds": 175.094, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:06:52+0500", "elapsed_seconds": 177.829, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:52+0500", "elapsed_seconds": 177.829, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:55+0500", "elapsed_seconds": 180.329, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:57+0500", "elapsed_seconds": 182.86, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:57+0500", "elapsed_seconds": 182.86, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:06:59+0500", "elapsed_seconds": 185.266, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:07:01+0500", "elapsed_seconds": 187.266, "event": "guidance_started", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:07:01+0500", "elapsed_seconds": 187.266, "event": "guidance_queued", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:07:04+0500", "elapsed_seconds": 189.547, "event": "guidance_finished", "state": "look_up", "prompt": "Look up for the top text."}
+{"wall_time": "2026-09-12T14:07:05+0500", "elapsed_seconds": 190.672, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:07:05+0500", "elapsed_seconds": 190.672, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:07:06+0500", "elapsed_seconds": 192.266, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-12T14:07:10+0500", "elapsed_seconds": 195.782, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:07:10+0500", "elapsed_seconds": 195.782, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:07:12+0500", "elapsed_seconds": 197.922, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-12T14:07:12+0500", "elapsed_seconds": 198.204, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-12T14:07:12+0500", "elapsed_seconds": 198.204, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-12T14:07:13+0500", "elapsed_seconds": 198.532, "event": "automatic_capture", "generation": 83, "frame_sequence": 1691, "stability_count": 3}
+{"wall_time": "2026-09-12T14:07:14+0500", "elapsed_seconds": 199.375, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-12T14:07:17+0500", "elapsed_seconds": 203.016, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-12T14:07:23+0500", "elapsed_seconds": 209.297, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-12T14:07:24+0500", "elapsed_seconds": 209.5, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-12T14:07:24+0500", "elapsed_seconds": 209.5, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-12T14:07:25+0500", "elapsed_seconds": 210.688, "event": "voice", "message": "LISTENING on Pi earbuds — release to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-12T14:07:27+0500", "elapsed_seconds": 213.297, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-12T14:07:30+0500", "elapsed_seconds": 216.047, "event": "voice", "message": "Heard: Read paragraph two.", "enabled": true, "busy": true, "transcript": "Read paragraph two.", "action": "read_number", "asr_seconds": 1.558770599998752}
+{"wall_time": "2026-09-12T14:07:30+0500", "elapsed_seconds": 216.079, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "box7_voice"}
+{"wall_time": "2026-09-12T14:07:30+0500", "elapsed_seconds": 216.094, "event": "paragraph_started", "region_id": 3, "index": 2, "label": "P2"}
+{"wall_time": "2026-09-12T14:07:35+0500", "elapsed_seconds": 220.829, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-12T14:07:36+0500", "elapsed_seconds": 221.688, "event": "voice", "message": "LISTENING on Pi earbuds — release to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-12T14:07:40+0500", "elapsed_seconds": 225.829, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-12T14:07:42+0500", "elapsed_seconds": 227.36, "event": "voice", "message": "Heard: Read the heading.", "enabled": true, "busy": true, "transcript": "Read the heading.", "action": "heading", "asr_seconds": 1.5254736999995657}
+{"wall_time": "2026-09-12T14:07:42+0500", "elapsed_seconds": 227.375, "event": "paragraph_playback_result", "region_id": 3, "index": 2, "action": "box7_voice"}
+{"wall_time": "2026-09-12T14:07:42+0500", "elapsed_seconds": 227.375, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-12T14:07:48+0500", "elapsed_seconds": 234.063, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-12T14:07:48+0500", "elapsed_seconds": 234.063, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-12T14:08:00+0500", "elapsed_seconds": 245.422, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-12T14:08:00+0500", "elapsed_seconds": 245.422, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-12T14:08:00+0500", "elapsed_seconds": 245.454, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "quit"}
+{"wall_time": "2026-09-12T14:08:00+0500", "elapsed_seconds": 245.5, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": true}
+{"wall_time": "2026-09-12T14:08:00+0500", "elapsed_seconds": 245.516, "event": "session_ending"}

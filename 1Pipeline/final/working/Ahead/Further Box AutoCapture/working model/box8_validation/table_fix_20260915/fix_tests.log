@@ -1,0 +1,16 @@
+test_clipped_word_is_not_silently_ignored (__main__.FixTests.test_clipped_word_is_not_silently_ignored) ... ok
+test_disabled_cancels_and_clears (__main__.FixTests.test_disabled_cancels_and_clears) ... ok
+test_disabled_no_worker (__main__.FixTests.test_disabled_no_worker) ... ok
+test_hard_form_is_detected_but_not_guessed (__main__.FixTests.test_hard_form_is_detected_but_not_guessed) ... ok
+test_late_result_after_toggle_not_published (__main__.FixTests.test_late_result_after_toggle_not_published) ... ok
+test_missing_header_unsafe (__main__.FixTests.test_missing_header_unsafe) ... ok
+test_missing_row_label_unsafe (__main__.FixTests.test_missing_row_label_unsafe) ... ok
+test_mixed_prose_preserved_table_once (__main__.FixTests.test_mixed_prose_preserved_table_once) ... ok
+test_real_page_automatic_reading_no_duplicate_cells (__main__.FixTests.test_real_page_automatic_reading_no_duplicate_cells) ... ok
+test_three_real_tables_exact (__main__.FixTests.test_three_real_tables_exact) ... ok
+test_uncertain_decimal_not_guessed (__main__.FixTests.test_uncertain_decimal_not_guessed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.106s
+
+OK

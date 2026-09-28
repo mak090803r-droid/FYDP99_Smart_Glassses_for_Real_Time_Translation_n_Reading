@@ -1,0 +1,66 @@
+======================================================================
+RUN          : 3
+TIMESTAMP    : 20260925_102642
+IMAGE FILE   : capture_cli_003_20260925_102640.jpg
+LANGUAGE     : french
+TEXT REGIONS : 5
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 4
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+DOLL Surveillance autonome d'une station énergétique isolée Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio des instruments météorologiques et l'éclairage de sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension. le courant, la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place, seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventiláteur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupe le chauffage secondaire, réduit certains éclairages et dèmarré le groupe de secours. Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie Après la tempête, une caméra portée sur la tête a lu les plaques et les hors ligne Aucune image sensible n'a été envoyée dans le nuage Le
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=1 | conf=0.841 | font_scale=0.88 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=23.00 | bbox=(954, 136, 1014, 167)
+  SOURCE    : DOLL
+  LAYOUT LINES:
+    L01 | bbox=(958, 140, 1010, 163) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=21.02 | font_scale=0.88 | heading=ordinary_text | decision=start_of_page | text=DOLL
+  TRANSLATED: DOLL
+  SPOKEN    : DOLL
+------------------------------------------------------------
+TITLE | region_id=2 | type=page_title | lines=1 | conf=1.000 | font_scale=1.08 | heading_evidence=centred_isolated_heading | break=heading | normal_pitch=23.00 | bbox=(580, 278, 1142, 326)
+  SOURCE    : Surveillance autonome d'une station énergétique isolée
+  LAYOUT LINES:
+    L01 | bbox=(584, 282, 1138, 334) | pitch=156.50 | gap_ratio=6.80 | indent=50.00 | font_height=26.02 | font_scale=1.08 | heading=centred_isolated_heading | decision=heading | text=Surveillance autonome d'une station énergétique isolée
+  TRANSLATED: Self-monitoring of an isolated power station
+  SPOKEN    : Self-monitoring of an isolated power station
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=8 | conf=0.990 | font_scale=1.12 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=23.00 | bbox=(519, 326, 1196, 534)
+  SOURCE    : Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio des instruments météorologiques et l'éclairage de sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension. le courant, la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place, seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  LAYOUT LINES:
+    L01 | bbox=(545, 316, 1191, 371) | pitch=35.50 | gap_ratio=1.54 | indent=21.00 | font_height=23.02 | font_scale=0.96 | heading=ordinary_text | decision=after_heading | text=Sur un plateau difficile d'accès, une station alimente un dispensaire,
+    L02 | bbox=(523, 338, 1192, 396) | pitch=23.50 | gap_ratio=1.02 | indent=-2.00 | font_height=27.02 | font_scale=1.12 | heading=ordinary_text | decision=continuation | text=un relais radio des instruments météorologiques et l'éclairage de
+    L03 | bbox=(525, 363, 1190, 418) | pitch=23.50 | gap_ratio=1.02 | indent=-0.50 | font_height=24.02 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au
+    L04 | bbox=(525, 387, 1188, 442) | pitch=24.00 | gap_ratio=1.04 | indent=-1.00 | font_height=24.02 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=lithium et un petit générateur diesel Comme la route peut rester fermée
+    L05 | bbox=(526, 411, 1186, 465) | pitch=23.50 | gap_ratio=1.02 | indent=-0.50 | font_height=24.02 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=plusieurs jours, un contrôleur mesure la tension. le courant, la
+    L06 | bbox=(526, 433, 1185, 489) | pitch=23.00 | gap_ratio=1.00 | indent=-0.50 | font_height=24.02 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=température et les vibrations toutes les 200 millisecondes. Les données
+    L07 | bbox=(527, 456, 1183, 513) | pitch=23.50 | gap_ratio=1.02 | indent=-9.50 | font_height=24.02 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=détaillées restent sur place, seul un résumé compressé est transmis
+    L08 | bbox=(526, 478, 1183, 540) | pitch=24.50 | gap_ratio=1.07 | indent=-11.00 | font_height=25.02 | font_scale=1.04 | heading=ordinary_text | decision=continuation | text=lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  TRANSLATED: On a hard-to-reach plateau, a station feeds a dispensary, a radio relay of weather instruments and safety lighting. The micro-grid is made up of solar panels, lithium batteries and a small diesel generator. As the road may remain closed for several days, a controller measures the voltage. the current, temperature and vibration every 200 milliseconds. Detailed data remains in place, only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority
+  SPOKEN    : On a hard-to-reach plateau, a station feeds a dispensary, a radio relay of weather instruments and safety lighting. The micro-grid is made up of solar panels, lithium batteries and a small diesel generator. As the road may remain closed for several days, a controller measures the voltage. the current, temperature and vibration every 200 milliseconds. Detailed data remains in place, only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=7 | conf=0.985 | font_scale=1.06 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=23.00 | bbox=(523, 534, 1183, 712)
+  SOURCE    : Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventiláteur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupe le chauffage secondaire, réduit certains éclairages et dèmarré le groupe de secours. Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie
+  LAYOUT LINES:
+    L01 | bbox=(547, 529, 1179, 587) | pitch=49.00 | gap_ratio=2.13 | indent=19.00 | font_height=26.02 | font_scale=1.06 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=Le 18 octobre 2025. une tempête de poussière a réduit la production
+    L02 | bbox=(527, 550, 1177, 610) | pitch=22.00 | gap_ratio=0.96 | indent=-2.00 | font_height=27.02 | font_scale=1.06 | heading=ordinary_text | decision=continuation | text=solaire de 34 % en quinze minutes La température de l'armoire de
+    L03 | bbox=(529, 574, 1174, 631) | pitch=22.50 | gap_ratio=0.98 | indent=0.00 | font_height=24.02 | font_scale=0.91 | heading=ordinary_text | decision=continuation | text=batteries a augmenté de 8 °C. tandis que le ventiláteur de l'onduleur
+    L04 | bbox=(529, 595, 1174, 654) | pitch=22.00 | gap_ratio=0.96 | indent=0.00 | font_height=26.02 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=produisait une vibration anormale Au lieu d'arrêter la station, le système
+    L05 | bbox=(529, 617, 1172, 675) | pitch=21.50 | gap_ratio=0.93 | indent=0.00 | font_height=27.02 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=a coupe le chauffage secondaire, réduit certains éclairages et dèmarré
+    L06 | bbox=(529, 639, 1170, 697) | pitch=22.00 | gap_ratio=0.96 | indent=-10.00 | font_height=27.02 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=le groupe de secours. Il a identifié trois causes possibles des débris sur
+    L07 | bbox=(529, 661, 1168, 717) | pitch=21.00 | gap_ratio=0.91 | indent=-10.50 | font_height=24.52 | font_scale=0.91 | heading=ordinary_text | decision=continuation | text=les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie
+  TRANSLATED: It's the 18th of October 2025. A dust storm reduced solar output by 34% in 15 minutes. The temperature of the battery compartment rose by 8°C. Instead of shutting down the station, the system turned off the secondary heating, reduced some of the lighting and started the backup unit. He identified three possible causes of debris on the panels, a worn-out bearing and increasing resistance in a battery connector.
+  SPOKEN    : It's the 18th of October 2025. A dust storm reduced solar output by 34% in 15 minutes. The temperature of the battery compartment rose by 8°C. Instead of shutting down the station, the system turned off the secondary heating, reduced some of the lighting and started the backup unit. He identified three possible causes of debris on the panels, a worn-out bearing and increasing resistance in a battery connector.
+------------------------------------------------------------
+P4 | region_id=5 | type=paragraph | lines=2 | conf=0.985 | font_scale=1.17 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=23.00 | bbox=(526, 712, 1168, 810)
+  SOURCE    : Après la tempête, une caméra portée sur la tête a lu les plaques et les hors ligne Aucune image sensible n'a été envoyée dans le nuage Le
+  LAYOUT LINES:
+    L01 | bbox=(549, 705, 1164, 765) | pitch=46.00 | gap_ratio=2.00 | indent=19.00 | font_height=30.01 | font_scale=1.13 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=Après la tempête, une caméra portée sur la tête a lu les plaques et les
+    L02 | bbox=(530, 747, 1160, 806) | pitch=41.50 | gap_ratio=1.80 | indent=-9.00 | font_height=31.01 | font_scale=1.17 | heading=ordinary_text | decision=continuation | text=hors ligne Aucune image sensible n'a été envoyée dans le nuage Le
+  TRANSLATED: After the storm, a head-mounted camera read the license plates and offline. No sensitive images were sent to the cloud.
+  SPOKEN    : After the storm, a head-mounted camera read the license plates and offline. No sensitive images were sent to the cloud.
+
+======================================================================

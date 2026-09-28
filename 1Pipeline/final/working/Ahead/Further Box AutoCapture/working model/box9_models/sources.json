@@ -1,0 +1,5 @@
+{
+  "table_detection": "microsoft/table-transformer-detection",
+  "table_structure": "microsoft/table-transformer-structure-recognition",
+  "qa": "deepset/deberta-v3-base-squad2"
+}

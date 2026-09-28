@@ -1,0 +1,8 @@
+{"wall_time": "2026-09-25T10:50:14+0500", "elapsed_seconds": 0.031, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260925_105014"}
+{"wall_time": "2026-09-25T10:50:16+0500", "elapsed_seconds": 2.125, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-25T10:52:10+0500", "elapsed_seconds": 116.515, "event": "audio_route", "connected": false, "message": "Pi audio connection closed", "enabled": false}
+{"wall_time": "2026-09-25T10:52:10+0500", "elapsed_seconds": 116.515, "event": "pi_disconnected", "error": "Camera connection closed"}
+{"wall_time": "2026-09-25T10:52:10+0500", "elapsed_seconds": 116.515, "event": "voice", "message": "Pi voice disconnected: Voice connection closed", "enabled": true, "busy": false, "pi_voice": false}
+{"wall_time": "2026-09-25T10:52:10+0500", "elapsed_seconds": 116.515, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-25T10:52:17+0500", "elapsed_seconds": 122.968, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-25T10:52:17+0500", "elapsed_seconds": 123.109, "event": "session_ending"}

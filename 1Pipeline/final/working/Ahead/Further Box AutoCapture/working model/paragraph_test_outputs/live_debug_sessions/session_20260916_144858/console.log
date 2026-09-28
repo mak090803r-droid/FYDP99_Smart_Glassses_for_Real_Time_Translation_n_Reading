@@ -1,0 +1,184 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.60s
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.94s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.18s
+[LOAD] Conservative SymSpell dictionary loaded in 2.82s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=29/29, age=0.61s, edges=none, bandLap=620, lineLap=962, lightStd=14.9, belowText=0.9, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=30/30, age=0.14s, edges=none, bandLap=1021, lineLap=1547, lightStd=15.1, belowText=0.9, motion=0.25, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 003] state=hold_still, rows=16/30, age=0.08s, edges=none, bandLap=154, lineLap=333, lightStd=14.1, belowText=3.1, motion=0.09, stable=2/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 004] state=blurry, rows=15/30, age=0.24s, edges=none, bandLap=202, lineLap=233, lightStd=11.4, belowText=8.1, motion=0.08, stable=0/3
+  [OBS 005] state=blurry, rows=11/30, age=0.22s, edges=none, bandLap=108, lineLap=129, lightStd=9.7, belowText=7.5, motion=1.11, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 006] state=blurry, rows=0/30, age=0.09s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.61, stable=0/3
+  [OBS 007] state=hold_still, rows=15/30, age=0.08s, edges=none, bandLap=133, lineLap=146, lightStd=7.5, belowText=0.9, motion=0.35, stable=0/3
+  [OBS 008] state=blurry, rows=21/30, age=0.19s, edges=none, bandLap=103, lineLap=137, lightStd=7.0, belowText=0.9, motion=2.03, stable=0/3
+  [OBS 009] state=almost_ready, rows=28/30, age=0.16s, edges=none, bandLap=498, lineLap=687, lightStd=7.0, belowText=1.0, motion=0.84, stable=1/3
+  [OBS 010] state=almost_ready, rows=30/30, age=0.28s, edges=none, bandLap=795, lineLap=1070, lightStd=8.7, belowText=1.0, motion=0.89, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 011] state=almost_ready, rows=30/30, age=0.25s, edges=none, bandLap=1359, lineLap=2004, lightStd=8.7, belowText=1.0, motion=0.09, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #217.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_144935.jpg
+[POST-CAPTURE] LapVar=239.6, score components: sharp=30, bright=30, even=15
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.438s (31 detections, 31 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-01 - Managing Emergency Water Storage on a Campus A residential campus reviewed its emergency water plan after a scheduled pipeline repair lasted longer than expected. The existing guidance stated that each residence block should keep a small reserve, but it did not specify how often containers should be inspected or who was responsible for replacing them. A working group therefore mapped the locations of tanks, portable containers and drinking-water dispensers across eight buildings. The review focused on short interruptions lasting less than one day, because longer emergencies would require outside supply and a different distribution plan Storage and Inspection Rules The group estimated a minimum planning quantity of 3 litres of drinking water per person for a 24- hour period, with additional water needed for basic hygiene and food preparation Rather than filling every available container, staff selected food-grade vessels that could be sealed, labelled and moved safely Each label showed the fill date, intended use and responsible building Containers were kept away from direct sunlight, cleaning chemicals and fuel. The largest portable vessel weighed almost 24 kg when full, so it was placed on a low trolley instead of a high shelf. Inspection became the most important part of the new plan. On the first Monday of every month, a building representative checked seals, leaks, labels and storage conditions. Any container with a damaged cap, unusual odour or unclear history was emptied and cleaned rather than kept for convenience. The fixed tanks were included in the facilities maintenance schedule, with records of cleaning dates and inlet-screen condition. A small sample of stored water was also checked after long periods of non-use according to the campus health office procedure. A short exercise was held on 14 August 2026 One residence floor was told that tap water was unavailable for two hours, and volunteers practised retrieving, carrying and issuing the stored supply. The exercise revealed that the written map was accurate but one trolley could not pass through a narrow service doorway. Moving two containers to a different room solved the problem The group also learned that people needed clear instructions about which reserve was suitable for drinking and which was intended only for cleaning The final plan treated stored water as a managed resource rather than a pile of containers It assigned ownership, inspection intervals, safe lifting arrangements and a method for recording use. The reserve was modest, but the process reduced confusion during routine interruptions and provided a stronger starting point for larger emergency planning.
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.991 | at the top of the page
+    EN12-01 - Managing Emergency Water Storage on a Campus
+  P1 | type=paragraph | 30 line(s) | confidence=0.993 | in the middle of the page
+    A residential campus reviewed its emergency water plan after a scheduled pipeline repair lasted longer than expected. The existing guidance stated that each residence block should keep a small reserve, but it did not specify how often containers should be inspected or who was responsible for replacing them. A working group therefore mapped the locations of tanks, portable containers and drinking-water dispensers across eight buildings. The review focused on short interruptions lasting less than one day, because longer emergencies would require outside supply and a different distribution plan Storage and Inspection Rules The group estimated a minimum planning quantity of 3 litres of drinking water per person for a 24- hour period, with additional water needed for basic hygiene and food preparation Rather than filling every available container, staff selected food-grade vessels that could be sealed, labelled and moved safely Each label showed the fill date, intended use and responsible building Containers were kept away from direct sunlight, cleaning chemicals and fuel. The largest portable vessel weighed almost 24 kg when full, so it was placed on a low trolley instead of a high shelf. Inspection became the most important part of the new plan. On the first Monday of every month, a building representative checked seals, leaks, labels and storage conditions. Any container with a damaged cap, unusual odour or unclear history was emptied and cleaned rather than kept for convenience. The fixed tanks were included in the facilities maintenance schedule, with records of cleaning dates and inlet-screen condition. A small sample of stored water was also checked after long periods of non-use according to the campus health office procedure. A short exercise was held on 14 August 2026 One residence floor was told that tap water was unavailable for two hours, and volunteers practised retrieving, carrying and issuing the stored supply. The exercise revealed that the written map was accurate but one trolley could not pass through a narrow service doorway. Moving two containers to a different room solved the problem The group also learned that people needed clear instructions about which reserve was suitable for drinking and which was intended only for cleaning The final plan treated stored water as a managed resource rather than a pile of containers It assigned ownership, inspection intervals, safe lifting arrangements and a method for recording use. The reserve was modest, but the process reduced confusion during routine interruptions and provided a stronger starting point for larger emergency planning.
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.024s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_144937_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_144937_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.438s
+  Translation  : skipped
+  Spell Corr   : 0.024s
+  TTS Playback : 136.581s
+────────────────────────────────────────
+  TOTAL        : 138.734s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.41s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=24/24, age=0.11s, edges=none, bandLap=1347, lineLap=1728, lightStd=9.5, belowText=1.0, motion=1.94, stable=0/3
+  [OBS 003] state=almost_ready, rows=25/25, age=0.11s, edges=none, bandLap=799, lineLap=1078, lightStd=14.0, belowText=1.1, motion=0.49, stable=1/3
+  [OBS 004] state=almost_ready, rows=26/26, age=0.08s, edges=none, bandLap=1054, lineLap=1410, lightStd=12.7, belowText=1.1, motion=0.12, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 005] state=almost_ready, rows=28/27, age=0.11s, edges=none, bandLap=872, lineLap=1171, lightStd=10.0, belowText=1.0, motion=0.14, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1771.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_145208.jpg
+[POST-CAPTURE] LapVar=180.9, score components: sharp=20, bright=30, even=19
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.485s (31 detections, 31 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-02 - A Pilot Bicycle Counter on a Campus Road A transport research class installed a temporary bicycle counter on a campus road to compare manual observations with an electronic sensing system. The site was chosen because it carried steady bicycle traffic but had only one vehicle lane in each direction, making visual verification practical. Two students marked a 12 m observation zone with removable tape and positioned the sensor so that passing bicycles crossed its detection area at a consistent angle Data collection began at 07 30 on 3 September 2026 and continued until 18 30. For validation, observers counted bicycles manually during six separate thirty-minute windows. They recorded direction, bicycle type and whether two riders passed side by side. The electronic counter stored a timestamp and direction estimate for every detected event. During the morning period. the system counted 146 bicycles while the observers counted 150. Review of the timestamps showed that most missed events occurred when pairs travelled close together. A second issue appeared when a grounds vehicle moved slowly along the edge of the detection zone and produced two false bicycle events. Installation Adjustment The class adjusted the installation rather than changing the data after collection The sensor was rotated by 7 degrees and moved 0 6 m farther from the road edge so that maintenance vehicles were less likely to enter its strongest detection region. The next validation window produced 132 electronic counts against 134 manual counts. Side-by-side riders still presented a challenge, but the false vehicle detections stopped Students noted that a small numerical improvement was useful only because the physical reason for the change was understood and documented Daily traffic patterns were also informative. The largest thirty-minute total occurred between 08 10 and 08 40, while a second peak appeared after classes ended. Rain beginning at 15 20 reduced bicycle traffic by approximately 38% compared with the previous dry hour The class did not treat this single day as representative of an entire semester: instead. ia used the exercise to practise installation, validation and uncertainty reporting At the end of the pilot, all temporary markings were removed and the dataset was archived with a site photograph, sensor orientation sketch and calibration notes. The main lesson was that automated counters can reduce labour, but they stull require field checks. Without manual observations, the class would not have known whether an unusual count reflected real travel behaviour. a passing service vehicle or limitations in separating closely spaced riders
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.989 | at the top of the page
+    EN12-02 - A Pilot Bicycle Counter on a Campus Road
+  P1 | type=paragraph | 30 line(s) | confidence=0.991 | in the middle of the page
+    A transport research class installed a temporary bicycle counter on a campus road to compare manual observations with an electronic sensing system. The site was chosen because it carried steady bicycle traffic but had only one vehicle lane in each direction, making visual verification practical. Two students marked a 12 m observation zone with removable tape and positioned the sensor so that passing bicycles crossed its detection area at a consistent angle Data collection began at 07 30 on 3 September 2026 and continued until 18 30. For validation, observers counted bicycles manually during six separate thirty-minute windows. They recorded direction, bicycle type and whether two riders passed side by side. The electronic counter stored a timestamp and direction estimate for every detected event. During the morning period. the system counted 146 bicycles while the observers counted 150. Review of the timestamps showed that most missed events occurred when pairs travelled close together. A second issue appeared when a grounds vehicle moved slowly along the edge of the detection zone and produced two false bicycle events. Installation Adjustment The class adjusted the installation rather than changing the data after collection The sensor was rotated by 7 degrees and moved 0 6 m farther from the road edge so that maintenance vehicles were less likely to enter its strongest detection region. The next validation window produced 132 electronic counts against 134 manual counts. Side-by-side riders still presented a challenge, but the false vehicle detections stopped Students noted that a small numerical improvement was useful only because the physical reason for the change was understood and documented Daily traffic patterns were also informative. The largest thirty-minute total occurred between 08 10 and 08 40, while a second peak appeared after classes ended. Rain beginning at 15 20 reduced bicycle traffic by approximately 38% compared with the previous dry hour The class did not treat this single day as representative of an entire semester: instead. ia used the exercise to practise installation, validation and uncertainty reporting At the end of the pilot, all temporary markings were removed and the dataset was archived with a site photograph, sensor orientation sketch and calibration notes. The main lesson was that automated counters can reduce labour, but they stull require field checks. Without manual observations, the class would not have known whether an unusual count reflected real travel behaviour. a passing service vehicle or limitations in separating closely spaced riders
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.025s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_145210_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_145210_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.485s
+  Translation  : skipped
+  Spell Corr   : 0.025s
+  TTS Playback : 218.270s
+────────────────────────────────────────
+  TOTAL        : 220.458s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=26/26, age=0.52s, edges=none, bandLap=1251, lineLap=1610, lightStd=13.3, belowText=1.1, motion=0.00, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 002] state=page_not_found, rows=0/26, age=0.12s, edges=none, bandLap=164, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.93, stable=0/3
+  [OBS 003] state=almost_ready, rows=30/30, age=0.08s, edges=none, bandLap=462, lineLap=529, lightStd=14.5, belowText=1.1, motion=0.58, stable=1/3
+  [OBS 004] state=almost_ready, rows=29/30, age=0.16s, edges=none, bandLap=1156, lineLap=1533, lightStd=14.1, belowText=1.1, motion=0.87, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 005] state=almost_ready, rows=31/31, age=0.12s, edges=none, bandLap=1483, lineLap=1973, lightStd=13.7, belowText=1.1, motion=0.62, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4112.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260916_145559.jpg
+[POST-CAPTURE] LapVar=242.5, score components: sharp=30, bright=30, even=23
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.500s (31 detections, 31 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+EN12-03 - Digitizing Handwritten Field Notebooks A small environmental archive began digitizing field notebooks created by survey teams beween occasional measurements written in pencil. Because the originals were unique the project was designed around preservation first and speed second. Every notebook received a temporary work number, and staff photographed its cover and condition before scanning Pages with loose inserts were flagged so that no item would be lost when the binding was opened The scanning station used an overhead camera rather than a flalbed scanner because several bindings could not be pressed safely Pages were supported at a gentle angle and illuminaled by two diffuse lamps positioned to reduce glare A grey reference card appeared in the first image of each session Most pages were captured at 400 ppi equivalent resolution, while maps and pages containing very small annotations were recorded at higher resolution Operators checked focus al the centre and corners before continuing through a notebook. File naming was deliberately simple A notebook identified as FN-1994-17 produced images such as FN-1994-17_P001 and FN-1994-17_P002 If a loose insert belonged between pages 18 and 19, it received a suffix rather than forcing the rest of the sequence to be renamed A checksum was generated after transfer to the archive server, and a second copy was wriiten to offline storage The project log recorded the operator, capture date, equipment settings and any unusual page condition Access Copy Versus Original Evidence Text recognition was treated as an access aid, not a replacement for the image. Handwriting quality varied widely, and technical abbreviations often confused automated systems. Staff therefore created a short verified transcription only for titles, dates, locations and selected measurements Search users could find a notebook through those fields and then inspect the original page image Where a number was uncertain, the transcription included a visible uncertainty marker rather than silenily choosing a value. By the end of the first month. 2,480 pages had been captured from thirty-six notebooks. The team intentionally avoided setting a daily page quota because fragile material required different handling times. Instead, quality was reviewed through weekly sample checks of focus. sequence, colour reference and file integrity This slower but controlled workflow preserved the relationship between the digital files and the physical notebooks, which was more important than maximizing the number of scans completed each day
+============================================================
+
+[REGIONS] Detected 2 text region(s): 1 title, 0 heading(s), 1 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.986 | at the top of the page
+    EN12-03 - Digitizing Handwritten Field Notebooks
+  P1 | type=paragraph | 30 line(s) | confidence=0.988 | in the middle of the page
+    A small environmental archive began digitizing field notebooks created by survey teams beween occasional measurements written in pencil. Because the originals were unique the project was designed around preservation first and speed second. Every notebook received a temporary work number, and staff photographed its cover and condition before scanning Pages with loose inserts were flagged so that no item would be lost when the binding was opened The scanning station used an overhead camera rather than a flalbed scanner because several bindings could not be pressed safely Pages were supported at a gentle angle and illuminaled by two diffuse lamps positioned to reduce glare A grey reference card appeared in the first image of each session Most pages were captured at 400 ppi equivalent resolution, while maps and pages containing very small annotations were recorded at higher resolution Operators checked focus al the centre and corners before continuing through a notebook. File naming was deliberately simple A notebook identified as FN-1994-17 produced images such as FN-1994-17_P001 and FN-1994-17_P002 If a loose insert belonged between pages 18 and 19, it received a suffix rather than forcing the rest of the sequence to be renamed A checksum was generated after transfer to the archive server, and a second copy was wriiten to offline storage The project log recorded the operator, capture date, equipment settings and any unusual page condition Access Copy Versus Original Evidence Text recognition was treated as an access aid, not a replacement for the image. Handwriting quality varied widely, and technical abbreviations often confused automated systems. Staff therefore created a short verified transcription only for titles, dates, locations and selected measurements Search users could find a notebook through those fields and then inspect the original page image Where a number was uncertain, the transcription included a visible uncertainty marker rather than silenily choosing a value. By the end of the first month. 2,480 pages had been captured from thirty-six notebooks. The team intentionally avoided setting a daily page quota because fragile material required different handling times. Instead, quality was reviewed through weekly sample checks of focus. sequence, colour reference and file integrity This slower but controlled workflow preserved the relationship between the digital files and the physical notebooks, which was more important than maximizing the number of scans completed each day
+[STAGE 2] 2 regions, 0 NLLB chunks, english -> english: 0.002s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.027s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_145601_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_145601_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.500s
+  Translation  : skipped
+  Spell Corr   : 0.027s
+  TTS Playback : 212.870s
+────────────────────────────────────────
+  TOTAL        : 215.088s
+────────────────────────────────────────
+
+  Ready for next capture!
+

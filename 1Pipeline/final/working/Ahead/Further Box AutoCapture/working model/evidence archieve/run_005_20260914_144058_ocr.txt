@@ -1,0 +1,347 @@
+======================================================================
+RUN          : 5
+TIMESTAMP    : 20260914_144058
+IMAGE FILE   : capture_cli_005_20260914_144056.jpg
+LANGUAGE     : french
+TEXT REGIONS : 45
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 44
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+CAE-F-10-07 Revision No 3 Date 09 12 2022 Page 1 of 2 pages PROJECT/STUDENT EVALUATION PROFORMA FOR USE BY ADVISOR / CO-ADVISOR / EVALUATOR (8th SEMESTER) ADVISOR/CO-ADVISOR/EVALUATOR STUDENT Namo: Name: Pak No: Rank: Course: Semester No: Project Title: Weighted PLO Score PLO Attribute Description Weightage Score Scores (1-10) Engineering Concepts and application of Engineering Knowledge Knowledge Analysis of requirements and quality of 2 Problem Analysis solution Design and Innovation/Implementation 3 Development of / Practicability Solutions Literature Survey Investigation / Validation of results Efficient application of techniques / utilization 5 Modern Tool Usage of tools Engineer and Society. Environment & Impact of solution in general / environmental X1 context Sustainability Commitment to professional ethics highlighted 8 Ethice via professional integrity in working and Similanty index (<15%) Individual and Team Ability to work independently / in group Work Formulation / achievement of project 11 Project Management milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong Learning learming in the context of innovation and technological developments Total Weights = 220 ∑Weighted Score Total Score(%)= × 100= É Total Weiahts PLO Score(%) = E Weighted Soore for PLO ×100= E Total Welants REMARKS:
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=0.999 | font_scale=0.96 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=20.00 | bbox=(227, 60, 953, 95)
+  SOURCE    : CAE-F-10-07 Revision No 3 Date 09 12 2022 Page 1 of 2 pages
+  LAYOUT LINES:
+    L01 | bbox=(231, 64, 949, 91) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=23.00 | font_scale=0.96 | heading=top_title_geometry | decision=start_of_page | text=CAE-F-10-07 Revision No 3 Date 09 12 2022 Page 1 of 2 pages
+  TRANSLATED: This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+  SPOKEN    : This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=3 | conf=0.984 | font_scale=1.11 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=20.00 | bbox=(249, 110, 958, 186)
+  SOURCE    : PROJECT/STUDENT EVALUATION PROFORMA FOR USE BY ADVISOR / CO-ADVISOR / EVALUATOR (8th SEMESTER) ADVISOR/CO-ADVISOR/EVALUATOR
+  LAYOUT LINES:
+    L01 | bbox=(365, 114, 847, 140) | pitch=49.50 | gap_ratio=2.48 | indent=-61.00 | font_height=24.00 | font_scale=1.02 | heading=ordinary_text | decision=after_heading | text=PROJECT/STUDENT EVALUATION PROFORMA
+    L02 | bbox=(253, 136, 954, 166) | pitch=24.00 | gap_ratio=1.20 | indent=-138.00 | font_height=26.00 | font_scale=1.11 | heading=ordinary_text | decision=continuation | text=FOR USE BY ADVISOR / CO-ADVISOR / EVALUATOR (8th SEMESTER)
+    L03 | bbox=(599, 172, 938, 200) | pitch=35.00 | gap_ratio=1.75 | indent=0.50 | font_height=24.00 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=ADVISOR/CO-ADVISOR/EVALUATOR
+  TRANSLATED: This is a project/student evaluation programme for use by advisor/co-advisor/evaluator (8th semester)
+  SPOKEN    : This is a project/student evaluation programme for use by advisor/co-advisor/evaluator (8th semester)
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=2 | conf=0.917 | font_scale=1.06 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(179, 186, 290, 211)
+  SOURCE    : STUDENT Namo:
+  LAYOUT LINES:
+    L01 | bbox=(183, 173, 286, 200) | pitch=0.50 | gap_ratio=0.03 | indent=-2.50 | font_height=25.00 | font_scale=1.06 | heading=ordinary_text | decision=column_change | text=STUDENT
+    L02 | bbox=(185, 197, 258, 222) | pitch=23.00 | gap_ratio=1.15 | indent=-1.50 | font_height=22.02 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=Namo:
+  TRANSLATED: The student Namo:
+  SPOKEN    : The student Namo:
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=1 | conf=0.945 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(595, 211, 665, 222)
+  SOURCE    : Name:
+  LAYOUT LINES:
+    L01 | bbox=(599, 200, 661, 225) | pitch=3.00 | gap_ratio=0.15 | indent=1.00 | font_height=22.02 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=Name:
+  TRANSLATED: Name:
+  SPOKEN    : Name:
+------------------------------------------------------------
+P4 | region_id=5 | type=paragraph | lines=1 | conf=0.967 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(182, 222, 275, 233)
+  SOURCE    : Pak No:
+  LAYOUT LINES:
+    L01 | bbox=(186, 220, 271, 244) | pitch=19.50 | gap_ratio=0.97 | indent=-1.50 | font_height=21.99 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=Pak No:
+  TRANSLATED: Pack number:
+  SPOKEN    : Pack number:
+------------------------------------------------------------
+P5 | region_id=6 | type=paragraph | lines=1 | conf=0.999 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(594, 233, 658, 244)
+  SOURCE    : Rank:
+  LAYOUT LINES:
+    L01 | bbox=(598, 223, 654, 245) | pitch=2.00 | gap_ratio=0.10 | indent=-1.00 | font_height=22.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Rank:
+  TRANSLATED: Rank one:
+  SPOKEN    : Rank one:
+------------------------------------------------------------
+P6 | region_id=7 | type=paragraph | lines=3 | conf=0.992 | font_scale=1.14 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(183, 244, 326, 318)
+  SOURCE    : Course: Semester No: Project Title:
+  LAYOUT LINES:
+    L01 | bbox=(187, 243, 273, 266) | pitch=20.50 | gap_ratio=1.02 | indent=-0.50 | font_height=20.99 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=Course:
+    L02 | bbox=(188, 266, 322, 289) | pitch=23.00 | gap_ratio=1.15 | indent=2.50 | font_height=21.00 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=Semester No:
+    L03 | bbox=(187, 288, 318, 314) | pitch=23.50 | gap_ratio=1.18 | indent=3.00 | font_height=24.00 | font_scale=1.14 | heading=ordinary_text | decision=continuation | text=Project Title:
+  TRANSLATED: Course: Semester No: Project title:
+  SPOKEN    : Course: Semester No: Project title:
+------------------------------------------------------------
+P7 | region_id=8 | type=paragraph | lines=1 | conf=0.997 | font_scale=0.93 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(893, 354, 1043, 372)
+  SOURCE    : Weighted PLO
+  LAYOUT LINES:
+    L01 | bbox=(897, 358, 1039, 381) | pitch=68.50 | gap_ratio=3.42 | indent=93.00 | font_height=19.50 | font_scale=0.93 | heading=ordinary_text | decision=column_change | text=Weighted PLO
+  TRANSLATED: Weighted PLO
+  SPOKEN    : Weighted PLO
+------------------------------------------------------------
+P8 | region_id=9 | type=paragraph | lines=1 | conf=0.999 | font_scale=0.73 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(742, 372, 795, 377)
+  SOURCE    : Score
+  LAYOUT LINES:
+    L01 | bbox=(746, 367, 791, 382) | pitch=5.00 | gap_ratio=0.25 | indent=0.00 | font_height=15.00 | font_scale=0.73 | heading=ordinary_text | decision=column_change | text=Score
+  TRANSLATED: Score
+  SPOKEN    : Score
+------------------------------------------------------------
+P9 | region_id=10 | type=paragraph | lines=1 | conf=0.995 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(180, 377, 372, 380)
+  SOURCE    : PLO Attribute
+  LAYOUT LINES:
+    L01 | bbox=(184, 369, 368, 391) | pitch=5.50 | gap_ratio=0.28 | indent=-58.00 | font_height=20.00 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=PLO Attribute
+  TRANSLATED: The PLO attributes
+  SPOKEN    : The PLO attributes
+------------------------------------------------------------
+P10 | region_id=11 | type=paragraph | lines=1 | conf=0.977 | font_scale=1.06 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(533, 380, 625, 382)
+  SOURCE    : Description
+  LAYOUT LINES:
+    L01 | bbox=(537, 369, 621, 392) | pitch=0.50 | gap_ratio=0.03 | indent=200.00 | font_height=20.99 | font_scale=1.06 | heading=ordinary_text | decision=column_change | text=Description
+  TRANSLATED: Description of the
+  SPOKEN    : Description of the
+------------------------------------------------------------
+P11 | region_id=12 | type=paragraph | lines=1 | conf=0.999 | font_scale=0.85 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(800, 382, 1054, 386)
+  SOURCE    : Weightage Score Scores
+  LAYOUT LINES:
+    L01 | bbox=(804, 371, 1050, 394) | pitch=2.00 | gap_ratio=0.10 | indent=-93.00 | font_height=17.00 | font_scale=0.85 | heading=ordinary_text | decision=column_change | text=Weightage Score Scores
+  TRANSLATED: Weightage Score Scores
+  SPOKEN    : Weightage Score Scores
+------------------------------------------------------------
+P12 | region_id=13 | type=paragraph | lines=1 | conf=0.999 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(742, 386, 796, 398)
+  SOURCE    : (1-10)
+  LAYOUT LINES:
+    L01 | bbox=(746, 381, 792, 400) | pitch=8.00 | gap_ratio=0.40 | indent=0.00 | font_height=19.00 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=(1-10)
+  TRANSLATED: (1-10)
+  SPOKEN    : (1-10)
+------------------------------------------------------------
+P13 | region_id=14 | type=paragraph | lines=3 | conf=0.993 | font_scale=1.04 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(236, 398, 701, 446)
+  SOURCE    : Engineering Concepts and application of Engineering Knowledge Knowledge Analysis of requirements and quality of
+  LAYOUT LINES:
+    L01 | bbox=(240, 394, 697, 419) | pitch=16.00 | gap_ratio=0.80 | indent=-99.00 | font_height=20.50 | font_scale=1.04 | heading=ordinary_text | decision=column_change | text=Engineering Concepts and application of Engineering
+    L02 | bbox=(244, 414, 510, 434) | pitch=17.50 | gap_ratio=0.88 | indent=-76.00 | font_height=18.00 | font_scale=0.90 | heading=ordinary_text | decision=continuation | text=Knowledge Knowledge
+    L03 | bbox=(434, 430, 688, 453) | pitch=17.50 | gap_ratio=0.88 | indent=-3.00 | font_height=20.00 | font_scale=1.01 | heading=ordinary_text | decision=continuation | text=Analysis of requirements and quality of
+  TRANSLATED: Engineering Concepts and application of Engineering Knowledge Analysis of requirements and quality of
+  SPOKEN    : Engineering Concepts and application of Engineering Knowledge Analysis of requirements and quality of
+------------------------------------------------------------
+P14 | region_id=15 | type=paragraph | lines=1 | conf=0.998 | font_scale=0.97 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(202, 446, 393, 454)
+  SOURCE    : 2 Problem Analysis
+  LAYOUT LINES:
+    L01 | bbox=(206, 439, 389, 462) | pitch=9.00 | gap_ratio=0.45 | indent=-23.50 | font_height=19.50 | font_scale=0.97 | heading=ordinary_text | decision=column_change | text=2 Problem Analysis
+  TRANSLATED: 2 Problems and their analysis
+  SPOKEN    : 2 Problems and their analysis
+------------------------------------------------------------
+P15 | region_id=16 | type=paragraph | lines=1 | conf=0.994 | font_scale=0.86 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(432, 454, 495, 468)
+  SOURCE    : solution
+  LAYOUT LINES:
+    L01 | bbox=(436, 450, 491, 467) | pitch=8.00 | gap_ratio=0.40 | indent=-1.50 | font_height=17.00 | font_scale=0.86 | heading=ordinary_text | decision=column_change | text=solution
+  TRANSLATED: the solution
+  SPOKEN    : the solution
+------------------------------------------------------------
+P16 | region_id=17 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.01 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(244, 468, 349, 482)
+  SOURCE    : Design and
+  LAYOUT LINES:
+    L01 | bbox=(248, 468, 345, 488) | pitch=19.50 | gap_ratio=0.97 | indent=16.00 | font_height=20.00 | font_scale=1.01 | heading=ordinary_text | decision=column_change | text=Design and
+  TRANSLATED: Design and
+  SPOKEN    : Design and
+------------------------------------------------------------
+P17 | region_id=18 | type=paragraph | lines=1 | conf=0.980 | font_scale=1.01 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(434, 482, 623, 489)
+  SOURCE    : Innovation/Implementation
+  LAYOUT LINES:
+    L01 | bbox=(438, 475, 619, 495) | pitch=7.00 | gap_ratio=0.35 | indent=-0.50 | font_height=20.00 | font_scale=1.01 | heading=ordinary_text | decision=column_change | text=Innovation/Implementation
+  TRANSLATED: Innovation and implementation
+  SPOKEN    : Innovation and implementation
+------------------------------------------------------------
+P18 | region_id=19 | type=paragraph | lines=1 | conf=0.992 | font_scale=0.93 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(207, 489, 385, 498)
+  SOURCE    : 3 Development of
+  LAYOUT LINES:
+    L01 | bbox=(211, 483, 381, 504) | pitch=8.50 | gap_ratio=0.42 | indent=-43.50 | font_height=18.50 | font_scale=0.93 | heading=ordinary_text | decision=column_change | text=3 Development of
+  TRANSLATED: 3 Development of
+  SPOKEN    : 3 Development of
+------------------------------------------------------------
+P19 | region_id=20 | type=paragraph | lines=1 | conf=0.964 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(433, 498, 536, 506)
+  SOURCE    : / Practicability
+  LAYOUT LINES:
+    L01 | bbox=(437, 491, 532, 513) | pitch=8.50 | gap_ratio=0.42 | indent=-5.00 | font_height=20.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=/ Practicability
+  TRANSLATED: / Practicability
+  SPOKEN    : / Practicability
+------------------------------------------------------------
+P20 | region_id=21 | type=paragraph | lines=1 | conf=0.968 | font_scale=0.90 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(249, 506, 338, 521)
+  SOURCE    : Solutions
+  LAYOUT LINES:
+    L01 | bbox=(253, 502, 334, 520) | pitch=9.00 | gap_ratio=0.45 | indent=14.50 | font_height=18.00 | font_scale=0.90 | heading=ordinary_text | decision=column_change | text=Solutions
+  TRANSLATED: Solutions
+  SPOKEN    : Solutions
+------------------------------------------------------------
+P21 | region_id=22 | type=paragraph | lines=1 | conf=0.991 | font_scale=1.10 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(436, 521, 559, 535)
+  SOURCE    : Literature Survey
+  LAYOUT LINES:
+    L01 | bbox=(440, 521, 555, 541) | pitch=20.00 | gap_ratio=1.00 | indent=-4.00 | font_height=20.00 | font_scale=1.10 | heading=ordinary_text | decision=column_change | text=Literature Survey
+  TRANSLATED: The literature survey
+  SPOKEN    : The literature survey
+------------------------------------------------------------
+P22 | region_id=23 | type=paragraph | lines=1 | conf=0.999 | font_scale=1.15 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(252, 535, 368, 544)
+  SOURCE    : Investigation
+  LAYOUT LINES:
+    L01 | bbox=(256, 529, 364, 550) | pitch=8.50 | gap_ratio=0.42 | indent=14.00 | font_height=21.00 | font_scale=1.15 | heading=ordinary_text | decision=column_change | text=Investigation
+  TRANSLATED: Investigation
+  SPOKEN    : Investigation
+------------------------------------------------------------
+P23 | region_id=24 | type=paragraph | lines=2 | conf=0.983 | font_scale=0.91 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(440, 544, 746, 572)
+  SOURCE    : / Validation of results Efficient application of techniques / utilization
+  LAYOUT LINES:
+    L01 | bbox=(444, 539, 584, 556) | pitch=8.00 | gap_ratio=0.40 | indent=-0.50 | font_height=17.00 | font_scale=0.88 | heading=ordinary_text | decision=column_change | text=/ Validation of results
+    L02 | bbox=(444, 559, 742, 576) | pitch=20.00 | gap_ratio=1.00 | indent=89.00 | font_height=17.00 | font_scale=0.91 | heading=ordinary_text | decision=continuation | text=Efficient application of techniques / utilization
+  TRANSLATED: / Validation of results Efficient application of techniques / use
+  SPOKEN    : / Validation of results Efficient application of techniques / use
+------------------------------------------------------------
+P24 | region_id=25 | type=paragraph | lines=1 | conf=0.853 | font_scale=0.97 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(217, 572, 418, 580)
+  SOURCE    : 5 Modern Tool Usage
+  LAYOUT LINES:
+    L01 | bbox=(221, 566, 414, 586) | pitch=8.50 | gap_ratio=0.42 | indent=-43.00 | font_height=18.50 | font_scale=0.97 | heading=ordinary_text | decision=column_change | text=5 Modern Tool Usage
+  TRANSLATED: 5 Modern tool use
+  SPOKEN    : 5 Modern tool use
+------------------------------------------------------------
+P25 | region_id=26 | type=paragraph | lines=1 | conf=0.980 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(441, 580, 501, 593)
+  SOURCE    : of tools
+  LAYOUT LINES:
+    L01 | bbox=(445, 575, 497, 593) | pitch=8.00 | gap_ratio=0.40 | indent=87.50 | font_height=18.00 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=of tools
+  TRANSLATED: of tools
+  SPOKEN    : of tools
+------------------------------------------------------------
+P26 | region_id=27 | type=paragraph | lines=3 | conf=0.973 | font_scale=1.12 | heading_evidence=sentence_ending | break=column_change | normal_pitch=20.00 | bbox=(259, 593, 885, 628)
+  SOURCE    : Engineer and Society. Environment & Impact of solution in general / environmental X1 context
+  LAYOUT LINES:
+    L01 | bbox=(263, 592, 434, 611) | pitch=17.50 | gap_ratio=0.88 | indent=-3.00 | font_height=19.00 | font_scale=1.12 | heading=sentence_ending | decision=column_change | text=Engineer and Society.
+    L02 | bbox=(265, 599, 881, 625) | pitch=10.50 | gap_ratio=0.53 | indent=-93.50 | font_height=19.00 | font_scale=1.12 | heading=ordinary_text | decision=continuation | text=Environment & Impact of solution in general / environmental X1
+    L03 | bbox=(450, 616, 503, 633) | pitch=12.50 | gap_ratio=0.62 | indent=-4.50 | font_height=17.00 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=context
+  TRANSLATED: Engineer and Society. Environment & Impact of solution in general / environmental X1 context
+  SPOKEN    : Engineer and Society. Environment & Impact of solution in general / environmental X1 context
+------------------------------------------------------------
+P27 | region_id=28 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(263, 628, 382, 641)
+  SOURCE    : Sustainability
+  LAYOUT LINES:
+    L01 | bbox=(267, 624, 378, 641) | pitch=8.00 | gap_ratio=0.40 | indent=20.00 | font_height=17.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Sustainability
+  TRANSLATED: Sustainability
+  SPOKEN    : Sustainability
+------------------------------------------------------------
+P28 | region_id=29 | type=paragraph | lines=1 | conf=0.995 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(450, 641, 765, 657)
+  SOURCE    : Commitment to professional ethics highlighted
+  LAYOUT LINES:
+    L01 | bbox=(454, 641, 761, 658) | pitch=17.00 | gap_ratio=0.85 | indent=-1.50 | font_height=17.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Commitment to professional ethics highlighted
+  TRANSLATED: Commitment to professional ethics highlighted
+  SPOKEN    : Commitment to professional ethics highlighted
+------------------------------------------------------------
+P29 | region_id=30 | type=paragraph | lines=1 | conf=0.769 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(224, 657, 329, 665)
+  SOURCE    : 8 Ethice
+  LAYOUT LINES:
+    L01 | bbox=(228, 655, 325, 673) | pitch=14.50 | gap_ratio=0.72 | indent=-39.00 | font_height=16.00 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=8 Ethice
+  TRANSLATED: 8 Ethics
+  SPOKEN    : 8 Ethics
+------------------------------------------------------------
+P30 | region_id=31 | type=paragraph | lines=2 | conf=0.987 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(451, 665, 721, 690)
+  SOURCE    : via professional integrity in working and Similanty index (<15%)
+  LAYOUT LINES:
+    L01 | bbox=(455, 658, 717, 675) | pitch=2.50 | gap_ratio=0.12 | indent=-1.00 | font_height=17.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=via professional integrity in working and
+    L02 | bbox=(456, 673, 610, 690) | pitch=15.00 | gap_ratio=0.75 | indent=-1.00 | font_height=17.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=Similanty index (<15%)
+  TRANSLATED: via professional integrity in working and Similanty index (<15%)
+  SPOKEN    : via professional integrity in working and Similanty index (<15%)
+------------------------------------------------------------
+P31 | region_id=32 | type=paragraph | lines=1 | conf=0.994 | font_scale=1.06 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(262, 690, 433, 703)
+  SOURCE    : Individual and Team
+  LAYOUT LINES:
+    L01 | bbox=(266, 689, 429, 708) | pitch=17.00 | gap_ratio=0.85 | indent=20.00 | font_height=18.00 | font_scale=1.06 | heading=ordinary_text | decision=column_change | text=Individual and Team
+  TRANSLATED: Individual and Team
+  SPOKEN    : Individual and Team
+------------------------------------------------------------
+P32 | region_id=33 | type=paragraph | lines=1 | conf=0.997 | font_scale=1.18 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(452, 703, 720, 712)
+  SOURCE    : Ability to work independently / in group
+  LAYOUT LINES:
+    L01 | bbox=(456, 697, 716, 719) | pitch=9.50 | gap_ratio=0.47 | indent=-2.00 | font_height=20.00 | font_scale=1.18 | heading=ordinary_text | decision=column_change | text=Ability to work independently / in group
+  TRANSLATED: Ability to work independently / in group
+  SPOKEN    : Ability to work independently / in group
+------------------------------------------------------------
+P33 | region_id=34 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.03 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(264, 712, 323, 726)
+  SOURCE    : Work
+  LAYOUT LINES:
+    L01 | bbox=(268, 706, 319, 724) | pitch=7.00 | gap_ratio=0.35 | indent=46.00 | font_height=18.00 | font_scale=1.03 | heading=ordinary_text | decision=column_change | text=Work
+  TRANSLATED: Work
+  SPOKEN    : Work
+------------------------------------------------------------
+P34 | region_id=35 | type=paragraph | lines=1 | conf=0.973 | font_scale=0.89 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(454, 726, 707, 739)
+  SOURCE    : Formulation / achievement of project
+  LAYOUT LINES:
+    L01 | bbox=(458, 728, 703, 744) | pitch=21.00 | gap_ratio=1.05 | indent=0.50 | font_height=16.00 | font_scale=0.89 | heading=ordinary_text | decision=column_change | text=Formulation / achievement of project
+  TRANSLATED: Formulation / achievement of project
+  SPOKEN    : Formulation / achievement of project
+------------------------------------------------------------
+P35 | region_id=36 | type=paragraph | lines=1 | conf=0.995 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(220, 739, 437, 747)
+  SOURCE    : 11 Project Management
+  LAYOUT LINES:
+    L01 | bbox=(224, 731, 433, 754) | pitch=6.50 | gap_ratio=0.33 | indent=4.00 | font_height=18.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=11 Project Management
+  TRANSLATED: 11 Project management
+  SPOKEN    : 11 Project management
+------------------------------------------------------------
+P36 | region_id=37 | type=paragraph | lines=4 | conf=0.988 | font_scale=1.06 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(216, 747, 739, 813)
+  SOURCE    : milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong Learning learming in the context of innovation and technological developments
+  LAYOUT LINES:
+    L01 | bbox=(458, 744, 717, 758) | pitch=8.50 | gap_ratio=0.42 | indent=119.50 | font_height=14.00 | font_scale=0.78 | heading=ordinary_text | decision=column_change | text=milestones and resource managemeni
+    L02 | bbox=(457, 761, 735, 780) | pitch=19.50 | gap_ratio=0.97 | indent=118.50 | font_height=18.00 | font_scale=1.03 | heading=ordinary_text | decision=continuation | text=Ability to recognize importance of lifelong
+    L03 | bbox=(220, 773, 731, 797) | pitch=14.50 | gap_ratio=0.72 | indent=-253.00 | font_height=19.00 | font_scale=1.06 | heading=ordinary_text | decision=continuation | text=12 Lifelong Learning learming in the context of innovation and
+    L04 | bbox=(457, 796, 649, 813) | pitch=19.50 | gap_ratio=0.97 | indent=57.00 | font_height=17.00 | font_scale=0.87 | heading=ordinary_text | decision=continuation | text=technological developments
+  TRANSLATED: milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong learning learning in the context of innovation and technological developments
+  SPOKEN    : milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong learning learning in the context of innovation and technological developments
+------------------------------------------------------------
+P37 | region_id=38 | type=paragraph | lines=1 | conf=0.981 | font_scale=1.08 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(744, 813, 899, 832)
+  SOURCE    : Total Weights = 220
+  LAYOUT LINES:
+    L01 | bbox=(748, 811, 895, 832) | pitch=17.00 | gap_ratio=0.85 | indent=0.00 | font_height=21.00 | font_scale=1.08 | heading=ordinary_text | decision=column_change | text=Total Weights = 220
+  TRANSLATED: Total Weights = 220
+  SPOKEN    : Total Weights = 220
+------------------------------------------------------------
+P38 | region_id=39 | type=paragraph | lines=1 | conf=0.920 | font_scale=0.98 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(485, 832, 632, 845)
+  SOURCE    : ∑Weighted Score
+  LAYOUT LINES:
+    L01 | bbox=(489, 831, 628, 853) | pitch=20.50 | gap_ratio=1.02 | indent=97.50 | font_height=20.00 | font_scale=0.98 | heading=ordinary_text | decision=column_change | text=∑Weighted Score
+  TRANSLATED: Weighted Score
+  SPOKEN    : Weighted Score
+------------------------------------------------------------
+P39 | region_id=40 | type=paragraph | lines=1 | conf=0.991 | font_scale=1.22 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(307, 845, 492, 850)
+  SOURCE    : Total Score(%)=
+  LAYOUT LINES:
+    L01 | bbox=(311, 834, 488, 863) | pitch=6.50 | gap_ratio=0.33 | indent=58.50 | font_height=24.99 | font_scale=1.22 | heading=ordinary_text | decision=column_change | text=Total Score(%)=
+  TRANSLATED: Total score ((%) =
+  SPOKEN    : Total score ((%) =
+------------------------------------------------------------
+P40 | region_id=41 | type=paragraph | lines=1 | conf=0.884 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(621, 850, 693, 858)
+  SOURCE    : × 100=
+  LAYOUT LINES:
+    L01 | bbox=(625, 841, 689, 862) | pitch=3.00 | gap_ratio=0.15 | indent=147.50 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=× 100=
+  TRANSLATED: × 100=
+  SPOKEN    : × 100=
+------------------------------------------------------------
+P41 | region_id=42 | type=paragraph | lines=2 | conf=0.922 | font_scale=1.14 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(286, 858, 670, 897)
+  SOURCE    : É Total Weiahts PLO Score(%) = E Weighted Soore for PLO
+  LAYOUT LINES:
+    L01 | bbox=(493, 854, 624, 874) | pitch=12.50 | gap_ratio=0.62 | indent=100.00 | font_height=20.00 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=É Total Weiahts
+    L02 | bbox=(290, 877, 666, 909) | pitch=29.00 | gap_ratio=1.45 | indent=-65.50 | font_height=24.00 | font_scale=1.14 | heading=ordinary_text | decision=continuation | text=PLO Score(%) = E Weighted Soore for PLO
+  TRANSLATED: E Total Weiahts PLO Score ((%) = E Weighted Soore for PLO
+  SPOKEN    : E Total Weiahts PLO Score ((%) = E Weighted Soore for PLO
+------------------------------------------------------------
+P42 | region_id=43 | type=paragraph | lines=1 | conf=0.985 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(661, 897, 738, 906)
+  SOURCE    : ×100=
+  LAYOUT LINES:
+    L01 | bbox=(665, 890, 734, 911) | pitch=7.50 | gap_ratio=0.38 | indent=40.00 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=×100=
+  TRANSLATED: ×100=
+  SPOKEN    : ×100=
+------------------------------------------------------------
+P43 | region_id=44 | type=paragraph | lines=1 | conf=0.828 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(492, 906, 634, 927)
+  SOURCE    : E Total Welants
+  LAYOUT LINES:
+    L01 | bbox=(496, 899, 630, 923) | pitch=10.50 | gap_ratio=0.53 | indent=104.50 | font_height=20.99 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=E Total Welants
+  TRANSLATED: E Total weightings
+  SPOKEN    : E Total weightings
+------------------------------------------------------------
+P44 | region_id=45 | type=paragraph | lines=1 | conf=0.986 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=20.00 | bbox=(211, 931, 339, 962)
+  SOURCE    : REMARKS:
+  LAYOUT LINES:
+    L01 | bbox=(215, 935, 335, 958) | pitch=35.50 | gap_ratio=1.77 | indent=-85.50 | font_height=21.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=REMARKS:
+  TRANSLATED: The following shall apply:
+  SPOKEN    : The following shall apply:
+
+======================================================================

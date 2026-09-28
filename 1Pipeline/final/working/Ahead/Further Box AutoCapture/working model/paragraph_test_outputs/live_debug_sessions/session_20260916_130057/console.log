@@ -1,0 +1,435 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.52s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.89s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.18s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.12s
+[LOAD] Conservative SymSpell dictionary loaded in 2.80s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=8/8, age=0.62s, edges=none, bandLap=1030, lineLap=2524, lightStd=7.5, belowText=1.1, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=8/8, age=0.12s, edges=none, bandLap=1010, lineLap=2602, lightStd=8.5, belowText=1.1, motion=0.64, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=8/8, age=0.16s, edges=none, bandLap=827, lineLap=2011, lightStd=8.1, belowText=1.1, motion=0.19, stable=3/3
+  [OBS 004] state=almost_ready, rows=8/8, age=0.09s, edges=none, bandLap=650, lineLap=1689, lightStd=8.5, belowText=1.1, motion=0.07, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #64.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_130128.jpg
+[POST-CAPTURE] LapVar=123.2, score components: sharp=11, bright=30, even=22
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.281s (29 detections, 14 lines, 7 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-FR16 - Planning des prêts de matériel Ce tableau résume les créneaux réservés pour quatre équipements du laboratoire pendant une journée de travaux pratiques. Équipement Début Fin Responsable Caméra 08:30 09:20 L. Martin thermique Luxmètre 09:40 10:15 S. Diallo Sonomètre 11:00 12:00 C. Perrin Anémomètre 14:10 15:00 N. Faure Enregistreur 15:20 16:30 A. Leroy CO2
+============================================================
+
+[REGIONS] Detected 7 text region(s): 0 title, 0 heading(s), 7 paragraph(s)
+  P1 | type=paragraph | 5 line(s) | confidence=0.996 | in the upper part of the page
+    TABLE-FR16 - Planning des prêts de matériel Ce tableau résume les créneaux réservés pour quatre équipements du laboratoire pendant une journée de travaux pratiques. Équipement Début Fin Responsable Caméra
+  P2 | type=paragraph | 1 line(s) | confidence=0.991 | in the upper part of the page
+    08:30 09:20 L. Martin
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    thermique
+  P4 | type=paragraph | 4 line(s) | confidence=0.996 | in the middle of the page
+    Luxmètre 09:40 10:15 S. Diallo Sonomètre 11:00 12:00 C. Perrin Anémomètre 14:10 15:00 N. Faure Enregistreur
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    15:20
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    16:30 A. Leroy
+  P7 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    CO2
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: source digits absent: 08, 09
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: new output digits: 8, 9
+[TRANSLATION REVIEW] Region 6: Review numerical rendering: source digits absent: 16
+[TRANSLATION REVIEW] Region 6: Review numerical rendering: new output digits: 4
+[STAGE 2] 7 regions, 11 NLLB chunks, french -> english: 0.478s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] TABLE-FR16 - Planning of equipment loans This table summarizes the slots reserved for four laboratory equipment during a day of practical work. Equipment Start to finish Cameraman
+[P2] 8:30 to 9:20 L. - What ?
+[P3] thermal
+[P4] Luxometer from 09:40 to 10:15 S. Diallo Sonometer is 11:00 to 12:00. Perrin Anemometer 14:10 15:00 north I need a recorder.
+[P5] 15:20
+[P6] 4:30 A.M. I 'm going .
+[P7] CO2
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.011s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_130130_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_130130_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.281s
+  Translation  : 0.478s
+  Spell Corr   : 0.011s
+  TTS Playback : 24.276s
+────────────────────────────────────────
+  TOTAL        : 26.686s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=6/6, age=0.31s, edges=none, bandLap=496, lineLap=685, lightStd=7.3, belowText=0.9, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=5/6, age=0.14s, edges=none, bandLap=658, lineLap=1123, lightStd=5.9, belowText=1.0, motion=0.29, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=9/8, age=0.11s, edges=none, bandLap=761, lineLap=1408, lightStd=7.3, belowText=1.0, motion=0.38, stable=3/3
+  [OBS 004] state=almost_ready, rows=8/9, age=0.08s, edges=none, bandLap=861, lineLap=1407, lightStd=7.2, belowText=1.0, motion=0.15, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #476.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_130200.jpg
+[POST-CAPTURE] LapVar=76.2, score components: sharp=4, bright=30, even=27
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (76.2 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=6/6, age=0.34s, edges=none, bandLap=402, lineLap=602, lightStd=3.0, belowText=0.7, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=6/6, age=0.08s, edges=none, bandLap=676, lineLap=1019, lightStd=5.8, belowText=1.1, motion=0.06, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=5/6, age=0.12s, edges=none, bandLap=144, lineLap=339, lightStd=5.6, belowText=1.1, motion=0.37, stable=3/3
+  [OBS 004] state=almost_ready, rows=7/7, age=0.11s, edges=none, bandLap=614, lineLap=979, lightStd=5.8, belowText=1.2, motion=0.27, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #555.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260916_130205.jpg
+[POST-CAPTURE] LapVar=57.3, score components: sharp=1, bright=30, even=21
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (57.3 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=5/5, age=0.36s, edges=none, bandLap=290, lineLap=939, lightStd=4.8, belowText=1.2, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=hold_still, rows=7/7, age=0.12s, edges=none, bandLap=1193, lineLap=1824, lightStd=4.2, belowText=1.3, motion=1.66, stable=1/3
+  [OBS 003] state=almost_ready, rows=6/7, age=0.12s, edges=none, bandLap=1194, lineLap=1695, lightStd=4.1, belowText=1.3, motion=0.08, stable=2/3
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 004] state=hold_still, rows=6/7, age=0.11s, edges=none, bandLap=258, lineLap=437, lightStd=5.4, belowText=1.2, motion=2.00, stable=2/3
+  [OBS 005] state=almost_ready, rows=6/7, age=0.09s, edges=none, bandLap=670, lineLap=1158, lightStd=4.9, belowText=1.3, motion=0.21, stable=2/3
+  [OBS 006] state=almost_ready, rows=6/6, age=0.06s, edges=none, bandLap=274, lineLap=386, lightStd=4.9, belowText=1.2, motion=0.18, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #610.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260916_130212.jpg
+[POST-CAPTURE] LapVar=101.1, score components: sharp=8, bright=30, even=21
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.360s (25 detections, 20 lines, 16 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-FR12 - Journal de contrôle d'un four de céramique le personnel de l'atelier a relevé les principaux paramètres de cinq cycles. Certaines cellules sont volontairement laissées vides lorsque la mesure n'a pas été enregistrée. Cycle Température max. Durée Observation 6 h 10 C-21 982℃ Normal 995 °℃ C-22 Montée lente C-23 6 h 05 Sonde remplacée 5 h 58 988 ℃ C-24 Normal 1002 °℃ 6 h 22 Refroidissement long C-25
+============================================================
+
+[REGIONS] Detected 16 text region(s): 0 title, 0 heading(s), 16 paragraph(s)
+  P1 | type=paragraph | 4 line(s) | confidence=0.995 | at the top of the page
+    TABLE-FR12 - Journal de contrôle d'un four de céramique le personnel de l'atelier a relevé les principaux paramètres de cinq cycles. Certaines cellules sont volontairement laissées vides lorsque la mesure n'a pas été enregistrée. Cycle Température max. Durée Observation
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    6 h 10
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    C-21
+  P4 | type=paragraph | 1 line(s) | confidence=0.990 | at the top of the page
+    982℃
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Normal
+  P6 | type=paragraph | 1 line(s) | confidence=0.857 | in the upper part of the page
+    995 °℃
+  P7 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    C-22
+  P8 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Montée lente
+  P9 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    C-23
+  P10 | type=paragraph | 2 line(s) | confidence=1.000 | in the upper part of the page
+    6 h 05 Sonde remplacée 5 h 58
+  P11 | type=paragraph | 1 line(s) | confidence=0.887 | in the upper part of the page
+    988 ℃
+  P12 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    C-24
+  P13 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Normal
+  P14 | type=paragraph | 1 line(s) | confidence=0.852 | in the upper part of the page
+    1002 °℃
+  P15 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    6 h 22 Refroidissement long
+  P16 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    C-25
+[TRANSLATION REVIEW] Region 10: Review numerical rendering: source digits absent: 6, 05, 5, 58
+[TRANSLATION REVIEW] Region 15: Review numerical rendering: source digits absent: 6, 22
+[STAGE 2] 16 regions, 10 NLLB chunks, french -> english: 0.375s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] TABLE-FR12 - Control log of a ceramic furnace the workshop staff recorded the main parameters for five cycles. Some cells are voluntarily left blank when the measurement has not been recorded. Cycle Temperature max. Duration of observation
+[P2] 6 and 10 .
+[P3] C-21
+[P4] 982℃
+[P5] It 's normal .
+[P6] 995 °℃
+[P7] C-22
+[P8] Slowly climbing
+[P9] C-23
+[P10] 6h05 Replacement probe 5h58
+[P11] 988 ℃
+[P12] C-24
+[P13] It 's normal .
+[P14] 1002 °℃
+[P15] 6h22 long cooling
+[P16] C-25
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.003s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_130214_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_130214_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.360s
+  Translation  : 0.375s
+  Spell Corr   : 0.003s
+  TTS Playback : 36.702s
+────────────────────────────────────────
+  TOTAL        : 39.100s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=glare, rows=6/6, age=0.41s, edges=B, bandLap=67, lineLap=146, lightStd=0.0, belowText=2.3, motion=0.00, stable=0/3
+  [OBS 002] state=glare, rows=5/5, age=0.08s, edges=none, bandLap=494, lineLap=1112, lightStd=0.0, belowText=0.3, motion=2.14, stable=0/3
+  [GUIDANCE] Glare detected. Change the angle.
+  [OBS 003] state=blurry, rows=4/4, age=0.12s, edges=none, bandLap=97, lineLap=191, lightStd=3.9, belowText=0.6, motion=0.19, stable=0/3
+  [OBS 004] state=glare, rows=2/2, age=0.11s, edges=B, bandLap=837, lineLap=1499, lightStd=0.3, belowText=0.0, motion=5.20, stable=0/3
+  [OBS 005] state=glare, rows=4/4, age=0.14s, edges=none, bandLap=68, lineLap=71, lightStd=0.0, belowText=0.2, motion=4.22, stable=0/3
+  [OBS 006] state=hold_still, rows=4/4, age=0.27s, edges=none, bandLap=152, lineLap=320, lightStd=2.6, belowText=0.5, motion=2.77, stable=0/3
+  [OBS 007] state=hold_still, rows=0/4, age=0.14s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.61, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 008] state=hold_still, rows=0/4, age=0.16s, edges=none, bandLap=373, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.47, stable=0/3
+  [OBS 009] state=page_not_found, rows=0/4, age=0.12s, edges=none, bandLap=358, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.95, stable=0/3
+  [OBS 010] state=glare, rows=3/4, age=0.09s, edges=none, bandLap=28, lineLap=72, lightStd=0.0, belowText=0.3, motion=7.17, stable=0/3
+  [OBS 011] state=almost_ready, rows=10/9, age=0.27s, edges=none, bandLap=235, lineLap=431, lightStd=4.5, belowText=1.0, motion=0.49, stable=1/3
+  [OBS 012] state=almost_ready, rows=10/10, age=0.09s, edges=none, bandLap=527, lineLap=1336, lightStd=4.5, belowText=1.1, motion=0.34, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 013] state=almost_ready, rows=10/10, age=0.09s, edges=none, bandLap=637, lineLap=1572, lightStd=5.2, belowText=1.1, motion=0.20, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1259.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260916_130302.jpg
+[POST-CAPTURE] LapVar=79.5, score components: sharp=4, bright=30, even=11
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (79.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.23s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=10/10, age=0.08s, edges=none, bandLap=83, lineLap=147, lightStd=1.9, belowText=0.7, motion=1.64, stable=0/3
+  [OBS 003] state=blurry, rows=6/6, age=0.08s, edges=none, bandLap=76, lineLap=125, lightStd=4.1, belowText=1.0, motion=4.94, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 004] state=hold_still, rows=10/10, age=0.09s, edges=none, bandLap=795, lineLap=2026, lightStd=5.2, belowText=1.1, motion=1.31, stable=0/3
+  [OBS 005] state=almost_ready, rows=10/10, age=0.22s, edges=none, bandLap=628, lineLap=1649, lightStd=4.2, belowText=1.1, motion=0.44, stable=1/3
+  [OBS 006] state=almost_ready, rows=10/10, age=0.08s, edges=none, bandLap=773, lineLap=1961, lightStd=6.3, belowText=1.2, motion=0.01, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 007] state=almost_ready, rows=10/10, age=0.12s, edges=none, bandLap=778, lineLap=1978, lightStd=6.0, belowText=1.3, motion=0.11, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1366.
+
+────────────────────────────────────────────────────────────
+  RUN #6
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_006_20260916_130312.jpg
+[POST-CAPTURE] LapVar=132.4, score components: sharp=13, bright=30, even=25
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.063s (28 detections, 11 lines, 3 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use. Temp (°C) Status Unit CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass
+============================================================
+
+[REGIONS] Detected 3 text region(s): 0 title, 0 heading(s), 3 paragraph(s)
+  P1 | type=paragraph | 4 line(s) | confidence=0.995 | in the upper part of the page
+    TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use.
+  P2 | type=paragraph | 1 line(s) | confidence=0.984 | in the upper part of the page
+    Temp (°C) Status
+  P3 | type=paragraph | 6 line(s) | confidence=1.000 | in the middle of the page
+    Unit CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass
+[STAGE 2] 3 regions, 4 NLLB chunks, french -> english: 0.515s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use.
+[P2] Temp (°C) Status
+[P3] Unit of CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass is not included.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.000s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260916_130314_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260916_130314_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.063s
+  Translation  : 0.515s
+  Spell Corr   : 0.000s
+  TTS Playback : 20.780s
+────────────────────────────────────────
+  TOTAL        : 23.016s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.34s, edges=none, bandLap=77, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=2/2, age=0.08s, edges=none, bandLap=86, lineLap=112, lightStd=5.6, belowText=1.0, motion=7.03, stable=0/3
+  [OBS 003] state=almost_ready, rows=4/4, age=0.14s, edges=none, bandLap=597, lineLap=931, lightStd=5.5, belowText=1.3, motion=0.43, stable=1/3
+  [OBS 004] state=almost_ready, rows=4/4, age=0.14s, edges=none, bandLap=415, lineLap=820, lightStd=4.8, belowText=1.1, motion=0.09, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 005] state=hold_still, rows=10/9, age=0.09s, edges=none, bandLap=580, lineLap=1080, lightStd=5.5, belowText=1.3, motion=1.07, stable=2/3
+  [OBS 006] state=almost_ready, rows=10/10, age=0.09s, edges=none, bandLap=809, lineLap=1442, lightStd=5.3, belowText=1.3, motion=0.18, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1712.
+
+────────────────────────────────────────────────────────────
+  RUN #7
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_007_20260916_130340.jpg
+[POST-CAPTURE] LapVar=111.2, score components: sharp=9, bright=30, even=24
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.187s (38 detections, 17 lines, 14 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+TABLE-EN12 - Portable Power Subsystem Check Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg 1.6 s Radio link 5.08 V 186 mA 0.21 kg 2.4 s Display 5.02 V 92 mA 0.17 kg 0.9 s Sensor hub 3.31 V 74 mA 0.12 kg 1.1 s Audio unit 5.05 V 128 mA 0.19 kg 3.2 s Cooling fan 11.9 V 0.18 A 0.09 kg 0.7 s
+============================================================
+
+[REGIONS] Detected 14 text region(s): 1 title, 6 heading(s), 7 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.993 | in the upper part of the page
+    TABLE-EN12 - Portable Power Subsystem Check
+  P1 | type=paragraph | 4 line(s) | confidence=0.997 | in the upper part of the page
+    Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg
+  H1 | type=section_heading | 1 line(s) | confidence=0.901 | in the middle of the page
+    1.6 s
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Radio link 5.08 V 186 mA 0.21 kg
+  H2 | type=section_heading | 1 line(s) | confidence=1.000 | in the middle of the page
+    2.4 s
+  P3 | type=paragraph | 1 line(s) | confidence=0.998 | in the middle of the page
+    Display 5.02 V 92 mA 0.17 kg
+  H3 | type=section_heading | 1 line(s) | confidence=0.994 | in the middle of the page
+    0.9 s
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Sensor hub 3.31 V
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    74 mA 0.12 kg
+  H4 | type=section_heading | 1 line(s) | confidence=0.999 | in the middle of the page
+    1.1 s
+  P6 | type=paragraph | 1 line(s) | confidence=0.983 | in the middle of the page
+    Audio unit 5.05 V 128 mA 0.19 kg
+  H5 | type=section_heading | 1 line(s) | confidence=0.998 | in the middle of the page
+    3.2 s
+  P7 | type=paragraph | 1 line(s) | confidence=0.992 | in the middle of the page
+    Cooling fan 11.9 V 0.18 A 0.09 kg
+  H6 | type=section_heading | 1 line(s) | confidence=0.969 | in the middle of the page
+    0.7 s
+[STAGE 2] 14 regions, 15 NLLB chunks, french -> english: 0.435s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] TABLE-EN12 - Portable power subsystem check
+[P1] Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg The power supply is provided by the control unit.
+[H1] 1.6 s
+[P2] Radio link 5.08 V 186 mA 0.21 kg Other
+[H2] 2.4 s
+[P3] Display 5.02 V 92 mA 0.17 kg
+[H3] 0.9 s
+[P4] The sensor hub is 3.31 V.
+[P5] 74 mA 0.12 kg
+[H4] 1.1 s
+[P6] Sound unit 5.05 V 128 mA 0.19 kg
+[H5] 3.2 s
+[P7] The cooling fan 11.9 V 0.18 A 0.09 kg
+[H6] 0.7 s
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.000s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_007_20260916_130342_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_007_20260916_130342_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.187s
+  Translation  : 0.435s
+  Spell Corr   : 0.000s
+  TTS Playback : 37.109s
+────────────────────────────────────────
+  TOTAL        : 39.418s
+────────────────────────────────────────
+
+  Ready for next capture!
+

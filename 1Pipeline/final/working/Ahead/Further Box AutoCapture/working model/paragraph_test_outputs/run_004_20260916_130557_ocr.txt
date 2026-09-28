@@ -1,0 +1,95 @@
+======================================================================
+RUN          : 4
+TIMESTAMP    : 20260916_130557
+IMAGE FILE   : capture_cli_004_20260916_130555.jpg
+LANGUAGE     : chinese
+TEXT REGIONS : 11
+PAGE TITLES  : 0
+HEADINGS     : 1
+PARAGRAPHS   : 10
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-ZH12-冷藏库环境与电源巡检 值班人员在四个时间点记录冷藏库环境和备用电源状态。表头分为环境参数和电源状态两个分组。 环境参数 电源状态 温度(°C) 湿度 电压(V) 电流(A) 08:00 4.2 61% 24.3 1.8 12:00 4.5 63% 24.1 1.9 4.4 62% 24.2 1.8 20:00 4.1 60% 24.4 1.7
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=2 | conf=1.000 | font_scale=1.15 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=50.50 | bbox=(241, 73, 1527, 194)
+  SOURCE    : TABLE-ZH12-冷藏库环境与电源巡检 值班人员在四个时间点记录冷藏库环境和备用电源状态。表头分为环境参数和电源状态两个分组。
+  LAYOUT LINES:
+    L01 | bbox=(255, 82, 948, 128) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=41.00 | font_scale=1.15 | heading=ordinary_text | decision=start_of_page | text=TABLE-ZH12-冷藏库环境与电源巡检
+    L02 | bbox=(250, 146, 1518, 185) | pitch=60.50 | gap_ratio=1.20 | indent=-719.50 | font_height=37.00 | font_scale=1.00 | heading=sentence_ending | decision=continuation | text=值班人员在四个时间点记录冷藏库环境和备用电源状态。表头分为环境参数和电源状态两个分组。
+  TRANSLATED: TABLE-ZH12 - Chiller environment and power patrol personnel recording refrigerator environment and back-up power status at four time points. The headline is divided into two sub-groups: environmental parameters and power status.
+  SPOKEN    : TABLE-ZH12 - Chiller environment and power patrol personnel recording refrigerator environment and back-up power status at four time points. The headline is divided into two sub-groups: environmental parameters and power status.
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=50.50 | bbox=(712, 197, 853, 224)
+  SOURCE    : 环境参数
+  LAYOUT LINES:
+    L01 | bbox=(721, 206, 844, 242) | pitch=58.50 | gap_ratio=1.16 | indent=140.00 | font_height=36.00 | font_scale=0.94 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=环境参数
+  TRANSLATED: Environmental parameters
+  SPOKEN    : Environmental parameters
+------------------------------------------------------------
+P3 | region_id=3 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(1209, 224, 1355, 250)
+  SOURCE    : 电源状态
+  LAYOUT LINES:
+    L01 | bbox=(1218, 206, 1346, 242) | pitch=0.00 | gap_ratio=0.00 | indent=252.50 | font_height=36.00 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=电源状态
+  TRANSLATED: Power supply status
+  SPOKEN    : Power supply status
+------------------------------------------------------------
+P4 | region_id=4 | type=paragraph | lines=1 | conf=0.965 | font_scale=1.11 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(572, 250, 938, 278)
+  SOURCE    : 温度(°C) 湿度
+  LAYOUT LINES:
+    L01 | bbox=(581, 256, 929, 298) | pitch=53.00 | gap_ratio=1.05 | indent=-8.00 | font_height=39.51 | font_scale=1.11 | heading=ordinary_text | decision=column_change | text=温度(°C) 湿度
+  TRANSLATED: Temperature (°C) Humidity
+  SPOKEN    : Temperature (°C) Humidity
+------------------------------------------------------------
+P5 | region_id=5 | type=paragraph | lines=1 | conf=0.998 | font_scale=1.26 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(1072, 278, 1479, 303)
+  SOURCE    : 电压(V) 电流(A)
+  LAYOUT LINES:
+    L01 | bbox=(1081, 257, 1470, 303) | pitch=3.00 | gap_ratio=0.06 | indent=236.50 | font_height=43.01 | font_scale=1.26 | heading=ordinary_text | decision=column_change | text=电压(V) 电流(A)
+  TRANSLATED: Voltage (V) Current (A)
+  SPOKEN    : Voltage (V) Current (A)
+------------------------------------------------------------
+P6 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.97 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(319, 303, 676, 328)
+  SOURCE    : 08:00 4.2
+  LAYOUT LINES:
+    L01 | bbox=(328, 309, 667, 344) | pitch=46.50 | gap_ratio=0.92 | indent=-124.50 | font_height=33.50 | font_scale=0.97 | heading=ordinary_text | decision=column_change | text=08:00 4.2
+  TRANSLATED: 08:00 4.2
+  SPOKEN    : 08:00 4.2
+------------------------------------------------------------
+P7 | region_id=7 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(841, 328, 1440, 351)
+  SOURCE    : 61% 24.3 1.8
+  LAYOUT LINES:
+    L01 | bbox=(850, 308, 1431, 349) | pitch=2.00 | gap_ratio=0.04 | indent=138.50 | font_height=34.00 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=61% 24.3 1.8
+  TRANSLATED: 61% 24.3 1.8
+  SPOKEN    : 61% 24.3 1.8
+------------------------------------------------------------
+P8 | region_id=8 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.01 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(312, 351, 664, 374)
+  SOURCE    : 12:00 4.5
+  LAYOUT LINES:
+    L01 | bbox=(321, 355, 655, 391) | pitch=44.50 | gap_ratio=0.88 | indent=-120.50 | font_height=34.50 | font_scale=1.01 | heading=ordinary_text | decision=column_change | text=12:00 4.5
+  TRANSLATED: 12:00 4.5
+  SPOKEN    : 12:00 4.5
+------------------------------------------------------------
+P9 | region_id=9 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=50.50 | bbox=(830, 374, 1427, 398)
+  SOURCE    : 63% 24.1 1.9
+  LAYOUT LINES:
+    L01 | bbox=(839, 355, 1418, 395) | pitch=2.00 | gap_ratio=0.04 | indent=397.50 | font_height=34.00 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=63% 24.1 1.9
+  TRANSLATED: 63% 24.1 1.9
+  SPOKEN    : 63% 24.1 1.9
+------------------------------------------------------------
+H1 | region_id=10 | type=section_heading | lines=1 | conf=1.000 | font_scale=1.01 | heading_evidence=explicit_heading_pattern | break=heading | normal_pitch=50.50 | bbox=(575, 398, 1411, 443)
+  SOURCE    : 4.4 62% 24.2 1.8
+  LAYOUT LINES:
+    L01 | bbox=(584, 401, 1402, 441) | pitch=46.00 | gap_ratio=0.91 | indent=285.00 | font_height=34.50 | font_scale=1.01 | heading=explicit_heading_pattern | decision=heading | text=4.4 62% 24.2 1.8
+  TRANSLATED: 4.4 62% 24.2 1.8
+  SPOKEN    : 4.4 62% 24.2 1.8
+------------------------------------------------------------
+P10 | region_id=11 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.96 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=50.50 | bbox=(290, 443, 1395, 495)
+  SOURCE    : 20:00 4.1 60% 24.4 1.7
+  LAYOUT LINES:
+    L01 | bbox=(299, 445, 1386, 486) | pitch=44.50 | gap_ratio=0.88 | indent=-412.50 | font_height=33.00 | font_scale=0.96 | heading=ordinary_text | decision=after_heading | text=20:00 4.1 60% 24.4 1.7
+  TRANSLATED: 20:00 4.1 60% 24.4 1.7
+  SPOKEN    : 20:00 4.1 60% 24.4 1.7
+
+======================================================================

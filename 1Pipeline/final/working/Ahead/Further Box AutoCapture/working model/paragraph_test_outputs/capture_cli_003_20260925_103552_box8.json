@@ -1,0 +1,67 @@
+{
+  "script": "pipeline_cli_box8.py",
+  "run": 3,
+  "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\pics\\captured\\capture_cli_003_20260925_103552.jpg",
+  "timestamp": "2026-09-25T10:35:53",
+  "timings": {
+    "ocr": 0.21899999999732245,
+    "translation": 0.00018810000619851053,
+    "spell": 0.0,
+    "processing_before_audio": 0.8842461109161377
+  },
+  "regions": [
+    {
+      "number": 1,
+      "region_id": 1,
+      "source_text": "8",
+      "bbox": [
+        254,
+        193,
+        542,
+        533
+      ],
+      "lines": [
+        {
+          "text": "8",
+          "score": 0.9943861961364746,
+          "bbox": [
+            288,
+            227,
+            508,
+            499
+          ],
+          "width": 220,
+          "height": 272,
+          "font_height": 219.99996948242188,
+          "center_x": 398.0,
+          "center_y": 363.0,
+          "layout_outlier": false,
+          "font_scale": 1.0,
+          "local_body_font_height": 219.99996948242188,
+          "is_heading": false,
+          "heading_evidence": "ordinary_text",
+          "paragraph_pitch": 0.0,
+          "paragraph_gap_ratio": 0.0,
+          "paragraph_indent_delta": 0.0,
+          "paragraph_break_reason": "start_of_page"
+        }
+      ],
+      "confidence": 0.9943861961364746,
+      "break_reason": "start_of_page",
+      "typical_line_pitch": 190.39999999999998,
+      "region_type": "paragraph",
+      "label": "P1",
+      "paragraph_number": 1,
+      "heading_number": null,
+      "font_scale": 1.0,
+      "heading_evidence": "ordinary_text",
+      "effective_source_language": "english",
+      "translation_warnings": [],
+      "translation_chunk_count": 0,
+      "translated_text": "8",
+      "translation_status": "preserved_identifier",
+      "spoken_text": "8",
+      "spell_changes": []
+    }
+  ]
+}

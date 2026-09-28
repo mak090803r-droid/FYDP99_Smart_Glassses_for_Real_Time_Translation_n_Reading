@@ -1,0 +1,1015 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.60s
+[LOAD] Preparing local Urdu Piper voice ...
+[TTS] Loading voice: ur_PK-fasih-medium …
+[TTS] Voice ready.
+[LOAD] Urdu Piper voice ready.
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.91s
+[CAPTURE] Detection-only available: True
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 4.80s
+[LOAD] Conservative SymSpell dictionary loaded in 2.76s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=5/5, age=0.67s, edges=L, bandLap=70, lineLap=175, lightStd=5.3, belowText=4.4, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=0/0, age=0.08s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=8.25, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=blurry, rows=3/3, age=0.08s, edges=none, bandLap=79, lineLap=108, lightStd=4.3, belowText=2.0, motion=0.05, stable=0/3
+  [OBS 004] state=blurry, rows=5/5, age=0.16s, edges=none, bandLap=164, lineLap=115, lightStd=4.4, belowText=3.0, motion=1.83, stable=0/3
+  [OBS 005] state=blurry, rows=4/4, age=0.14s, edges=T, bandLap=60, lineLap=238, lightStd=4.0, belowText=3.8, motion=2.68, stable=0/3
+  [OBS 006] state=blurry, rows=26/26, age=0.14s, edges=T, bandLap=101, lineLap=130, lightStd=5.9, belowText=1.8, motion=0.29, stable=0/3
+  [OBS 007] state=blurry, rows=28/28, age=0.34s, edges=T, bandLap=103, lineLap=142, lightStd=8.0, belowText=2.0, motion=0.33, stable=0/3
+  [OBS 008] state=blurry, rows=25/25, age=0.30s, edges=T, bandLap=106, lineLap=149, lightStd=6.0, belowText=1.9, motion=0.16, stable=0/3
+  [OBS 009] state=blurry, rows=22/22, age=0.16s, edges=none, bandLap=98, lineLap=139, lightStd=6.8, belowText=1.9, motion=0.11, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 010] state=blurry, rows=22/22, age=0.12s, edges=T, bandLap=104, lineLap=148, lightStd=6.5, belowText=1.9, motion=0.18, stable=0/3
+  [OBS 011] state=blurry, rows=14/14, age=0.11s, edges=none, bandLap=83, lineLap=113, lightStd=5.0, belowText=4.1, motion=0.19, stable=0/3
+  [OBS 012] state=blurry, rows=20/20, age=0.12s, edges=none, bandLap=102, lineLap=139, lightStd=4.9, belowText=4.4, motion=0.09, stable=0/3
+  [OBS 013] state=blurry, rows=19/19, age=0.30s, edges=T, bandLap=112, lineLap=161, lightStd=5.3, belowText=4.6, motion=0.28, stable=0/3
+  [OBS 014] state=blurry, rows=20/20, age=0.11s, edges=T, bandLap=116, lineLap=159, lightStd=5.4, belowText=4.7, motion=0.05, stable=0/3
+  [OBS 015] state=blurry, rows=20/20, age=0.09s, edges=T, bandLap=106, lineLap=139, lightStd=5.6, belowText=4.6, motion=0.01, stable=0/3
+  [OBS 016] state=blurry, rows=17/20, age=0.09s, edges=T, bandLap=81, lineLap=114, lightStd=6.1, belowText=4.5, motion=0.19, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 017] state=blurry, rows=9/20, age=0.11s, edges=T, bandLap=125, lineLap=119, lightStd=6.4, belowText=4.9, motion=1.00, stable=0/3
+  [OBS 018] state=blurry, rows=4/20, age=0.14s, edges=none, bandLap=10, lineLap=23, lightStd=6.7, belowText=1.6, motion=2.24, stable=0/3
+  [OBS 019] state=blurry, rows=5/20, age=0.27s, edges=none, bandLap=114, lineLap=440, lightStd=4.0, belowText=5.1, motion=3.21, stable=0/3
+  [OBS 020] state=blurry, rows=4/20, age=0.27s, edges=none, bandLap=56, lineLap=87, lightStd=4.0, belowText=2.6, motion=3.85, stable=0/3
+  [OBS 021] state=blurry, rows=5/20, age=0.09s, edges=T, bandLap=237, lineLap=315, lightStd=5.3, belowText=4.8, motion=1.22, stable=0/3
+  [OBS 022] state=blurry, rows=4/20, age=0.09s, edges=none, bandLap=207, lineLap=304, lightStd=4.8, belowText=4.2, motion=1.51, stable=0/3
+  [OBS 023] state=blurry, rows=6/20, age=0.09s, edges=none, bandLap=431, lineLap=758, lightStd=3.5, belowText=5.8, motion=0.61, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 024] state=blurry, rows=6/19, age=0.28s, edges=none, bandLap=475, lineLap=736, lightStd=4.9, belowText=5.8, motion=0.14, stable=0/3
+  [OBS 025] state=blurry, rows=6/19, age=0.17s, edges=none, bandLap=491, lineLap=946, lightStd=4.5, belowText=6.2, motion=0.17, stable=0/3
+  [OBS 026] state=blurry, rows=5/19, age=0.11s, edges=none, bandLap=297, lineLap=607, lightStd=4.0, belowText=6.0, motion=0.34, stable=0/3
+  [OBS 027] state=hold_still, rows=0/19, age=0.14s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.34, stable=0/3
+  [OBS 028] state=blurry, rows=5/19, age=0.16s, edges=T, bandLap=276, lineLap=1085, lightStd=4.3, belowText=7.9, motion=1.33, stable=0/3
+  [OBS 029] state=blurry, rows=4/19, age=0.12s, edges=none, bandLap=39, lineLap=140, lightStd=4.6, belowText=2.5, motion=3.68, stable=0/3
+  [OBS 030] state=blurry, rows=4/19, age=0.25s, edges=none, bandLap=29, lineLap=89, lightStd=3.3, belowText=1.6, motion=1.29, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 031] state=blurry, rows=5/19, age=0.25s, edges=none, bandLap=230, lineLap=506, lightStd=2.8, belowText=4.6, motion=3.33, stable=0/3
+  [OBS 032] state=blurry, rows=5/18, age=0.12s, edges=none, bandLap=537, lineLap=1118, lightStd=4.2, belowText=7.3, motion=0.35, stable=0/3
+  [OBS 033] state=blurry, rows=5/6, age=0.12s, edges=none, bandLap=462, lineLap=1031, lightStd=4.0, belowText=7.1, motion=0.77, stable=0/3
+  [OBS 034] state=page_not_found, rows=0/6, age=0.16s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 035] state=hold_still, rows=0/6, age=0.22s, edges=none, bandLap=22, lineLap=0, lightStd=0.0, belowText=0.0, motion=8.39, stable=0/3
+  [OBS 036] state=page_not_found, rows=0/6, age=0.14s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 037] state=hold_still, rows=0/6, age=0.06s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.61, stable=0/3
+  [OBS 038] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.08, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 039] state=hold_still, rows=0/6, age=0.12s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.51, stable=0/3
+  [OBS 040] state=hold_still, rows=0/6, age=0.25s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.54, stable=0/3
+  [OBS 041] state=too_dark, rows=0/6, age=0.08s, edges=none, bandLap=1, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.29, stable=0/3
+  [OBS 042] state=too_dark, rows=0/6, age=0.11s, edges=none, bandLap=1, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.03, stable=0/3
+  [GUIDANCE] Too dark. Improve the lighting.
+  [OBS 043] state=too_dark, rows=0/6, age=0.14s, edges=none, bandLap=6, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.08, stable=0/3
+  [OBS 044] state=hold_still, rows=0/6, age=0.11s, edges=none, bandLap=19, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.55, stable=0/3
+  [OBS 045] state=hold_still, rows=0/6, age=0.11s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.66, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 046] state=hold_still, rows=0/6, age=0.30s, edges=none, bandLap=11, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.20, stable=0/3
+  [OBS 047] state=hold_still, rows=0/6, age=0.28s, edges=none, bandLap=11, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.96, stable=0/3
+  [OBS 048] state=hold_still, rows=0/6, age=0.08s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.25, stable=0/3
+  [OBS 049] state=hold_still, rows=0/6, age=0.08s, edges=none, bandLap=7, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.18, stable=0/3
+  [OBS 050] state=hold_still, rows=0/6, age=0.11s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.48, stable=0/3
+  [OBS 051] state=hold_still, rows=0/6, age=0.25s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.35, stable=0/3
+  [OBS 052] state=hold_still, rows=0/6, age=0.08s, edges=none, bandLap=22, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.40, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 053] state=blurry, rows=2/6, age=0.09s, edges=none, bandLap=19, lineLap=41, lightStd=1.4, belowText=2.0, motion=4.20, stable=0/3
+  [OBS 054] state=blurry, rows=3/6, age=0.12s, edges=none, bandLap=76, lineLap=114, lightStd=3.2, belowText=2.7, motion=2.85, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 055] state=blurry, rows=3/6, age=0.11s, edges=none, bandLap=102, lineLap=136, lightStd=2.2, belowText=2.8, motion=0.12, stable=0/3
+  [OBS 056] state=blurry, rows=3/6, age=0.19s, edges=none, bandLap=41, lineLap=43, lightStd=4.0, belowText=2.3, motion=0.48, stable=0/3
+  [OBS 057] state=blurry, rows=2/6, age=0.28s, edges=none, bandLap=8, lineLap=13, lightStd=23.3, belowText=1.1, motion=4.09, stable=0/3
+  [OBS 058] state=hold_still, rows=0/6, age=0.27s, edges=none, bandLap=28, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.30, stable=0/3
+  [OBS 059] state=hold_still, rows=0/6, age=0.14s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.80, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 060] state=page_not_found, rows=0/6, age=0.12s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 061] state=blurry, rows=3/6, age=0.09s, edges=none, bandLap=70, lineLap=101, lightStd=18.4, belowText=4.0, motion=3.64, stable=0/3
+  [OBS 062] state=blurry, rows=2/6, age=0.26s, edges=none, bandLap=20, lineLap=30, lightStd=22.7, belowText=3.2, motion=0.04, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 063] state=bad_lighting, rows=3/6, age=0.11s, edges=none, bandLap=42, lineLap=62, lightStd=32.3, belowText=4.6, motion=0.78, stable=0/3
+  [OBS 064] state=blurry, rows=3/6, age=0.09s, edges=none, bandLap=26, lineLap=34, lightStd=7.7, belowText=4.2, motion=0.43, stable=0/3
+  [OBS 065] state=page_not_found, rows=0/6, age=0.11s, edges=none, bandLap=26, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.57, stable=0/3
+  [OBS 066] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.83, stable=0/3
+  [OBS 067] state=hold_still, rows=0/6, age=0.14s, edges=none, bandLap=34, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.99, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 068] state=page_not_found, rows=0/6, age=0.28s, edges=none, bandLap=40, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.61, stable=0/3
+  [OBS 069] state=page_not_found, rows=0/6, age=0.23s, edges=none, bandLap=19, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.68, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 070] state=page_not_found, rows=0/6, age=0.12s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.84, stable=0/3
+  [OBS 071] state=page_not_found, rows=0/6, age=0.12s, edges=none, bandLap=27, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.36, stable=0/3
+  [OBS 072] state=hold_still, rows=0/6, age=0.06s, edges=none, bandLap=34, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.59, stable=0/3
+  [OBS 073] state=blurry, rows=2/6, age=0.22s, edges=L, bandLap=42, lineLap=50, lightStd=17.8, belowText=1.4, motion=0.24, stable=0/3
+  [OBS 074] state=blurry, rows=2/6, age=0.09s, edges=LB, bandLap=59, lineLap=71, lightStd=18.0, belowText=2.2, motion=0.88, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 075] state=page_not_found, rows=0/6, age=0.11s, edges=none, bandLap=43, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.65, stable=0/3
+  [OBS 076] state=page_not_found, rows=0/6, age=0.11s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.59, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 077] state=blurry, rows=2/6, age=0.12s, edges=none, bandLap=38, lineLap=45, lightStd=13.6, belowText=3.8, motion=1.95, stable=0/3
+  [OBS 078] state=hold_still, rows=0/6, age=0.12s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.52, stable=0/3
+  [OBS 079] state=hold_still, rows=0/6, age=0.24s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.23, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 080] state=glare, rows=3/6, age=0.25s, edges=B, bandLap=22, lineLap=36, lightStd=14.0, belowText=0.0, motion=0.79, stable=0/3
+  [OBS 081] state=blurry, rows=1/6, age=0.14s, edges=B, bandLap=27, lineLap=149, lightStd=26.9, belowText=0.0, motion=1.41, stable=0/3
+  [OBS 082] state=hold_still, rows=0/6, age=0.11s, edges=none, bandLap=40, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.22, stable=0/3
+  [OBS 083] state=glare, rows=4/6, age=0.14s, edges=B, bandLap=15, lineLap=32, lightStd=0.0, belowText=0.2, motion=0.07, stable=0/3
+  [OBS 084] state=page_not_found, rows=0/6, age=0.25s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 085] state=hold_still, rows=0/6, age=0.27s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.92, stable=0/3
+  [OBS 086] state=hold_still, rows=0/6, age=0.14s, edges=none, bandLap=88, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.10, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 087] state=hold_still, rows=3/6, age=0.12s, edges=none, bandLap=111, lineLap=127, lightStd=3.7, belowText=3.5, motion=0.71, stable=0/3
+  [OBS 088] state=hold_still, rows=0/6, age=0.11s, edges=none, bandLap=38, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.40, stable=0/3
+  [OBS 089] state=blurry, rows=4/6, age=0.30s, edges=R, bandLap=88, lineLap=238, lightStd=4.1, belowText=1.5, motion=2.69, stable=0/3
+  [OBS 090] state=hold_still, rows=0/6, age=0.08s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.10, stable=0/3
+  [OBS 091] state=blurry, rows=3/6, age=0.08s, edges=none, bandLap=163, lineLap=258, lightStd=9.1, belowText=4.8, motion=1.28, stable=0/3
+  [OBS 092] state=blurry, rows=5/6, age=0.19s, edges=none, bandLap=298, lineLap=562, lightStd=5.8, belowText=5.4, motion=2.56, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 093] state=blurry, rows=5/6, age=0.17s, edges=none, bandLap=128, lineLap=141, lightStd=5.3, belowText=4.3, motion=0.20, stable=0/3
+  [OBS 094] state=blurry, rows=4/6, age=0.22s, edges=none, bandLap=225, lineLap=396, lightStd=6.0, belowText=4.2, motion=1.92, stable=0/3
+  [OBS 095] state=blurry, rows=4/6, age=0.25s, edges=none, bandLap=109, lineLap=143, lightStd=3.6, belowText=3.1, motion=0.65, stable=0/3
+  [OBS 096] state=almost_ready, rows=4/5, age=0.30s, edges=none, bandLap=169, lineLap=403, lightStd=8.6, belowText=3.3, motion=0.64, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 097] state=blurry, rows=3/5, age=0.14s, edges=none, bandLap=47, lineLap=189, lightStd=5.4, belowText=2.9, motion=2.73, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 098] state=blurry, rows=4/5, age=0.08s, edges=none, bandLap=226, lineLap=456, lightStd=0.9, belowText=4.9, motion=3.22, stable=0/3
+  [OBS 099] state=hold_still, rows=3/5, age=0.17s, edges=none, bandLap=145, lineLap=220, lightStd=3.9, belowText=3.3, motion=0.51, stable=0/3
+  [OBS 100] state=blurry, rows=5/5, age=0.26s, edges=B, bandLap=178, lineLap=274, lightStd=1.0, belowText=4.2, motion=2.02, stable=0/3
+  [OBS 101] state=blurry, rows=0/5, age=0.12s, edges=none, bandLap=33, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.03, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 102] state=blurry, rows=3/5, age=0.09s, edges=none, bandLap=43, lineLap=170, lightStd=3.7, belowText=1.5, motion=2.07, stable=0/3
+  [OBS 103] state=hold_still, rows=3/5, age=0.11s, edges=none, bandLap=348, lineLap=652, lightStd=4.3, belowText=3.3, motion=0.81, stable=0/3
+  [OBS 104] state=blurry, rows=4/5, age=0.11s, edges=none, bandLap=143, lineLap=190, lightStd=4.0, belowText=4.0, motion=2.31, stable=0/3
+  [OBS 105] state=blurry, rows=5/5, age=0.23s, edges=none, bandLap=228, lineLap=471, lightStd=4.1, belowText=4.1, motion=2.62, stable=0/3
+  [OBS 106] state=blurry, rows=4/5, age=0.25s, edges=none, bandLap=570, lineLap=914, lightStd=4.2, belowText=5.3, motion=0.67, stable=0/3
+  [OBS 107] state=blurry, rows=5/5, age=0.20s, edges=none, bandLap=63, lineLap=93, lightStd=5.5, belowText=2.0, motion=2.59, stable=0/3
+  [OBS 108] state=blurry, rows=5/5, age=0.08s, edges=none, bandLap=195, lineLap=485, lightStd=5.3, belowText=6.0, motion=0.46, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 109] state=look_down, rows=6/5, age=0.06s, edges=B, bandLap=231, lineLap=345, lightStd=6.9, belowText=0.0, motion=0.32, stable=0/3
+  [OBS 110] state=blurry, rows=5/5, age=0.23s, edges=none, bandLap=337, lineLap=826, lightStd=6.1, belowText=7.6, motion=0.20, stable=0/3
+  [OBS 111] state=almost_ready, rows=4/5, age=0.11s, edges=none, bandLap=121, lineLap=244, lightStd=3.4, belowText=2.8, motion=0.44, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 112] state=glare, rows=3/5, age=0.31s, edges=LB, bandLap=16, lineLap=39, lightStd=0.0, belowText=0.0, motion=6.15, stable=0/3
+  [OBS 113] state=too_dark, rows=2/5, age=0.30s, edges=B, bandLap=166, lineLap=207, lightStd=1.6, belowText=6.2, motion=4.87, stable=0/3
+
+[QUALITY] Manual force capture accepted: frame #1142.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260925_103151.jpg
+[POST-CAPTURE] LapVar=10.7, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Manual force override: processing the saved frame despite softness (10.7 < 100).
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.141s (0 detections, 0 lines, 0 regions)
+[WARN] No text extracted. Skipping.
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.42s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.48, stable=0/3
+  [OBS 003] state=blurry, rows=3/3, age=0.11s, edges=none, bandLap=100, lineLap=205, lightStd=1.8, belowText=2.6, motion=1.24, stable=0/3
+  [OBS 004] state=blurry, rows=4/4, age=0.12s, edges=none, bandLap=54, lineLap=329, lightStd=4.8, belowText=2.6, motion=5.85, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 005] state=blurry, rows=5/5, age=0.12s, edges=none, bandLap=58, lineLap=82, lightStd=5.6, belowText=2.3, motion=7.66, stable=0/3
+  [OBS 006] state=blurry, rows=5/5, age=0.27s, edges=none, bandLap=40, lineLap=105, lightStd=6.4, belowText=3.1, motion=8.31, stable=0/3
+  [OBS 007] state=blurry, rows=19/19, age=0.08s, edges=T, bandLap=73, lineLap=85, lightStd=7.7, belowText=2.1, motion=1.08, stable=0/3
+  [OBS 008] state=blurry, rows=5/5, age=0.06s, edges=T, bandLap=158, lineLap=506, lightStd=8.6, belowText=5.1, motion=0.08, stable=0/3
+  [OBS 009] state=blurry, rows=24/5, age=0.17s, edges=T, bandLap=83, lineLap=104, lightStd=8.1, belowText=3.4, motion=0.29, stable=0/3
+  [OBS 010] state=blurry, rows=4/5, age=0.17s, edges=T, bandLap=65, lineLap=101, lightStd=8.1, belowText=3.3, motion=0.85, stable=0/3
+  [OBS 011] state=blurry, rows=4/5, age=0.25s, edges=T, bandLap=27, lineLap=47, lightStd=7.9, belowText=2.0, motion=0.02, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 012] state=blurry, rows=4/5, age=0.26s, edges=T, bandLap=30, lineLap=50, lightStd=8.3, belowText=3.0, motion=0.09, stable=0/3
+  [OBS 013] state=blurry, rows=5/5, age=0.27s, edges=T, bandLap=51, lineLap=129, lightStd=8.0, belowText=4.4, motion=0.14, stable=0/3
+  [OBS 014] state=blurry, rows=2/5, age=0.11s, edges=T, bandLap=27, lineLap=61, lightStd=7.6, belowText=2.6, motion=1.63, stable=0/3
+  [OBS 015] state=blurry, rows=5/5, age=0.08s, edges=none, bandLap=56, lineLap=134, lightStd=7.6, belowText=3.3, motion=0.77, stable=0/3
+  [OBS 016] state=hold_still, rows=24/22, age=0.14s, edges=T, bandLap=182, lineLap=288, lightStd=6.8, belowText=3.0, motion=4.18, stable=0/3
+  [OBS 017] state=blurry, rows=14/22, age=0.22s, edges=none, bandLap=146, lineLap=190, lightStd=8.0, belowText=4.5, motion=0.32, stable=0/3
+  [OBS 018] state=blurry, rows=11/21, age=0.25s, edges=T, bandLap=125, lineLap=177, lightStd=8.9, belowText=5.0, motion=0.36, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 019] state=blurry, rows=14/20, age=0.12s, edges=T, bandLap=130, lineLap=165, lightStd=9.6, belowText=5.1, motion=0.12, stable=0/3
+  [OBS 020] state=blurry, rows=14/19, age=0.11s, edges=T, bandLap=134, lineLap=187, lightStd=9.6, belowText=5.2, motion=0.02, stable=0/3
+  [OBS 021] state=blurry, rows=5/18, age=0.19s, edges=none, bandLap=127, lineLap=482, lightStd=3.9, belowText=4.0, motion=1.75, stable=0/3
+  [OBS 022] state=hold_still, rows=5/17, age=0.11s, edges=none, bandLap=110, lineLap=137, lightStd=4.2, belowText=1.9, motion=2.10, stable=0/3
+  [OBS 023] state=blurry, rows=6/16, age=0.11s, edges=none, bandLap=188, lineLap=373, lightStd=11.1, belowText=5.7, motion=0.84, stable=0/3
+  [OBS 024] state=blurry, rows=6/15, age=0.30s, edges=none, bandLap=240, lineLap=163, lightStd=6.3, belowText=3.8, motion=0.97, stable=0/3
+  [OBS 025] state=blurry, rows=7/14, age=0.11s, edges=none, bandLap=152, lineLap=348, lightStd=4.2, belowText=5.2, motion=0.50, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 026] state=blurry, rows=6/14, age=0.09s, edges=none, bandLap=299, lineLap=955, lightStd=4.2, belowText=5.4, motion=0.10, stable=0/3
+  [OBS 027] state=blurry, rows=7/14, age=0.22s, edges=none, bandLap=190, lineLap=387, lightStd=4.3, belowText=5.3, motion=0.52, stable=0/3
+  [OBS 028] state=blurry, rows=6/14, age=0.28s, edges=none, bandLap=214, lineLap=527, lightStd=4.7, belowText=4.7, motion=0.24, stable=0/3
+  [OBS 029] state=blurry, rows=5/14, age=0.25s, edges=none, bandLap=81, lineLap=123, lightStd=4.0, belowText=5.3, motion=0.49, stable=0/3
+  [OBS 030] state=blurry, rows=5/14, age=0.09s, edges=none, bandLap=359, lineLap=651, lightStd=4.6, belowText=5.2, motion=0.87, stable=0/3
+  [OBS 031] state=hold_still, rows=0/14, age=0.12s, edges=none, bandLap=7, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.76, stable=0/3
+  [OBS 032] state=hold_still, rows=0/14, age=0.16s, edges=none, bandLap=84, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.33, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 033] state=hold_still, rows=0/14, age=0.11s, edges=none, bandLap=47, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.20, stable=0/3
+  [OBS 034] state=hold_still, rows=0/14, age=0.22s, edges=none, bandLap=68, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.97, stable=0/3
+  [OBS 035] state=hold_still, rows=0/14, age=0.06s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.09, stable=0/3
+  [OBS 036] state=blurry, rows=4/14, age=0.08s, edges=L, bandLap=14, lineLap=60, lightStd=8.3, belowText=1.8, motion=5.12, stable=0/3
+  [OBS 037] state=blurry, rows=5/14, age=0.23s, edges=L, bandLap=8, lineLap=10, lightStd=14.5, belowText=2.3, motion=4.72, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 038] state=bad_lighting, rows=3/14, age=0.12s, edges=L, bandLap=49, lineLap=70, lightStd=24.2, belowText=1.7, motion=7.43, stable=0/3
+  [OBS 039] state=blurry, rows=0/14, age=0.08s, edges=none, bandLap=51, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.86, stable=0/3
+  [OBS 040] state=blurry, rows=5/14, age=0.28s, edges=none, bandLap=38, lineLap=50, lightStd=16.5, belowText=2.5, motion=1.39, stable=0/3
+  [OBS 041] state=blurry, rows=4/14, age=0.12s, edges=none, bandLap=21, lineLap=72, lightStd=12.2, belowText=2.7, motion=0.88, stable=0/3
+  [OBS 042] state=blurry, rows=6/14, age=0.11s, edges=none, bandLap=63, lineLap=120, lightStd=5.2, belowText=5.1, motion=0.71, stable=0/3
+  [OBS 043] state=blurry, rows=4/14, age=0.14s, edges=none, bandLap=16, lineLap=31, lightStd=19.1, belowText=1.6, motion=1.39, stable=0/3
+  [OBS 044] state=blurry, rows=2/14, age=0.22s, edges=none, bandLap=26, lineLap=94, lightStd=3.7, belowText=1.4, motion=3.31, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 045] state=hold_still, rows=6/13, age=0.11s, edges=none, bandLap=224, lineLap=230, lightStd=16.6, belowText=3.4, motion=2.46, stable=0/3
+  [OBS 046] state=blurry, rows=6/13, age=0.08s, edges=T, bandLap=108, lineLap=259, lightStd=14.0, belowText=2.7, motion=2.09, stable=0/3
+  [OBS 047] state=blurry, rows=6/7, age=0.19s, edges=T, bandLap=220, lineLap=796, lightStd=7.0, belowText=5.9, motion=1.62, stable=0/3
+  [OBS 048] state=blurry, rows=6/7, age=0.16s, edges=none, bandLap=200, lineLap=225, lightStd=6.5, belowText=4.4, motion=0.79, stable=0/3
+  [OBS 049] state=hold_still, rows=32/7, age=0.25s, edges=none, bandLap=155, lineLap=164, lightStd=11.9, belowText=2.8, motion=1.51, stable=0/3
+  [OBS 050] state=hold_still, rows=30/28, age=0.28s, edges=none, bandLap=149, lineLap=209, lightStd=5.2, belowText=2.2, motion=1.91, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 051] state=almost_ready, rows=28/30, age=0.26s, edges=none, bandLap=135, lineLap=174, lightStd=11.1, belowText=3.1, motion=0.05, stable=1/3
+  [OBS 052] state=almost_ready, rows=31/31, age=0.11s, edges=none, bandLap=182, lineLap=258, lightStd=22.1, belowText=2.8, motion=0.88, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 053] state=hold_still, rows=31/31, age=0.06s, edges=none, bandLap=336, lineLap=320, lightStd=10.6, belowText=5.5, motion=1.07, stable=2/3
+  [OBS 054] state=almost_ready, rows=31/31, age=0.16s, edges=none, bandLap=261, lineLap=332, lightStd=13.5, belowText=4.7, motion=0.53, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #572.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260925_103430.jpg
+[POST-CAPTURE] LapVar=90.5, score components: sharp=6, bright=30, even=17
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (90.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=20/20, age=0.33s, edges=B, bandLap=360, lineLap=267, lightStd=6.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=11/19, age=0.06s, edges=none, bandLap=233, lineLap=283, lightStd=12.5, belowText=6.3, motion=1.54, stable=0/3
+  [OBS 003] state=blurry, rows=4/18, age=0.12s, edges=none, bandLap=354, lineLap=557, lightStd=11.3, belowText=4.2, motion=0.09, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 004] state=blurry, rows=10/17, age=0.16s, edges=none, bandLap=402, lineLap=444, lightStd=6.9, belowText=6.3, motion=2.75, stable=0/3
+  [OBS 005] state=blurry, rows=6/16, age=0.25s, edges=T, bandLap=213, lineLap=323, lightStd=7.5, belowText=4.7, motion=0.79, stable=0/3
+  [OBS 006] state=blurry, rows=26/16, age=0.08s, edges=T, bandLap=84, lineLap=121, lightStd=6.4, belowText=1.8, motion=0.86, stable=0/3
+  [OBS 007] state=look_up, rows=31/26, age=0.11s, edges=T, bandLap=180, lineLap=285, lightStd=7.5, belowText=2.5, motion=0.90, stable=0/3
+  [OBS 008] state=look_up, rows=27/29, age=0.11s, edges=T, bandLap=194, lineLap=295, lightStd=6.8, belowText=2.9, motion=0.14, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 009] state=look_up, rows=29/30, age=0.09s, edges=T, bandLap=210, lineLap=320, lightStd=6.7, belowText=2.7, motion=0.67, stable=0/3
+  [OBS 010] state=look_up, rows=28/29, age=0.28s, edges=T, bandLap=241, lineLap=320, lightStd=7.2, belowText=3.0, motion=0.23, stable=0/3
+  [OBS 011] state=blurry, rows=25/29, age=0.08s, edges=T, bandLap=159, lineLap=222, lightStd=4.8, belowText=4.2, motion=1.29, stable=0/3
+  [OBS 012] state=look_up, rows=29/29, age=0.14s, edges=T, bandLap=229, lineLap=207, lightStd=3.9, belowText=5.8, motion=0.90, stable=0/3
+  [OBS 013] state=almost_ready, rows=29/29, age=0.19s, edges=none, bandLap=201, lineLap=166, lightStd=4.8, belowText=6.0, motion=0.23, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 014] state=look_up, rows=30/30, age=0.11s, edges=T, bandLap=188, lineLap=220, lightStd=6.4, belowText=3.4, motion=0.28, stable=0/3
+  [OBS 015] state=look_up, rows=32/31, age=0.14s, edges=T, bandLap=294, lineLap=272, lightStd=5.4, belowText=5.4, motion=0.11, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 016] state=look_up, rows=30/31, age=0.30s, edges=T, bandLap=290, lineLap=263, lightStd=4.7, belowText=5.9, motion=0.07, stable=0/3
+  [OBS 017] state=blurry, rows=31/31, age=0.09s, edges=TB, bandLap=176, lineLap=173, lightStd=4.2, belowText=5.5, motion=0.47, stable=0/3
+  [OBS 018] state=move_back, rows=35/32, age=0.12s, edges=TB, bandLap=250, lineLap=248, lightStd=8.6, belowText=4.6, motion=0.61, stable=0/3
+  [OBS 019] state=look_up, rows=37/35, age=0.12s, edges=T, bandLap=219, lineLap=227, lightStd=10.0, belowText=3.6, motion=0.16, stable=0/3
+  [OBS 020] state=almost_ready, rows=32/35, age=0.11s, edges=none, bandLap=256, lineLap=280, lightStd=11.0, belowText=2.3, motion=0.34, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 021] state=blurry, rows=29/35, age=0.28s, edges=T, bandLap=194, lineLap=237, lightStd=8.0, belowText=5.8, motion=0.30, stable=0/3
+  [OBS 022] state=look_up, rows=29/35, age=0.09s, edges=T, bandLap=234, lineLap=246, lightStd=9.0, belowText=5.9, motion=0.33, stable=0/3
+  [OBS 023] state=look_down, rows=33/35, age=0.17s, edges=B, bandLap=269, lineLap=255, lightStd=10.0, belowText=6.1, motion=0.42, stable=0/3
+  [OBS 024] state=look_down, rows=29/35, age=0.12s, edges=B, bandLap=220, lineLap=203, lightStd=10.5, belowText=6.9, motion=0.03, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 025] state=almost_ready, rows=32/35, age=0.09s, edges=none, bandLap=245, lineLap=260, lightStd=10.9, belowText=2.6, motion=0.13, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 026] state=hold_still, rows=25/35, age=0.16s, edges=none, bandLap=189, lineLap=171, lightStd=10.4, belowText=7.2, motion=0.12, stable=1/3
+  [OBS 027] state=almost_ready, rows=34/35, age=0.25s, edges=none, bandLap=298, lineLap=285, lightStd=10.9, belowText=6.4, motion=0.15, stable=2/3
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 028] state=hold_still, rows=27/35, age=0.26s, edges=none, bandLap=249, lineLap=240, lightStd=9.9, belowText=6.6, motion=0.19, stable=2/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 029] state=hold_still, rows=14/35, age=0.19s, edges=none, bandLap=347, lineLap=431, lightStd=11.1, belowText=6.8, motion=0.07, stable=1/3
+  [GUIDANCE] Hold still.
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 030] state=hold_still, rows=11/34, age=0.08s, edges=none, bandLap=217, lineLap=384, lightStd=11.7, belowText=7.3, motion=0.53, stable=1/3
+  [STABLE HOLD] One soft failure retained; 0/3 good frames remain.
+  [OBS 031] state=hold_still, rows=15/33, age=0.12s, edges=none, bandLap=259, lineLap=355, lightStd=12.4, belowText=7.0, motion=0.29, stable=0/3
+  [OBS 032] state=hold_still, rows=7/33, age=0.27s, edges=none, bandLap=127, lineLap=444, lightStd=13.8, belowText=8.3, motion=0.40, stable=0/3
+  [OBS 033] state=hold_still, rows=9/33, age=0.12s, edges=none, bandLap=183, lineLap=448, lightStd=12.4, belowText=8.0, motion=0.06, stable=0/3
+  [OBS 034] state=hold_still, rows=11/33, age=0.09s, edges=none, bandLap=247, lineLap=395, lightStd=13.5, belowText=7.6, motion=0.12, stable=0/3
+  [OBS 035] state=hold_still, rows=11/32, age=0.12s, edges=none, bandLap=207, lineLap=411, lightStd=12.1, belowText=7.8, motion=0.05, stable=0/3
+  [OBS 036] state=blurry, rows=4/32, age=0.16s, edges=none, bandLap=52, lineLap=148, lightStd=6.0, belowText=2.2, motion=1.96, stable=0/3
+  [OBS 037] state=hold_still, rows=7/32, age=0.12s, edges=B, bandLap=324, lineLap=429, lightStd=13.5, belowText=7.4, motion=2.36, stable=0/3
+  [OBS 038] state=page_not_found, rows=2/32, age=0.28s, edges=B, bandLap=449, lineLap=555, lightStd=13.3, belowText=6.0, motion=0.83, stable=0/3
+  [OBS 039] state=hold_still, rows=0/32, age=0.26s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.37, stable=0/3
+  [OBS 040] state=hold_still, rows=8/27, age=0.09s, edges=B, bandLap=232, lineLap=586, lightStd=5.8, belowText=0.0, motion=2.71, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 041] state=page_not_found, rows=0/27, age=0.08s, edges=none, bandLap=47, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.52, stable=0/3
+  [OBS 042] state=blurry, rows=4/27, age=0.16s, edges=none, bandLap=69, lineLap=93, lightStd=13.9, belowText=1.8, motion=2.65, stable=0/3
+  [OBS 043] state=blurry, rows=4/27, age=0.30s, edges=none, bandLap=56, lineLap=146, lightStd=3.3, belowText=1.8, motion=1.94, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 044] state=hold_still, rows=0/27, age=0.16s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.03, stable=0/3
+  [OBS 045] state=bad_lighting, rows=3/27, age=0.12s, edges=none, bandLap=109, lineLap=223, lightStd=30.8, belowText=2.1, motion=3.11, stable=0/3
+  [OBS 046] state=hold_still, rows=0/27, age=0.11s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.40, stable=0/3
+  [OBS 047] state=page_not_found, rows=0/27, age=0.11s, edges=none, bandLap=43, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 048] state=hold_still, rows=0/27, age=0.12s, edges=none, bandLap=30, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.76, stable=0/3
+  [OBS 049] state=hold_still, rows=0/27, age=0.25s, edges=none, bandLap=47, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.83, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 050] state=hold_still, rows=0/27, age=0.24s, edges=none, bandLap=45, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.24, stable=0/3
+  [OBS 051] state=hold_still, rows=0/27, age=0.08s, edges=none, bandLap=62, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.16, stable=0/3
+  [OBS 052] state=page_not_found, rows=0/27, age=0.08s, edges=none, bandLap=39, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.58, stable=0/3
+  [OBS 053] state=page_not_found, rows=0/27, age=0.12s, edges=none, bandLap=34, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.21, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 054] state=hold_still, rows=0/27, age=0.26s, edges=none, bandLap=28, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.28, stable=0/3
+  [OBS 055] state=hold_still, rows=0/27, age=0.22s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.82, stable=0/3
+  [OBS 056] state=hold_still, rows=0/27, age=0.14s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.22, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 057] state=hold_still, rows=0/27, age=0.12s, edges=none, bandLap=38, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.24, stable=0/3
+  [OBS 058] state=hold_still, rows=2/27, age=0.23s, edges=none, bandLap=136, lineLap=187, lightStd=2.9, belowText=2.2, motion=2.91, stable=0/3
+  [OBS 059] state=blurry, rows=2/27, age=0.24s, edges=none, bandLap=46, lineLap=107, lightStd=3.4, belowText=2.5, motion=3.63, stable=0/3
+  [OBS 060] state=hold_still, rows=0/27, age=0.12s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.46, stable=0/3
+  [OBS 061] state=hold_still, rows=4/26, age=0.12s, edges=none, bandLap=131, lineLap=129, lightStd=5.3, belowText=3.3, motion=1.84, stable=0/3
+  [OBS 062] state=blurry, rows=3/26, age=0.12s, edges=none, bandLap=43, lineLap=89, lightStd=7.3, belowText=3.0, motion=1.42, stable=0/3
+  [OBS 063] state=blurry, rows=3/26, age=0.11s, edges=none, bandLap=80, lineLap=161, lightStd=7.4, belowText=3.3, motion=0.56, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 064] state=blurry, rows=3/26, age=0.17s, edges=none, bandLap=93, lineLap=157, lightStd=7.7, belowText=3.5, motion=0.27, stable=0/3
+  [OBS 065] state=blurry, rows=3/26, age=0.22s, edges=none, bandLap=50, lineLap=84, lightStd=8.1, belowText=2.6, motion=1.16, stable=0/3
+  [OBS 066] state=blurry, rows=3/26, age=0.22s, edges=none, bandLap=98, lineLap=195, lightStd=7.6, belowText=3.8, motion=2.40, stable=0/3
+  [OBS 067] state=blurry, rows=2/26, age=0.26s, edges=none, bandLap=40, lineLap=111, lightStd=10.5, belowText=2.7, motion=2.70, stable=0/3
+  [OBS 068] state=blurry, rows=2/26, age=0.09s, edges=none, bandLap=33, lineLap=50, lightStd=11.2, belowText=1.4, motion=0.66, stable=0/3
+  [OBS 069] state=blurry, rows=3/15, age=0.08s, edges=none, bandLap=111, lineLap=171, lightStd=9.0, belowText=3.8, motion=1.22, stable=0/3
+  [OBS 070] state=blurry, rows=3/14, age=0.30s, edges=none, bandLap=119, lineLap=178, lightStd=8.9, belowText=3.8, motion=0.12, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 071] state=blurry, rows=4/14, age=0.12s, edges=none, bandLap=100, lineLap=95, lightStd=8.7, belowText=3.9, motion=0.26, stable=0/3
+  [OBS 072] state=page_not_found, rows=2/14, age=0.09s, edges=none, bandLap=128, lineLap=147, lightStd=11.6, belowText=3.7, motion=0.26, stable=0/3
+  [OBS 073] state=hold_still, rows=0/14, age=0.12s, edges=none, bandLap=26, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.99, stable=0/3
+  [OBS 074] state=blurry, rows=2/14, age=0.16s, edges=none, bandLap=65, lineLap=77, lightStd=18.1, belowText=2.7, motion=1.92, stable=0/3
+  [OBS 075] state=blurry, rows=6/14, age=0.16s, edges=none, bandLap=68, lineLap=100, lightStd=2.9, belowText=4.7, motion=0.71, stable=0/3
+  [OBS 076] state=page_not_found, rows=0/14, age=0.27s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.95, stable=0/3
+  [OBS 077] state=blurry, rows=2/14, age=0.23s, edges=none, bandLap=28, lineLap=154, lightStd=7.5, belowText=4.4, motion=1.20, stable=0/3
+  [OBS 078] state=blurry, rows=2/14, age=0.20s, edges=none, bandLap=74, lineLap=120, lightStd=7.0, belowText=3.2, motion=1.57, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 079] state=hold_still, rows=0/14, age=0.09s, edges=none, bandLap=43, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.49, stable=0/3
+  [OBS 080] state=blurry, rows=3/14, age=0.11s, edges=none, bandLap=49, lineLap=151, lightStd=3.2, belowText=2.8, motion=1.29, stable=0/3
+  [OBS 081] state=blurry, rows=3/14, age=0.34s, edges=none, bandLap=99, lineLap=146, lightStd=6.6, belowText=3.7, motion=2.09, stable=0/3
+  [OBS 082] state=blurry, rows=4/14, age=0.22s, edges=none, bandLap=52, lineLap=59, lightStd=3.6, belowText=3.3, motion=0.66, stable=0/3
+  [OBS 083] state=blurry, rows=4/14, age=0.08s, edges=B, bandLap=90, lineLap=120, lightStd=5.0, belowText=5.5, motion=2.54, stable=0/3
+  [OBS 084] state=page_not_found, rows=0/14, age=0.09s, edges=none, bandLap=38, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.52, stable=0/3
+  [OBS 085] state=blurry, rows=7/14, age=0.16s, edges=none, bandLap=64, lineLap=100, lightStd=8.7, belowText=3.5, motion=1.07, stable=0/3
+  [OBS 086] state=look_down, rows=22/15, age=0.27s, edges=B, bandLap=198, lineLap=359, lightStd=23.9, belowText=10.4, motion=0.34, stable=0/3
+  [OBS 087] state=look_down, rows=18/18, age=0.16s, edges=B, bandLap=441, lineLap=532, lightStd=13.4, belowText=12.0, motion=0.25, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 088] state=blurry, rows=19/18, age=0.11s, edges=B, bandLap=40, lineLap=56, lightStd=10.7, belowText=1.7, motion=0.46, stable=0/3
+  [OBS 089] state=blurry, rows=13/18, age=0.12s, edges=none, bandLap=97, lineLap=120, lightStd=10.5, belowText=4.5, motion=0.83, stable=0/3
+  [OBS 090] state=blurry, rows=3/17, age=0.11s, edges=none, bandLap=201, lineLap=408, lightStd=5.8, belowText=4.7, motion=0.09, stable=0/3
+  [OBS 091] state=blurry, rows=3/17, age=0.16s, edges=none, bandLap=126, lineLap=266, lightStd=5.2, belowText=4.6, motion=0.12, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 092] state=hold_still, rows=36/22, age=0.28s, edges=none, bandLap=236, lineLap=270, lightStd=8.6, belowText=2.2, motion=1.99, stable=0/3
+  [OBS 093] state=look_down, rows=34/33, age=0.08s, edges=B, bandLap=192, lineLap=275, lightStd=8.6, belowText=0.0, motion=0.86, stable=0/3
+  [OBS 094] state=almost_ready, rows=33/34, age=0.11s, edges=none, bandLap=212, lineLap=226, lightStd=9.6, belowText=1.0, motion=0.14, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 095] state=blurry, rows=5/34, age=0.12s, edges=none, bandLap=80, lineLap=109, lightStd=8.7, belowText=7.4, motion=0.20, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 096] state=hold_still, rows=18/34, age=0.16s, edges=none, bandLap=165, lineLap=174, lightStd=11.9, belowText=1.2, motion=0.07, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 097] state=blurry, rows=3/34, age=0.12s, edges=none, bandLap=94, lineLap=148, lightStd=5.1, belowText=4.5, motion=0.27, stable=0/3
+  [OBS 098] state=hold_still, rows=4/34, age=0.33s, edges=none, bandLap=126, lineLap=174, lightStd=5.1, belowText=1.2, motion=0.27, stable=0/3
+  [OBS 099] state=blurry, rows=7/34, age=0.22s, edges=none, bandLap=157, lineLap=183, lightStd=16.7, belowText=5.9, motion=0.08, stable=0/3
+  [OBS 100] state=hold_still, rows=12/34, age=0.16s, edges=none, bandLap=148, lineLap=145, lightStd=11.7, belowText=7.8, motion=0.10, stable=0/3
+  [OBS 101] state=hold_still, rows=11/34, age=0.14s, edges=none, bandLap=155, lineLap=187, lightStd=12.6, belowText=7.9, motion=0.01, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 102] state=hold_still, rows=11/34, age=0.14s, edges=none, bandLap=143, lineLap=143, lightStd=12.4, belowText=7.9, motion=0.12, stable=0/3
+  [OBS 103] state=blurry, rows=10/34, age=0.30s, edges=none, bandLap=155, lineLap=204, lightStd=18.2, belowText=5.8, motion=0.01, stable=0/3
+  [OBS 104] state=blurry, rows=7/34, age=0.12s, edges=none, bandLap=162, lineLap=188, lightStd=18.2, belowText=6.0, motion=0.02, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 105] state=blurry, rows=8/34, age=0.08s, edges=none, bandLap=122, lineLap=132, lightStd=18.1, belowText=5.6, motion=0.02, stable=0/3
+  [OBS 106] state=blurry, rows=9/32, age=0.17s, edges=none, bandLap=123, lineLap=139, lightStd=13.8, belowText=5.8, motion=0.07, stable=0/3
+  [OBS 107] state=blurry, rows=3/17, age=0.14s, edges=none, bandLap=119, lineLap=183, lightStd=5.0, belowText=4.3, motion=5.19, stable=0/3
+  [OBS 108] state=blurry, rows=21/17, age=0.31s, edges=B, bandLap=98, lineLap=148, lightStd=15.0, belowText=5.5, motion=1.08, stable=0/3
+  [OBS 109] state=blurry, rows=5/17, age=0.26s, edges=B, bandLap=58, lineLap=110, lightStd=4.1, belowText=5.5, motion=2.24, stable=0/3
+  [OBS 110] state=hold_still, rows=0/17, age=0.28s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.33, stable=0/3
+
+[QUALITY] Manual force capture accepted: frame #1585.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260925_103552.jpg
+[POST-CAPTURE] LapVar=9.4, score components: sharp=0, bright=27, even=0
+[POST-CAPTURE] Manual force override: processing the saved frame despite softness (9.4 < 100).
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.219s (1 detections, 1 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+8
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 1 line(s) | confidence=0.994 | in the upper part of the page
+    8
+[STAGE 2] 1 regions, 0 NLLB chunks, english -> urdu: 0.000s
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260925_103553_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260925_103553_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.219s
+  Translation  : skipped
+  Spell Corr   : 0.000s
+  TTS Playback : 3.691s
+────────────────────────────────────────
+  TOTAL        : 4.577s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=3/3, age=0.41s, edges=none, bandLap=64, lineLap=77, lightStd=3.2, belowText=2.5, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.14s, edges=none, bandLap=34, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.62, stable=0/3
+  [OBS 003] state=blurry, rows=5/5, age=0.11s, edges=none, bandLap=275, lineLap=418, lightStd=3.5, belowText=4.4, motion=2.80, stable=0/3
+  [OBS 004] state=blurry, rows=6/6, age=0.30s, edges=none, bandLap=305, lineLap=382, lightStd=3.3, belowText=4.9, motion=0.33, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 005] state=blurry, rows=6/6, age=0.09s, edges=none, bandLap=308, lineLap=457, lightStd=3.3, belowText=5.0, motion=0.28, stable=0/3
+  [OBS 006] state=blurry, rows=6/6, age=0.08s, edges=none, bandLap=347, lineLap=376, lightStd=3.0, belowText=4.7, motion=0.10, stable=0/3
+  [OBS 007] state=blurry, rows=6/6, age=0.09s, edges=none, bandLap=54, lineLap=67, lightStd=2.9, belowText=2.6, motion=2.39, stable=0/3
+  [OBS 008] state=blurry, rows=5/6, age=0.09s, edges=none, bandLap=134, lineLap=135, lightStd=3.5, belowText=4.6, motion=2.47, stable=0/3
+  [OBS 009] state=blurry, rows=5/6, age=0.19s, edges=none, bandLap=117, lineLap=197, lightStd=2.8, belowText=4.0, motion=4.86, stable=0/3
+  [OBS 010] state=blurry, rows=3/6, age=0.22s, edges=none, bandLap=66, lineLap=89, lightStd=4.2, belowText=1.6, motion=0.76, stable=0/3
+  [OBS 011] state=hold_still, rows=0/6, age=0.22s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.35, stable=0/3
+  [OBS 012] state=blurry, rows=12/8, age=0.19s, edges=T, bandLap=123, lineLap=155, lightStd=4.6, belowText=4.1, motion=0.43, stable=0/3
+  [OBS 013] state=blurry, rows=24/8, age=0.16s, edges=none, bandLap=105, lineLap=135, lightStd=9.4, belowText=1.0, motion=0.25, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 014] state=blurry, rows=16/13, age=0.14s, edges=none, bandLap=128, lineLap=153, lightStd=6.5, belowText=5.0, motion=0.29, stable=0/3
+  [OBS 015] state=blurry, rows=11/13, age=0.30s, edges=T, bandLap=107, lineLap=145, lightStd=4.7, belowText=3.9, motion=0.28, stable=0/3
+  [OBS 016] state=blurry, rows=5/13, age=0.14s, edges=none, bandLap=94, lineLap=118, lightStd=4.8, belowText=4.7, motion=0.49, stable=0/3
+  [OBS 017] state=blurry, rows=0/13, age=0.14s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 018] state=blurry, rows=8/13, age=0.16s, edges=T, bandLap=37, lineLap=47, lightStd=5.6, belowText=3.7, motion=1.31, stable=0/3
+  [OBS 019] state=blurry, rows=9/13, age=0.16s, edges=T, bandLap=72, lineLap=130, lightStd=6.6, belowText=3.6, motion=1.32, stable=0/3
+  [OBS 020] state=blurry, rows=5/13, age=0.09s, edges=none, bandLap=67, lineLap=98, lightStd=2.9, belowText=3.1, motion=3.29, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 021] state=blurry, rows=6/13, age=0.27s, edges=none, bandLap=99, lineLap=210, lightStd=3.6, belowText=4.5, motion=2.33, stable=0/3
+  [OBS 022] state=blurry, rows=6/13, age=0.08s, edges=none, bandLap=71, lineLap=170, lightStd=4.1, belowText=3.6, motion=0.70, stable=0/3
+  [OBS 023] state=blurry, rows=27/13, age=0.08s, edges=B, bandLap=37, lineLap=44, lightStd=15.2, belowText=0.0, motion=5.82, stable=0/3
+  [OBS 024] state=blurry, rows=18/13, age=0.12s, edges=T, bandLap=14, lineLap=17, lightStd=10.5, belowText=2.3, motion=10.72, stable=0/3
+  [OBS 025] state=blurry, rows=4/13, age=0.12s, edges=T, bandLap=49, lineLap=77, lightStd=2.5, belowText=3.7, motion=4.32, stable=0/3
+  [OBS 026] state=blurry, rows=29/13, age=0.22s, edges=T, bandLap=72, lineLap=96, lightStd=13.0, belowText=1.9, motion=0.30, stable=0/3
+  [OBS 027] state=blurry, rows=20/13, age=0.25s, edges=T, bandLap=22, lineLap=25, lightStd=6.6, belowText=3.2, motion=2.87, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 028] state=blurry, rows=23/13, age=0.30s, edges=T, bandLap=53, lineLap=69, lightStd=5.9, belowText=1.2, motion=0.86, stable=0/3
+  [OBS 029] state=blurry, rows=16/13, age=0.22s, edges=T, bandLap=23, lineLap=43, lightStd=4.2, belowText=3.4, motion=0.21, stable=0/3
+  [OBS 030] state=blurry, rows=0/13, age=0.08s, edges=none, bandLap=6, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.87, stable=0/3
+  [OBS 031] state=hold_still, rows=0/13, age=0.11s, edges=none, bandLap=6, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.07, stable=0/3
+  [OBS 032] state=blurry, rows=16/13, age=0.25s, edges=LTB, bandLap=10, lineLap=10, lightStd=7.9, belowText=0.0, motion=0.99, stable=0/3
+  [OBS 033] state=blurry, rows=15/13, age=0.11s, edges=LTB, bandLap=19, lineLap=19, lightStd=6.2, belowText=0.0, motion=3.82, stable=0/3
+  [OBS 034] state=move_back, rows=17/16, age=0.16s, edges=LTB, bandLap=259, lineLap=276, lightStd=7.2, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 035] state=move_back, rows=17/17, age=0.11s, edges=LTB, bandLap=303, lineLap=402, lightStd=8.5, belowText=0.0, motion=0.90, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 036] state=move_back, rows=16/17, age=0.20s, edges=LTB, bandLap=313, lineLap=452, lightStd=10.1, belowText=2.6, motion=0.92, stable=0/3
+  [OBS 037] state=move_back, rows=18/17, age=0.17s, edges=LTB, bandLap=359, lineLap=326, lightStd=10.0, belowText=0.0, motion=0.28, stable=0/3
+  [OBS 038] state=move_back, rows=20/18, age=0.25s, edges=LTB, bandLap=465, lineLap=583, lightStd=7.9, belowText=0.0, motion=0.42, stable=0/3
+  [OBS 039] state=move_back, rows=22/20, age=0.16s, edges=TB, bandLap=123, lineLap=155, lightStd=8.6, belowText=2.1, motion=0.62, stable=0/3
+  [OBS 040] state=look_up, rows=22/22, age=0.14s, edges=T, bandLap=490, lineLap=562, lightStd=8.2, belowText=2.4, motion=0.08, stable=0/3
+  [OBS 041] state=move_back, rows=24/22, age=0.09s, edges=TB, bandLap=191, lineLap=279, lightStd=9.7, belowText=2.7, motion=0.08, stable=0/3
+  [OBS 042] state=look_up, rows=23/23, age=0.20s, edges=T, bandLap=324, lineLap=443, lightStd=7.8, belowText=2.6, motion=0.49, stable=0/3
+  [OBS 043] state=look_up, rows=27/24, age=0.30s, edges=T, bandLap=319, lineLap=350, lightStd=9.3, belowText=1.9, motion=0.04, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 044] state=look_up, rows=25/25, age=0.12s, edges=T, bandLap=282, lineLap=388, lightStd=8.3, belowText=1.4, motion=0.02, stable=0/3
+  [OBS 045] state=look_up, rows=27/27, age=0.11s, edges=T, bandLap=231, lineLap=284, lightStd=10.4, belowText=1.6, motion=0.21, stable=0/3
+  [OBS 046] state=look_up, rows=26/27, age=0.11s, edges=T, bandLap=182, lineLap=198, lightStd=11.0, belowText=1.3, motion=0.04, stable=0/3
+  [OBS 047] state=look_up, rows=27/27, age=0.20s, edges=T, bandLap=303, lineLap=432, lightStd=12.2, belowText=1.0, motion=0.87, stable=0/3
+  [OBS 048] state=blurry, rows=28/27, age=0.25s, edges=TB, bandLap=42, lineLap=57, lightStd=12.8, belowText=0.0, motion=0.58, stable=0/3
+  [OBS 049] state=move_back, rows=28/27, age=0.25s, edges=TB, bandLap=195, lineLap=220, lightStd=12.2, belowText=0.0, motion=0.17, stable=0/3
+  [OBS 050] state=move_back, rows=27/27, age=0.22s, edges=TB, bandLap=259, lineLap=303, lightStd=12.3, belowText=0.0, motion=0.55, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 051] state=move_back, rows=27/27, age=0.16s, edges=TB, bandLap=345, lineLap=415, lightStd=12.9, belowText=0.0, motion=0.24, stable=0/3
+  [OBS 052] state=move_back, rows=26/27, age=0.12s, edges=TB, bandLap=171, lineLap=206, lightStd=12.8, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 053] state=move_back, rows=28/28, age=0.17s, edges=TB, bandLap=415, lineLap=448, lightStd=12.8, belowText=0.0, motion=0.31, stable=0/3
+  [OBS 054] state=move_back, rows=27/28, age=0.23s, edges=TB, bandLap=288, lineLap=359, lightStd=13.3, belowText=0.0, motion=0.26, stable=0/3
+  [OBS 055] state=move_back, rows=29/28, age=0.27s, edges=TB, bandLap=570, lineLap=686, lightStd=13.1, belowText=0.0, motion=0.30, stable=0/3
+  [OBS 056] state=move_back, rows=29/29, age=0.12s, edges=TB, bandLap=331, lineLap=340, lightStd=13.5, belowText=0.0, motion=0.16, stable=0/3
+  [OBS 057] state=move_back, rows=31/29, age=0.09s, edges=TB, bandLap=291, lineLap=425, lightStd=12.9, belowText=0.0, motion=0.14, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 058] state=move_back, rows=29/29, age=0.17s, edges=TB, bandLap=282, lineLap=300, lightStd=13.4, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 059] state=move_back, rows=31/31, age=0.30s, edges=TB, bandLap=451, lineLap=478, lightStd=12.5, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 060] state=look_up, rows=32/31, age=0.16s, edges=T, bandLap=285, lineLap=331, lightStd=12.7, belowText=1.0, motion=0.04, stable=0/3
+  [OBS 061] state=look_up, rows=32/32, age=0.14s, edges=T, bandLap=299, lineLap=321, lightStd=12.6, belowText=0.9, motion=0.03, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 062] state=blurry, rows=27/32, age=0.14s, edges=T, bandLap=65, lineLap=100, lightStd=11.8, belowText=1.5, motion=0.34, stable=0/3
+  [OBS 063] state=blurry, rows=30/32, age=0.14s, edges=TB, bandLap=79, lineLap=80, lightStd=12.0, belowText=0.0, motion=0.29, stable=0/3
+  [OBS 064] state=look_down, rows=31/32, age=0.20s, edges=B, bandLap=204, lineLap=205, lightStd=12.0, belowText=0.0, motion=0.45, stable=0/3
+  [OBS 065] state=look_down, rows=30/32, age=0.30s, edges=B, bandLap=146, lineLap=196, lightStd=11.8, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 066] state=look_down, rows=31/32, age=0.30s, edges=B, bandLap=256, lineLap=264, lightStd=11.8, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 067] state=look_down, rows=32/32, age=0.16s, edges=B, bandLap=301, lineLap=310, lightStd=11.6, belowText=0.0, motion=0.13, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 068] state=blurry, rows=30/32, age=0.14s, edges=TB, bandLap=125, lineLap=113, lightStd=11.8, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 069] state=look_down, rows=30/32, age=0.11s, edges=B, bandLap=219, lineLap=229, lightStd=11.3, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 070] state=look_down, rows=31/32, age=0.26s, edges=B, bandLap=121, lineLap=154, lightStd=11.2, belowText=0.0, motion=0.17, stable=0/3
+  [OBS 071] state=move_back, rows=30/32, age=0.26s, edges=TB, bandLap=371, lineLap=381, lightStd=11.1, belowText=1.1, motion=0.31, stable=0/3
+  [OBS 072] state=move_back, rows=31/32, age=0.12s, edges=TB, bandLap=367, lineLap=354, lightStd=11.0, belowText=1.0, motion=0.07, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 073] state=move_back, rows=30/32, age=0.12s, edges=TB, bandLap=290, lineLap=345, lightStd=11.1, belowText=1.0, motion=0.09, stable=0/3
+  [OBS 074] state=look_up, rows=29/32, age=0.11s, edges=T, bandLap=347, lineLap=410, lightStd=11.1, belowText=1.0, motion=0.11, stable=0/3
+  [OBS 075] state=move_back, rows=29/32, age=0.31s, edges=TB, bandLap=166, lineLap=151, lightStd=11.2, belowText=1.0, motion=0.24, stable=0/3
+  [OBS 076] state=look_up, rows=32/32, age=0.12s, edges=T, bandLap=247, lineLap=258, lightStd=11.9, belowText=1.0, motion=0.22, stable=0/3
+  [OBS 077] state=look_up, rows=32/32, age=0.19s, edges=T, bandLap=229, lineLap=330, lightStd=11.5, belowText=1.5, motion=0.51, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 078] state=look_up, rows=32/32, age=0.12s, edges=T, bandLap=259, lineLap=337, lightStd=11.6, belowText=1.4, motion=0.14, stable=0/3
+  [OBS 079] state=look_up, rows=32/32, age=0.14s, edges=T, bandLap=174, lineLap=223, lightStd=12.0, belowText=1.5, motion=0.05, stable=0/3
+  [OBS 080] state=look_up, rows=33/32, age=0.22s, edges=T, bandLap=248, lineLap=259, lightStd=12.0, belowText=2.3, motion=0.13, stable=0/3
+  [OBS 081] state=move_back, rows=33/33, age=0.30s, edges=TB, bandLap=185, lineLap=223, lightStd=12.4, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 082] state=look_up, rows=32/33, age=0.28s, edges=T, bandLap=130, lineLap=135, lightStd=12.3, belowText=1.1, motion=0.33, stable=0/3
+  [OBS 083] state=look_down, rows=31/33, age=0.14s, edges=B, bandLap=244, lineLap=274, lightStd=12.6, belowText=0.0, motion=0.35, stable=0/3
+  [OBS 084] state=look_down, rows=31/33, age=0.09s, edges=B, bandLap=144, lineLap=183, lightStd=12.4, belowText=0.0, motion=0.25, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 085] state=look_down, rows=31/33, age=0.11s, edges=B, bandLap=131, lineLap=149, lightStd=13.1, belowText=0.0, motion=0.19, stable=0/3
+  [OBS 086] state=look_down, rows=31/33, age=0.30s, edges=B, bandLap=200, lineLap=246, lightStd=12.9, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 087] state=look_down, rows=32/33, age=0.27s, edges=B, bandLap=168, lineLap=192, lightStd=12.4, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 088] state=blurry, rows=32/33, age=0.14s, edges=B, bandLap=99, lineLap=127, lightStd=12.7, belowText=0.0, motion=0.14, stable=0/3
+  [OBS 089] state=look_down, rows=32/33, age=0.12s, edges=B, bandLap=180, lineLap=213, lightStd=12.8, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 090] state=almost_ready, rows=27/33, age=0.19s, edges=none, bandLap=115, lineLap=122, lightStd=12.6, belowText=2.9, motion=0.15, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 091] state=look_down, rows=32/33, age=0.11s, edges=B, bandLap=160, lineLap=193, lightStd=12.3, belowText=0.0, motion=0.10, stable=0/3
+  [OBS 092] state=blurry, rows=30/33, age=0.26s, edges=B, bandLap=106, lineLap=142, lightStd=12.7, belowText=1.0, motion=0.02, stable=0/3
+  [OBS 093] state=look_down, rows=32/33, age=0.25s, edges=B, bandLap=228, lineLap=259, lightStd=12.3, belowText=0.0, motion=0.14, stable=0/3
+  [OBS 094] state=look_down, rows=32/32, age=0.09s, edges=B, bandLap=297, lineLap=271, lightStd=12.5, belowText=0.0, motion=0.11, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 095] state=look_down, rows=31/32, age=0.06s, edges=B, bandLap=152, lineLap=174, lightStd=12.9, belowText=0.0, motion=0.10, stable=0/3
+  [OBS 096] state=look_down, rows=29/32, age=0.09s, edges=B, bandLap=137, lineLap=162, lightStd=12.5, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 097] state=blurry, rows=9/32, age=0.30s, edges=none, bandLap=98, lineLap=130, lightStd=8.5, belowText=5.1, motion=0.16, stable=0/3
+  [OBS 098] state=look_down, rows=24/32, age=0.26s, edges=B, bandLap=140, lineLap=136, lightStd=12.1, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 099] state=look_down, rows=29/32, age=0.11s, edges=B, bandLap=122, lineLap=175, lightStd=11.8, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 100] state=look_down, rows=25/32, age=0.09s, edges=B, bandLap=125, lineLap=145, lightStd=11.9, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 101] state=look_down, rows=28/32, age=0.09s, edges=B, bandLap=172, lineLap=193, lightStd=12.1, belowText=0.0, motion=0.04, stable=0/3
+  [GUIDANCE] Move back so all text fits.
+  [OBS 102] state=look_down, rows=30/32, age=0.28s, edges=B, bandLap=158, lineLap=183, lightStd=11.8, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 103] state=look_down, rows=31/32, age=0.12s, edges=B, bandLap=130, lineLap=152, lightStd=12.0, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 104] state=almost_ready, rows=29/32, age=0.11s, edges=none, bandLap=145, lineLap=190, lightStd=12.1, belowText=1.4, motion=0.21, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 105] state=look_down, rows=30/32, age=0.12s, edges=B, bandLap=148, lineLap=167, lightStd=12.0, belowText=1.2, motion=0.01, stable=0/3
+  [OBS 106] state=almost_ready, rows=28/31, age=0.11s, edges=none, bandLap=249, lineLap=284, lightStd=12.0, belowText=1.0, motion=0.09, stable=1/3
+  [OBS 107] state=blurry, rows=26/31, age=0.12s, edges=none, bandLap=106, lineLap=132, lightStd=12.5, belowText=0.9, motion=0.10, stable=2/3
+  [OBS 108] state=blurry, rows=26/31, age=0.33s, edges=none, bandLap=105, lineLap=114, lightStd=11.8, belowText=1.1, motion=0.02, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1161.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260925_104116.jpg
+[POST-CAPTURE] LapVar=50.2, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (50.2 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.30s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=7, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.46, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.16s, edges=none, bandLap=22, lineLap=0, lightStd=0.0, belowText=0.0, motion=8.92, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=22, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 005] state=hold_still, rows=0/0, age=0.17s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.67, stable=0/3
+  [OBS 006] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.55, stable=0/3
+  [OBS 007] state=hold_still, rows=0/0, age=0.25s, edges=none, bandLap=9, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.87, stable=0/3
+  [OBS 008] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=27, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.56, stable=0/3
+  [OBS 009] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.17, stable=0/3
+  [OBS 010] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 011] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=9, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.43, stable=0/3
+  [OBS 012] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.26, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 013] state=hold_still, rows=0/0, age=0.22s, edges=none, bandLap=7, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.52, stable=0/3
+  [OBS 014] state=hold_still, rows=0/0, age=0.26s, edges=none, bandLap=9, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.96, stable=0/3
+  [OBS 015] state=hold_still, rows=0/0, age=0.06s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.38, stable=0/3
+  [OBS 016] state=blurry, rows=15/15, age=0.14s, edges=T, bandLap=9, lineLap=10, lightStd=5.4, belowText=1.1, motion=6.48, stable=0/3
+  [OBS 017] state=blurry, rows=18/18, age=0.14s, edges=T, bandLap=18, lineLap=21, lightStd=5.2, belowText=1.7, motion=0.03, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 018] state=blurry, rows=17/17, age=0.26s, edges=none, bandLap=13, lineLap=15, lightStd=4.2, belowText=1.1, motion=0.05, stable=0/3
+  [OBS 019] state=blurry, rows=19/19, age=0.22s, edges=T, bandLap=108, lineLap=206, lightStd=4.0, belowText=1.1, motion=1.49, stable=0/3
+  [OBS 020] state=blurry, rows=19/19, age=0.12s, edges=T, bandLap=17, lineLap=23, lightStd=5.6, belowText=0.7, motion=1.53, stable=0/3
+  [OBS 021] state=blurry, rows=18/18, age=0.08s, edges=T, bandLap=40, lineLap=57, lightStd=4.0, belowText=1.3, motion=1.42, stable=0/3
+  [OBS 022] state=blurry, rows=5/5, age=0.19s, edges=none, bandLap=59, lineLap=78, lightStd=3.7, belowText=1.2, motion=0.10, stable=0/3
+  [OBS 023] state=blurry, rows=3/3, age=0.28s, edges=none, bandLap=66, lineLap=106, lightStd=2.1, belowText=3.3, motion=0.05, stable=0/3
+  [OBS 024] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=27, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.82, stable=0/3
+  [OBS 025] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=33, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.81, stable=0/3
+  [OBS 026] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.04, stable=0/3
+  [OBS 027] state=blurry, rows=5/5, age=0.14s, edges=none, bandLap=47, lineLap=48, lightStd=5.1, belowText=3.1, motion=0.03, stable=0/3
+  [OBS 028] state=blurry, rows=17/17, age=0.16s, edges=T, bandLap=23, lineLap=31, lightStd=4.6, belowText=1.9, motion=1.53, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 029] state=hold_still, rows=20/20, age=0.33s, edges=T, bandLap=330, lineLap=372, lightStd=4.7, belowText=1.7, motion=1.64, stable=0/3
+  [OBS 030] state=blurry, rows=22/20, age=0.09s, edges=TB, bandLap=109, lineLap=101, lightStd=6.1, belowText=0.0, motion=1.78, stable=0/3
+  [OBS 031] state=look_up, rows=22/22, age=0.14s, edges=T, bandLap=161, lineLap=206, lightStd=5.4, belowText=1.4, motion=0.92, stable=0/3
+  [OBS 032] state=blurry, rows=23/22, age=0.14s, edges=T, bandLap=93, lineLap=120, lightStd=6.6, belowText=1.3, motion=0.47, stable=0/3
+  [OBS 033] state=blurry, rows=27/22, age=0.16s, edges=T, bandLap=46, lineLap=56, lightStd=9.1, belowText=1.1, motion=0.39, stable=0/3
+  [OBS 034] state=blurry, rows=23/22, age=0.20s, edges=T, bandLap=37, lineLap=58, lightStd=9.7, belowText=1.2, motion=0.80, stable=0/3
+  [OBS 035] state=blurry, rows=29/22, age=0.25s, edges=T, bandLap=72, lineLap=100, lightStd=11.3, belowText=1.2, motion=0.36, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 036] state=blurry, rows=30/22, age=0.23s, edges=T, bandLap=60, lineLap=79, lightStd=13.1, belowText=1.0, motion=0.59, stable=0/3
+  [OBS 037] state=blurry, rows=19/22, age=0.11s, edges=T, bandLap=56, lineLap=78, lightStd=12.5, belowText=2.2, motion=0.77, stable=0/3
+  [OBS 038] state=look_up, rows=3/22, age=0.14s, edges=T, bandLap=240, lineLap=299, lightStd=3.1, belowText=3.1, motion=0.30, stable=0/3
+  [OBS 039] state=blurry, rows=23/22, age=0.20s, edges=T, bandLap=61, lineLap=73, lightStd=12.1, belowText=1.3, motion=1.18, stable=0/3
+  [OBS 040] state=blurry, rows=5/22, age=0.28s, edges=T, bandLap=100, lineLap=280, lightStd=3.6, belowText=4.4, motion=0.83, stable=0/3
+  [OBS 041] state=blurry, rows=6/22, age=0.11s, edges=T, bandLap=49, lineLap=57, lightStd=3.8, belowText=4.1, motion=0.40, stable=0/3
+  [OBS 042] state=blurry, rows=13/22, age=0.11s, edges=none, bandLap=69, lineLap=82, lightStd=5.9, belowText=1.7, motion=0.12, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 043] state=blurry, rows=8/22, age=0.14s, edges=T, bandLap=76, lineLap=97, lightStd=8.1, belowText=4.3, motion=0.18, stable=0/3
+  [OBS 044] state=blurry, rows=6/22, age=0.17s, edges=T, bandLap=73, lineLap=102, lightStd=5.0, belowText=3.8, motion=0.22, stable=0/3
+  [OBS 045] state=blurry, rows=2/22, age=0.19s, edges=T, bandLap=10, lineLap=13, lightStd=7.5, belowText=1.9, motion=0.09, stable=0/3
+  [OBS 046] state=blurry, rows=3/22, age=0.27s, edges=T, bandLap=37, lineLap=101, lightStd=5.6, belowText=3.3, motion=0.06, stable=0/3
+  [OBS 047] state=blurry, rows=4/22, age=0.12s, edges=none, bandLap=16, lineLap=29, lightStd=6.1, belowText=2.3, motion=0.04, stable=0/3
+  [OBS 048] state=blurry, rows=5/22, age=0.11s, edges=none, bandLap=71, lineLap=129, lightStd=5.9, belowText=4.0, motion=1.23, stable=0/3
+  [OBS 049] state=blurry, rows=5/21, age=0.14s, edges=none, bandLap=146, lineLap=231, lightStd=5.8, belowText=4.7, motion=0.27, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 050] state=blurry, rows=5/21, age=0.11s, edges=none, bandLap=78, lineLap=118, lightStd=5.6, belowText=4.2, motion=0.51, stable=0/3
+  [OBS 051] state=blurry, rows=4/21, age=0.16s, edges=none, bandLap=14, lineLap=40, lightStd=6.9, belowText=1.8, motion=0.69, stable=0/3
+  [OBS 052] state=blurry, rows=9/21, age=0.31s, edges=LT, bandLap=42, lineLap=61, lightStd=7.1, belowText=5.1, motion=4.03, stable=0/3
+  [OBS 053] state=hold_still, rows=17/21, age=0.28s, edges=LB, bandLap=369, lineLap=428, lightStd=12.6, belowText=0.0, motion=1.02, stable=0/3
+  [OBS 054] state=blurry, rows=18/21, age=0.19s, edges=LT, bandLap=82, lineLap=92, lightStd=13.1, belowText=4.4, motion=0.90, stable=0/3
+  [OBS 055] state=blurry, rows=25/21, age=0.17s, edges=T, bandLap=28, lineLap=29, lightStd=12.7, belowText=1.1, motion=1.77, stable=0/3
+  [OBS 056] state=blurry, rows=28/21, age=0.12s, edges=none, bandLap=49, lineLap=47, lightStd=13.1, belowText=0.9, motion=1.05, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 057] state=blurry, rows=28/21, age=0.28s, edges=T, bandLap=50, lineLap=69, lightStd=11.9, belowText=1.0, motion=0.52, stable=0/3
+  [OBS 058] state=blurry, rows=4/21, age=0.11s, edges=T, bandLap=43, lineLap=105, lightStd=5.1, belowText=3.8, motion=0.70, stable=0/3
+  [OBS 059] state=blurry, rows=3/21, age=0.12s, edges=T, bandLap=75, lineLap=150, lightStd=5.8, belowText=3.1, motion=0.01, stable=0/3
+  [OBS 060] state=blurry, rows=23/21, age=0.09s, edges=T, bandLap=55, lineLap=64, lightStd=13.3, belowText=2.0, motion=0.28, stable=0/3
+  [OBS 061] state=blurry, rows=6/21, age=0.16s, edges=T, bandLap=53, lineLap=147, lightStd=6.4, belowText=3.8, motion=0.65, stable=0/3
+  [OBS 062] state=blurry, rows=5/21, age=0.20s, edges=none, bandLap=30, lineLap=51, lightStd=6.1, belowText=3.4, motion=1.07, stable=0/3
+  [OBS 063] state=blurry, rows=6/21, age=0.28s, edges=none, bandLap=68, lineLap=136, lightStd=5.3, belowText=3.9, motion=1.04, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 064] state=blurry, rows=6/21, age=0.23s, edges=T, bandLap=47, lineLap=97, lightStd=6.4, belowText=4.5, motion=0.64, stable=0/3
+  [OBS 065] state=blurry, rows=6/21, age=0.08s, edges=none, bandLap=83, lineLap=152, lightStd=5.8, belowText=5.4, motion=0.05, stable=0/3
+  [OBS 066] state=blurry, rows=6/21, age=0.08s, edges=none, bandLap=153, lineLap=380, lightStd=5.3, belowText=5.6, motion=0.51, stable=0/3
+  [OBS 067] state=blurry, rows=6/21, age=0.09s, edges=none, bandLap=155, lineLap=347, lightStd=4.1, belowText=5.3, motion=0.17, stable=0/3
+  [OBS 068] state=blurry, rows=5/21, age=0.30s, edges=none, bandLap=55, lineLap=95, lightStd=5.2, belowText=3.9, motion=0.04, stable=0/3
+  [OBS 069] state=hold_still, rows=0/21, age=0.08s, edges=none, bandLap=10, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.77, stable=0/3
+  [OBS 070] state=hold_still, rows=0/21, age=0.09s, edges=none, bandLap=9, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.46, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 071] state=hold_still, rows=0/21, age=0.11s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.60, stable=0/3
+  [OBS 072] state=hold_still, rows=0/21, age=0.14s, edges=none, bandLap=7, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.94, stable=0/3
+  [OBS 073] state=hold_still, rows=3/21, age=0.11s, edges=none, bandLap=312, lineLap=395, lightStd=3.5, belowText=3.3, motion=2.11, stable=0/3
+  [OBS 074] state=blurry, rows=5/20, age=0.22s, edges=none, bandLap=154, lineLap=316, lightStd=3.3, belowText=4.2, motion=0.49, stable=0/3
+  [OBS 075] state=blurry, rows=3/20, age=0.30s, edges=none, bandLap=135, lineLap=292, lightStd=1.6, belowText=3.7, motion=0.70, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 076] state=blurry, rows=5/20, age=0.11s, edges=none, bandLap=176, lineLap=348, lightStd=3.8, belowText=4.7, motion=0.39, stable=0/3
+  [OBS 077] state=blurry, rows=5/20, age=0.08s, edges=none, bandLap=144, lineLap=272, lightStd=3.8, belowText=4.7, motion=0.32, stable=0/3
+  [OBS 078] state=blurry, rows=5/20, age=0.17s, edges=none, bandLap=93, lineLap=137, lightStd=3.3, belowText=4.4, motion=0.90, stable=0/3
+  [OBS 079] state=page_not_found, rows=0/20, age=0.23s, edges=none, bandLap=34, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.42, stable=0/3
+  [OBS 080] state=blurry, rows=2/20, age=0.09s, edges=none, bandLap=10, lineLap=15, lightStd=3.4, belowText=1.3, motion=4.63, stable=0/3
+  [OBS 081] state=page_not_found, rows=0/20, age=0.14s, edges=none, bandLap=11, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.42, stable=0/3
+  [OBS 082] state=blurry, rows=5/16, age=0.17s, edges=none, bandLap=158, lineLap=315, lightStd=4.7, belowText=4.4, motion=6.51, stable=0/3
+  [OBS 083] state=blurry, rows=3/16, age=0.17s, edges=none, bandLap=107, lineLap=181, lightStd=5.0, belowText=2.7, motion=0.06, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 084] state=blurry, rows=5/16, age=0.16s, edges=none, bandLap=82, lineLap=183, lightStd=4.3, belowText=4.1, motion=0.19, stable=0/3
+  [OBS 085] state=blurry, rows=5/16, age=0.22s, edges=none, bandLap=72, lineLap=163, lightStd=4.9, belowText=2.4, motion=0.14, stable=0/3
+  [OBS 086] state=blurry, rows=5/16, age=0.23s, edges=none, bandLap=86, lineLap=157, lightStd=3.4, belowText=4.2, motion=0.94, stable=0/3
+  [OBS 087] state=blurry, rows=5/6, age=0.06s, edges=none, bandLap=188, lineLap=267, lightStd=4.3, belowText=5.1, motion=0.16, stable=0/3
+
+[QUALITY] Manual force capture accepted: frame #2029.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260925_104224.jpg
+[POST-CAPTURE] LapVar=23.2, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Manual force override: processing the saved frame despite softness (23.2 < 100).
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.219s (6 detections, 6 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Technical Manual for Unmanned Aerial Systems (UAS) Autonomous Operations and Airworthiness Integration Specifications Chapter I: Systems Engineering and Airframe Integration Specifications 1.1 Aerodynamic Layout and Structural Integrity Analysis
+============================================================
+
+[REGIONS] Detected 4 text region(s): 0 title, 2 heading(s), 2 paragraph(s)
+  P1 | type=paragraph | 3 line(s) | confidence=1.000 | in the upper part of the page
+    Technical Manual for Unmanned Aerial Systems (UAS) Autonomous Operations and Airworthiness Integration Specifications
+  H1 | type=section_heading | 1 line(s) | confidence=0.986 | in the upper part of the page
+    Chapter I: Systems Engineering and Airframe Integration
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Specifications
+  H2 | type=section_heading | 1 line(s) | confidence=0.972 | in the middle of the page
+    1.1 Aerodynamic Layout and Structural Integrity Analysis
+[STAGE 2] 4 regions, 4 NLLB chunks, english -> urdu: 0.394s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[P1] بغیر پائلٹ کے فضائی نظام (UAS) کے لیے تکنیکی دستی۔ خود مختار آپریشن اور فضائی قابلیت کے انضمام کی تفصیلات
+[H1] باب اول: سسٹم انجینئرنگ اور طیارے کی ساخت کا انضمام
+[P2] تفصیلات
+[H2] 1.1 ایروڈینامک ترتیب اور ساختی سالمیت کا تجزیہ
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260925_104225_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260925_104225_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.219s
+  Translation  : 0.394s
+  Spell Corr   : 0.000s
+  TTS Playback : 5.839s
+────────────────────────────────────────
+  TOTAL        : 7.108s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.61, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=hold_still, rows=0/0, age=0.06s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.05, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=32, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.24s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 006] state=hold_still, rows=0/0, age=0.31s, edges=none, bandLap=32, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.42, stable=0/3
+  [OBS 007] state=hold_still, rows=0/0, age=0.09s, edges=none, bandLap=42, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.26, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 008] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.00, stable=0/3
+  [OBS 009] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.43, stable=0/3
+  [OBS 010] state=page_not_found, rows=0/0, age=0.23s, edges=none, bandLap=47, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.29, stable=0/3
+  [OBS 011] state=blurry, rows=12/12, age=0.09s, edges=none, bandLap=138, lineLap=142, lightStd=6.9, belowText=5.5, motion=0.18, stable=0/3
+  [OBS 012] state=look_down, rows=18/17, age=0.09s, edges=B, bandLap=158, lineLap=167, lightStd=8.6, belowText=0.0, motion=0.87, stable=0/3
+  [OBS 013] state=hold_still, rows=20/20, age=0.12s, edges=B, bandLap=112, lineLap=132, lightStd=8.0, belowText=0.0, motion=1.08, stable=0/3
+  [OBS 014] state=blurry, rows=5/19, age=0.16s, edges=none, bandLap=132, lineLap=164, lightStd=3.1, belowText=5.3, motion=0.09, stable=0/3
+  [OBS 015] state=page_not_found, rows=0/19, age=0.11s, edges=none, bandLap=48, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.79, stable=0/3
+  [OBS 016] state=page_not_found, rows=0/19, age=0.25s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.05, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 017] state=page_not_found, rows=0/19, age=0.22s, edges=none, bandLap=57, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.35, stable=0/3
+  [OBS 018] state=page_not_found, rows=0/19, age=0.16s, edges=none, bandLap=48, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.64, stable=0/3
+  [OBS 019] state=hold_still, rows=0/19, age=0.06s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.45, stable=0/3
+  [OBS 020] state=hold_still, rows=0/19, age=0.08s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.32, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 021] state=page_not_found, rows=0/19, age=0.30s, edges=none, bandLap=59, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.27, stable=0/3
+  [OBS 022] state=page_not_found, rows=0/19, age=0.14s, edges=none, bandLap=51, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.95, stable=0/3
+  [OBS 023] state=page_not_found, rows=0/19, age=0.11s, edges=none, bandLap=53, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.10, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 024] state=page_not_found, rows=0/19, age=0.09s, edges=none, bandLap=56, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 025] state=page_not_found, rows=0/19, age=0.16s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.30, stable=0/3
+  [OBS 026] state=hold_still, rows=0/19, age=0.16s, edges=none, bandLap=10, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.18, stable=0/3
+  [OBS 027] state=page_not_found, rows=0/19, age=0.28s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 028] state=hold_still, rows=0/19, age=0.30s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.23, stable=0/3
+  [OBS 029] state=page_not_found, rows=0/19, age=0.12s, edges=none, bandLap=59, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 030] state=hold_still, rows=0/19, age=0.12s, edges=none, bandLap=54, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.31, stable=0/3
+  [OBS 031] state=hold_still, rows=3/19, age=0.16s, edges=none, bandLap=270, lineLap=399, lightStd=20.5, belowText=0.9, motion=0.16, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 032] state=page_not_found, rows=0/19, age=0.22s, edges=none, bandLap=34, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 033] state=blurry, rows=0/19, age=0.25s, edges=none, bandLap=46, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.19, stable=0/3
+  [OBS 034] state=blurry, rows=0/19, age=0.12s, edges=none, bandLap=53, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.56, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 035] state=page_not_found, rows=0/19, age=0.12s, edges=none, bandLap=57, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.26, stable=0/3
+  [OBS 036] state=page_not_found, rows=0/19, age=0.20s, edges=none, bandLap=28, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.24, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 037] state=blurry, rows=5/19, age=0.16s, edges=none, bandLap=169, lineLap=568, lightStd=2.8, belowText=5.4, motion=0.02, stable=0/3
+  [OBS 038] state=blurry, rows=6/19, age=0.28s, edges=none, bandLap=214, lineLap=376, lightStd=2.3, belowText=5.3, motion=0.77, stable=0/3
+  [OBS 039] state=page_not_found, rows=0/19, age=0.12s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.29, stable=0/3
+  [OBS 040] state=page_not_found, rows=0/19, age=0.12s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.39, stable=0/3
+  [OBS 041] state=page_not_found, rows=2/19, age=0.23s, edges=B, bandLap=165, lineLap=275, lightStd=11.0, belowText=0.0, motion=0.19, stable=0/3
+  [OBS 042] state=page_not_found, rows=0/19, age=0.14s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 043] state=blurry, rows=4/19, age=0.16s, edges=none, bandLap=119, lineLap=211, lightStd=2.8, belowText=5.3, motion=0.26, stable=0/3
+  [OBS 044] state=almost_ready, rows=17/18, age=0.33s, edges=none, bandLap=286, lineLap=460, lightStd=4.3, belowText=0.8, motion=0.21, stable=1/3
+  [OBS 045] state=almost_ready, rows=18/18, age=0.11s, edges=none, bandLap=200, lineLap=284, lightStd=5.2, belowText=0.9, motion=0.02, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 046] state=almost_ready, rows=18/18, age=0.09s, edges=none, bandLap=118, lineLap=196, lightStd=5.8, belowText=0.8, motion=0.13, stable=3/3
+  [OBS 047] state=almost_ready, rows=15/18, age=0.14s, edges=none, bandLap=128, lineLap=274, lightStd=6.2, belowText=1.5, motion=0.32, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2680.
+
+────────────────────────────────────────────────────────────
+  RUN #6
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_006_20260925_104317.jpg
+[POST-CAPTURE] LapVar=27.9, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (27.9 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.38s, edges=none, bandLap=54, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=33, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.63, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.73, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=hold_still, rows=29/29, age=0.09s, edges=B, bandLap=1332, lineLap=1610, lightStd=11.3, belowText=0.0, motion=2.24, stable=0/3
+  [OBS 005] state=hold_still, rows=31/31, age=0.11s, edges=none, bandLap=320, lineLap=448, lightStd=13.0, belowText=1.8, motion=2.24, stable=0/3
+  [OBS 006] state=almost_ready, rows=32/32, age=0.14s, edges=none, bandLap=393, lineLap=563, lightStd=11.9, belowText=1.6, motion=0.43, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 007] state=hold_still, rows=31/32, age=0.27s, edges=T, bandLap=578, lineLap=667, lightStd=10.5, belowText=1.6, motion=1.16, stable=0/3
+  [OBS 008] state=look_up, rows=31/32, age=0.23s, edges=T, bandLap=371, lineLap=477, lightStd=11.9, belowText=1.6, motion=0.12, stable=0/3
+  [OBS 009] state=look_up, rows=32/32, age=0.23s, edges=T, bandLap=282, lineLap=353, lightStd=10.6, belowText=1.6, motion=0.31, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 010] state=look_up, rows=32/32, age=0.16s, edges=T, bandLap=365, lineLap=459, lightStd=11.3, belowText=1.7, motion=0.25, stable=0/3
+  [OBS 011] state=look_up, rows=31/32, age=0.12s, edges=T, bandLap=571, lineLap=728, lightStd=11.0, belowText=1.7, motion=0.05, stable=0/3
+  [OBS 012] state=hold_still, rows=28/32, age=0.22s, edges=none, bandLap=147, lineLap=176, lightStd=12.1, belowText=1.1, motion=2.08, stable=0/3
+  [OBS 013] state=almost_ready, rows=32/32, age=0.09s, edges=none, bandLap=397, lineLap=470, lightStd=12.4, belowText=1.2, motion=0.55, stable=1/3
+  [OBS 014] state=almost_ready, rows=33/32, age=0.28s, edges=none, bandLap=573, lineLap=690, lightStd=13.0, belowText=1.4, motion=0.42, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 015] state=almost_ready, rows=32/32, age=0.27s, edges=none, bandLap=664, lineLap=804, lightStd=13.4, belowText=1.4, motion=0.07, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3309.
+
+────────────────────────────────────────────────────────────
+  RUN #7
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_007_20260925_104407.jpg
+[POST-CAPTURE] LapVar=84.0, score components: sharp=5, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (84.0 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.42s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=9, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.15, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.90, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=blurry, rows=0/0, age=0.12s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.28, stable=0/3
+  [OBS 005] state=hold_still, rows=0/0, age=0.14s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.78, stable=0/3
+  [OBS 006] state=blurry, rows=5/5, age=0.30s, edges=none, bandLap=42, lineLap=48, lightStd=4.2, belowText=3.1, motion=0.42, stable=0/3
+  [OBS 007] state=almost_ready, rows=34/34, age=0.20s, edges=none, bandLap=264, lineLap=367, lightStd=10.3, belowText=1.0, motion=0.76, stable=1/3
+  [OBS 008] state=almost_ready, rows=34/34, age=0.16s, edges=none, bandLap=598, lineLap=795, lightStd=10.8, belowText=0.9, motion=0.59, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 009] state=almost_ready, rows=33/34, age=0.16s, edges=none, bandLap=267, lineLap=369, lightStd=11.1, belowText=0.9, motion=0.32, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3438.
+
+────────────────────────────────────────────────────────────
+  RUN #8
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_008_20260925_104418.jpg
+[POST-CAPTURE] LapVar=43.3, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (43.3 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=34/34, age=0.19s, edges=none, bandLap=183, lineLap=241, lightStd=10.8, belowText=0.8, motion=1.86, stable=0/3
+  [OBS 003] state=hold_still, rows=26/33, age=0.11s, edges=B, bandLap=132, lineLap=170, lightStd=10.0, belowText=0.0, motion=1.89, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=hold_still, rows=25/32, age=0.16s, edges=B, bandLap=512, lineLap=506, lightStd=8.1, belowText=0.0, motion=2.02, stable=0/3
+  [OBS 005] state=look_down, rows=22/32, age=0.12s, edges=B, bandLap=252, lineLap=256, lightStd=8.8, belowText=0.0, motion=0.25, stable=0/3
+  [OBS 006] state=look_down, rows=24/31, age=0.17s, edges=B, bandLap=838, lineLap=905, lightStd=7.3, belowText=0.0, motion=0.18, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 007] state=look_down, rows=27/30, age=0.30s, edges=B, bandLap=1089, lineLap=1163, lightStd=7.8, belowText=0.0, motion=0.20, stable=0/3
+  [OBS 008] state=look_down, rows=28/30, age=0.23s, edges=B, bandLap=837, lineLap=940, lightStd=7.8, belowText=0.0, motion=0.49, stable=0/3
+  [OBS 009] state=hold_still, rows=34/34, age=0.25s, edges=none, bandLap=755, lineLap=1032, lightStd=10.9, belowText=1.3, motion=4.20, stable=0/3
+  [OBS 010] state=almost_ready, rows=34/34, age=0.14s, edges=none, bandLap=715, lineLap=906, lightStd=10.8, belowText=1.3, motion=0.17, stable=1/3
+  [OBS 011] state=almost_ready, rows=34/34, age=0.11s, edges=none, bandLap=736, lineLap=946, lightStd=10.9, belowText=1.4, motion=0.06, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 012] state=almost_ready, rows=34/34, age=0.31s, edges=none, bandLap=755, lineLap=806, lightStd=10.6, belowText=1.3, motion=0.11, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3590.
+
+────────────────────────────────────────────────────────────
+  RUN #9
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_009_20260925_104429.jpg
+[POST-CAPTURE] LapVar=120.2, score components: sharp=11, bright=30, even=0
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.500s (33 detections, 33 lines, 5 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Paragraph-Level Translation and Spoken Guidance Reading a complete translated page as uninterrupted speech creates a serious usability problem The listener hears the meaning but cannot tell which original line or paragraph is currently being spoken. This becomes especially confusing on technical documents containing warnings, numbered procedures. labels. and tables A wearable translator should preserve the connection between physical text and audio. The processing pipeline therefore retains the coordinates returned by optical character recognition and groups nearby lines into meaningful regions Each region becomes a separate translation unit instead of sending the entire page to the language model at once Reading order is determined from position, alignment, and spacing. Lines that share a similar left edge and remain within a reasonable vertical distance are combined. Large gaps. headings. bullet points. and changes in indentation begin new groups The original coordinates remain attached to every translated sentence During development. the selected paragraph is surrounded by a coloured box in the preview In the wearable version, a short tone and a spoken paragraph number announce the same transition The user can move forward. go back, repeat. pause, or stop with a small physical control or a limited voice command set Speech is generated only after a paragraph passes basic checks. Empty results and very low recognition confidence request another image. Extremely long regions are divided at sentence boundaries, while short neighbouring lines may be joined so the voice does not pause after every label fragment Numbers, units, dates, and warning symbols receive special attention because a fluent sentence can still be dangerous when one measurement is wrong. The interface can optionally read the source paragraph first and the translated paragraph second This to notice recognition mistakes before acting on the result
+============================================================
+
+[REGIONS] Detected 5 text region(s): 1 title, 1 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.999 | at the top of the page
+    Paragraph-Level Translation and Spoken Guidance
+  P1 | type=paragraph | 11 line(s) | confidence=0.993 | in the upper part of the page
+    Reading a complete translated page as uninterrupted speech creates a serious usability problem The listener hears the meaning but cannot tell which original line or paragraph is currently being spoken. This becomes especially confusing on technical documents containing warnings, numbered procedures. labels. and tables A wearable translator should preserve the connection between physical text and audio. The processing pipeline therefore retains the coordinates returned by optical character recognition and groups nearby lines into meaningful regions Each region becomes a separate translation unit instead of sending the entire page to the language model at once
+  P2 | type=paragraph | 11 line(s) | confidence=0.992 | in the middle of the page
+    Reading order is determined from position, alignment, and spacing. Lines that share a similar left edge and remain within a reasonable vertical distance are combined. Large gaps. headings. bullet points. and changes in indentation begin new groups The original coordinates remain attached to every translated sentence During development. the selected paragraph is surrounded by a coloured box in the preview In the wearable version, a short tone and a spoken paragraph number announce the same transition The user can move forward. go back, repeat. pause, or stop with a small physical control or a limited voice command set
+  P3 | type=paragraph | 9 line(s) | confidence=0.986 | in the lower part of the page
+    Speech is generated only after a paragraph passes basic checks. Empty results and very low recognition confidence request another image. Extremely long regions are divided at sentence boundaries, while short neighbouring lines may be joined so the voice does not pause after every label fragment Numbers, units, dates, and warning symbols receive special attention because a fluent sentence can still be dangerous when one measurement is wrong. The interface can optionally read the source paragraph first and the translated paragraph second This
+  H1 | type=section_heading | 1 line(s) | confidence=0.999 | at the bottom of the page
+    to notice recognition mistakes before acting on the result
+[STAGE 2] 5 regions, 20 NLLB chunks, english -> urdu: 1.136s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] پیراگراف کی سطح کا ترجمہ اور زبانی رہنمائی
+[P1] مکمل ترجمہ شدہ صفحے کو بغیر کسی رکاوٹ کے پڑھنے سے استعمال کی اہلیت کا ایک سنگین مسئلہ پیدا ہوتا ہے۔ سننے والا معنی سنتا ہے لیکن یہ نہیں کہہ سکتا کہ اس وقت کون سی اصل لائن یا پیراگراف کہا جارہا ہے۔ یہ خاص طور پر تکنیکی دستاویزات پر الجھن بن جاتا ہے جس میں انتباہات ، نمبر والے طریقہ کار شامل ہیں۔ لیبل. اور ٹیبلز ایک پہننے کے قابل مترجم کو جسمانی متن اور آڈیو کے درمیان تعلق کو برقرار رکھنا چاہئے. پروسیسنگ پائپ لائن اس وجہ سے آپٹیکل کردار کی شناخت کی طرف سے واپس کوآرڈینیٹ برقرار رکھتا ہے اور معنی خطوں میں قریبی لائنوں گروپوں ہر خطے کو ایک بار میں زبان کے ماڈل کو پورے صفحے کو بھیجنے کے بجائے ایک علیحدہ ترجمہ یونٹ بن جاتا ہے
+[P2] پڑھنے کا حکم پوزیشن، سیدھ اور فاصلے سے طے ہوتا ہے۔ لائنیں جو ایک ہی بائیں کنارے کا اشتراک کرتی ہیں اور ایک معقول عمودی فاصلے کے اندر رہتی ہیں وہ مل جاتی ہیں. بڑے خلا. عنوانات. گولیاں پوائنٹس. اور انڈینٹیشن میں تبدیلیاں نئے گروپس شروع ہوتی ہیں۔ اصل کوآرڈینیٹ ترقی کے دوران ہر ترجمہ شدہ جملے سے منسلک رہتی ہیں۔ منتخب کردہ پیراگراف کو پیش نظارہ میں ایک رنگین باکس سے گھیر لیا گیا ہے۔ پہننے کے قابل ورژن میں ، ایک مختصر سر اور ایک بولی گئی پیراگراف نمبر ایک ہی منتقلی کا اعلان کرتے ہیں۔ صارف آگے بڑھ سکتا ہے۔ واپس جاؤ، دہرائیں. توقف، یا ایک چھوٹا سا جسمانی کنٹرول یا ایک محدود صوتی کمانڈ سیٹ کے ساتھ روکنے
+[P3] تقریر صرف اس وقت پیدا ہوتی ہے جب ایک پیراگراف بنیادی جانچ پڑتال سے گزر جاتا ہے۔ خالی نتائج اور بہت کم شناخت کا اعتماد ایک اور تصویر کی درخواست کرتا ہے. جملے کی سرحدوں پر انتہائی لمبے علاقوں کو تقسیم کیا جاتا ہے ، جبکہ مختصر ہمسایہ لائنوں کو جوڑ دیا جاسکتا ہے تاکہ ہر لیبل کے ٹکڑے کے بعد آواز میں توقف نہ ہو۔ اعداد ، اکائیوں ، تاریخوں اور انتباہی علامتوں پر خصوصی توجہ دی جاتی ہے کیونکہ ایک روانی سے جملہ اب بھی خطرناک ہوسکتا ہے جب ایک پیمائش غلط ہے۔ انٹرفیس اختیاری طور پر سب سے پہلے ماخذ پیراگراف اور ترجمہ پیراگراف دوسرا پڑھ سکتے ہیں یہ
+[H1] نتائج پر عمل کرنے سے پہلے شناخت کی غلطیوں کا نوٹس لینا
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_009_20260925_104431_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_009_20260925_104431_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.500s
+  Translation  : 1.136s
+  Spell Corr   : 0.000s
+  TTS Playback : 8.322s
+────────────────────────────────────────
+  TOTAL        : 10.628s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=35/35, age=0.31s, edges=none, bandLap=210, lineLap=250, lightStd=10.0, belowText=1.3, motion=0.00, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 002] state=hold_still, rows=7/32, age=0.06s, edges=B, bandLap=154, lineLap=209, lightStd=3.9, belowText=0.0, motion=3.74, stable=0/3
+  [OBS 003] state=hold_still, rows=31/34, age=0.14s, edges=B, bandLap=273, lineLap=281, lightStd=10.8, belowText=0.0, motion=1.86, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=hold_still, rows=34/35, age=0.25s, edges=T, bandLap=713, lineLap=859, lightStd=10.2, belowText=1.5, motion=3.34, stable=0/3
+  [OBS 005] state=almost_ready, rows=34/35, age=0.28s, edges=none, bandLap=662, lineLap=727, lightStd=10.1, belowText=1.4, motion=0.47, stable=1/3
+  [OBS 006] state=almost_ready, rows=33/34, age=0.14s, edges=none, bandLap=236, lineLap=312, lightStd=11.5, belowText=1.0, motion=0.66, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 007] state=hold_still, rows=34/34, age=0.12s, edges=B, bandLap=509, lineLap=505, lightStd=10.6, belowText=0.0, motion=2.36, stable=0/3
+  [OBS 008] state=look_down, rows=32/34, age=0.20s, edges=B, bandLap=868, lineLap=985, lightStd=11.3, belowText=12.8, motion=0.41, stable=0/3
+  [OBS 009] state=look_down, rows=33/34, age=0.17s, edges=B, bandLap=926, lineLap=1022, lightStd=10.8, belowText=0.0, motion=0.06, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 010] state=almost_ready, rows=30/34, age=0.23s, edges=none, bandLap=980, lineLap=1015, lightStd=10.1, belowText=15.2, motion=0.16, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 011] state=look_down, rows=33/34, age=0.14s, edges=B, bandLap=732, lineLap=766, lightStd=9.9, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 012] state=look_down, rows=30/34, age=0.11s, edges=B, bandLap=827, lineLap=956, lightStd=11.2, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 013] state=hold_still, rows=34/34, age=0.20s, edges=none, bandLap=389, lineLap=410, lightStd=10.8, belowText=0.9, motion=1.08, stable=0/3
+  [OBS 014] state=almost_ready, rows=35/34, age=0.12s, edges=none, bandLap=584, lineLap=668, lightStd=10.9, belowText=1.3, motion=0.61, stable=1/3
+  [OBS 015] state=almost_ready, rows=35/35, age=0.17s, edges=none, bandLap=843, lineLap=943, lightStd=10.6, belowText=1.5, motion=0.00, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 016] state=almost_ready, rows=34/35, age=0.25s, edges=none, bandLap=786, lineLap=927, lightStd=11.1, belowText=1.8, motion=0.10, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3961.
+
+────────────────────────────────────────────────────────────
+  RUN #10
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_010_20260925_104459.jpg
+[POST-CAPTURE] LapVar=114.7, score components: sharp=10, bright=30, even=0
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.750s (33 detections, 33 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Designing Reliable Automatic Page Capture Automatic page capture seems simple until the camera is worn on the head The user cannot continuously inspect a preview. and small movements alter framing. focus. and perspective. A page that looks acceptable from a distance may have its first lines outside the image or noticeably softer than the lower half Indoor lighting adds reflections. while daylight produces deep shadows near the page edge The capture system must therefore decide when a frame is useful and communicate corrections through sound It should not save the first image containing text. because detection often begins while the wearer is still moving into position The proposed gate combines geometry, focus, exposure, and temporal stability Text boxes are detected in each video frame and merged into a candidate region The outer region must remain inside a safety margin so no line is cropped Its width and height must also fall within practical limits a tiny region provides too few pixels per character, but a region touching the image boundary probably indicates that part of the page is missing Focus is estimated from Laplacian variance over the ful grayscale frame. A second measurement covers the upper thirty percent. where slanted paper is commonly out of focus A capture is rejected when the upper score is much lower than the full-frame score, even if the overall number appears satisfactory One sharp frame is not sufficient evidence The position and size of the text region must remain stable across four consecutive observations. With the selected video interval, this adds roughly eight tenths of a second after the page first appears ready The delay is short for the wearer but long enough for hand and head motion to settle Exposure changes are monitored during the same period if brightness is still drifting, the counter returns to zero When the page is too large, spoken guidance hold still or adjust distance
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Designing Reliable Automatic Page Capture
+  P1 | type=paragraph | 11 line(s) | confidence=0.989 | in the upper part of the page
+    Automatic page capture seems simple until the camera is worn on the head The user cannot continuously inspect a preview. and small movements alter framing. focus. and perspective. A page that looks acceptable from a distance may have its first lines outside the image or noticeably softer than the lower half Indoor lighting adds reflections. while daylight produces deep shadows near the page edge The capture system must therefore decide when a frame is useful and communicate corrections through sound It should not save the first image containing text. because detection often begins while the wearer is still moving into position
+  P2 | type=paragraph | 12 line(s) | confidence=0.991 | in the middle of the page
+    The proposed gate combines geometry, focus, exposure, and temporal stability Text boxes are detected in each video frame and merged into a candidate region The outer region must remain inside a safety margin so no line is cropped Its width and height must also fall within practical limits a tiny region provides too few pixels per character, but a region touching the image boundary probably indicates that part of the page is missing Focus is estimated from Laplacian variance over the ful grayscale frame. A second measurement covers the upper thirty percent. where slanted paper is commonly out of focus A capture is rejected when the upper score is much lower than the full-frame score, even if the overall number appears satisfactory
+  P3 | type=paragraph | 9 line(s) | confidence=0.990 | in the lower part of the page
+    One sharp frame is not sufficient evidence The position and size of the text region must remain stable across four consecutive observations. With the selected video interval, this adds roughly eight tenths of a second after the page first appears ready The delay is short for the wearer but long enough for hand and head motion to settle Exposure changes are monitored during the same period if brightness is still drifting, the counter returns to zero When the page is too large, spoken guidance hold still or adjust distance
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 30
+[STAGE 2] 4 regions, 13 NLLB chunks, english -> urdu: 1.607s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] قابل اعتماد خودکار پیج کیپچر ڈیزائن کرنا
+[P1] خودکار صفحہ کی گرفتاری آسان معلوم ہوتی ہے جب تک کہ کیمرہ سر پر نہیں پہنا جاتا۔ صارف مستقل طور پر پیش نظارہ نہیں دیکھ سکتا۔ اور چھوٹی چھوٹی حرکتیں فریمنگ کو تبدیل کرتی ہیں۔ توجہ مرکوز. اور نقطہ نظر. ایک صفحہ جو فاصلے سے قابل قبول لگتا ہے اس کی پہلی لائنیں تصویر کے باہر ہوسکتی ہیں یا نچلے نصف سے نمایاں طور پر نرم ہوسکتی ہیں۔ انڈور لائٹنگ عکاسی کا اضافہ کرتی ہے۔ جبکہ دن کی روشنی صفحے کے کنارے کے قریب گہرے سائے پیدا کرتی ہے۔ اس لئے گرفتاری کے نظام کو یہ فیصلہ کرنا ہوگا کہ جب ایک فریم مفید ہے اور آواز کے ذریعے اصلاحات کا اعلان کرنا چاہئے۔ اسے متن پر مشتمل پہلی تصویر کو محفوظ نہیں کرنا چاہئے۔ کیونکہ پتہ لگانے اکثر شروع ہوتا ہے جبکہ پہننے والے اب بھی پوزیشن میں منتقل کر رہا ہے
+[P2] مجوزہ گیٹ جیومیٹری ، فوکس ، نمائش ، اور وقتی استحکام کو جوڑتا ہے۔ ہر ویڈیو فریم میں ٹیکسٹ باکس کا پتہ چلتا ہے اور کسی امیدوار علاقے میں ضم ہوجاتا ہے۔ بیرونی علاقے کو حفاظتی حاشیے کے اندر رہنا چاہئے تاکہ کوئی لائن کاٹ نہ جائے۔ اس کی چوڑائی اور اونچائی بھی عملی حدود میں ہونی چاہئے۔ ایک چھوٹا سا علاقہ ہر کردار کے لئے بہت کم پکسلز فراہم کرتا ہے ، لیکن تصویر کی سرحد کو چھوتا ہوا علاقہ شاید اس بات کی نشاندہی کرتا ہے کہ صفحے کا ایک حصہ غائب ہے۔ فوکس کا اندازہ مکمل گرے اسکیل فریم پر لیپلاشین تغیر سے کیا جاتا ہے۔ ایک دوسری پیمائش 30 فیصد سے زیادہ کا احاطہ کرتی ہے۔ جہاں جھکا ہوا کاغذ عام طور پر غیر فوکس ہوتا ہے ایک گرفتاری کو مسترد کردیا جاتا ہے جب اوپری اسکور پورے فریم اسکور سے بہت کم ہوتا ہے ، یہاں تک کہ اگر مجموعی تعداد اطمینان بخش نظر آتی ہے
+[P3] ایک تیز فریم کافی ثبوت نہیں ہے۔ متن کے علاقے کی پوزیشن اور سائز کو لگاتار چار مشاہدات میں مستحکم رہنا چاہئے۔ منتخب کردہ ویڈیو وقفے کے ساتھ ، یہ صفحہ پہلی بار تیار ظاہر ہونے کے بعد تقریبا eight آٹھ دسویں سیکنڈ کا اضافہ کرتا ہے۔ تاخیر پہننے والے کے لئے مختصر ہے لیکن ہاتھ اور سر کی نقل و حرکت کو حل کرنے کے لئے کافی لمبی ہے۔ اسی مدت کے دوران نمائش کی تبدیلیوں کی نگرانی کی جاتی ہے اگر چمک اب بھی بہہ رہی ہے تو ، کاؤنٹر صفر پر واپس آجاتا ہے جب صفحہ بہت بڑا ہے تو ، بولی گائیڈ ابھی بھی رکھیں یا فاصلہ ایڈجسٹ کریں
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_010_20260925_104502_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_010_20260925_104502_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.750s
+  Translation  : 1.607s
+  Spell Corr   : 0.000s
+  TTS Playback : 29.118s
+────────────────────────────────────────
+  TOTAL        : 32.167s
+────────────────────────────────────────
+
+  Ready for next capture!
+

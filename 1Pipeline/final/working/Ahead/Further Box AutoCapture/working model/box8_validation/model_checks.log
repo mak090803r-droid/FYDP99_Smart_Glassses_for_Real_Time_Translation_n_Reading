@@ -1,0 +1,378 @@
+[INFO] Hardware Target: NVIDIA GPU (CUDA)
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+Creating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')
+Creating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')
+[LOAD] PaddleOCR ready in 0.80s
+{
+  "qa": [
+    {
+      "question": "What voltage does the camera require?",
+      "result": {
+        "answer": "5 V",
+        "quote": "The camera requires a 5 V power supply.",
+        "region_id": 2,
+        "bbox": [
+          10,
+          20,
+          400,
+          100
+        ],
+        "table": null,
+        "row": null,
+        "margin": 9.718571186065674,
+        "score": 0.999939847727767,
+        "source_text": "The camera requires a 5 V power supply. Disconnect the power before cleaning. This prototype processes documents locally without a cloud service.",
+        "translated": false
+      },
+      "seconds": 4.063000000000017
+    },
+    {
+      "question": "What should I do before cleaning?",
+      "result": {
+        "answer": "Disconnect the power",
+        "quote": "Disconnect the power before cleaning.",
+        "region_id": 2,
+        "bbox": [
+          10,
+          20,
+          400,
+          100
+        ],
+        "table": null,
+        "row": null,
+        "margin": 6.3212080001831055,
+        "score": 0.9982054556918809,
+        "source_text": "The camera requires a 5 V power supply. Disconnect the power before cleaning. This prototype processes documents locally without a cloud service.",
+        "translated": false
+      },
+      "seconds": 2.171999999999997
+    },
+    {
+      "question": "What is the price of the camera?",
+      "result": {
+        "answer": "",
+        "reason": "No sufficiently supported answer in the captured page."
+      },
+      "seconds": 2.2029999999999745
+    },
+    {
+      "question": "Who invented the camera?",
+      "result": {
+        "answer": "",
+        "reason": "No sufficiently supported answer in the captured page."
+      },
+      "seconds": 2.1869999999999834
+    }
+  ],
+  "table_geometry": {
+    "result": [
+      {
+        "number": 1,
+        "bbox": [
+          101,
+          141,
+          1001,
+          491
+        ],
+        "rows": [
+          [
+            {
+              "bbox": [
+                101,
+                211,
+                401,
+                281
+              ],
+              "text": "Camera",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                401,
+                211,
+                701,
+                281
+              ],
+              "text": "5 V",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                701,
+                211,
+                1001,
+                281
+              ],
+              "text": "2 A",
+              "confidence": 0.99
+            }
+          ],
+          [
+            {
+              "bbox": [
+                101,
+                281,
+                401,
+                351
+              ],
+              "text": "Processor",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                401,
+                281,
+                701,
+                351
+              ],
+              "text": "5 V",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                701,
+                281,
+                1001,
+                351
+              ],
+              "text": "3 A",
+              "confidence": 0.99
+            }
+          ],
+          [
+            {
+              "bbox": [
+                101,
+                351,
+                401,
+                421
+              ],
+              "text": "Display",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                401,
+                351,
+                701,
+                421
+              ],
+              "text": "3 V",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                701,
+                351,
+                1001,
+                421
+              ],
+              "text": "1 A",
+              "confidence": 0.99
+            }
+          ],
+          [
+            {
+              "bbox": [
+                101,
+                421,
+                401,
+                491
+              ],
+              "text": "Sensor",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                401,
+                421,
+                701,
+                491
+              ],
+              "text": "3 V",
+              "confidence": 0.99
+            },
+            {
+              "bbox": [
+                701,
+                421,
+                1001,
+                491
+              ],
+              "text": "1 A",
+              "confidence": 0.99
+            }
+          ]
+        ],
+        "headers": [
+          "Component",
+          "Voltage",
+          "Current"
+        ],
+        "header_rows": 1,
+        "safe": true,
+        "warnings": [],
+        "structure_method": "model + complete ruled grid"
+      }
+    ],
+    "seconds": 3.390999999999991
+  },
+  "table_actual_ocr": {
+    "result": [
+      {
+        "number": 1,
+        "bbox": [
+          101,
+          141,
+          1001,
+          491
+        ],
+        "rows": [
+          [
+            {
+              "bbox": [
+                101,
+                211,
+                401,
+                281
+              ],
+              "text": "Camera",
+              "confidence": 0.9999929070472717
+            },
+            {
+              "bbox": [
+                401,
+                211,
+                701,
+                281
+              ],
+              "text": "5V",
+              "confidence": 0.9996415376663208
+            },
+            {
+              "bbox": [
+                701,
+                211,
+                1001,
+                281
+              ],
+              "text": "2A",
+              "confidence": 0.999923050403595
+            }
+          ],
+          [
+            {
+              "bbox": [
+                101,
+                281,
+                401,
+                351
+              ],
+              "text": "Processor",
+              "confidence": 0.9999943971633911
+            },
+            {
+              "bbox": [
+                401,
+                281,
+                701,
+                351
+              ],
+              "text": "5V",
+              "confidence": 0.9995846748352051
+            },
+            {
+              "bbox": [
+                701,
+                281,
+                1001,
+                351
+              ],
+              "text": "3A",
+              "confidence": 0.9999133348464966
+            }
+          ],
+          [
+            {
+              "bbox": [
+                101,
+                351,
+                401,
+                421
+              ],
+              "text": "Display",
+              "confidence": 0.9999979138374329
+            },
+            {
+              "bbox": [
+                401,
+                351,
+                701,
+                421
+              ],
+              "text": "3V",
+              "confidence": 0.9997142553329468
+            },
+            {
+              "bbox": [
+                701,
+                351,
+                1001,
+                421
+              ],
+              "text": "1A",
+              "confidence": 0.9998929500579834
+            }
+          ],
+          [
+            {
+              "bbox": [
+                101,
+                421,
+                401,
+                491
+              ],
+              "text": "Sensor",
+              "confidence": 0.9999921321868896
+            },
+            {
+              "bbox": [
+                401,
+                421,
+                701,
+                491
+              ],
+              "text": "3V",
+              "confidence": 0.9997611045837402
+            },
+            {
+              "bbox": [
+                701,
+                421,
+                1001,
+                491
+              ],
+              "text": "1A",
+              "confidence": 0.9999135136604309
+            }
+          ]
+        ],
+        "headers": [
+          "Component",
+          "Voltage",
+          "Current"
+        ],
+        "header_rows": 1,
+        "safe": true,
+        "warnings": [],
+        "structure_method": "model + complete ruled grid"
+      }
+    ],
+    "seconds": 2.8899999999999864
+  },
+  "blank": {
+    "result": [],
+    "seconds": 2.5309999999999775
+  }
+}

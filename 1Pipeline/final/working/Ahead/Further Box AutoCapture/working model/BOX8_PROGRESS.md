@@ -1,0 +1,13 @@
+# Box8 resumable implementation
+
+User request: add optional table-aware reading and source-linked spoken Q&A in a new Box8, preserve Box7 and Pi4. No changes to normal OCR/translation algorithms or settings. Do not claim zero overhead or perfect accuracy.
+
+Status: LOCAL IMPLEMENTATION COMPLETE, 13 September 2026. All three models provisioned; timm 1.0.22 isolated in .box8_deps, existing environment not upgraded. GUI toggles, source-linked spoken extractive Q&A, table reading/navigation/highlights, cancelled-result guards and reading resumption are implemented. No Pi5 needed; existing Pi4 remains unchanged. See BOX8_README.md and BOX8_REPORT.md.
+
+Design: local Microsoft Table Transformer detection + structure; local deepset RoBERTa SQuAD2 extractive Q&A. On-demand CPU subprocesses with two threads, cancellable on new capture/stop. Model setup is explicit; runtime is offline and never downloads. Feature toggles OFF by default. Existing paragraphs remain immutable; tables are separate overlays/records. Source answers include supporting region and abstain when uncertain. Existing Pi4 accepts new utterances as PCM; host adds parsing.
+
+Completed validation: 151 regression tests; real Q&A positive/unsupported questions; three-column/four-row table with all 12 actual OCR cells correct; blank rejection; six synthetic Piper-to-Whisper commands; real English/Urdu answer synthesis; real worker suspend/resume; saved-image complete OCR/translation/TTS output parity. Table scheduling now yields before speech synthesis and runs during PCM playback/after natural completion. No literal-zero-overhead claim. All reports under box8_validation.
+
+Remaining acceptance only: user should launch Box8 with existing Pi4, exercise QCY voice and actual printed/skewed/foreign-language tables, confirm timing during physical playback and disconnect/reconnect. These are not claimed tested. Normal reading doesn't wait for late table results; use “read the table” on demand. Q&A is extractive, not a generative chat model. If user reports a problem, start from these new modules/reports; preserve all protected files below. No source changes or deployment to Pi are pending.
+
+Protected hashes: pipeline_cli_box7.py E39D7ECF7EC7D1D81993C69C4F5B5A5AD0BCDC2E486AA428D997F6AC41A1AE00; piweb_cli4.py E4E7FD5780B520D41D8403E8CB69A7FA586F2DDA1FE3E30CD69D7E68D2502D99; box7_reading.py DC5E49EA8732625770ACA30DBBB02AF4ED8868D0CFAE2EBE199CFE71D904B22B; box7_gui.py 1527CFFC92505DC36413A6CC98348DA4BBB4E9C14A18CFF52CD0752673703BFA; box7_voice.py 704F45BECDD21FDE1305B29A310C9A9287E052584513387F1758E54821A408E6; box7_commands.py 05423C753478EE5E9D326D5E7021D55FACD81BD2803E1AC48AB777D56CBCC06F.

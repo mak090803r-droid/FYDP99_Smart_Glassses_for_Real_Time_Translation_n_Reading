@@ -1,0 +1,133 @@
+======================================================================
+RUN          : 4
+TIMESTAMP    : 20260916_130214
+IMAGE FILE   : capture_cli_004_20260916_130212.jpg
+LANGUAGE     : french
+TEXT REGIONS : 16
+PAGE TITLES  : 0
+HEADINGS     : 0
+PARAGRAPHS   : 16
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-FR12 - Journal de contrôle d'un four de céramique le personnel de l'atelier a relevé les principaux paramètres de cinq cycles. Certaines cellules sont volontairement laissées vides lorsque la mesure n'a pas été enregistrée. Cycle Température max. Durée Observation 6 h 10 C-21 982℃ Normal 995 °℃ C-22 Montée lente C-23 6 h 05 Sonde remplacée 5 h 58 988 ℃ C-24 Normal 1002 °℃ 6 h 22 Refroidissement long C-25
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=4 | conf=0.995 | font_scale=1.47 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=39.75 | bbox=(267, 0, 1765, 191)
+  SOURCE    : TABLE-FR12 - Journal de contrôle d'un four de céramique le personnel de l'atelier a relevé les principaux paramètres de cinq cycles. Certaines cellules sont volontairement laissées vides lorsque la mesure n'a pas été enregistrée. Cycle Température max. Durée Observation
+  LAYOUT LINES:
+    L01 | bbox=(274, 0, 1539, 54) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=47.00 | font_scale=1.47 | heading=ordinary_text | decision=start_of_page | text=TABLE-FR12 - Journal de contrôle d'un four de céramique
+    L02 | bbox=(274, 57, 1758, 108) | pitch=55.50 | gap_ratio=1.40 | indent=-70.50 | font_height=42.00 | font_scale=1.31 | heading=ordinary_text | decision=continuation | text=le personnel de l'atelier a relevé les principaux paramètres de cinq cycles. Certaines cellules sont
+    L03 | bbox=(277, 95, 1375, 129) | pitch=29.50 | gap_ratio=0.74 | indent=-511.50 | font_height=31.00 | font_scale=0.95 | heading=sentence_ending | decision=continuation | text=volontairement laissées vides lorsque la mesure n'a pas été enregistrée.
+    L04 | bbox=(412, 149, 1674, 190) | pitch=57.50 | gap_ratio=1.45 | indent=-383.50 | font_height=32.01 | font_scale=0.98 | heading=ordinary_text | decision=continuation | text=Cycle Température max. Durée Observation
+  TRANSLATED: TABLE-FR12 - Control log of a ceramic furnace the workshop staff recorded the main parameters for five cycles. Some cells are voluntarily left blank when the measurement has not been recorded. Cycle Temperature max. Duration of observation
+  SPOKEN    : TABLE-FR12 - Control log of a ceramic furnace the workshop staff recorded the main parameters for five cycles. Some cells are voluntarily left blank when the measurement has not been recorded. Cycle Temperature max. Duration of observation
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.03 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=39.75 | bbox=(1158, 191, 1271, 213)
+  SOURCE    : 6 h 10
+  LAYOUT LINES:
+    L01 | bbox=(1165, 194, 1264, 230) | pitch=42.50 | gap_ratio=1.07 | indent=820.50 | font_height=33.02 | font_scale=1.03 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=6 h 10
+  TRANSLATED: 6 and 10 .
+  SPOKEN    : 6 and 10 .
+------------------------------------------------------------
+P3 | region_id=3 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(419, 213, 522, 214)
+  SOURCE    : C-21
+  LAYOUT LINES:
+    L01 | bbox=(426, 198, 515, 230) | pitch=2.00 | gap_ratio=0.05 | indent=-5.00 | font_height=32.00 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=C-21
+  TRANSLATED: C-21
+  SPOKEN    : C-21
+------------------------------------------------------------
+P4 | region_id=4 | type=paragraph | lines=1 | conf=0.990 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(788, 214, 912, 217)
+  SOURCE    : 982℃
+  LAYOUT LINES:
+    L01 | bbox=(795, 199, 905, 230) | pitch=0.50 | gap_ratio=0.01 | indent=1.00 | font_height=31.00 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=982℃
+  TRANSLATED: 982℃
+  SPOKEN    : 982℃
+------------------------------------------------------------
+P5 | region_id=5 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(1509, 217, 1641, 239)
+  SOURCE    : Normal
+  LAYOUT LINES:
+    L01 | bbox=(1516, 201, 1634, 237) | pitch=4.50 | gap_ratio=0.11 | indent=200.00 | font_height=32.02 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=Normal
+  TRANSLATED: It 's normal .
+  SPOKEN    : It 's normal .
+------------------------------------------------------------
+P6 | region_id=6 | type=paragraph | lines=1 | conf=0.857 | font_scale=1.03 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(787, 239, 911, 259)
+  SOURCE    : 995 °℃
+  LAYOUT LINES:
+    L01 | bbox=(794, 241, 904, 276) | pitch=39.50 | gap_ratio=0.99 | indent=-3.00 | font_height=32.99 | font_scale=1.03 | heading=ordinary_text | decision=column_change | text=995 °℃
+  TRANSLATED: 995 °℃
+  SPOKEN    : 995 °℃
+------------------------------------------------------------
+P7 | region_id=7 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.11 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(422, 259, 526, 262)
+  SOURCE    : C-22
+  LAYOUT LINES:
+    L01 | bbox=(429, 242, 519, 278) | pitch=1.50 | gap_ratio=0.04 | indent=-5.50 | font_height=36.00 | font_scale=1.11 | heading=ordinary_text | decision=column_change | text=C-22
+  TRANSLATED: C-22
+  SPOKEN    : C-22
+------------------------------------------------------------
+P8 | region_id=8 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(1466, 262, 1682, 285)
+  SOURCE    : Montée lente
+  LAYOUT LINES:
+    L01 | bbox=(1473, 246, 1675, 282) | pitch=4.00 | gap_ratio=0.10 | indent=136.50 | font_height=31.02 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=Montée lente
+  TRANSLATED: Slowly climbing
+  SPOKEN    : Slowly climbing
+------------------------------------------------------------
+P9 | region_id=9 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.09 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(426, 285, 528, 308)
+  SOURCE    : C-23
+  LAYOUT LINES:
+    L01 | bbox=(433, 288, 521, 324) | pitch=42.00 | gap_ratio=1.06 | indent=-3.00 | font_height=36.00 | font_scale=1.09 | heading=ordinary_text | decision=column_change | text=C-23
+  TRANSLATED: C-23
+  SPOKEN    : C-23
+------------------------------------------------------------
+P10 | region_id=10 | type=paragraph | lines=2 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(1149, 308, 1718, 348)
+  SOURCE    : 6 h 05 Sonde remplacée 5 h 58
+  LAYOUT LINES:
+    L01 | bbox=(1159, 286, 1711, 332) | pitch=3.00 | gap_ratio=0.08 | indent=-176.00 | font_height=33.01 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=6 h 05 Sonde remplacée
+    L02 | bbox=(1156, 328, 1255, 364) | pitch=37.00 | gap_ratio=0.93 | indent=1.00 | font_height=33.02 | font_scale=0.99 | heading=ordinary_text | decision=continuation | text=5 h 58
+  TRANSLATED: 6h05 Replacement probe 5h58
+  SPOKEN    : 6h05 Replacement probe 5h58
+------------------------------------------------------------
+P11 | region_id=11 | type=paragraph | lines=1 | conf=0.887 | font_scale=1.01 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(790, 348, 915, 352)
+  SOURCE    : 988 ℃
+  LAYOUT LINES:
+    L01 | bbox=(797, 333, 908, 367) | pitch=4.00 | gap_ratio=0.10 | indent=9.00 | font_height=34.00 | font_scale=1.01 | heading=ordinary_text | decision=column_change | text=988 ℃
+  TRANSLATED: 988 ℃
+  SPOKEN    : 988 ℃
+------------------------------------------------------------
+P12 | region_id=12 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.11 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(429, 352, 532, 354)
+  SOURCE    : C-24
+  LAYOUT LINES:
+    L01 | bbox=(436, 334, 525, 374) | pitch=4.00 | gap_ratio=0.10 | indent=-5.00 | font_height=37.01 | font_scale=1.11 | heading=ordinary_text | decision=column_change | text=C-24
+  TRANSLATED: C-24
+  SPOKEN    : C-24
+------------------------------------------------------------
+P13 | region_id=13 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(1507, 354, 1643, 375)
+  SOURCE    : Normal
+  LAYOUT LINES:
+    L01 | bbox=(1514, 338, 1636, 372) | pitch=1.00 | gap_ratio=0.03 | indent=359.00 | font_height=32.00 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=Normal
+  TRANSLATED: It 's normal .
+  SPOKEN    : It 's normal .
+------------------------------------------------------------
+P14 | region_id=14 | type=paragraph | lines=1 | conf=0.852 | font_scale=1.01 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(781, 375, 925, 397)
+  SOURCE    : 1002 °℃
+  LAYOUT LINES:
+    L01 | bbox=(788, 377, 918, 414) | pitch=40.50 | gap_ratio=1.02 | indent=-9.00 | font_height=34.01 | font_scale=1.01 | heading=ordinary_text | decision=column_change | text=1002 °℃
+  TRANSLATED: 1002 °℃
+  SPOKEN    : 1002 °℃
+------------------------------------------------------------
+P15 | region_id=15 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(1148, 397, 1745, 400)
+  SOURCE    : 6 h 22 Refroidissement long
+  LAYOUT LINES:
+    L01 | bbox=(1155, 375, 1738, 422) | pitch=3.00 | gap_ratio=0.08 | indent=-180.00 | font_height=33.51 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=6 h 22 Refroidissement long
+  TRANSLATED: 6h22 long cooling
+  SPOKEN    : 6h22 long cooling
+------------------------------------------------------------
+P16 | region_id=16 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.07 | heading_evidence=ordinary_text | break=column_change | normal_pitch=39.75 | bbox=(434, 400, 534, 427)
+  SOURCE    : C-25
+  LAYOUT LINES:
+    L01 | bbox=(441, 384, 527, 420) | pitch=3.50 | gap_ratio=0.09 | indent=5.00 | font_height=36.00 | font_scale=1.07 | heading=ordinary_text | decision=column_change | text=C-25
+  TRANSLATED: C-25
+  SPOKEN    : C-25
+
+======================================================================

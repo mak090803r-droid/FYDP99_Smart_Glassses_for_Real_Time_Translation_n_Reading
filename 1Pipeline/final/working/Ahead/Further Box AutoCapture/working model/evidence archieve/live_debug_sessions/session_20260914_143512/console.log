@@ -1,0 +1,566 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.52s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.86s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.17s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 4.89s
+[LOAD] Conservative SymSpell dictionary loaded in 2.93s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=0/0, age=0.59s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=3/3, age=0.20s, edges=none, bandLap=33, lineLap=123, lightStd=4.4, belowText=3.0, motion=0.84, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.22, stable=0/3
+  [OBS 004] state=almost_ready, rows=25/25, age=0.26s, edges=none, bandLap=156, lineLap=265, lightStd=10.3, belowText=1.5, motion=0.62, stable=1/3
+  [OBS 005] state=almost_ready, rows=21/25, age=0.12s, edges=none, bandLap=151, lineLap=220, lightStd=10.1, belowText=1.4, motion=0.37, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=20/24, age=0.22s, edges=none, bandLap=157, lineLap=281, lightStd=9.0, belowText=2.1, motion=0.03, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #176.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260914_143556.jpg
+[POST-CAPTURE] LapVar=50.1, score components: sharp=0, bright=30, even=20
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (50.1 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=3/3, age=0.39s, edges=none, bandLap=35, lineLap=36, lightStd=3.9, belowText=2.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=20/20, age=0.19s, edges=none, bandLap=97, lineLap=256, lightStd=13.2, belowText=1.2, motion=0.59, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=almost_ready, rows=19/19, age=0.14s, edges=none, bandLap=380, lineLap=808, lightStd=12.6, belowText=1.7, motion=0.34, stable=1/3
+  [OBS 004] state=almost_ready, rows=18/19, age=0.12s, edges=none, bandLap=147, lineLap=363, lightStd=12.4, belowText=1.2, motion=0.17, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 005] state=almost_ready, rows=19/19, age=0.28s, edges=none, bandLap=293, lineLap=729, lightStd=12.7, belowText=1.3, motion=0.21, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #321.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260914_143609.jpg
+[POST-CAPTURE] LapVar=136.9, score components: sharp=13, bright=30, even=21
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.391s (66 detections, 41 lines, 22 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+CAE-F-10-04 Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages PROJECT REPORT / PAPER (SURVEY / RESEARCH) EVALUATION PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR STUDENT ADVISOR/CO-ADVISOR/EVALUATOR Name Name: Pak No: Rank: Course: Semester No: Project Title: Score Weighted PLO PLO PLO Title Description / Sub Categories Weightage (1-10) Score Score Analysis of requirements problem 2 Problem Analysis formulation and quality of (proposed) X3 solution Literature survey / comparative analysis of 4 Investigation the solution vis-à-vis state-of-the-art X5 techniques / designs Commitment to professional ethics 8 Ethics highlighted by originality of work / X2 Similanty Index (< 15%) Soundness of Approach (Proposed Methodology) Communication Quality of report / survey paper / research 10(a) (Written) paper (graphs / plots. data presented X5 references etc.) Formatting of report / survey paper / research paper Total Weights = 220 Total Score(%) = EWeighted Score x100= ∑ Woights Eweightod Score for PLO PLO Score (%) = ×100= EWeights for PLO
+============================================================
+
+[REGIONS] Detected 22 text region(s): 1 title, 0 heading(s), 21 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.993 | in the upper part of the page
+    CAE-F-10-04 Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages
+  P1 | type=paragraph | 2 line(s) | confidence=0.986 | in the upper part of the page
+    PROJECT REPORT / PAPER (SURVEY / RESEARCH) EVALUATION PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    STUDENT
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    ADVISOR/CO-ADVISOR/EVALUATOR
+  P4 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Name
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Name:
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Pak No:
+  P7 | type=paragraph | 1 line(s) | confidence=0.997 | in the upper part of the page
+    Rank:
+  P8 | type=paragraph | 3 line(s) | confidence=0.987 | in the middle of the page
+    Course: Semester No: Project Title:
+  P9 | type=paragraph | 3 line(s) | confidence=0.996 | in the middle of the page
+    Score Weighted PLO PLO PLO Title Description / Sub Categories Weightage (1-10) Score Score
+  P10 | type=paragraph | 3 line(s) | confidence=0.998 | in the middle of the page
+    Analysis of requirements problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+  P11 | type=paragraph | 2 line(s) | confidence=0.997 | in the middle of the page
+    Literature survey / comparative analysis of 4 Investigation the solution vis-à-vis state-of-the-art X5
+  P12 | type=paragraph | 1 line(s) | confidence=0.968 | in the lower part of the page
+    techniques / designs
+  P13 | type=paragraph | 3 line(s) | confidence=0.972 | in the lower part of the page
+    Commitment to professional ethics 8 Ethics highlighted by originality of work / X2 Similanty Index (< 15%)
+  P14 | type=paragraph | 3 line(s) | confidence=0.994 | in the lower part of the page
+    Soundness of Approach (Proposed Methodology) Communication Quality of report / survey paper / research
+  P15 | type=paragraph | 1 line(s) | confidence=1.000 | in the lower part of the page
+    10(a)
+  P16 | type=paragraph | 4 line(s) | confidence=0.988 | in the lower part of the page
+    (Written) paper (graphs / plots. data presented X5 references etc.) Formatting of report / survey paper / research paper
+  P17 | type=paragraph | 3 line(s) | confidence=0.942 | at the bottom of the page
+    Total Weights = 220 Total Score(%) = EWeighted Score x100= ∑ Woights
+  P18 | type=paragraph | 1 line(s) | confidence=0.932 | at the bottom of the page
+    Eweightod Score for PLO
+  P19 | type=paragraph | 1 line(s) | confidence=0.967 | at the bottom of the page
+    PLO Score (%) =
+  P20 | type=paragraph | 1 line(s) | confidence=0.911 | at the bottom of the page
+    ×100=
+  P21 | type=paragraph | 1 line(s) | confidence=0.945 | at the bottom of the page
+    EWeights for PLO
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: source digits absent: 10, 04
+[TRANSLATION REVIEW] Region 1: Review identifier rendering: F-10-04
+[TRANSLATION REVIEW] Region 4: Review numerical rendering: new output digits: 290
+[STAGE 2] 22 regions, 24 NLLB chunks, french -> english: 0.693s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union. 3 The date. 09.06.2026 Page 1 of 2
+[P1] This is the first time that the European Commission has been able to provide information to the European Parliament and to the Council on the implementation of this Regulation.
+[P2] The student
+[P3] The Commission shall be empowered to adopt delegated acts in accordance with Article 290 concerning:
+[P4] Name and address
+[P5] Name:
+[P6] Pack number:
+[P7] Rank one:
+[P8] Course: Semester No: Project title:
+[P9] Score Weighted PLO PLO PLO Title Description / Sub Categories Weightage (1-10) Score Score
+[P10] Analysis of requirements problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+[P11] Literature survey / comparative analysis of 4 Investigation of the solution to the state of the art X5
+[P12] technical / design
+[P13] Commitment to professional ethics 8 Ethics highlighted by originality of work / X2 Similanty Index (< 15%)
+[P14] Soundness of Approach (Proposed Methodology) Communication Quality of report / survey paper / research
+[P15] 10 (a)
+[P16] (Written) paper (graphs / plots. data presented X5 references etc.) Formatting of report / survey paper / research paper
+[P17] Total Weights = 220 Total Score ((%) = EWeighted Score x100=  Woights
+[P18] Eweightod Score for PLO
+[P19] PLO score (%) =
+[P20] ×100=
+[P21] EWeights for PLO
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.010s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260914_143612_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260914_143612_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.391s
+  Translation  : 0.693s
+  Spell Corr   : 0.010s
+  TTS Playback : 113.892s
+────────────────────────────────────────
+  TOTAL        : 117.125s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=27, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=almost_ready, rows=35/35, age=0.16s, edges=none, bandLap=543, lineLap=674, lightStd=11.6, belowText=1.0, motion=0.18, stable=1/3
+  [OBS 003] state=almost_ready, rows=36/36, age=0.14s, edges=none, bandLap=627, lineLap=802, lightStd=11.2, belowText=1.0, motion=0.16, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 004] state=almost_ready, rows=36/36, age=0.14s, edges=none, bandLap=1144, lineLap=1358, lightStd=11.0, belowText=1.1, motion=0.74, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1778.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260914_143821.jpg
+[POST-CAPTURE] LapVar=204.7, score components: sharp=24, bright=30, even=22
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.563s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents. avoids delays caused by an unstable internet connection and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right. hold still. or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes. For that reason. several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.990 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.987 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents. avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.993 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right. hold still. or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes. For that reason. several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] 4 regions, 14 NLLB chunks, french -> english: 1.050s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Field evaluation of wearable translation glasses
+[P1] A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. pause briefly, and hear a clear rendering without holding a phone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation and speech synthesis are performed. avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+[P2] Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right. Hold it still. or improve the lighting
+[P3] After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition. For that reason. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.026s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260914_143825_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260914_143825_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.563s
+  Translation  : 1.050s
+  Spell Corr   : 0.026s
+  TTS Playback : 87.521s
+────────────────────────────────────────
+  TOTAL        : 91.134s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=19/19, age=0.44s, edges=none, bandLap=254, lineLap=730, lightStd=7.3, belowText=1.9, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=20/20, age=0.11s, edges=none, bandLap=385, lineLap=1158, lightStd=7.8, belowText=1.6, motion=0.83, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=20/20, age=0.16s, edges=none, bandLap=330, lineLap=998, lightStd=7.5, belowText=1.2, motion=0.49, stable=3/3
+  [OBS 004] state=almost_ready, rows=20/20, age=0.14s, edges=none, bandLap=175, lineLap=521, lightStd=8.0, belowText=2.1, motion=0.63, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2760.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260914_144002.jpg
+[POST-CAPTURE] LapVar=123.7, score components: sharp=11, bright=30, even=25
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.391s (67 detections, 48 lines, 30 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+CAE-F-10-04 Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages PROJECT REPORT / PAPER (SURVEY/ RESEARCH) EVALUATION PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR STUDENT ADVISOR/CO-ADVISOR/EVALUATOR Name: Name: Pak No: Rank: Course: Semester No: Project Title: Score Weighted PLO PLO PLO Title Description / Sub Categories Weightage (1-10) Score Score Analysis of requirements. problem 2 Problem Analysis formulation and quality of (proposed) X3 solution Literature survey / comparative analysis of 4 Investigation the solution vis-à-vis state-of-the-art X5 techniques/designs Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research Communication paper (graphs / plots. data presented X5 10(a) (Written) references etc.) Formatting of report / survey paper / X2 research paper Total Weights = 220 ∑Weighted Score TotalScore(%)= x100= ∑ Weights E Weighted Score for PLO ×100= PLO Score (%) = ∑Weights forPLO Remarks:
+============================================================
+
+[REGIONS] Detected 30 text region(s): 1 title, 0 heading(s), 29 paragraph(s)
+  P1 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    CAE-F-10-04
+  P2 | type=paragraph | 1 line(s) | confidence=0.991 | at the top of the page
+    Revision No. 3 Date. 09.06.2026 Page 1 of 2 pages
+  TITLE | type=page_title | 1 line(s) | confidence=0.967 | at the top of the page
+    PROJECT REPORT / PAPER (SURVEY/ RESEARCH) EVALUATION
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | at the top of the page
+    PROFORMA FOR USE BY ADVISOR/CO-ADVISOR/EVALUATOR
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    STUDENT
+  P5 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    ADVISOR/CO-ADVISOR/EVALUATOR
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Name:
+  P7 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Name:
+  P8 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Pak No:
+  P9 | type=paragraph | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Rank:
+  P10 | type=paragraph | 3 line(s) | confidence=0.997 | in the upper part of the page
+    Course: Semester No: Project Title:
+  P11 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Score
+  P12 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Weighted PLO
+  P13 | type=paragraph | 2 line(s) | confidence=0.999 | in the middle of the page
+    PLO PLO Title Description / Sub Categories Weightage (1-10)
+  P14 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Score Score
+  P15 | type=paragraph | 3 line(s) | confidence=0.997 | in the middle of the page
+    Analysis of requirements. problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+  P16 | type=paragraph | 3 line(s) | confidence=0.995 | in the middle of the page
+    Literature survey / comparative analysis of 4 Investigation the solution vis-à-vis state-of-the-art X5 techniques/designs
+  P17 | type=paragraph | 6 line(s) | confidence=0.977 | in the lower part of the page
+    Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+  P18 | type=paragraph | 1 line(s) | confidence=1.000 | in the lower part of the page
+    Communication
+  P19 | type=paragraph | 1 line(s) | confidence=0.960 | in the lower part of the page
+    paper (graphs / plots. data presented X5
+  P20 | type=paragraph | 1 line(s) | confidence=1.000 | in the lower part of the page
+    10(a)
+  P21 | type=paragraph | 1 line(s) | confidence=0.978 | in the lower part of the page
+    (Written)
+  P22 | type=paragraph | 3 line(s) | confidence=0.989 | in the lower part of the page
+    references etc.) Formatting of report / survey paper / X2 research paper
+  P23 | type=paragraph | 1 line(s) | confidence=0.996 | in the lower part of the page
+    Total Weights = 220
+  P24 | type=paragraph | 3 line(s) | confidence=0.960 | at the bottom of the page
+    ∑Weighted Score TotalScore(%)= x100= ∑ Weights
+  P25 | type=paragraph | 1 line(s) | confidence=0.940 | at the bottom of the page
+    E Weighted Score for PLO
+  P26 | type=paragraph | 1 line(s) | confidence=0.927 | at the bottom of the page
+    ×100=
+  P27 | type=paragraph | 1 line(s) | confidence=0.971 | at the bottom of the page
+    PLO Score (%) =
+  P28 | type=paragraph | 1 line(s) | confidence=0.965 | at the bottom of the page
+    ∑Weights forPLO
+  P29 | type=paragraph | 1 line(s) | confidence=0.999 | at the bottom of the page
+    Remarks:
+[TRANSLATION REVIEW] Region 6: Review numerical rendering: new output digits: 290
+[TRANSLATION REVIEW] Region 14: Review identifier rendering: 1-10
+[STAGE 2] 30 regions, 32 NLLB chunks, french -> english: 0.798s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] CAE-F-10-04
+[P2] Revised edition No. 3 The date. 09.06.2026 Page 1 of 2
+[TITLE] This is the first time that the European Commission has been involved in an evaluation of a project.
+[P3] Proforma for use by advisor/co-advisor/evaluator
+[P4] The student
+[P5] The Commission shall be empowered to adopt delegated acts in accordance with Article 290 concerning:
+[P6] Name:
+[P7] Name:
+[P8] Pack number:
+[P9] Rank one:
+[P10] Course: Semester No: Project title:
+[P11] Score
+[P12] Weighted PLO
+[P13] PLO PLO Title Description / Sub Categories Weighting (1 to 10)
+[P14] Score Score
+[P15] Analysis of requirements problem 2 Problem Analysis formulation and quality of (proposed) X3 solution
+[P16] Literature survey / comparative analysis of 4 Investigation of the solution to state-of-the-art X5 techniques/designs
+[P17] Commitment to professional ethics 8 Ethics highlighted by originality of .work / Similarity Index (< 15%) Soundness of Approach (Proposed Methodology) Quality of report / survey paper / research
+[P18] Communication
+[P19] paper (graphs / plots. data presented X5
+[P20] 10 (a)
+[P21] (Written)
+[P22] References etc.) Formatting of report / survey paper / X2 research paper
+[P23] Total Weights = 220
+[P24] Weighted Score TotalScore ((%) = x100=  Weights
+[P25] E Weighted Score for PLO
+[P26] ×100=
+[P27] PLO score (%) =
+[P28] Weights for PLO
+[P29] The Commission shall adopt implementing acts.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.005s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260914_144005_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260914_144005_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.391s
+  Translation  : 0.798s
+  Spell Corr   : 0.005s
+  TTS Playback : 28.903s
+────────────────────────────────────────
+  TOTAL        : 32.211s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=2/2, age=0.34s, edges=none, bandLap=262, lineLap=327, lightStd=61.7, belowText=2.1, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=401, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.59, stable=0/3
+  [OBS 003] state=page_not_found, rows=0/0, age=0.16s, edges=none, bandLap=489, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.42, stable=0/3
+  [OBS 004] state=hold_still, rows=0/0, age=0.08s, edges=none, bandLap=279, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.15, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=509, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.33, stable=0/3
+  [OBS 006] state=glare, rows=13/13, age=0.14s, edges=B, bandLap=193, lineLap=212, lightStd=0.7, belowText=0.0, motion=3.84, stable=0/3
+  [OBS 007] state=page_not_found, rows=0/0, age=0.27s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 008] state=hold_still, rows=23/23, age=0.11s, edges=none, bandLap=166, lineLap=186, lightStd=11.0, belowText=1.3, motion=4.04, stable=0/3
+  [OBS 009] state=blurry, rows=2/23, age=0.12s, edges=none, bandLap=53, lineLap=39, lightStd=3.6, belowText=2.5, motion=1.55, stable=0/3
+  [OBS 010] state=almost_ready, rows=26/26, age=0.28s, edges=none, bandLap=666, lineLap=1329, lightStd=12.3, belowText=2.6, motion=0.66, stable=1/3
+  [OBS 011] state=almost_ready, rows=26/26, age=0.11s, edges=none, bandLap=571, lineLap=1283, lightStd=10.1, belowText=2.7, motion=0.24, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 012] state=look_down, rows=28/27, age=0.17s, edges=B, bandLap=634, lineLap=1654, lightStd=10.4, belowText=0.0, motion=0.34, stable=0/3
+  [OBS 013] state=look_down, rows=27/28, age=0.11s, edges=B, bandLap=621, lineLap=1559, lightStd=10.4, belowText=0.0, motion=0.09, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 014] state=look_down, rows=29/28, age=0.42s, edges=B, bandLap=493, lineLap=1224, lightStd=10.7, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 015] state=almost_ready, rows=27/28, age=0.11s, edges=none, bandLap=345, lineLap=1140, lightStd=11.3, belowText=1.2, motion=0.30, stable=1/3
+  [OBS 016] state=almost_ready, rows=27/28, age=0.11s, edges=none, bandLap=444, lineLap=1097, lightStd=10.6, belowText=1.2, motion=0.08, stable=2/3
+  [OBS 017] state=almost_ready, rows=27/28, age=0.11s, edges=none, bandLap=149, lineLap=559, lightStd=10.3, belowText=1.1, motion=0.58, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3431.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260914_144056.jpg
+[POST-CAPTURE] LapVar=170.6, score components: sharp=19, bright=30, even=18
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.438s (90 detections, 72 lines, 45 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+CAE-F-10-07 Revision No 3 Date 09 12 2022 Page 1 of 2 pages PROJECT/STUDENT EVALUATION PROFORMA FOR USE BY ADVISOR / CO-ADVISOR / EVALUATOR (8th SEMESTER) ADVISOR/CO-ADVISOR/EVALUATOR STUDENT Namo: Name: Pak No: Rank: Course: Semester No: Project Title: Weighted PLO Score PLO Attribute Description Weightage Score Scores (1-10) Engineering Concepts and application of Engineering Knowledge Knowledge Analysis of requirements and quality of 2 Problem Analysis solution Design and Innovation/Implementation 3 Development of / Practicability Solutions Literature Survey Investigation / Validation of results Efficient application of techniques / utilization 5 Modern Tool Usage of tools Engineer and Society. Environment & Impact of solution in general / environmental X1 context Sustainability Commitment to professional ethics highlighted 8 Ethice via professional integrity in working and Similanty index (<15%) Individual and Team Ability to work independently / in group Work Formulation / achievement of project 11 Project Management milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong Learning learming in the context of innovation and technological developments Total Weights = 220 ∑Weighted Score Total Score(%)= × 100= É Total Weiahts PLO Score(%) = E Weighted Soore for PLO ×100= E Total Welants REMARKS:
+============================================================
+
+[REGIONS] Detected 45 text region(s): 1 title, 0 heading(s), 44 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.999 | at the top of the page
+    CAE-F-10-07 Revision No 3 Date 09 12 2022 Page 1 of 2 pages
+  P1 | type=paragraph | 3 line(s) | confidence=0.984 | at the top of the page
+    PROJECT/STUDENT EVALUATION PROFORMA FOR USE BY ADVISOR / CO-ADVISOR / EVALUATOR (8th SEMESTER) ADVISOR/CO-ADVISOR/EVALUATOR
+  P2 | type=paragraph | 2 line(s) | confidence=0.917 | at the top of the page
+    STUDENT Namo:
+  P3 | type=paragraph | 1 line(s) | confidence=0.945 | in the upper part of the page
+    Name:
+  P4 | type=paragraph | 1 line(s) | confidence=0.967 | in the upper part of the page
+    Pak No:
+  P5 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Rank:
+  P6 | type=paragraph | 3 line(s) | confidence=0.992 | in the upper part of the page
+    Course: Semester No: Project Title:
+  P7 | type=paragraph | 1 line(s) | confidence=0.997 | in the upper part of the page
+    Weighted PLO
+  P8 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Score
+  P9 | type=paragraph | 1 line(s) | confidence=0.995 | in the upper part of the page
+    PLO Attribute
+  P10 | type=paragraph | 1 line(s) | confidence=0.977 | in the upper part of the page
+    Description
+  P11 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    Weightage Score Scores
+  P12 | type=paragraph | 1 line(s) | confidence=0.999 | in the upper part of the page
+    (1-10)
+  P13 | type=paragraph | 3 line(s) | confidence=0.993 | in the upper part of the page
+    Engineering Concepts and application of Engineering Knowledge Knowledge Analysis of requirements and quality of
+  P14 | type=paragraph | 1 line(s) | confidence=0.998 | in the middle of the page
+    2 Problem Analysis
+  P15 | type=paragraph | 1 line(s) | confidence=0.994 | in the middle of the page
+    solution
+  P16 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Design and
+  P17 | type=paragraph | 1 line(s) | confidence=0.980 | in the middle of the page
+    Innovation/Implementation
+  P18 | type=paragraph | 1 line(s) | confidence=0.992 | in the middle of the page
+    3 Development of
+  P19 | type=paragraph | 1 line(s) | confidence=0.964 | in the middle of the page
+    / Practicability
+  P20 | type=paragraph | 1 line(s) | confidence=0.968 | in the middle of the page
+    Solutions
+  P21 | type=paragraph | 1 line(s) | confidence=0.991 | in the middle of the page
+    Literature Survey
+  P22 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    Investigation
+  P23 | type=paragraph | 2 line(s) | confidence=0.983 | in the middle of the page
+    / Validation of results Efficient application of techniques / utilization
+  P24 | type=paragraph | 1 line(s) | confidence=0.853 | in the middle of the page
+    5 Modern Tool Usage
+  P25 | type=paragraph | 1 line(s) | confidence=0.980 | in the middle of the page
+    of tools
+  P26 | type=paragraph | 3 line(s) | confidence=0.973 | in the middle of the page
+    Engineer and Society. Environment & Impact of solution in general / environmental X1 context
+  P27 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Sustainability
+  P28 | type=paragraph | 1 line(s) | confidence=0.995 | in the middle of the page
+    Commitment to professional ethics highlighted
+  P29 | type=paragraph | 1 line(s) | confidence=0.769 | in the middle of the page
+    8 Ethice
+  P30 | type=paragraph | 2 line(s) | confidence=0.987 | in the lower part of the page
+    via professional integrity in working and Similanty index (<15%)
+  P31 | type=paragraph | 1 line(s) | confidence=0.994 | in the lower part of the page
+    Individual and Team
+  P32 | type=paragraph | 1 line(s) | confidence=0.997 | in the lower part of the page
+    Ability to work independently / in group
+  P33 | type=paragraph | 1 line(s) | confidence=1.000 | in the lower part of the page
+    Work
+  P34 | type=paragraph | 1 line(s) | confidence=0.973 | in the lower part of the page
+    Formulation / achievement of project
+  P35 | type=paragraph | 1 line(s) | confidence=0.995 | in the lower part of the page
+    11 Project Management
+  P36 | type=paragraph | 4 line(s) | confidence=0.988 | in the lower part of the page
+    milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong Learning learming in the context of innovation and technological developments
+  P37 | type=paragraph | 1 line(s) | confidence=0.981 | in the lower part of the page
+    Total Weights = 220
+  P38 | type=paragraph | 1 line(s) | confidence=0.920 | in the lower part of the page
+    ∑Weighted Score
+  P39 | type=paragraph | 1 line(s) | confidence=0.991 | in the lower part of the page
+    Total Score(%)=
+  P40 | type=paragraph | 1 line(s) | confidence=0.884 | in the lower part of the page
+    × 100=
+  P41 | type=paragraph | 2 line(s) | confidence=0.922 | in the lower part of the page
+    É Total Weiahts PLO Score(%) = E Weighted Soore for PLO
+  P42 | type=paragraph | 1 line(s) | confidence=0.985 | at the bottom of the page
+    ×100=
+  P43 | type=paragraph | 1 line(s) | confidence=0.828 | at the bottom of the page
+    E Total Welants
+  P44 | type=paragraph | 1 line(s) | confidence=0.986 | at the bottom of the page
+    REMARKS:
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: source digits absent: 10, 07, 3, 09, 12, 2022, 1, 2
+[TRANSLATION REVIEW] Region 1: Review identifier rendering: F-10-07
+[STAGE 2] 45 regions, 43 NLLB chunks, french -> english: 0.708s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+[P1] This is a project/student evaluation programme for use by advisor/co-advisor/evaluator (8th semester)
+[P2] The student Namo:
+[P3] Name:
+[P4] Pack number:
+[P5] Rank one:
+[P6] Course: Semester No: Project title:
+[P7] Weighted PLO
+[P8] Score
+[P9] The PLO attributes
+[P10] Description of the
+[P11] Weightage Score Scores
+[P12] (1-10)
+[P13] Engineering Concepts and application of Engineering Knowledge Analysis of requirements and quality of
+[P14] 2 Problems and their analysis
+[P15] the solution
+[P16] Design and
+[P17] Innovation and implementation
+[P18] 3 Development of
+[P19] / Practicability
+[P20] Solutions
+[P21] The literature survey
+[P22] Investigation
+[P23] / Validation of results Efficient application of techniques / use
+[P24] 5 Modern tool use
+[P25] of tools
+[P26] Engineer and Society. Environment & Impact of solution in general / environmental X1 context
+[P27] Sustainability
+[P28] Commitment to professional ethics highlighted
+[P29] 8 Ethics
+[P30] via professional integrity in working and Similanty index (<15%)
+[P31] Individual and Team
+[P32] Ability to work independently / in group
+[P33] Work
+[P34] Formulation / achievement of project
+[P35] 11 Project management
+[P36] milestones and resource managemeni Ability to recognize importance of lifelong 12 Lifelong learning learning in the context of innovation and technological developments
+[P37] Total Weights = 220
+[P38] Weighted Score
+[P39] Total score ((%) =
+[P40] × 100=
+[P41] E Total Weiahts PLO Score ((%) = E Weighted Soore for PLO
+[P42] ×100=
+[P43] E Total weightings
+[P44] The following shall apply:
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.009s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260914_144058_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260914_144058_ocr.txt

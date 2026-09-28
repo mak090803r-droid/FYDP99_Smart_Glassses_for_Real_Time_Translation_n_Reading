@@ -1,0 +1,108 @@
+======================================================================
+RUN          : 2
+TIMESTAMP    : 20260915_120212
+IMAGE FILE   : capture_cli_002_20260915_120210.jpg
+LANGUAGE     : french
+TEXT REGIONS : 11
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 10
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor Table 2. Example recognition results under different conditions Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=1.000 | font_scale=1.12 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=23.50 | bbox=(866, 203, 1122, 244)
+  SOURCE    : Experimental Evaluation
+  LAYOUT LINES:
+    L01 | bbox=(870, 207, 1118, 246) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=27.02 | font_scale=1.12 | heading=top_title_geometry | decision=start_of_page | text=Experimental Evaluation
+  TRANSLATED: Experimental evaluation
+  SPOKEN    : Experimental evaluation
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=4 | conf=0.995 | font_scale=1.12 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=23.50 | bbox=(681, 244, 1259, 343)
+  SOURCE    : Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy
+  LAYOUT LINES:
+    L01 | bbox=(687, 236, 1245, 286) | pitch=34.50 | gap_ratio=1.47 | indent=0.50 | font_height=27.02 | font_scale=1.12 | heading=ordinary_text | decision=after_heading | text=Image quality has a direct effect on document recognition. Good
+    L02 | bbox=(687, 262, 1196, 307) | pitch=23.50 | gap_ratio=1.00 | indent=1.50 | font_height=24.02 | font_scale=0.94 | heading=ordinary_text | decision=continuation | text=focus and lighting generally improve text recognition, while
+    L03 | bbox=(686, 287, 1255, 333) | pitch=25.50 | gap_ratio=1.09 | indent=1.00 | font_height=24.02 | font_scale=0.94 | heading=ordinary_text | decision=continuation | text=perspective distortion, page curvature and motion blur can reduce
+    L04 | bbox=(685, 310, 773, 339) | pitch=14.50 | gap_ratio=0.62 | indent=1.00 | font_height=24.02 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=accuracy
+  TRANSLATED: Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy
+  SPOKEN    : Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=4 | conf=0.993 | font_scale=1.12 | heading_evidence=ordinary_text | break=blank_gap_after_short_line | normal_pitch=23.50 | bbox=(679, 345, 1272, 459)
+  SOURCE    : The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table
+  LAYOUT LINES:
+    L01 | bbox=(685, 339, 1267, 391) | pitch=40.50 | gap_ratio=1.72 | indent=1.50 | font_height=27.02 | font_scale=1.12 | heading=ordinary_text | decision=blank_gap_after_short_line | text=The table below presents example observations for several capture
+    L02 | bbox=(683, 366, 1268, 413) | pitch=24.50 | gap_ratio=1.04 | indent=-5.50 | font_height=24.02 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=conditions. These values are provided as test content for evaluating
+    L03 | bbox=(684, 389, 1007, 427) | pitch=18.50 | gap_ratio=0.79 | indent=-8.50 | font_height=24.02 | font_scale=1.00 | heading=sentence_ending | decision=continuation | text=OCR and table-structure recognition.
+    L04 | bbox=(693, 435, 1043, 472) | pitch=45.50 | gap_ratio=1.94 | indent=1.00 | font_height=22.02 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=Condition OCR Table
+  TRANSLATED: The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table structure recognition. OCR condition Table
+  SPOKEN    : The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table structure recognition. OCR condition Table
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.91 | heading_evidence=ordinary_text | break=column_change | normal_pitch=23.50 | bbox=(1132, 459, 1216, 478)
+  SOURCE    : Structure
+  LAYOUT LINES:
+    L01 | bbox=(1136, 452, 1212, 477) | pitch=11.00 | gap_ratio=0.47 | indent=-37.00 | font_height=21.02 | font_scale=0.91 | heading=ordinary_text | decision=column_change | text=Structure
+  TRANSLATED: Structure and structure
+  SPOKEN    : Structure and structure
+------------------------------------------------------------
+P4 | region_id=5 | type=paragraph | lines=1 | conf=0.999 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=23.50 | bbox=(688, 478, 1100, 496)
+  SOURCE    : Clear page 97.4% Detected
+  LAYOUT LINES:
+    L01 | bbox=(692, 472, 1096, 510) | pitch=26.50 | gap_ratio=1.13 | indent=0.50 | font_height=22.02 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=Clear page 97.4% Detected
+  TRANSLATED: Clear page 97.4% Detected
+  SPOKEN    : Clear page 97.4% Detected
+------------------------------------------------------------
+P5 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=23.50 | bbox=(1164, 496, 1242, 513)
+  SOURCE    : Excellent
+  LAYOUT LINES:
+    L01 | bbox=(1168, 489, 1238, 512) | pitch=9.50 | gap_ratio=0.40 | indent=233.50 | font_height=20.99 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=Excellent
+  TRANSLATED: It 's excellent .
+  SPOKEN    : It 's excellent .
+------------------------------------------------------------
+P6 | region_id=7 | type=paragraph | lines=1 | conf=0.980 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=23.50 | bbox=(688, 513, 1099, 531)
+  SOURCE    : Perspective 93.1% Detected
+  LAYOUT LINES:
+    L01 | bbox=(692, 508, 1095, 544) | pitch=25.50 | gap_ratio=1.09 | indent=1.50 | font_height=21.02 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=Perspective 93.1% Detected
+  TRANSLATED: Prospect 93.1% Detected
+  SPOKEN    : Prospect 93.1% Detected
+------------------------------------------------------------
+P7 | region_id=8 | type=paragraph | lines=3 | conf=1.000 | font_scale=1.05 | heading_evidence=ordinary_text | break=column_change | normal_pitch=23.50 | bbox=(686, 531, 1238, 615)
+  SOURCE    : Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor
+  LAYOUT LINES:
+    L01 | bbox=(1178, 523, 1225, 548) | pitch=9.50 | gap_ratio=0.40 | indent=487.50 | font_height=23.02 | font_scale=1.05 | heading=ordinary_text | decision=column_change | text=Good
+    L02 | bbox=(691, 542, 1234, 584) | pitch=27.50 | gap_ratio=1.17 | indent=-51.00 | font_height=22.02 | font_scale=0.97 | heading=ordinary_text | decision=continuation | text=Curved page 88.7% Detected Moderate
+    L03 | bbox=(690, 577, 1218, 618) | pitch=34.50 | gap_ratio=1.47 | indent=-46.50 | font_height=22.52 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=Motion blur 81.9% Partial Poor
+  TRANSLATED: Good Curved page 88.7% Detected Moderate Motion blurred 81.9% Partial Poor
+  SPOKEN    : Good Curved page 88.7% Detected Moderate Motion blurred 81.9% Partial Poor
+------------------------------------------------------------
+P8 | region_id=9 | type=paragraph | lines=1 | conf=0.970 | font_scale=0.91 | heading_evidence=ordinary_text | break=first_line_indent_plus_spacing | normal_pitch=23.50 | bbox=(790, 615, 1168, 646)
+  SOURCE    : Table 2. Example recognition results under different conditions
+  LAYOUT LINES:
+    L01 | bbox=(794, 614, 1164, 650) | pitch=34.50 | gap_ratio=1.47 | indent=117.00 | font_height=23.02 | font_scale=0.91 | heading=ordinary_text | decision=first_line_indent_plus_spacing | text=Table 2. Example recognition results under different conditions
+  TRANSLATED: Table 2 and 3. Example recognition results under different conditions
+  SPOKEN    : Table 2 and 3. Example recognition results under different conditions
+------------------------------------------------------------
+P9 | region_id=10 | type=paragraph | lines=5 | conf=0.990 | font_scale=1.20 | heading_evidence=ordinary_text | break=column_change | normal_pitch=23.50 | bbox=(669, 646, 1274, 775)
+  SOURCE    : Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells
+  LAYOUT LINES:
+    L01 | bbox=(679, 645, 795, 674) | pitch=27.50 | gap_ratio=1.17 | indent=2.00 | font_height=24.02 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=Discussion
+    L02 | bbox=(677, 675, 1182, 719) | pitch=37.50 | gap_ratio=1.60 | indent=2.00 | font_height=28.02 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=A table detector first identifies where the table is located. A
+    L03 | bbox=(677, 699, 1203, 743) | pitch=24.00 | gap_ratio=1.02 | indent=3.00 | font_height=28.02 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=structure-recognition model then identifies rows, columns and
+    L04 | bbox=(673, 718, 1270, 769) | pitch=22.50 | gap_ratio=0.96 | indent=-2.00 | font_height=33.02 | font_scale=1.20 | heading=ordinary_text | decision=continuation | text=headers. OCR can finally associate recognized words with the correct
+    L05 | bbox=(675, 742, 726, 771) | pitch=13.00 | gap_ratio=0.55 | indent=0.00 | font_height=26.01 | font_scale=0.93 | heading=ordinary_text | decision=continuation | text=cells
+  TRANSLATED: A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells
+  SPOKEN    : A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells
+------------------------------------------------------------
+P10 | region_id=11 | type=paragraph | lines=3 | conf=0.994 | font_scale=1.13 | heading_evidence=ordinary_text | break=blank_gap_after_short_line | normal_pitch=23.50 | bbox=(671, 776, 1257, 861)
+  SOURCE    : This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+  LAYOUT LINES:
+    L01 | bbox=(675, 773, 1253, 820) | pitch=40.00 | gap_ratio=1.70 | indent=0.00 | font_height=31.02 | font_scale=1.13 | heading=ordinary_text | decision=blank_gap_after_short_line | text=This approach is useful for wearable document readers because the
+    L02 | bbox=(675, 798, 1187, 840) | pitch=22.50 | gap_ratio=0.96 | indent=0.00 | font_height=27.02 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=system can speak information row by row instead of reading
+    L03 | bbox=(675, 820, 995, 857) | pitch=19.50 | gap_ratio=0.83 | indent=0.00 | font_height=23.02 | font_scale=0.82 | heading=ordinary_text | decision=continuation | text=unrelated words in an incorrect order
+  TRANSLATED: This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+  SPOKEN    : This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+
+======================================================================

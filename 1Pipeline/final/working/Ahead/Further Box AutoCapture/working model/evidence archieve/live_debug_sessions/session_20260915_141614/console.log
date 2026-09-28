@@ -1,0 +1,89 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.54s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.93s
+[CAPTURE] Detection-only available: True
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 4.70s
+[LOAD] Conservative SymSpell dictionary loaded in 2.87s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=25/25, age=0.70s, edges=B, bandLap=125, lineLap=139, lightStd=6.5, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=23/25, age=0.11s, edges=none, bandLap=224, lineLap=282, lightStd=7.1, belowText=0.9, motion=1.52, stable=0/3
+  [OBS 003] state=hold_still, rows=27/27, age=0.09s, edges=none, bandLap=2352, lineLap=2815, lightStd=7.1, belowText=1.0, motion=1.06, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=almost_ready, rows=29/28, age=0.09s, edges=none, bandLap=1441, lineLap=1683, lightStd=7.1, belowText=0.9, motion=0.59, stable=1/3
+  [OBS 005] state=almost_ready, rows=29/29, age=0.14s, edges=none, bandLap=1391, lineLap=1892, lightStd=7.2, belowText=0.9, motion=0.17, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=28/29, age=0.14s, edges=none, bandLap=1881, lineLap=2337, lightStd=6.5, belowText=0.9, motion=0.11, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #89.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260915_141642.jpg
+[POST-CAPTURE] LapVar=192.7, score components: sharp=22, bright=30, even=18
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.734s (29 detections, 29 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Surveillance autonome d'une station énergétique isolée Sur un plateau difficile d'accès, une station alimente un dispensaire. un relais radio. des instruments météorologiques et l'éclairage de sécurité Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel. Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place; seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes. La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale. Au lieu d'arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparès au manuel hors ligne Aucune image sensible n'a été envoyée dans le nuage. Le logiciel exigeait que l'étiquette entière reste dans une marge sure, il contrôlait aussi la netteté générale et celle de la partie supérieure. Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires. Les ingénieurs ont ensuite confirmé l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur. L'intervention a duré six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale à l'opérateur
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.999 | at the top of the page
+    Surveillance autonome d'une station énergétique isolée
+  P1 | type=paragraph | 9 line(s) | confidence=0.994 | in the upper part of the page
+    Sur un plateau difficile d'accès, une station alimente un dispensaire. un relais radio. des instruments météorologiques et l'éclairage de sécurité Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel. Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place; seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  P2 | type=paragraph | 8 line(s) | confidence=0.989 | in the middle of the page
+    Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes. La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale. Au lieu d'arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie
+  P3 | type=paragraph | 11 line(s) | confidence=0.991 | in the lower part of the page
+    Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparès au manuel hors ligne Aucune image sensible n'a été envoyée dans le nuage. Le logiciel exigeait que l'étiquette entière reste dans une marge sure, il contrôlait aussi la netteté générale et celle de la partie supérieure. Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires. Les ingénieurs ont ensuite confirmé l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur. L'intervention a duré six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale à l'opérateur
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: source digits absent: 18
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 15
+[STAGE 2] 4 regions, 18 NLLB chunks, french -> english: 1.002s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Self-monitoring of an isolated power station
+[P1] On a hard-to-reach shelf, a station feeds a dispensary. It's a radio relay. The micro-grid includes solar panels, lithium batteries and a small diesel generator. Since the road can remain closed for days, a controller measures the voltage, the current. temperature and vibrations every 200 milliseconds. Detailed data remains in place; only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority
+[P2] It's the 18th of October 2025. A dust storm reduced solar output by 34% in 15 minutes. The temperature of the battery compartment has risen by 8°C. While the inverter fan was producing an abnormal vibration. Instead of shutting down the station, the system turned off the secondary heating, reduced some of the lights, and started the rescue group. It identified three possible causes of the debris on the panels, a worn-out bearing, and increasing resistance in a battery connector.
+[P3] After the storm, a head-mounted camera read the license plates and alarm codes. And then a local processor compared them to the offline manual. No sensitive images were sent to the cloud. The software required that the entire label remain within a safe margin, and it also controlled the overall sharpness and that of the upper part. A sound signal was given to back up if a edge was missing, and four steady frames were needed. The engineers then confirmed the proposed order to clean the panels, replace the bearing, and then tighten the connector. The intervention lasted six minutes without interrupting a critical service reliable automation must recognize uncertainty and leave the final decision to the operator
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.014s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260915_141644_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260915_141644_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] P2 — in the middle of the page
+[STAGE 3] Region TTS stopped after 52.211s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.734s
+  Translation  : 1.002s
+  Spell Corr   : 0.014s
+  TTS Playback : 52.211s
+────────────────────────────────────────
+  TOTAL        : 54.596s
+────────────────────────────────────────
+
+  Ready for next capture!
+

@@ -1,0 +1,185 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.72s
+[LOAD] Preparing local Urdu Piper voice ...
+[TTS] Loading voice: ur_PK-fasih-medium …
+[TTS] Voice ready.
+[LOAD] Urdu Piper voice ready.
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 2.14s
+[CAPTURE] Detection-only available: True
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.02s
+[LOAD] Conservative SymSpell dictionary loaded in 2.96s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=10/10, age=1.02s, edges=B, bandLap=158, lineLap=199, lightStd=11.2, belowText=1.2, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=20/19, age=0.16s, edges=B, bandLap=121, lineLap=186, lightStd=8.9, belowText=0.0, motion=1.23, stable=0/3
+  [OBS 003] state=look_down, rows=20/20, age=0.12s, edges=B, bandLap=465, lineLap=644, lightStd=7.5, belowText=0.0, motion=0.78, stable=0/3
+  [OBS 004] state=look_down, rows=20/20, age=0.12s, edges=B, bandLap=788, lineLap=949, lightStd=7.6, belowText=0.0, motion=0.79, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 005] state=hold_still, rows=3/20, age=0.23s, edges=B, bandLap=276, lineLap=486, lightStd=11.3, belowText=0.0, motion=3.87, stable=0/3
+  [OBS 006] state=hold_still, rows=27/24, age=0.24s, edges=none, bandLap=1067, lineLap=1588, lightStd=13.4, belowText=1.2, motion=1.82, stable=0/3
+  [OBS 007] state=look_down, rows=22/24, age=0.22s, edges=B, bandLap=733, lineLap=1010, lightStd=11.7, belowText=6.2, motion=0.63, stable=0/3
+  [OBS 008] state=almost_ready, rows=29/28, age=0.28s, edges=none, bandLap=1057, lineLap=1277, lightStd=11.0, belowText=1.2, motion=0.35, stable=1/3
+  [OBS 009] state=almost_ready, rows=28/28, age=0.17s, edges=none, bandLap=744, lineLap=864, lightStd=10.4, belowText=1.1, motion=0.31, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 010] state=almost_ready, rows=30/29, age=0.16s, edges=none, bandLap=347, lineLap=340, lightStd=10.8, belowText=1.2, motion=0.50, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #565.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260922_144742.jpg
+[POST-CAPTURE] LapVar=84.3, score components: sharp=5, bright=30, even=22
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (84.3 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=look_down, rows=25/25, age=0.34s, edges=B, bandLap=619, lineLap=830, lightStd=10.2, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=6/23, age=0.09s, edges=none, bandLap=115, lineLap=137, lightStd=5.4, belowText=5.7, motion=1.16, stable=0/3
+  [OBS 003] state=hold_still, rows=0/23, age=0.11s, edges=none, bandLap=139, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.85, stable=0/3
+  [OBS 004] state=hold_still, rows=11/22, age=0.11s, edges=B, bandLap=368, lineLap=552, lightStd=6.0, belowText=10.3, motion=7.70, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 005] state=page_not_found, rows=0/22, age=0.55s, edges=none, bandLap=207, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.83, stable=0/3
+  [OBS 006] state=look_down, rows=22/24, age=0.16s, edges=B, bandLap=513, lineLap=565, lightStd=11.7, belowText=0.0, motion=0.31, stable=0/3
+  [OBS 007] state=hold_still, rows=26/26, age=0.12s, edges=B, bandLap=321, lineLap=366, lightStd=10.8, belowText=10.5, motion=1.39, stable=0/3
+  [OBS 008] state=look_down, rows=28/27, age=0.11s, edges=B, bandLap=659, lineLap=746, lightStd=12.3, belowText=0.0, motion=0.53, stable=0/3
+  [OBS 009] state=almost_ready, rows=30/29, age=0.17s, edges=none, bandLap=706, lineLap=815, lightStd=12.1, belowText=11.4, motion=0.58, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 010] state=look_down, rows=30/30, age=0.25s, edges=B, bandLap=812, lineLap=1129, lightStd=14.0, belowText=0.0, motion=0.42, stable=0/3
+  [OBS 011] state=almost_ready, rows=30/30, age=0.26s, edges=none, bandLap=1024, lineLap=1002, lightStd=13.5, belowText=1.1, motion=0.29, stable=1/3
+  [OBS 012] state=almost_ready, rows=30/30, age=0.33s, edges=none, bandLap=1311, lineLap=1549, lightStd=13.9, belowText=1.1, motion=0.95, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 013] state=almost_ready, rows=29/30, age=0.12s, edges=none, bandLap=1196, lineLap=1205, lightStd=13.8, belowText=1.0, motion=0.10, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #761.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260922_144802.jpg
+[POST-CAPTURE] LapVar=245.1, score components: sharp=31, bright=30, even=30
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.594s (27 detections, 27 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted, partly shadowed. or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion. because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right hold still or improve the lighting confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.990 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.992 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection. and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.992 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted, partly shadowed. or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion. because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right hold still or improve the lighting
+  P3 | type=paragraph | 1 line(s) | confidence=1.000 | at the bottom of the page
+    confidence alone
+[STAGE 2] 4 regions, 13 NLLB chunks, french -> urdu: 1.801s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] Field Evaluation of Wearable Translation Glasses (پہلے پہننے کے قابل ترجمہ شیشے کی فیلڈ تشخیص)
+[P1] A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. ایک پہننے کے قابل ترجمے کا نظام زیادہ مفید ہے جب یہ لیبارٹری کے مظاہرے کی بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a phone or searching through menus. صارف کو ایک پرنٹ شدہ صفحے کا سامنا کرنے کے قابل ہونا چاہئے، مختصر طور پر روکنا چاہئے، اور فون کو پکڑنے یا مینو کے ذریعے تلاش کرنے کے بغیر واضح رینڈرنگ سننا چاہئے. یہاں بیان کردہ پروٹوٹائپ میں، ایک چھوٹا کیمرہ آنکھ کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے. ویڈیو ایک مقامی لنک پر ایک پروسیسنگ ورک سٹیشن پر بھیجا جاتا ہے، جہاں متن کا پتہ لگانے، آپٹیکل کردار کی شناخت، زبان ترجمہ اور تقریر کی ترکیب انجام دی جاتی ہے. The complete pipeline operates without a cloud service یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے، ایک غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے تاخیر سے بچتا ہے. and allows every software component to be measured independently اور ہر سافٹ ویئر کے جزو کو آزادانہ طور پر ماپا جا سکتا ہے
+[P2] تصویری حصول پہلی بڑی مشکل ہے ایک شخص جو شیشے پہنتا ہے وہ آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کناروں کو کیمرے کے نظارے کے اندر ہے یا نہیں۔ The page may be tilted, partly shadowed. صفحہ جھکا دیا جا سکتا ہے، جزوی طور پر سایہ دار. or closer at the top than at the bottom سانس لینے اور سر کی حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion. اس کے نتیجے میں ، گرفتاری کا کنٹرولر اس کو بچانے سے پہلے ہر آنے والے فریم کا جائزہ لیتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے ایک مفید حصے پر قبضہ کرتا ہے ، اور چیک کرتا ہے کہ پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی رہتی ہے۔ because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right hold still or improve the lighting (کیونکہ ایک جھکا ہوا شیٹ اکثر نیچے کے قریب صاف نظر آتا ہے جبکہ پہلی لائنیں نرم رہتی ہیں) A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right hold still or improve the lighting
+[P3] اکیلے اعتماد
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260922_144804_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260922_144804_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.594s
+  Translation  : 1.801s
+  Spell Corr   : 0.000s
+  TTS Playback : 3.973s
+────────────────────────────────────────
+  TOTAL        : 7.038s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.24s, edges=none, bandLap=130, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=glare, rows=10/10, age=0.06s, edges=none, bandLap=15, lineLap=34, lightStd=0.0, belowText=2.8, motion=3.83, stable=0/3
+  [OBS 003] state=bad_lighting, rows=14/14, age=0.08s, edges=none, bandLap=236, lineLap=577, lightStd=44.0, belowText=7.6, motion=1.97, stable=0/3
+  [OBS 004] state=hold_still, rows=32/32, age=0.11s, edges=B, bandLap=184, lineLap=189, lightStd=11.9, belowText=0.0, motion=1.02, stable=0/3
+  [OBS 005] state=almost_ready, rows=34/34, age=0.17s, edges=none, bandLap=983, lineLap=1508, lightStd=11.4, belowText=1.0, motion=0.90, stable=1/3
+  [OBS 006] state=almost_ready, rows=34/34, age=0.27s, edges=none, bandLap=897, lineLap=1586, lightStd=11.6, belowText=0.9, motion=0.15, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 007] state=almost_ready, rows=32/34, age=0.31s, edges=none, bandLap=777, lineLap=1186, lightStd=11.2, belowText=1.0, motion=0.24, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #893.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260922_144816.jpg
+[POST-CAPTURE] LapVar=162.0, score components: sharp=17, bright=30, even=22
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.625s (28 detections, 28 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation. and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents. avoids delays caused by an unstable internet connection and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only sharpening can create bright halos around letters, while aggressive confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.992 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation. and speech synthesis are performed. The complete pipeline operates without a cloud service This arrangement protects sensitive documents. avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.996 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 3 line(s) | confidence=0.996 | in the lower part of the page
+    After capture, the image is converted to grayscale and corrected only sharpening can create bright halos around letters, while aggressive confidence alone
+[STAGE 2] 4 regions, 9 NLLB chunks, french -> urdu: 1.359s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] Field Evaluation of Wearable Translation Glasses (پہلے پہننے کے قابل ترجمہ شیشے کی فیلڈ تشخیص)
+[P1] A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page pause briefly, and hear a clear rendering without holding a phone or searching through menus. A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration. صارف کو ایک پرنٹ شدہ صفحے کو مختصر طور پر روکنے کے قابل ہونا چاہئے، اور ٹیلیفون کو پکڑنے یا مینو کے ذریعے تلاش کرنے کے بغیر واضح رینڈرنگ سننا چاہئے۔ In the prototype described here, a small camera is mounted near eye level and connected to a compact computer ویڈیو کو ایک پروسیسنگ ورک سٹیشن کے مقامی لنک پر بھیجا جاتا ہے، جہاں متن کا پتہ لگانے، آپٹیکل کردار کی شناخت، زبان کا ترجمہ. and speech synthesis are performed. اور تقریر کی ترکیب کی جاتی ہے۔ The complete pipeline operates without a cloud service یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے۔ ایک غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے تاخیر سے بچتا ہے اور ہر سافٹ ویئر کے جزو کو آزادانہ طور پر ماپا جاتا ہے
+[P2] Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom سانس لینے اور سر کی نقل و حرکت سے تحریک بھی دھندلا پن پیدا کرتی ہے The capture controller therefore examines every incoming frame before saving it یہ متن کے گروپوں کو تلاش کرتا ہے۔ اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے ایک مفید حصے پر قبضہ کرتا ہے ، اور چیک کرتا ہے کہ محفوظ سرحد پتہ لگانے والے علاقے کے آس پاس باقی رہتی ہے۔ شارپنیس پورے فریم پر اور پھر اوپری حصے پر ماپا جاتا ہے ، کیونکہ ایک جھکا ہوا شیٹ اکثر نیچے کے قریب واضح نظر آتا ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے
+[P3] After capture, the image is converted to grayscale and corrected only sharpening can create bright halos around letters, while aggressive confidence alone. گرفت کے بعد، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں، جبکہ صرف جارحانہ اعتماد
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260922_144818_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260922_144818_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.625s
+  Translation  : 1.359s
+  Spell Corr   : 0.000s
+  TTS Playback : 29.452s
+────────────────────────────────────────
+  TOTAL        : 32.125s
+────────────────────────────────────────
+
+  Ready for next capture!
+

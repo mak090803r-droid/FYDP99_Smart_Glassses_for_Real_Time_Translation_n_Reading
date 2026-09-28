@@ -1,0 +1,69 @@
+======================================================================
+RUN          : 2
+TIMESTAMP    : 20260915_122620
+IMAGE FILE   : capture_cli_002_20260915_122618.jpg
+LANGUAGE     : french
+TEXT REGIONS : 5
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 4
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor Table 2 Example recognition results under different conditions. Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=0.988 | font_scale=0.99 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=33.00 | bbox=(667, 69, 1031, 119)
+  SOURCE    : Experimental Evaluation
+  LAYOUT LINES:
+    L01 | bbox=(673, 75, 1025, 118) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=33.02 | font_scale=0.99 | heading=top_title_geometry | decision=start_of_page | text=Experimental Evaluation
+  TRANSLATED: Experimental evaluation
+  SPOKEN    : Experimental evaluation
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=7 | conf=0.997 | font_scale=1.16 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=33.00 | bbox=(374, 119, 1283, 374)
+  SOURCE    : Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition.
+  LAYOUT LINES:
+    L01 | bbox=(380, 113, 1226, 170) | pitch=45.00 | gap_ratio=1.36 | indent=-4.50 | font_height=37.01 | font_scale=1.16 | heading=ordinary_text | decision=after_heading | text=Image quality has a direct effect on document recognition. Good
+    L02 | bbox=(383, 148, 1158, 204) | pitch=34.50 | gap_ratio=1.05 | indent=-3.00 | font_height=37.01 | font_scale=1.16 | heading=ordinary_text | decision=continuation | text=focus and lighting generally improve text recognition, while
+    L03 | bbox=(386, 184, 1247, 235) | pitch=33.50 | gap_ratio=1.02 | indent=-1.00 | font_height=33.99 | font_scale=1.06 | heading=ordinary_text | decision=continuation | text=perspective distortion, page curvature and motion blur can reduce
+    L04 | bbox=(386, 220, 533, 253) | pitch=27.00 | gap_ratio=0.82 | indent=-3.00 | font_height=31.00 | font_scale=0.93 | heading=ordinary_text | decision=continuation | text=accuracy
+    L05 | bbox=(388, 263, 1269, 311) | pitch=50.50 | gap_ratio=1.53 | indent=-4.00 | font_height=33.00 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=The table below presents example observations for several capture
+    L06 | bbox=(390, 297, 1277, 342) | pitch=32.50 | gap_ratio=0.98 | indent=-17.00 | font_height=31.00 | font_scale=0.97 | heading=ordinary_text | decision=continuation | text=conditions. These values are provided as test content for evaluating
+    L07 | bbox=(394, 329, 881, 368) | pitch=29.00 | gap_ratio=0.88 | indent=-29.50 | font_height=31.00 | font_scale=1.05 | heading=sentence_ending | decision=continuation | text=OCR and table-structure recognition.
+  TRANSLATED: Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. These values are provided as test content for evaluating OCR and table structure recognition.
+  SPOKEN    : Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. These values are provided as test content for evaluating OCR and table structure recognition.
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=5 | conf=0.996 | font_scale=1.05 | heading_evidence=ordinary_text | break=blank_gap_after_short_line | normal_pitch=33.00 | bbox=(414, 390, 1267, 628)
+  SOURCE    : Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor
+  LAYOUT LINES:
+    L01 | bbox=(420, 396, 1219, 435) | pitch=67.00 | gap_ratio=2.03 | indent=-10.50 | font_height=28.02 | font_scale=0.96 | heading=ordinary_text | decision=blank_gap_after_short_line | text=Condition OCR Table Structure
+    L02 | bbox=(427, 448, 1257, 483) | pitch=50.00 | gap_ratio=1.52 | indent=-10.00 | font_height=25.01 | font_scale=0.90 | heading=ordinary_text | decision=continuation | text=Clear page 97.4% Detected Excellent
+    L03 | bbox=(434, 495, 1243, 530) | pitch=47.00 | gap_ratio=1.42 | indent=-9.00 | font_height=27.50 | font_scale=1.05 | heading=ordinary_text | decision=continuation | text=Perspective 93.1% Detected Good
+    L04 | bbox=(440, 545, 1261, 576) | pitch=48.00 | gap_ratio=1.45 | indent=-86.00 | font_height=25.00 | font_scale=0.91 | heading=ordinary_text | decision=continuation | text=Curved page 88.7% Detected Moderate
+    L05 | bbox=(446, 588, 1243, 623) | pitch=45.00 | gap_ratio=1.36 | indent=-69.50 | font_height=27.52 | font_scale=1.05 | heading=ordinary_text | decision=continuation | text=Motion blur 81.9% Partial Poor
+  TRANSLATED: Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blurred 81.9% Partial Poor
+  SPOKEN    : Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blurred 81.9% Partial Poor
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=1 | conf=0.982 | font_scale=0.87 | heading_evidence=sentence_ending | break=first_line_indent_plus_spacing | normal_pitch=33.00 | bbox=(600, 631, 1178, 668)
+  SOURCE    : Table 2 Example recognition results under different conditions.
+  LAYOUT LINES:
+    L01 | bbox=(606, 637, 1172, 662) | pitch=44.00 | gap_ratio=1.33 | indent=181.50 | font_height=24.00 | font_scale=0.87 | heading=sentence_ending | decision=first_line_indent_plus_spacing | text=Table 2 Example recognition results under different conditions.
+  TRANSLATED: Table 2 Example recognition results under different conditions.
+  SPOKEN    : Table 2 Example recognition results under different conditions.
+------------------------------------------------------------
+P4 | region_id=5 | type=paragraph | lines=8 | conf=0.994 | font_scale=1.10 | heading_evidence=ordinary_text | break=column_change | normal_pitch=33.00 | bbox=(418, 680, 1334, 955)
+  SOURCE    : Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+  LAYOUT LINES:
+    L01 | bbox=(425, 686, 608, 720) | pitch=53.50 | gap_ratio=1.62 | indent=0.50 | font_height=31.00 | font_scale=1.02 | heading=ordinary_text | decision=column_change | text=Discussion
+    L02 | bbox=(424, 719, 1199, 762) | pitch=37.50 | gap_ratio=1.14 | indent=-2.00 | font_height=33.00 | font_scale=1.07 | heading=ordinary_text | decision=continuation | text=A table detector first identifies where the table is located. A
+    L03 | bbox=(425, 749, 1232, 792) | pitch=30.00 | gap_ratio=0.91 | indent=-3.00 | font_height=34.00 | font_scale=1.01 | heading=ordinary_text | decision=continuation | text=structure-recognition model then identifies rows, columns and
+    L04 | bbox=(427, 779, 1328, 821) | pitch=29.50 | gap_ratio=0.89 | indent=-1.50 | font_height=34.00 | font_scale=1.01 | heading=ordinary_text | decision=continuation | text=headers. OCR can finally associate recognized words with the correct
+    L05 | bbox=(429, 819, 515, 850) | pitch=34.50 | gap_ratio=1.05 | indent=2.50 | font_height=29.02 | font_scale=0.85 | heading=sentence_ending | decision=continuation | text=cells.
+    L06 | bbox=(428, 847, 1314, 890) | pitch=34.00 | gap_ratio=1.03 | indent=3.00 | font_height=34.00 | font_scale=1.01 | heading=ordinary_text | decision=continuation | text=This approach is useful for wearable document readers because the
+    L07 | bbox=(425, 874, 1222, 922) | pitch=29.50 | gap_ratio=0.89 | indent=0.00 | font_height=37.00 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=system can speak information row by row instead of reading
+    L08 | bbox=(425, 909, 934, 949) | pitch=31.00 | gap_ratio=0.94 | indent=-1.50 | font_height=29.99 | font_scale=0.88 | heading=sentence_ending | decision=continuation | text=unrelated words in an incorrect order.
+  TRANSLATED: A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+  SPOKEN    : A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+
+======================================================================

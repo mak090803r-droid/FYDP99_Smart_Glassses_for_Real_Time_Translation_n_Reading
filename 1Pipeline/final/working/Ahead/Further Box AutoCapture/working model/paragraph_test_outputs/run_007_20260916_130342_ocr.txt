@@ -1,0 +1,118 @@
+======================================================================
+RUN          : 7
+TIMESTAMP    : 20260916_130342
+IMAGE FILE   : capture_cli_007_20260916_130340.jpg
+LANGUAGE     : french
+TEXT REGIONS : 14
+PAGE TITLES  : 1
+HEADINGS     : 6
+PARAGRAPHS   : 7
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-EN12 - Portable Power Subsystem Check Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg 1.6 s Radio link 5.08 V 186 mA 0.21 kg 2.4 s Display 5.02 V 92 mA 0.17 kg 0.9 s Sensor hub 3.31 V 74 mA 0.12 kg 1.1 s Audio unit 5.05 V 128 mA 0.19 kg 3.2 s Cooling fan 11.9 V 0.18 A 0.09 kg 0.7 s
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=0.993 | font_scale=1.33 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=42.00 | bbox=(226, 223, 1277, 278)
+  SOURCE    : TABLE-EN12 - Portable Power Subsystem Check
+  LAYOUT LINES:
+    L01 | bbox=(234, 231, 1269, 275) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=41.00 | font_scale=1.33 | heading=top_title_geometry | decision=start_of_page | text=TABLE-EN12 - Portable Power Subsystem Check
+  TRANSLATED: TABLE-EN12 - Portable power subsystem check
+  SPOKEN    : TABLE-EN12 - Portable power subsystem check
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=4 | conf=0.997 | font_scale=1.11 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=42.00 | bbox=(213, 278, 1692, 428)
+  SOURCE    : Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg
+  LAYOUT LINES:
+    L01 | bbox=(225, 283, 1684, 322) | pitch=49.50 | gap_ratio=1.18 | indent=-38.50 | font_height=34.00 | font_scale=1.11 | heading=ordinary_text | decision=after_heading | text=Measurements were taken before a field demonstration to verify electrical output, load current,
+    L02 | bbox=(221, 315, 1033, 350) | pitch=30.00 | gap_ratio=0.71 | indent=-78.00 | font_height=30.00 | font_scale=0.94 | heading=sentence_ending | decision=continuation | text=mass and start-up delay for each portable subsystem.
+    L03 | bbox=(306, 367, 1633, 403) | pitch=52.50 | gap_ratio=1.25 | indent=-588.50 | font_height=30.02 | font_scale=0.95 | heading=ordinary_text | decision=continuation | text=Module Voltage Current Mass Start delay
+    L04 | bbox=(292, 407, 1304, 447) | pitch=42.00 | gap_ratio=1.00 | indent=-5.50 | font_height=31.51 | font_scale=1.02 | heading=ordinary_text | decision=continuation | text=Controller 12.1 V 0.42 A 0.38 kg
+  TRANSLATED: Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg The power supply is provided by the control unit.
+  SPOKEN    : Measurements were taken before a field demonstration to verify electrical output, load current, mass and start-up delay for each portable subsystem. Module Voltage Current Mass Start delay Controller 12.1 V 0.42 A 0.38 kg The power supply is provided by the control unit.
+------------------------------------------------------------
+H1 | region_id=3 | type=section_heading | lines=1 | conf=0.901 | font_scale=1.04 | heading_evidence=explicit_heading_pattern | break=column_change | normal_pitch=42.00 | bbox=(1489, 428, 1591, 450)
+  SOURCE    : 1.6 s
+  LAYOUT LINES:
+    L01 | bbox=(1497, 414, 1583, 446) | pitch=3.00 | gap_ratio=0.07 | indent=8.00 | font_height=32.00 | font_scale=1.04 | heading=explicit_heading_pattern | decision=column_change | text=1.6 s
+  TRANSLATED: 1.6 s
+  SPOKEN    : 1.6 s
+------------------------------------------------------------
+P2 | region_id=4 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.89 | heading_evidence=ordinary_text | break=column_change | normal_pitch=42.00 | bbox=(280, 450, 1309, 471)
+  SOURCE    : Radio link 5.08 V 186 mA 0.21 kg
+  LAYOUT LINES:
+    L01 | bbox=(288, 451, 1301, 489) | pitch=40.00 | gap_ratio=0.95 | indent=-2.00 | font_height=27.50 | font_scale=0.89 | heading=ordinary_text | decision=column_change | text=Radio link 5.08 V 186 mA 0.21 kg
+  TRANSLATED: Radio link 5.08 V 186 mA 0.21 kg Other
+  SPOKEN    : Radio link 5.08 V 186 mA 0.21 kg Other
+------------------------------------------------------------
+H2 | region_id=5 | type=section_heading | lines=1 | conf=1.000 | font_scale=1.02 | heading_evidence=explicit_heading_pattern | break=column_change | normal_pitch=42.00 | bbox=(1484, 471, 1586, 492)
+  SOURCE    : 2.4 s
+  LAYOUT LINES:
+    L01 | bbox=(1492, 457, 1578, 488) | pitch=2.50 | gap_ratio=0.06 | indent=8.50 | font_height=31.00 | font_scale=1.02 | heading=explicit_heading_pattern | decision=column_change | text=2.4 s
+  TRANSLATED: 2.4 s
+  SPOKEN    : 2.4 s
+------------------------------------------------------------
+P3 | region_id=6 | type=paragraph | lines=1 | conf=0.998 | font_scale=1.09 | heading_evidence=ordinary_text | break=column_change | normal_pitch=42.00 | bbox=(299, 492, 1304, 513)
+  SOURCE    : Display 5.02 V 92 mA 0.17 kg
+  LAYOUT LINES:
+    L01 | bbox=(307, 494, 1296, 531) | pitch=40.00 | gap_ratio=0.95 | indent=-277.50 | font_height=32.01 | font_scale=1.09 | heading=ordinary_text | decision=column_change | text=Display 5.02 V 92 mA 0.17 kg
+  TRANSLATED: Display 5.02 V 92 mA 0.17 kg
+  SPOKEN    : Display 5.02 V 92 mA 0.17 kg
+------------------------------------------------------------
+H3 | region_id=7 | type=section_heading | lines=1 | conf=0.994 | font_scale=1.09 | heading_evidence=explicit_heading_pattern | break=column_change | normal_pitch=42.00 | bbox=(1478, 513, 1579, 532)
+  SOURCE    : 0.9 s
+  LAYOUT LINES:
+    L01 | bbox=(1486, 496, 1571, 530) | pitch=0.50 | gap_ratio=0.01 | indent=8.00 | font_height=32.02 | font_scale=1.09 | heading=explicit_heading_pattern | decision=column_change | text=0.9 s
+  TRANSLATED: 0.9 s
+  SPOKEN    : 0.9 s
+------------------------------------------------------------
+P4 | region_id=8 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.95 | heading_evidence=ordinary_text | break=column_change | normal_pitch=42.00 | bbox=(265, 532, 719, 552)
+  SOURCE    : Sensor hub 3.31 V
+  LAYOUT LINES:
+    L01 | bbox=(273, 536, 711, 565) | pitch=37.50 | gap_ratio=0.89 | indent=-4.50 | font_height=28.50 | font_scale=0.95 | heading=ordinary_text | decision=column_change | text=Sensor hub 3.31 V
+  TRANSLATED: The sensor hub is 3.31 V.
+  SPOKEN    : The sensor hub is 3.31 V.
+------------------------------------------------------------
+P5 | region_id=9 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.05 | heading_evidence=ordinary_text | break=column_change | normal_pitch=42.00 | bbox=(888, 552, 1298, 554)
+  SOURCE    : 74 mA 0.12 kg
+  LAYOUT LINES:
+    L01 | bbox=(896, 536, 1290, 570) | pitch=2.50 | gap_ratio=0.06 | indent=618.50 | font_height=30.50 | font_scale=1.05 | heading=ordinary_text | decision=column_change | text=74 mA 0.12 kg
+  TRANSLATED: 74 mA 0.12 kg
+  SPOKEN    : 74 mA 0.12 kg
+------------------------------------------------------------
+H4 | region_id=10 | type=section_heading | lines=1 | conf=0.999 | font_scale=1.00 | heading_evidence=explicit_heading_pattern | break=column_change | normal_pitch=42.00 | bbox=(1473, 554, 1572, 574)
+  SOURCE    : 1.1 s
+  LAYOUT LINES:
+    L01 | bbox=(1481, 539, 1564, 570) | pitch=1.50 | gap_ratio=0.04 | indent=10.00 | font_height=29.02 | font_scale=1.00 | heading=explicit_heading_pattern | decision=column_change | text=1.1 s
+  TRANSLATED: 1.1 s
+  SPOKEN    : 1.1 s
+------------------------------------------------------------
+P6 | region_id=11 | type=paragraph | lines=1 | conf=0.983 | font_scale=0.93 | heading_evidence=ordinary_text | break=column_change | normal_pitch=42.00 | bbox=(275, 574, 1291, 594)
+  SOURCE    : Audio unit 5.05 V 128 mA 0.19 kg
+  LAYOUT LINES:
+    L01 | bbox=(283, 577, 1283, 610) | pitch=39.00 | gap_ratio=0.93 | indent=11.00 | font_height=28.00 | font_scale=0.93 | heading=ordinary_text | decision=column_change | text=Audio unit 5.05 V 128 mA 0.19 kg
+  TRANSLATED: Sound unit 5.05 V 128 mA 0.19 kg
+  SPOKEN    : Sound unit 5.05 V 128 mA 0.19 kg
+------------------------------------------------------------
+H5 | region_id=12 | type=section_heading | lines=1 | conf=0.998 | font_scale=1.03 | heading_evidence=explicit_heading_pattern | break=column_change | normal_pitch=42.00 | bbox=(1467, 594, 1565, 614)
+  SOURCE    : 3.2 s
+  LAYOUT LINES:
+    L01 | bbox=(1475, 577, 1557, 611) | pitch=0.50 | gap_ratio=0.01 | indent=8.00 | font_height=30.01 | font_scale=1.03 | heading=explicit_heading_pattern | decision=column_change | text=3.2 s
+  TRANSLATED: 3.2 s
+  SPOKEN    : 3.2 s
+------------------------------------------------------------
+P7 | region_id=13 | type=paragraph | lines=1 | conf=0.992 | font_scale=1.00 | heading_evidence=ordinary_text | break=column_change | normal_pitch=42.00 | bbox=(264, 614, 1284, 635)
+  SOURCE    : Cooling fan 11.9 V 0.18 A 0.09 kg
+  LAYOUT LINES:
+    L01 | bbox=(272, 615, 1276, 654) | pitch=40.50 | gap_ratio=0.96 | indent=-317.50 | font_height=29.50 | font_scale=1.00 | heading=ordinary_text | decision=column_change | text=Cooling fan 11.9 V 0.18 A 0.09 kg
+  TRANSLATED: The cooling fan 11.9 V 0.18 A 0.09 kg
+  SPOKEN    : The cooling fan 11.9 V 0.18 A 0.09 kg
+------------------------------------------------------------
+H6 | region_id=14 | type=section_heading | lines=1 | conf=0.969 | font_scale=1.04 | heading_evidence=explicit_heading_pattern | break=column_change | normal_pitch=42.00 | bbox=(1459, 635, 1555, 659)
+  SOURCE    : 0.7 s
+  LAYOUT LINES:
+    L01 | bbox=(1467, 619, 1547, 651) | pitch=0.50 | gap_ratio=0.01 | indent=-11.00 | font_height=30.02 | font_scale=1.04 | heading=explicit_heading_pattern | decision=column_change | text=0.7 s
+  TRANSLATED: 0.7 s
+  SPOKEN    : 0.7 s
+
+======================================================================

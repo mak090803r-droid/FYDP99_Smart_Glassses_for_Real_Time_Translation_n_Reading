@@ -1,0 +1,24 @@
+======================================================================
+RUN          : 3
+TIMESTAMP    : 20260925_103553
+IMAGE FILE   : capture_cli_003_20260925_103552.jpg
+LANGUAGE     : english
+TEXT REGIONS : 1
+PAGE TITLES  : 0
+HEADINGS     : 0
+PARAGRAPHS   : 1
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+8
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=1 | conf=0.994 | font_scale=1.00 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=190.40 | bbox=(254, 193, 542, 533)
+  SOURCE    : 8
+  LAYOUT LINES:
+    L01 | bbox=(288, 227, 508, 499) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=220.00 | font_scale=1.00 | heading=ordinary_text | decision=start_of_page | text=8
+  TRANSLATED: 8
+  SPOKEN    : 8
+
+======================================================================

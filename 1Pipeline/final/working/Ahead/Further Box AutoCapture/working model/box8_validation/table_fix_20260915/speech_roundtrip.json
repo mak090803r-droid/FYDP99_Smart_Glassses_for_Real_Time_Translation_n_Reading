@@ -1,0 +1,8 @@
+{
+  "input": "Row 3. Condition: Curved page; OCR: 88.7%; Table: Detected; Structure: Moderate.",
+  "result": {
+    "text": "Row three, condition, curved page, OCR, 88.7%, table, detected, structure, moderate.",
+    "seconds": 1.9015964000000167,
+    "segments": 1
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "pipeline": "pipeline_cli_box6.py",
+  "language": "english",
+  "all_polygon_sets_equal": true,
+  "all_assessments_equal": true,
+  "median_full_ocr_seconds": 0.38103139999839186,
+  "median_detection_only_seconds": 0.037570900001810514,
+  "speedup": 10.141662828945547,
+  "frames": [
+    {
+      "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260806_210058\\raw_analysis_frames\\analysis_00070.jpg",
+      "input_size": [
+        1920,
+        1080
+      ],
+      "polygons_equal": true,
+      "assessment_equal": true,
+      "polygon_count": 37,
+      "full_ocr_seconds_median": 0.7981710999993084,
+      "detection_only_seconds_median": 0.03896620000159601,
+      "mode": "detection_only",
+      "assessment": {
+        "page_found": true,
+        "page_complete": true,
+        "distance_ok": true,
+        "focus_ok": true,
+        "lighting_ok": true,
+        "text_readable": true,
+        "row_count": 37,
+        "missing_sides": [],
+        "band_lap_min": 2747.0130616772803,
+        "line_lap_p20": 4559.726593482259,
+        "light_median": 170.0,
+        "light_tile_std": 11.002805478379672
+      },
+      "gate_without_temporal_motion": true,
+      "guidance_without_temporal_motion": "almost_ready",
+      "postcapture_full_lap": 654.2
+    },
+    {
+      "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260806_210058\\raw_analysis_frames\\analysis_00099.jpg",
+      "input_size": [
+        1920,
+        1080
+      ],
+      "polygons_equal": true,
+      "assessment_equal": true,
+      "polygon_count": 37,
+      "full_ocr_seconds_median": 0.76001670000187,
+      "detection_only_seconds_median": 0.03989200000069104,
+      "mode": "detection_only",
+      "assessment": {
+        "page_found": true,
+        "page_complete": false,
+        "distance_ok": false,
+        "focus_ok": true,
+        "lighting_ok": true,
+        "text_readable": true,
+        "row_count": 34,
+        "missing_sides": [
+          "B"
+        ],
+        "band_lap_min": 4812.959164926153,
+        "line_lap_p20": 6247.991496680168,
+        "light_median": 167.0,
+        "light_tile_std": 12.859161119270494
+      },
+      "gate_without_temporal_motion": false,
+      "guidance_without_temporal_motion": "look_down",
+      "postcapture_full_lap": 922.5
+    },
+    {
+      "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260806_210058\\raw_analysis_frames\\analysis_00008.jpg",
+      "input_size": [
+        1920,
+        1080
+      ],
+      "polygons_equal": true,
+      "assessment_equal": true,
+      "polygon_count": 6,
+      "full_ocr_seconds_median": 0.08733939999729046,
+      "detection_only_seconds_median": 0.041108100002020365,
+      "mode": "detection_only",
+      "assessment": {
+        "page_found": true,
+        "page_complete": true,
+        "distance_ok": true,
+        "focus_ok": true,
+        "lighting_ok": true,
+        "text_readable": true,
+        "row_count": 6,
+        "missing_sides": [],
+        "band_lap_min": 147.05381036935432,
+        "line_lap_p20": 143.23172626767143,
+        "light_median": 229.0,
+        "light_tile_std": 14.900492990435742
+      },
+      "gate_without_temporal_motion": true,
+      "guidance_without_temporal_motion": "almost_ready",
+      "postcapture_full_lap": 21.3
+    },
+    {
+      "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260806_205745\\raw_analysis_frames\\analysis_00001.jpg",
+      "input_size": [
+        1920,
+        1080
+      ],
+      "polygons_equal": true,
+      "assessment_equal": true,
+      "polygon_count": 1,
+      "full_ocr_seconds_median": 0.0457615999985137,
+      "detection_only_seconds_median": 0.031335600000602426,
+      "mode": "detection_only",
+      "assessment": {
+        "page_found": false,
+        "page_complete": false,
+        "distance_ok": false,
+        "focus_ok": false,
+        "lighting_ok": true,
+        "text_readable": false,
+        "row_count": 0,
+        "missing_sides": [],
+        "band_lap_min": 53.78998833536951,
+        "line_lap_p20": 0.0,
+        "light_median": 114.67947145061729,
+        "light_tile_std": 0.0
+      },
+      "gate_without_temporal_motion": false,
+      "guidance_without_temporal_motion": "page_not_found",
+      "postcapture_full_lap": 21.2
+    },
+    {
+      "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260901_121644\\raw_analysis_frames\\analysis_00003.jpg",
+      "input_size": [
+        1280,
+        720
+      ],
+      "polygons_equal": true,
+      "assessment_equal": true,
+      "polygon_count": 1,
+      "full_ocr_seconds_median": 0.042250300000887364,
+      "detection_only_seconds_median": 0.032051700000010896,
+      "mode": "detection_only",
+      "assessment": {
+        "page_found": false,
+        "page_complete": false,
+        "distance_ok": false,
+        "focus_ok": true,
+        "lighting_ok": true,
+        "text_readable": false,
+        "row_count": 0,
+        "missing_sides": [],
+        "band_lap_min": 99.53361920810693,
+        "line_lap_p20": 0.0,
+        "light_median": 125.45084104938272,
+        "light_tile_std": 0.0
+      },
+      "gate_without_temporal_motion": false,
+      "guidance_without_temporal_motion": "page_not_found",
+      "postcapture_full_lap": 57.1
+    },
+    {
+      "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260903_134521\\raw_analysis_frames\\analysis_00010.jpg",
+      "input_size": [
+        1920,
+        1080
+      ],
+      "polygons_equal": true,
+      "assessment_equal": true,
+      "polygon_count": 33,
+      "full_ocr_seconds_median": 0.6747233999994933,
+      "detection_only_seconds_median": 0.03617560000202502,
+      "mode": "detection_only",
+      "assessment": {
+        "page_found": true,
+        "page_complete": true,
+        "distance_ok": true,
+        "focus_ok": true,
+        "lighting_ok": true,
+        "text_readable": true,
+        "row_count": 33,
+        "missing_sides": [],
+        "band_lap_min": 2726.933402422206,
+        "line_lap_p20": 3259.754416193069,
+        "light_median": 197.0,
+        "light_tile_std": 10.402991022884823
+      },
+      "gate_without_temporal_motion": true,
+      "guidance_without_temporal_motion": "almost_ready",
+      "postcapture_full_lap": 369.4
+    }
+  ],
+  "video_note": "Diagnostic video is downscaled; its focus metrics are not native capture evidence.",
+  "video_samples": [
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    },
+    {
+      "frame_index": 0,
+      "input_size": [
+        640,
+        360
+      ],
+      "state": "page_not_found",
+      "page_found": false,
+      "missing_sides": [],
+      "row_count": 0
+    }
+  ]
+}

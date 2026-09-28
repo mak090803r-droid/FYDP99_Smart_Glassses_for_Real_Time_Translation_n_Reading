@@ -1,0 +1,68 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.58s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.96s
+[CAPTURE] Detection-only available: True
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.19s
+[LOAD] Conservative SymSpell dictionary loaded in 4.99s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+
+[QUALITY] Manual force capture accepted: frame #219.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260924_142422.jpg
+[POST-CAPTURE] LapVar=6.1, score components: sharp=0, bright=30, even=26
+[POST-CAPTURE] Manual force override: processing the saved frame despite softness (6.1 < 100).
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.219s (0 detections, 0 lines, 0 regions)
+[WARN] No text extracted. Skipping.
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.34s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.27s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 006] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 007] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 008] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 009] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 010] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 011] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 012] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 013] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 014] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 015] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+
+[QUALITY] Manual force capture accepted: frame #407.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260924_142438.jpg
+[POST-CAPTURE] LapVar=6.1, score components: sharp=0, bright=30, even=26
+[POST-CAPTURE] Manual force override: processing the saved frame despite softness (6.1 < 100).
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.454s (0 detections, 0 lines, 0 regions)
+[WARN] No text extracted. Skipping.
+

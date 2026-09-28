@@ -1,0 +1,75 @@
+{"wall_time": "2026-09-16T16:20:48+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260916_162048"}
+{"wall_time": "2026-09-16T16:20:49+0500", "elapsed_seconds": 0.844, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-16T16:21:57+0500", "elapsed_seconds": 69.375, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-16T16:21:57+0500", "elapsed_seconds": 69.375, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-16T16:21:59+0500", "elapsed_seconds": 71.109, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-16T16:22:02+0500", "elapsed_seconds": 74.375, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-16T16:22:02+0500", "elapsed_seconds": 74.375, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-16T16:22:04+0500", "elapsed_seconds": 76.547, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-16T16:22:12+0500", "elapsed_seconds": 84.39, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:22:12+0500", "elapsed_seconds": 84.39, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:22:13+0500", "elapsed_seconds": 85.125, "event": "automatic_capture", "generation": 27, "frame_sequence": 746, "stability_count": 3}
+{"wall_time": "2026-09-16T16:22:13+0500", "elapsed_seconds": 85.187, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:22:15+0500", "elapsed_seconds": 87.609, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-16T16:22:16+0500", "elapsed_seconds": 87.781, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-16T16:22:21+0500", "elapsed_seconds": 93.203, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-16T16:22:21+0500", "elapsed_seconds": 93.203, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-16T16:22:24+0500", "elapsed_seconds": 96.672, "event": "box8", "message": "Table analysis: 0 table(s), 5.62s", "tables": []}
+{"wall_time": "2026-09-16T16:23:05+0500", "elapsed_seconds": 136.812, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:05+0500", "elapsed_seconds": 137.484, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:10+0500", "elapsed_seconds": 142.359, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:13+0500", "elapsed_seconds": 144.75, "event": "voice", "message": "Heard: After capture, what happened to the image?", "enabled": true, "busy": true, "transcript": "After capture, what happened to the image?", "action": "unknown", "asr_seconds": 0.4427176999997755}
+{"wall_time": "2026-09-16T16:23:13+0500", "elapsed_seconds": 144.75, "event": "voice", "message": "Command not recognized; say 'voice help'", "enabled": true, "busy": false}
+{"wall_time": "2026-09-16T16:23:13+0500", "elapsed_seconds": 145.734, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:14+0500", "elapsed_seconds": 145.75, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:21+0500", "elapsed_seconds": 153.312, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:22+0500", "elapsed_seconds": 153.75, "event": "voice", "message": "Heard: After capture, what happens to the image?", "enabled": true, "busy": true, "transcript": "After capture, what happens to the image?", "action": "unknown", "asr_seconds": 0.4310936000001675}
+{"wall_time": "2026-09-16T16:23:22+0500", "elapsed_seconds": 153.75, "event": "voice", "message": "Command not recognized; say 'voice help'", "enabled": true, "busy": false}
+{"wall_time": "2026-09-16T16:23:24+0500", "elapsed_seconds": 156.156, "event": "pi_disconnected", "error": "Camera connection closed"}
+{"wall_time": "2026-09-16T16:23:24+0500", "elapsed_seconds": 156.187, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "disconnect"}
+{"wall_time": "2026-09-16T16:23:24+0500", "elapsed_seconds": 156.234, "event": "waiting_for_reconnect"}
+{"wall_time": "2026-09-16T16:23:28+0500", "elapsed_seconds": 160.64, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:28+0500", "elapsed_seconds": 160.656, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:31+0500", "elapsed_seconds": 163.015, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:31+0500", "elapsed_seconds": 163.031, "event": "voice", "message": "Wait for the current operation to finish before speaking", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:33+0500", "elapsed_seconds": 164.859, "event": "voice", "message": "Heard: [no speech]", "enabled": true, "busy": true, "transcript": "", "action": "unknown", "asr_seconds": 0.0}
+{"wall_time": "2026-09-16T16:23:33+0500", "elapsed_seconds": 164.859, "event": "voice", "message": "Command not recognized; say 'voice help'", "enabled": true, "busy": false}
+{"wall_time": "2026-09-16T16:23:33+0500", "elapsed_seconds": 165.656, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:33+0500", "elapsed_seconds": 165.672, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:35+0500", "elapsed_seconds": 167.094, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:35+0500", "elapsed_seconds": 167.109, "event": "voice", "message": "Heard: [no speech]", "enabled": true, "busy": true, "transcript": "", "action": "unknown", "asr_seconds": 0.0}
+{"wall_time": "2026-09-16T16:23:35+0500", "elapsed_seconds": 167.109, "event": "voice", "message": "Command not recognized; say 'voice help'", "enabled": true, "busy": false}
+{"wall_time": "2026-09-16T16:23:36+0500", "elapsed_seconds": 168.031, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:36+0500", "elapsed_seconds": 168.047, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:39+0500", "elapsed_seconds": 171.109, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:23:40+0500", "elapsed_seconds": 171.937, "event": "voice", "message": "Heard: The user may also ask a question about the document.", "enabled": true, "busy": true, "transcript": "The user may also ask a question about the document.", "action": "unknown", "asr_seconds": 0.8120061000008718}
+{"wall_time": "2026-09-16T16:23:40+0500", "elapsed_seconds": 171.937, "event": "voice", "message": "Command not recognized; say 'voice help'", "enabled": true, "busy": false}
+{"wall_time": "2026-09-16T16:23:45+0500", "elapsed_seconds": 177.469, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:23:45+0500", "elapsed_seconds": 177.469, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:23:46+0500", "elapsed_seconds": 178.265, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:23:48+0500", "elapsed_seconds": 180.297, "event": "automatic_capture", "generation": 4, "frame_sequence": 232, "stability_count": 3}
+{"wall_time": "2026-09-16T16:23:50+0500", "elapsed_seconds": 182.719, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-16T16:23:51+0500", "elapsed_seconds": 182.812, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-16T16:23:56+0500", "elapsed_seconds": 188.187, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-16T16:23:56+0500", "elapsed_seconds": 188.187, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-16T16:23:59+0500", "elapsed_seconds": 191.14, "event": "box8", "message": "Table analysis: 0 table(s), 5.38s", "tables": []}
+{"wall_time": "2026-09-16T16:24:00+0500", "elapsed_seconds": 191.797, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:24:00+0500", "elapsed_seconds": 192.437, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:24:02+0500", "elapsed_seconds": 194.484, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:24:02+0500", "elapsed_seconds": 194.656, "event": "voice", "message": "Heard: What happens after the capture?", "enabled": true, "busy": true, "transcript": "What happens after the capture?", "action": "question", "asr_seconds": 0.18213699999978417}
+{"wall_time": "2026-09-16T16:24:02+0500", "elapsed_seconds": 194.687, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "box7_voice"}
+{"wall_time": "2026-09-16T16:24:02+0500", "elapsed_seconds": 194.734, "event": "box8", "message": "Answering from this page; normal reading is temporarily interrupted"}
+{"wall_time": "2026-09-16T16:24:11+0500", "elapsed_seconds": 203.281, "event": "box8_answer", "question": "What happens after the capture?", "answer": {"answer": "the image is converted to grayscale", "quote": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale.", "region_id": 4, "bbox": [515, 654, 1252, 934], "table": null, "row": null, "margin": 18.430503129959106, "score": 0.9999999900977431, "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering and adaptive binarization Each alternative is evaluated using character count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone", "translated": false, "model_device": "cuda"}}
+{"wall_time": "2026-09-16T16:24:11+0500", "elapsed_seconds": 203.281, "event": "box8", "message": "P3"}
+{"wall_time": "2026-09-16T16:24:15+0500", "elapsed_seconds": 207.156, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-16T16:24:28+0500", "elapsed_seconds": 219.765, "event": "voice", "message": "Preparing microphone; wait for LISTENING", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:24:28+0500", "elapsed_seconds": 220.406, "event": "voice", "message": "LISTENING on PC — release G/Capture to submit", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:24:31+0500", "elapsed_seconds": 222.953, "event": "voice", "message": "Recognizing speech locally", "enabled": true, "busy": true}
+{"wall_time": "2026-09-16T16:24:31+0500", "elapsed_seconds": 223.312, "event": "voice", "message": "Heard: Repeat paragraph one.", "enabled": true, "busy": true, "transcript": "Repeat paragraph one.", "action": "read_number", "asr_seconds": 0.3596350000007078}
+{"wall_time": "2026-09-16T16:24:31+0500", "elapsed_seconds": 223.328, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "box7_voice"}
+{"wall_time": "2026-09-16T16:24:31+0500", "elapsed_seconds": 223.344, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-16T16:24:59+0500", "elapsed_seconds": 251.687, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-16T16:24:59+0500", "elapsed_seconds": 251.687, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-16T16:24:59+0500", "elapsed_seconds": 251.703, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "quit"}
+{"wall_time": "2026-09-16T16:25:00+0500", "elapsed_seconds": 251.765, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-16T16:25:00+0500", "elapsed_seconds": 251.765, "event": "session_ending"}

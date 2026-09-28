@@ -1,0 +1,358 @@
+{
+  "ctranslate2_version": "4.8.0",
+  "device": "cuda",
+  "compute_type": "float16",
+  "beam_size": 2,
+  "notes": "Single warmed measurements; stored OCR text, not clean source. No BLEU/accuracy computed.",
+  "cases": [
+    {
+      "name": "saved_french",
+      "source_language": "french",
+      "target_language": "english",
+      "evidence": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\ocr_results_comparison.txt @ 2026-07-23 14:31:13",
+      "region_count": 4,
+      "box5": {
+        "elapsed_seconds": 1.9432374999996682,
+        "reported_stage_seconds": 1.9446136951446533,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "Surveillance autonome d'une station énergétique isolée",
+            "translated_text": "Self-monitoring of an isolated power station"
+          },
+          {
+            "region_id": 2,
+            "number": 2,
+            "source_text": "Sur un plateau difficile d'accès, une station alimente un dispensaire un relais radio. des instruments metéorologiques et l'éclairage de sécurite Le micro-reseau reunit des panneaux solaires. des batteries au lithium et un petit genérateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes Les données détaillées restent sur place, seul un résume compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires.",
+            "translated_text": "On a hard-to-reach shelf, a station feeds a medical clinic a radio relay. The micro irrigation system is a combination of solar panels. Lithium batteries and a small diesel generator as the road may remain closed for several days. A controller measures the voltage, the current. temperature and vibrations every 200 milliseconds Detailed data remains in place, only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority."
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "Le 18 octobre 2025, une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C, tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie",
+            "translated_text": "On October 18, 2025, a dust storm reduced solar output by 34% in fifteen minutes The temperature of the battery cabinet rose by 8°C, while the inverter fan was producing an abnormal vibration Instead of shutting down the station, the system cut off the secondary heating, reduced some lights and started the rescue group He identified three possible causes of debris on the panels, a worn bearing and increasing resistance in a battery connector"
+          },
+          {
+            "region_id": 4,
+            "number": 4,
+            "source_text": "Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparés au manuel hors ligne Aucune image sensible n'a été envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure; il contrôlait aussi la netteté générale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires Les ingénieurs ont ensuite confirmé l'ordre propose nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a duré six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale à l'opérateur",
+            "translated_text": "After the storm, a head-mounted camera read the license plates and alarm codes. Then a local processor compared them to the offline manual No sensitive image was sent to the cloud The software required that the entire tag remain in a safe margin; it also controlled the overall sharpness and that of the top part A sound command asked to back up if an edge was missing, and four stable images were needed The engineers then confirmed the order suggested cleaning the panels, replacing the bearing, then tightening the connector The intervention lasted six minutes without interrupting a critical service A reliable automation must recognize uncertainty and leave the final decision to the operator"
+          }
+        ],
+        "console": "[STAGE 2] Translating 4 classified region(s) -> English in one NLLB batch …\n[STAGE 2] Region translation complete in 1.945s (9 translation chunks)\n"
+      },
+      "box6": {
+        "elapsed_seconds": 2.136373099998309,
+        "reported_stage_seconds": 2.136309199999232,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "Surveillance autonome d'une station énergétique isolée",
+            "effective_source_language": "french",
+            "translation_warnings": [],
+            "translation_chunk_count": 1,
+            "translation_input": "Surveillance autonome d'une station énergétique isolée",
+            "translated_text": "Self-monitoring of an isolated power station",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 2,
+            "number": 2,
+            "source_text": "Sur un plateau difficile d'accès, une station alimente un dispensaire un relais radio. des instruments metéorologiques et l'éclairage de sécurite Le micro-reseau reunit des panneaux solaires. des batteries au lithium et un petit genérateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes Les données détaillées restent sur place, seul un résume compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires.",
+            "effective_source_language": "french",
+            "translation_warnings": [],
+            "translation_chunk_count": 5,
+            "translation_input": "Sur un plateau difficile d'accès, une station alimente un dispensaire un relais radio. des instruments metéorologiques et l'éclairage de sécurite Le micro-reseau reunit des panneaux solaires. des batteries au lithium et un petit genérateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes Les données détaillées restent sur place, seul un résume compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires.",
+            "translated_text": "On a hard-to-reach shelf, a station feeds a medical clinic a radio relay. The micro irrigation system is a combination of solar panels. Lithium batteries and a small diesel generator as the road may remain closed for several days. A controller measures the voltage, the current. temperature and vibrations every 200 milliseconds Detailed data remains in place, only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority.",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "Le 18 octobre 2025, une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C, tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie",
+            "effective_source_language": "french",
+            "translation_warnings": [],
+            "translation_chunk_count": 1,
+            "translation_input": "Le 18 octobre 2025, une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C, tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie",
+            "translated_text": "On October 18, 2025, a dust storm reduced solar output by 34% in fifteen minutes The temperature of the battery cabinet rose by 8°C, while the inverter fan was producing an abnormal vibration Instead of shutting down the station, the system cut off the secondary heating, reduced some lights and started the rescue group He identified three possible causes of debris on the panels, a worn bearing and increasing resistance in a battery connector",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 4,
+            "number": 4,
+            "source_text": "Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparés au manuel hors ligne Aucune image sensible n'a été envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure; il contrôlait aussi la netteté générale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires Les ingénieurs ont ensuite confirmé l'ordre propose nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a duré six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale à l'opérateur",
+            "effective_source_language": "french",
+            "translation_warnings": [],
+            "translation_chunk_count": 2,
+            "translation_input": "Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparés au manuel hors ligne Aucune image sensible n'a été envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure; il contrôlait aussi la netteté générale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires Les ingénieurs ont ensuite confirmé l'ordre propose nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a duré six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale à l'opérateur",
+            "translated_text": "After the storm, a head-mounted camera read the license plates and alarm codes. Then a local processor compared them to the offline manual No sensitive image was sent to the cloud The software required that the entire tag remain in a safe margin; it also controlled the overall sharpness and that of the top part A sound command asked to back up if an edge was missing, and four stable images were needed The engineers then confirmed the order suggested cleaning the panels, replacing the bearing, then tightening the connector The intervention lasted six minutes without interrupting a critical service A reliable automation must recognize uncertainty and leave the final decision to the operator",
+            "translation_status": "translated"
+          }
+        ],
+        "console": "[STAGE 2] 4 regions, 9 NLLB chunks, french -> english: 2.136s\n"
+      }
+    },
+    {
+      "name": "saved_chinese",
+      "source_language": "chinese",
+      "target_language": "english",
+      "evidence": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\ocr_results_comparison.txt @ 2026-07-23 14:26:29",
+      "region_count": 4,
+      "box5": {
+        "elapsed_seconds": 0.9497179000027245,
+        "reported_stage_seconds": 0.9499657154083252,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "偏远地区混合能源站的自主监测与维护",
+            "translated_text": "Autonomous monitoring and maintenance of hybrid power stations in remote areas"
+          },
+          {
+            "region_id": 2,
+            "number": 2,
+            "source_text": "一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供电。微电 网需要持续支持诊所、无线电中继、气象设备和安全照明。冬季道路可能 封闭数日，网络也不稳定，因此本地控制器每二百毫秒采集电压、电流、 温度与振动数据，并在能源不足时优先保障医疗和通信负载。完整记录保 存在站内，只有压缩后的状态摘要会在链路恢复时发送到控制中心。",
+            "translated_text": "A plateau test station relies on solar arrays, lithium batteries and a small diesel generator to power it. Micro-networks need to continue to support clinics, radio relay, weather equipment and safety lighting. Roads may be closed for days in winter and the network is unstable, so local controllers collect voltage, current, temperature and vibration data every 200 milliseconds, and prioritize medical and communications loads when energy is scarce. Complete logs are stored on the station, and only compressed status summaries are sent to the control center when the link is restored."
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "二〇二五年十月十八日，一场沙尘风暴使太阳能输出在十五分钟内下降 百分之三十四电池柜温度升高八摄氏度，逆变器风扇还出现异常低频振 动。控制器没有关闭整座电站，而是断开非必要加热装置、降低部分照明 功率并启动备用发电机。诊断模块随后提出三个可能原因：太阳能板被碎 屑遮挡、风扇轴承磨损，以及电池连接器的接触电阻上升。",
+            "translated_text": "On October 18, 2005, a sandstorm caused solar output to drop in fifteen minutes. The temperature of the battery cabinet rose eight degrees Celsius by 34 percent, and the inverter fan also showed abnormally low frequency vibrations. Instead of shutting down the entire power plant, the controller disconnects unnecessary heating devices, lowers partial lighting, power and starts the backup generator. The diagnostic module then suggests three possible causes: solar panel breakage, aluminum shielding, fan bearing wear, and increased contact resistance of the battery connector."
+          },
+          {
+            "region_id": 4,
+            "number": 4,
+            "source_text": "风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报警代码. 本地处理单元再与离线维护手册进行比对。由于资料涉及关键基础设施 图像没有上传云端。采集程序先确认整个标签位于安全边界内，并分别检 查全图和上部区域的清晰度：若画面被裁切，耳机会提示向左、向右或向 后移动。目标只有连续四帧稳定且文字足够清楚时才会保存。第二天的日 志表明，自动排序与人工判断一致：先清理面板，再更换风扇轴承，最后 紧固电池端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化 必须解释判断、承认不确定性，并把最终决定留给人。",
+            "translated_text": "After the storm weakened, technicians used head-mounted cameras to read the insignia, serial numbers and alarm codes. The local processing unit was then compared with the offline maintenance manual. The images are not uploaded to the cloud because of critical infrastructure. The capture process first confirms that the entire label is within the safe boundary and checks the clarity of the whole image and the upper region separately: if the image is cropped, the earpiece is prompted to move left, right or backwards. The target is saved only when the sequence of four syllables is stable and the text is sufficiently clear. The next day's logs showed that the automatic sorting was consistent with the artificial judgment: first the panel was cleaned, then the fan bearings were replaced, and finally the battery terminals were tightened. The disposal took six minutes and critical services were not interrupted. This shows that reliable automation must interpret judgments, acknowledge uncertainty, and leave the final decision to humans."
+          }
+        ],
+        "console": "[STAGE 2] Translating 4 classified region(s) -> English in one NLLB batch …\n[STAGE 2] Region translation complete in 0.950s (15 translation chunks)\n"
+      },
+      "box6": {
+        "elapsed_seconds": 1.388945499998954,
+        "reported_stage_seconds": 1.3888310000002093,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "偏远地区混合能源站的自主监测与维护",
+            "effective_source_language": "chinese",
+            "translation_warnings": [],
+            "translation_chunk_count": 1,
+            "translation_input": "偏远地区混合能源站的自主监测与维护",
+            "translated_text": "Autonomous monitoring and maintenance of hybrid power stations in remote areas",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 2,
+            "number": 2,
+            "source_text": "一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供电。微电 网需要持续支持诊所、无线电中继、气象设备和安全照明。冬季道路可能 封闭数日，网络也不稳定，因此本地控制器每二百毫秒采集电压、电流、 温度与振动数据，并在能源不足时优先保障医疗和通信负载。完整记录保 存在站内，只有压缩后的状态摘要会在链路恢复时发送到控制中心。",
+            "effective_source_language": "chinese",
+            "translation_warnings": [
+              "Review numerical rendering: new output digits: 200"
+            ],
+            "translation_chunk_count": 4,
+            "translation_input": "一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供电。微电网需要持续支持诊所、无线电中继、气象设备和安全照明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每二百毫秒采集电压、电流、 温度与振动数据，并在能源不足时优先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状态摘要会在链路恢复时发送到控制中心。",
+            "translated_text": "A plateau test station relies on solar arrays, lithium batteries and a small diesel generator to power it. Micro-grids need to continue to support clinics, radio relay, weather equipment and safety lighting. Roads can be closed for days in winter and the network is unstable, so local controllers collect voltage, current, temperature and vibration data every 200 milliseconds, and prioritize medical and communications loads when energy is scarce. The complete record is stored on the station, and only the compressed status summary is sent to the control center when the link is restored.",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "二〇二五年十月十八日，一场沙尘风暴使太阳能输出在十五分钟内下降 百分之三十四电池柜温度升高八摄氏度，逆变器风扇还出现异常低频振 动。控制器没有关闭整座电站，而是断开非必要加热装置、降低部分照明 功率并启动备用发电机。诊断模块随后提出三个可能原因：太阳能板被碎 屑遮挡、风扇轴承磨损，以及电池连接器的接触电阻上升。",
+            "effective_source_language": "chinese",
+            "translation_warnings": [
+              "Review numerical rendering: new output digits: 18, 2025, 34"
+            ],
+            "translation_chunk_count": 3,
+            "translation_input": "2025年十月十八日，一场沙尘风暴使太阳能输出在十五分钟内下降百分之三十四电池柜温度升高八摄氏度，逆变器风扇还出现异常低频振动。控制器没有关闭整座电站，而是断开非必要加热装置、降低部分照明功率并启动备用发电机。诊断模块随后提出三个可能原因：太阳能板被碎屑遮挡、风扇轴承磨损，以及电池连接器的接触电阻上升。",
+            "translated_text": "On October 18, 2025, a dust storm caused solar output to drop by 34 percent in fifteen minutes, the temperature of the battery cabinet to rise eight degrees Celsius, and the inverter fan to vibrate at an abnormally low frequency. Instead of shutting down the entire power plant, the controller disconnects unnecessary heating devices, lowers the power of some lighting and starts the backup generator. Diagnostic modules then suggested three possible causes: solar panels were shrouded in debris, fan bearings wore out, and the contact resistance of the battery connector rose.",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 4,
+            "number": 4,
+            "source_text": "风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报警代码. 本地处理单元再与离线维护手册进行比对。由于资料涉及关键基础设施 图像没有上传云端。采集程序先确认整个标签位于安全边界内，并分别检 查全图和上部区域的清晰度：若画面被裁切，耳机会提示向左、向右或向 后移动。目标只有连续四帧稳定且文字足够清楚时才会保存。第二天的日 志表明，自动排序与人工判断一致：先清理面板，再更换风扇轴承，最后 紧固电池端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化 必须解释判断、承认不确定性，并把最终决定留给人。",
+            "effective_source_language": "chinese",
+            "translation_warnings": [],
+            "translation_chunk_count": 8,
+            "translation_input": "风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报警代码. 本地处理单元再与离线维护手册进行比对。由于资料涉及关键基础设施图像没有上传云端。采集程序先确认整个标签位于安全边界内，并分别检查全图和上部区域的清晰度：若画面被裁切，耳机会提示向左、向右或向后移动。目标只有连续四帧稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化必须解释判断、承认不确定性，并把最终决定留给人。",
+            "translated_text": "After the storm subsided, technicians used head-mounted cameras to read the insignia, serial numbers and alarm codes. The local processing unit is then compared to the offline maintenance manual. Images of critical infrastructure are not uploaded to the cloud. The capture process first confirms that the entire label is within the safety boundary and checks the clarity of the whole image and the upper region separately: if the image is cropped, the earpiece is prompted to move left, right or backwards. The target is saved only when the sequence of four lines is stable and the text is clear enough. The next day's logs showed that the automatic sorting was consistent with the artificial judgment: first the panels were cleaned, then the fan bearings were replaced, and finally the battery terminals were tightened. The disposal took six minutes and critical services were not interrupted. This shows that reliable automation must interpret judgments, acknowledge uncertainty, and leave the final decision to humans.",
+            "translation_status": "translated"
+          }
+        ],
+        "console": "[TRANSLATION REVIEW] Region 2: Review numerical rendering: new output digits: 200\n[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 18, 2025, 34\n[STAGE 2] 4 regions, 16 NLLB chunks, chinese -> english: 1.389s\n"
+      }
+    },
+    {
+      "name": "english_with_chinese_ocr",
+      "source_language": "chinese",
+      "target_language": "english",
+      "evidence": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\run_001_20260903_134627_ocr.txt",
+      "region_count": 4,
+      "box5": {
+        "elapsed_seconds": 2.944099800002732,
+        "reported_stage_seconds": 2.944241523742676,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "Field Evaluation of Wearable Translation Glasses",
+            "translated_text": "Field evaluation of wearable translation glasses"
+          },
+          {
+            "region_id": 2,
+            "number": 2,
+            "source_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+            "translated_text": "The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently"
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+            "translated_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partially shaded, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the entire frame and again over the upper portion, because a slanted sheet often appears near the bottom while the first soft lines remain clear A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to move back, improve left or right, or hold the lighting steady"
+          },
+          {
+            "region_id": 4,
+            "number": 4,
+            "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+            "translated_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using count character recognition, focus statistics, and processing time Ground-truth text is retained for important experiments so that character confidence rate error and word confidence rate error can be calculated instead of relying on confidence alone"
+          }
+        ],
+        "console": "[STAGE 2] Translating 4 classified region(s) -> English in one NLLB batch …\n[STAGE 2] Region translation complete in 2.944s (4 translation chunks)\n"
+      },
+      "box6": {
+        "elapsed_seconds": 0.0012131999974371865,
+        "reported_stage_seconds": 0.0011905000028491486,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "Field Evaluation of Wearable Translation Glasses",
+            "effective_source_language": "english",
+            "translation_warnings": [
+              "OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English."
+            ],
+            "translation_chunk_count": 0,
+            "translated_text": "Field Evaluation of Wearable Translation Glasses",
+            "translation_status": "bypassed_same_language"
+          },
+          {
+            "region_id": 2,
+            "number": 2,
+            "source_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+            "effective_source_language": "english",
+            "translation_warnings": [
+              "OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English."
+            ],
+            "translation_chunk_count": 0,
+            "translated_text": "able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently",
+            "translation_status": "bypassed_same_language"
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+            "effective_source_language": "english",
+            "translation_warnings": [
+              "OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English."
+            ],
+            "translation_chunk_count": 0,
+            "translated_text": "Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting",
+            "translation_status": "bypassed_same_language"
+          },
+          {
+            "region_id": 4,
+            "number": 4,
+            "source_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+            "effective_source_language": "english",
+            "translation_warnings": [
+              "OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English."
+            ],
+            "translation_chunk_count": 0,
+            "translated_text": "After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone",
+            "translation_status": "bypassed_same_language"
+          }
+        ],
+        "console": "[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.\n[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.001s\n"
+      }
+    },
+    {
+      "name": "saved_english_to_urdu",
+      "source_language": "english",
+      "target_language": "urdu",
+      "evidence": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\run_001_20260806_211116_ocr.txt",
+      "region_count": 3,
+      "box5": {
+        "elapsed_seconds": 1.2139234999995097,
+        "reported_stage_seconds": 1.2130954265594482,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "Offine Inspection at a Remote Energy Faciliy",
+            "translated_text": "ایک دور دراز توانائی کی سہولت میں بیرونی معائنہ"
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "During a dust storm on 18 October 2025, solar output fell by thirty-four percent in fifteen minutes Battery-cabinet temperature rose by eight degrees Celsius. and the inverter fan developed an unuaual low frequency vibration The controller did not shut down the entire station It disconnected secondary heaters, reduced selected lighting. started the backup generator, and issued a maintenance warning Diagnostic software identified three plausible faults debris covering part of the solar array. wear in a fan bearing, and increasing contact resistance at a battery connector These possibilities were ranked, but none was presented as certain because the measurements could be explained by more than one physical condition",
+            "translated_text": "18 اکتوبر 2025 کو دھول کے طوفان کے دوران ، شمسی توانائی کی پیداوار پندرہ منٹ میں چوبیس فیصد گر گئی۔ بیٹری کابینہ کا درجہ حرارت آٹھ ڈگری سینٹی گریڈ بڑھ گیا۔ اور انورٹر پرستار ایک غیر معمولی کم فریکوئنسی کمپن تیار کیا کنٹرولر پورے اسٹیشن بند نہیں کیا یہ ثانوی ہیٹر منقطع، منتخب روشنی کو کم. بیک اپ جنریٹر شروع کر دیا، اور ایک دیکھ بھال انتباہ جاری کیا تشخیص سافٹ ویئر شمسی پینل کے ایک حصے کو ڈھکنے تین قابل اعتماد خرابی ملبے کی نشاندہی کی. ایک پرستار بیئرنگ میں پہننے، اور ایک بیٹری کنیکٹر پر رابطے مزاحمت میں اضافہ ان امکانات کو درجہ بندی کی گئی تھی، لیکن کوئی بھی یقینی طور پر پیش نہیں کیا گیا تھا کیونکہ پیمائش ایک سے زیادہ جسمانی حالت کی طرف سے وضاحت کی جا سکتی تھی."
+          },
+          {
+            "region_id": 5,
+            "number": 5,
+            "source_text": "Accepted images were processed on a workstation inside the service vehicle Text boxes were arranged in reading order and grouped into paragraphs The offline translation model passed one region at a time to the speech engine, and a brief tone marked every transition",
+            "translated_text": "قبول شدہ تصاویر کو سروس گاڑی کے اندر ایک ورک اسٹیشن پر پروسیس کیا گیا تھا متن کے خانوں کو پڑھنے کے حکم میں ترتیب دیا گیا تھا اور پیراگراف میں گروپ کیا گیا تھا آف لائن ترجمہ ماڈل ایک وقت میں ایک خطے کو تقریر کے انجن میں منتقل کیا گیا تھا اور ایک مختصر لہجے نے ہر منتقلی کو نشان زد کیا تھا"
+          }
+        ],
+        "console": "[STAGE 2] Translating 3 classified region(s) -> Urdu in one NLLB batch ...\n[STAGE 2] Urdu region translation complete in 1.213s (6 translation chunks)\n"
+      },
+      "box6": {
+        "elapsed_seconds": 1.2992569999987609,
+        "reported_stage_seconds": 1.2992120000017167,
+        "regions": [
+          {
+            "region_id": 1,
+            "number": 1,
+            "source_text": "Offine Inspection at a Remote Energy Faciliy",
+            "effective_source_language": "english",
+            "translation_warnings": [],
+            "translation_chunk_count": 1,
+            "translation_input": "Offine Inspection at a Remote Energy Faciliy",
+            "translated_text": "ایک دور دراز توانائی کی سہولت میں بیرونی معائنہ",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 3,
+            "number": 3,
+            "source_text": "During a dust storm on 18 October 2025, solar output fell by thirty-four percent in fifteen minutes Battery-cabinet temperature rose by eight degrees Celsius. and the inverter fan developed an unuaual low frequency vibration The controller did not shut down the entire station It disconnected secondary heaters, reduced selected lighting. started the backup generator, and issued a maintenance warning Diagnostic software identified three plausible faults debris covering part of the solar array. wear in a fan bearing, and increasing contact resistance at a battery connector These possibilities were ranked, but none was presented as certain because the measurements could be explained by more than one physical condition",
+            "effective_source_language": "english",
+            "translation_warnings": [
+              "Review numerical rendering: new output digits: 15, 34, 8"
+            ],
+            "translation_chunk_count": 4,
+            "translation_input": "During a dust storm on 18 October 2025, solar output fell by 34 percent in 15 minutes Battery-cabinet temperature rose by 8 degrees Celsius. and the inverter fan developed an unuaual low frequency vibration The controller did not shut down the entire station It disconnected secondary heaters, reduced selected lighting. started the backup generator, and issued a maintenance warning Diagnostic software identified three plausible faults debris covering part of the solar array. wear in a fan bearing, and increasing contact resistance at a battery connector These possibilities were ranked, but none was presented as certain because the measurements could be explained by more than one physical condition",
+            "translated_text": "18 اکتوبر 2025 کو دھول کے طوفان کے دوران، شمسی توانائی کی پیداوار میں 15 منٹ میں 34 فیصد کمی واقع ہوئی۔ بیٹری کابینہ کا درجہ حرارت 8 ڈگری سینٹی گریڈ تک بڑھ گیا۔ اور انورٹر پرستار ایک غیر معمولی کم فریکوئنسی کمپن تیار کیا کنٹرولر پورے اسٹیشن بند نہیں کیا یہ ثانوی ہیٹر منقطع، منتخب روشنی کو کم. بیک اپ جنریٹر شروع کر دیا، اور ایک دیکھ بھال انتباہ جاری کیا تشخیص سافٹ ویئر شمسی پینل کے ایک حصے کو ڈھکنے تین قابل اعتماد خرابی ملبے کی نشاندہی کی. ایک پرستار بیئرنگ میں پہننے، اور ایک بیٹری کنیکٹر پر رابطے مزاحمت میں اضافہ ان امکانات کو درجہ بندی کی گئی تھی، لیکن کوئی بھی یقینی طور پر پیش نہیں کیا گیا تھا کیونکہ پیمائش ایک سے زیادہ جسمانی حالت کی طرف سے وضاحت کی جا سکتی تھی.",
+            "translation_status": "translated"
+          },
+          {
+            "region_id": 5,
+            "number": 5,
+            "source_text": "Accepted images were processed on a workstation inside the service vehicle Text boxes were arranged in reading order and grouped into paragraphs The offline translation model passed one region at a time to the speech engine, and a brief tone marked every transition",
+            "effective_source_language": "english",
+            "translation_warnings": [],
+            "translation_chunk_count": 1,
+            "translation_input": "Accepted images were processed on a workstation inside the service vehicle Text boxes were arranged in reading order and grouped into paragraphs The offline translation model passed one region at a time to the speech engine, and a brief tone marked every transition",
+            "translated_text": "قبول شدہ تصاویر کو سروس گاڑی کے اندر ایک ورک اسٹیشن پر پروسیس کیا گیا تھا متن کے خانوں کو پڑھنے کے حکم میں ترتیب دیا گیا تھا اور پیراگراف میں گروپ کیا گیا تھا آف لائن ترجمہ ماڈل ایک وقت میں ایک خطے کو تقریر کے انجن میں منتقل کیا گیا تھا اور ایک مختصر لہجے نے ہر منتقلی کو نشان زد کیا تھا",
+            "translation_status": "translated"
+          }
+        ],
+        "console": "[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 15, 34, 8\n[STAGE 2] 3 regions, 6 NLLB chunks, english -> urdu: 1.299s\n"
+      }
+    }
+  ]
+}

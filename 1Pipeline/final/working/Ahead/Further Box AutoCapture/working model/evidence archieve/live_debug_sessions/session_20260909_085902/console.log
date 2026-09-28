@@ -1,0 +1,229 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.66s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 2.01s
+[CAPTURE] Detection-only available: True
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 4.72s
+[LOAD] Conservative SymSpell dictionary loaded in 2.83s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.94s, edges=none, bandLap=65, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.20s, edges=none, bandLap=63, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=70, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=65, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.25s, edges=none, bandLap=70, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260909_085942.jpg
+[POST-CAPTURE] LapVar=17.2, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (17.2 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.34s, edges=none, bandLap=60, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=67, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=66, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260909_085949.jpg
+[POST-CAPTURE] LapVar=18.5, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (18.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.22s, edges=none, bandLap=61, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.36s, edges=none, bandLap=64, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=63, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260909_085953.jpg
+[POST-CAPTURE] LapVar=17.5, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (17.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.17s, edges=none, bandLap=61, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260909_085955.jpg
+[POST-CAPTURE] LapVar=17.5, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (17.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.36s, edges=none, bandLap=63, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=67, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=68, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/0, age=0.19s, edges=none, bandLap=62, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=65, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 006] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=67, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 007] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=64, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 008] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=71, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 009] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=68, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 010] state=page_not_found, rows=0/0, age=0.06s, edges=none, bandLap=69, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 011] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=67, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 012] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=70, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 013] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=66, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 014] state=page_not_found, rows=0/0, age=0.16s, edges=none, bandLap=70, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260909_090024.jpg
+[POST-CAPTURE] LapVar=19.5, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (19.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.41s, edges=none, bandLap=137, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=177, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.74, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=73, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.67, stable=0/3
+  [OBS 004] state=glare, rows=12/12, age=0.38s, edges=B, bandLap=209, lineLap=178, lightStd=0.0, belowText=0.0, motion=1.69, stable=0/3
+  [OBS 005] state=hold_still, rows=0/0, age=0.14s, edges=none, bandLap=97, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.25, stable=0/3
+  [OBS 006] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=92, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.45, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 007] state=hold_still, rows=29/29, age=0.12s, edges=B, bandLap=460, lineLap=595, lightStd=11.7, belowText=0.0, motion=1.55, stable=0/3
+  [OBS 008] state=look_down, rows=29/29, age=0.14s, edges=B, bandLap=315, lineLap=357, lightStd=11.8, belowText=0.0, motion=0.19, stable=0/3
+  [OBS 009] state=look_down, rows=28/29, age=0.16s, edges=B, bandLap=1292, lineLap=1570, lightStd=12.5, belowText=0.0, motion=0.19, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 010] state=look_down, rows=27/29, age=0.24s, edges=B, bandLap=2394, lineLap=3087, lightStd=12.2, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 011] state=look_down, rows=28/29, age=0.11s, edges=B, bandLap=2298, lineLap=3320, lightStd=12.2, belowText=0.0, motion=0.10, stable=0/3
+  [OBS 012] state=look_down, rows=30/30, age=0.16s, edges=B, bandLap=735, lineLap=937, lightStd=12.3, belowText=0.0, motion=0.87, stable=0/3
+  [OBS 013] state=hold_still, rows=35/32, age=0.12s, edges=B, bandLap=329, lineLap=434, lightStd=13.5, belowText=0.0, motion=1.63, stable=0/3
+  [OBS 014] state=look_down, rows=33/34, age=0.17s, edges=B, bandLap=1644, lineLap=2353, lightStd=13.1, belowText=0.0, motion=0.63, stable=0/3
+  [OBS 015] state=look_down, rows=33/33, age=0.20s, edges=B, bandLap=1702, lineLap=2303, lightStd=13.4, belowText=0.0, motion=0.10, stable=0/3
+  [OBS 016] state=look_down, rows=34/34, age=0.27s, edges=B, bandLap=2188, lineLap=2832, lightStd=13.3, belowText=0.0, motion=0.36, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 017] state=look_down, rows=32/34, age=0.28s, edges=B, bandLap=1832, lineLap=2509, lightStd=13.5, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 018] state=look_down, rows=33/34, age=0.12s, edges=B, bandLap=1726, lineLap=2270, lightStd=13.8, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 019] state=hold_still, rows=35/35, age=0.16s, edges=T, bandLap=181, lineLap=232, lightStd=14.0, belowText=1.2, motion=2.17, stable=0/3
+  [OBS 020] state=look_up, rows=32/35, age=0.20s, edges=T, bandLap=1111, lineLap=1956, lightStd=14.0, belowText=1.8, motion=0.66, stable=0/3
+  [OBS 021] state=look_up, rows=34/35, age=0.14s, edges=T, bandLap=1526, lineLap=2488, lightStd=13.8, belowText=1.6, motion=0.25, stable=0/3
+  [OBS 022] state=look_up, rows=35/35, age=0.12s, edges=T, bandLap=1346, lineLap=2352, lightStd=13.8, belowText=1.4, motion=0.06, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 023] state=look_up, rows=35/35, age=0.25s, edges=T, bandLap=1773, lineLap=2807, lightStd=13.5, belowText=1.3, motion=0.06, stable=0/3
+  [OBS 024] state=look_up, rows=35/35, age=0.14s, edges=T, bandLap=1663, lineLap=2617, lightStd=13.8, belowText=1.1, motion=0.11, stable=0/3
+  [OBS 025] state=look_up, rows=37/35, age=0.16s, edges=T, bandLap=1456, lineLap=2414, lightStd=14.1, belowText=1.1, motion=0.09, stable=0/3
+  [OBS 026] state=hold_still, rows=36/36, age=0.23s, edges=B, bandLap=1270, lineLap=1784, lightStd=14.0, belowText=0.0, motion=1.38, stable=0/3
+  [OBS 027] state=hold_still, rows=33/36, age=0.30s, edges=B, bandLap=1202, lineLap=1555, lightStd=13.5, belowText=0.0, motion=1.17, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 028] state=look_down, rows=32/36, age=0.14s, edges=B, bandLap=887, lineLap=1104, lightStd=12.3, belowText=0.0, motion=0.40, stable=0/3
+  [OBS 029] state=look_down, rows=35/36, age=0.16s, edges=B, bandLap=1610, lineLap=2167, lightStd=13.3, belowText=0.0, motion=0.88, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 030] state=look_down, rows=36/36, age=0.19s, edges=B, bandLap=2447, lineLap=3052, lightStd=13.5, belowText=0.0, motion=0.15, stable=0/3
+  [OBS 031] state=look_down, rows=36/36, age=0.16s, edges=B, bandLap=2329, lineLap=3086, lightStd=14.0, belowText=0.0, motion=0.03, stable=0/3
+  [OBS 032] state=look_down, rows=36/36, age=0.17s, edges=B, bandLap=1829, lineLap=2618, lightStd=14.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 033] state=look_down, rows=36/36, age=0.27s, edges=B, bandLap=1469, lineLap=1999, lightStd=14.3, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 034] state=look_down, rows=37/37, age=0.31s, edges=B, bandLap=1671, lineLap=2365, lightStd=14.0, belowText=1.2, motion=0.65, stable=0/3
+  [OBS 035] state=look_down, rows=37/37, age=0.27s, edges=B, bandLap=1053, lineLap=1408, lightStd=13.5, belowText=0.0, motion=0.25, stable=0/3
+  [OBS 036] state=look_down, rows=37/37, age=0.11s, edges=B, bandLap=2008, lineLap=2531, lightStd=13.7, belowText=0.0, motion=0.20, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 037] state=look_down, rows=36/37, age=0.12s, edges=B, bandLap=2021, lineLap=2547, lightStd=13.6, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 038] state=look_down, rows=34/37, age=0.28s, edges=B, bandLap=2290, lineLap=2741, lightStd=13.8, belowText=0.0, motion=0.51, stable=0/3
+  [OBS 039] state=hold_still, rows=2/37, age=0.23s, edges=B, bandLap=206, lineLap=197, lightStd=8.2, belowText=0.0, motion=2.66, stable=0/3
+  [OBS 040] state=hold_still, rows=0/37, age=0.16s, edges=none, bandLap=24, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.15, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 041] state=hold_still, rows=24/37, age=0.17s, edges=none, bandLap=213, lineLap=292, lightStd=9.5, belowText=3.4, motion=1.22, stable=0/3
+  [OBS 042] state=look_down, rows=28/37, age=0.19s, edges=B, bandLap=1076, lineLap=1181, lightStd=10.1, belowText=0.0, motion=0.90, stable=0/3
+  [OBS 043] state=look_down, rows=29/37, age=0.30s, edges=B, bandLap=867, lineLap=1016, lightStd=10.2, belowText=0.0, motion=0.51, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 044] state=look_down, rows=29/37, age=0.33s, edges=B, bandLap=2505, lineLap=2974, lightStd=11.1, belowText=0.0, motion=0.21, stable=0/3
+  [OBS 045] state=look_down, rows=30/37, age=0.14s, edges=B, bandLap=3006, lineLap=3534, lightStd=12.9, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 046] state=hold_still, rows=35/37, age=0.14s, edges=none, bandLap=605, lineLap=816, lightStd=17.3, belowText=1.0, motion=2.42, stable=0/3
+  [OBS 047] state=almost_ready, rows=37/37, age=0.14s, edges=none, bandLap=1729, lineLap=2231, lightStd=16.7, belowText=1.0, motion=0.98, stable=1/3
+  [OBS 048] state=almost_ready, rows=37/37, age=0.30s, edges=none, bandLap=1847, lineLap=2333, lightStd=14.1, belowText=1.0, motion=0.44, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 049] state=almost_ready, rows=37/37, age=0.31s, edges=none, bandLap=1924, lineLap=2522, lightStd=15.1, belowText=1.0, motion=0.07, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2001.
+
+────────────────────────────────────────────────────────────
+  RUN #6
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_006_20260909_090210.jpg
+[POST-CAPTURE] LapVar=306.3, score components: sharp=40, bright=30, even=8
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.672s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.994 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.995 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[STAGE 2] 4 regions, 10 NLLB chunks, french -> english: 1.588s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Field evaluation of wearable translation glasses
+[P1] A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a phone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently
+[P2] Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting
+[P3] Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.024s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260909_090213_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260909_090213_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] Region TTS stopped after 25.664s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.672s
+  Translation  : 1.588s
+  Spell Corr   : 0.024s
+  TTS Playback : 25.664s
+────────────────────────────────────────
+  TOTAL        : 28.609s
+────────────────────────────────────────
+
+  Ready for next capture!
+

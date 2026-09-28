@@ -1,0 +1,430 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.61s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.85s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.17s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.05s
+[LOAD] Conservative SymSpell dictionary loaded in 2.81s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.69s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=35/35, age=0.23s, edges=T, bandLap=878, lineLap=1289, lightStd=17.1, belowText=1.6, motion=6.77, stable=0/3
+  [OBS 003] state=look_up, rows=33/35, age=0.14s, edges=T, bandLap=591, lineLap=825, lightStd=15.7, belowText=0.9, motion=0.84, stable=0/3
+  [OBS 004] state=blurry, rows=33/35, age=0.16s, edges=none, bandLap=131, lineLap=129, lightStd=18.3, belowText=4.9, motion=2.96, stable=0/3
+  [OBS 005] state=look_down, rows=34/35, age=0.14s, edges=B, bandLap=1149, lineLap=1351, lightStd=17.0, belowText=1.1, motion=0.19, stable=0/3
+  [OBS 006] state=look_down, rows=35/35, age=0.23s, edges=B, bandLap=826, lineLap=889, lightStd=17.0, belowText=0.0, motion=0.06, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 007] state=almost_ready, rows=35/35, age=0.27s, edges=none, bandLap=2256, lineLap=2634, lightStd=15.2, belowText=1.4, motion=0.22, stable=1/3
+  [OBS 008] state=almost_ready, rows=35/35, age=0.11s, edges=none, bandLap=1143, lineLap=1664, lightStd=15.0, belowText=1.2, motion=0.21, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 009] state=almost_ready, rows=35/35, age=0.09s, edges=none, bandLap=1726, lineLap=2370, lightStd=14.4, belowText=1.4, motion=0.93, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #438.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260916_123721.jpg
+[POST-CAPTURE] LapVar=289.7, score components: sharp=38, bright=30, even=25
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.593s (35 detections, 35 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+FR16-01 - Réfection d'une passerelle dans une zone humide Une commune a décidé de réparer une passerelle en bois qui traverse une petite zone humide fréquentée par les promeneurs et les classes de sciences naturelles. L'ouvrage, long de 42 m, présentait plusieurs lames fendues et deux garde-corps instables, mais sa structure principale restait saine. Avant toute intervention, l'équipe technique a ferme l'accès et installé un itinéraire provisoire. Le chantier devait être court afin de limiter le dérangement des oiseaux nicheurs observés près de l'étang au début du printemps Choix des réparations Le diagnostic a distingué les éléments réellement dégradés de ceux qui pouvaient être conservés. Dix-sept lames ont été remplacées, ainsi que quatre montants verticaux. Le bois neuf a été choisi dans une essence naturellement durable et livré sans traitement de surface agressif. Les fixations corrodées ont été retirées une par une pour éviter d'endommager les pièces voisines. Pendant les travaux, les outils et les chutes de matériau ont été déposés sur une bâche, car aucune vis ni aucun fragment de métal ne devait rester dans la végétation humide. Une attention particulière a été portée à la géométrie du platelage Les espaces entre les lames ont été maintenus à environ 8 mm pour permettre l'écoulement de l'eau tout en restant confortables pour les petites roues et les cannes. La hauteur du garde-corps a été vérifiée sur toute la longueur, et un léger défaut d'alignement a été corrigé près de l'entrée nord. Après une pluie de 18 mm, l'équipe est revenue contrôler les zones où l'eau pouvait s'accumuler La passerelle a rouvert le 6 mai 2026 après une inspection conjointe du service technique et du responsable du site naturel Le rapport final ne se limitait pas à une liste de pièces remplacées : il indiquait aussi les zones à surveiller lors des visites annuelles. Cette approche a permis de prolonger la durée de vie de l'ouvrage sans transformer une réparation locale en reconstruction complète. Le service a aussi conservé des photographies prises avant et après les travaux, avec la position des pièces remplacées. Ces images serviront lors de la prochaine inspection pour distinguer une dégradation nouvelle d'un défaut déjà connu et jugé stable lors du suivi annuel
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 35 line(s) | confidence=0.994 | in the middle of the page
+    FR16-01 - Réfection d'une passerelle dans une zone humide Une commune a décidé de réparer une passerelle en bois qui traverse une petite zone humide fréquentée par les promeneurs et les classes de sciences naturelles. L'ouvrage, long de 42 m, présentait plusieurs lames fendues et deux garde-corps instables, mais sa structure principale restait saine. Avant toute intervention, l'équipe technique a ferme l'accès et installé un itinéraire provisoire. Le chantier devait être court afin de limiter le dérangement des oiseaux nicheurs observés près de l'étang au début du printemps Choix des réparations Le diagnostic a distingué les éléments réellement dégradés de ceux qui pouvaient être conservés. Dix-sept lames ont été remplacées, ainsi que quatre montants verticaux. Le bois neuf a été choisi dans une essence naturellement durable et livré sans traitement de surface agressif. Les fixations corrodées ont été retirées une par une pour éviter d'endommager les pièces voisines. Pendant les travaux, les outils et les chutes de matériau ont été déposés sur une bâche, car aucune vis ni aucun fragment de métal ne devait rester dans la végétation humide. Une attention particulière a été portée à la géométrie du platelage Les espaces entre les lames ont été maintenus à environ 8 mm pour permettre l'écoulement de l'eau tout en restant confortables pour les petites roues et les cannes. La hauteur du garde-corps a été vérifiée sur toute la longueur, et un léger défaut d'alignement a été corrigé près de l'entrée nord. Après une pluie de 18 mm, l'équipe est revenue contrôler les zones où l'eau pouvait s'accumuler La passerelle a rouvert le 6 mai 2026 après une inspection conjointe du service technique et du responsable du site naturel Le rapport final ne se limitait pas à une liste de pièces remplacées : il indiquait aussi les zones à surveiller lors des visites annuelles. Cette approche a permis de prolonger la durée de vie de l'ouvrage sans transformer une réparation locale en reconstruction complète. Le service a aussi conservé des photographies prises avant et après les travaux, avec la position des pièces remplacées. Ces images serviront lors de la prochaine inspection pour distinguer une dégradation nouvelle d'un défaut déjà connu et jugé stable lors du suivi annuel
+[STAGE 2] 1 regions, 14 NLLB chunks, french -> english: 0.939s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] FR16-01 - Repair of a footbridge in a wetland A municipality decided to repair a wooden footbridge through a small wetland frequented by walkers and science classes. The 42-meter-long structure had several cracked blades and two unstable guardrails, but its main structure remained intact. Before any intervention, the technical team has closed the access and set up a temporary route. The work was to be short in order to limit the disturbance of the breeding birds seen near the pond in early spring Choice of repairs The diagnosis distinguished between the elements which were actually degraded and those which could be retained. Seventeen blades and four vertical supports were replaced. The new wood has been selected in a naturally durable fuel and delivered without aggressive surface treatment. The corroded fasteners were removed one by one to avoid damaging the adjacent parts. During the work, tools and falling material were placed on a tarp, since no screws or metal fragments were to remain in the damp vegetation. Particular attention was paid to the geometry of the plating The spacing between the blades was kept at about 8 mm to allow the water to flow while remaining comfortable for small wheels and rods. The height of the guardrail was checked along the entire length, and a slight misalignment was corrected near the north entrance. After 18 mm of rain, the team returned to check the areas where water could accumulate The bridge reopened on 6 May 2026 after a joint inspection by the technical service and the natural site manager The final report was not limited to a list of replaced parts: it also indicated the areas to be monitored during the annual visits. This approach extended the life of the structure without turning a local repair into a complete reconstruction. The department also kept photographs taken before and after the work, with the position of the replaced parts. These images will be used at the next inspection to distinguish a new deterioration from a defect already known and considered stable during the annual monitoring.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.023s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_123724_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260916_123724_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.593s
+  Translation  : 0.939s
+  Spell Corr   : 0.023s
+  TTS Playback : 62.689s
+────────────────────────────────────────
+  TOTAL        : 65.919s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=8/8, age=0.34s, edges=none, bandLap=521, lineLap=648, lightStd=6.9, belowText=9.0, motion=0.00, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 002] state=hold_still, rows=21/20, age=0.06s, edges=B, bandLap=1439, lineLap=1814, lightStd=8.6, belowText=0.0, motion=1.96, stable=0/3
+  [OBS 003] state=hold_still, rows=32/30, age=0.11s, edges=B, bandLap=1927, lineLap=2212, lightStd=13.2, belowText=0.0, motion=1.03, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=hold_still, rows=36/35, age=0.25s, edges=B, bandLap=1449, lineLap=1599, lightStd=15.4, belowText=0.0, motion=1.23, stable=0/3
+  [OBS 005] state=look_down, rows=37/37, age=0.23s, edges=B, bandLap=1677, lineLap=2169, lightStd=16.2, belowText=0.0, motion=0.59, stable=0/3
+  [OBS 006] state=look_down, rows=36/36, age=0.11s, edges=B, bandLap=1008, lineLap=1345, lightStd=16.2, belowText=0.0, motion=0.32, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 007] state=look_down, rows=36/36, age=0.11s, edges=B, bandLap=901, lineLap=1422, lightStd=16.1, belowText=1.4, motion=0.61, stable=0/3
+  [OBS 008] state=almost_ready, rows=36/36, age=0.23s, edges=none, bandLap=1353, lineLap=1736, lightStd=15.4, belowText=1.9, motion=0.89, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 009] state=hold_still, rows=36/36, age=0.11s, edges=none, bandLap=611, lineLap=880, lightStd=16.5, belowText=1.4, motion=1.10, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 010] state=hold_still, rows=17/36, age=0.28s, edges=B, bandLap=377, lineLap=460, lightStd=17.7, belowText=0.0, motion=3.85, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 011] state=bad_lighting, rows=24/36, age=0.27s, edges=B, bandLap=228, lineLap=563, lightStd=29.9, belowText=6.1, motion=0.57, stable=0/3
+  [OBS 012] state=hold_still, rows=31/36, age=0.09s, edges=B, bandLap=1327, lineLap=1503, lightStd=12.6, belowText=0.0, motion=1.13, stable=0/3
+  [OBS 013] state=hold_still, rows=31/36, age=0.11s, edges=none, bandLap=684, lineLap=826, lightStd=15.3, belowText=1.3, motion=1.75, stable=0/3
+  [OBS 014] state=almost_ready, rows=33/36, age=0.23s, edges=none, bandLap=1363, lineLap=2047, lightStd=15.0, belowText=2.1, motion=0.86, stable=1/3
+  [OBS 015] state=almost_ready, rows=32/36, age=0.11s, edges=none, bandLap=1852, lineLap=2192, lightStd=15.0, belowText=1.5, motion=0.37, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 016] state=almost_ready, rows=31/36, age=0.09s, edges=none, bandLap=2059, lineLap=2600, lightStd=15.1, belowText=1.4, motion=0.19, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1328.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260916_123843.jpg
+[POST-CAPTURE] LapVar=254.6, score components: sharp=32, bright=30, even=12
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.438s (37 detections, 37 lines, 2 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+FR16-02 - Suivi d'un atelier de fermentation en école hôtelière Une école hôtelière a organisé un atelier de fermentation pour montrer aux élèves comment la température, le temps et l'hygiène influencent un produit vivant. Les groupes ont préparé de petites quantités de légumes lactofermentés avec la même recette de base, mais dans des bocaux identifiés séparément. Les légumes ont été pesés avant l'ajout de sel. puis tassés pour rester sous la saumure. Aucun bocal n'a été considéré comme une expérience de dégustation libre: l'objectif principal était d'observer une méthode contrôlée et de tenir un journal précis. Les bocaux ont été conservés dans une armoire ventilée dont la température variait entre 19,2 °C et 21,0 °C. Chaque matin, un élève notait l'aspect de la saumure, la présence de bulles et l'état du couvercle Le troisième jour, un groupe a remarqué que des morceaux dépassaient légèrement du liquide. Le bocal a été retiré de la série pédagogique et l'incident a été discuté avec l'enseignant, qui a insisté sur la différence entre corriger une procédure et chercher à sauver à tout prix un résultat attendu. Observation et traçabilité Les autres bocaux ont évolué de manière régulière. Le pH. mesuré uniquement à titre démonstratif avec un appareil étalonné, a diminué au fil des jours. Les élèves ont comparé leurs notes avec les valeurs instrumentales sans supposer qu'un seul chiffre pouvait garantir la qualité d'un aliment. Ils ont aussi constate que la taille des morceaux modifiait la vitesse à laquelle la saumure devenait homogène, même lorsque les masses de départ étaient proches. A la fin de l'atelier, chaque groupe a remis une fiche comprenant les masses, les dates, les températures observées et les écarts par rapport au protocole. La séance a surtout servi à développer une discipline de travail: préparer proprement. étiqueter. observer sans manipuler inutilement et signaler les anomalies. Les élèves ont ainsi abordé la termentation comme un processus mesurable plutôt que comme une recette qui réussirait automatiquement Pour la séance suivante, lenseignant a demandé que chaque groupe prépare à l'avance une feuille de suivi vide Cette petite contrainte devait éviter les notes dispersées et faciliter la comparaison des observations sans modifier la recette en cours d'expérience
+============================================================
+
+[REGIONS] Detected 2 text region(s): 0 title, 0 heading(s), 2 paragraph(s)
+  P1 | type=paragraph | 2 line(s) | confidence=0.995 | at the top of the page
+    FR16-02 - Suivi d'un atelier de fermentation en école hôtelière
+  P2 | type=paragraph | 35 line(s) | confidence=0.990 | in the middle of the page
+    Une école hôtelière a organisé un atelier de fermentation pour montrer aux élèves comment la température, le temps et l'hygiène influencent un produit vivant. Les groupes ont préparé de petites quantités de légumes lactofermentés avec la même recette de base, mais dans des bocaux identifiés séparément. Les légumes ont été pesés avant l'ajout de sel. puis tassés pour rester sous la saumure. Aucun bocal n'a été considéré comme une expérience de dégustation libre: l'objectif principal était d'observer une méthode contrôlée et de tenir un journal précis. Les bocaux ont été conservés dans une armoire ventilée dont la température variait entre 19,2 °C et 21,0 °C. Chaque matin, un élève notait l'aspect de la saumure, la présence de bulles et l'état du couvercle Le troisième jour, un groupe a remarqué que des morceaux dépassaient légèrement du liquide. Le bocal a été retiré de la série pédagogique et l'incident a été discuté avec l'enseignant, qui a insisté sur la différence entre corriger une procédure et chercher à sauver à tout prix un résultat attendu. Observation et traçabilité Les autres bocaux ont évolué de manière régulière. Le pH. mesuré uniquement à titre démonstratif avec un appareil étalonné, a diminué au fil des jours. Les élèves ont comparé leurs notes avec les valeurs instrumentales sans supposer qu'un seul chiffre pouvait garantir la qualité d'un aliment. Ils ont aussi constate que la taille des morceaux modifiait la vitesse à laquelle la saumure devenait homogène, même lorsque les masses de départ étaient proches. A la fin de l'atelier, chaque groupe a remis une fiche comprenant les masses, les dates, les températures observées et les écarts par rapport au protocole. La séance a surtout servi à développer une discipline de travail: préparer proprement. étiqueter. observer sans manipuler inutilement et signaler les anomalies. Les élèves ont ainsi abordé la termentation comme un processus mesurable plutôt que comme une recette qui réussirait automatiquement Pour la séance suivante, lenseignant a demandé que chaque groupe prépare à l'avance une feuille de suivi vide Cette petite contrainte devait éviter les notes dispersées et faciliter la comparaison des observations sans modifier la recette en cours d'expérience
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: source digits absent: 19,2, 21,0
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: new output digits: 19.2, 21.0
+[STAGE 2] 2 regions, 19 NLLB chunks, french -> english: 1.193s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] FR16-02 - Following a fermentation workshop at a hotel school
+[P2] A hotel school organized a fermentation workshop to show students how temperature, weather, and hygiene affect a living product. The groups prepared small quantities of lactofermented vegetables with the same basic recipe, but in separately identified jars. The vegetables were weighed before salt was added. Then stuffed to stay under the brine. No bottles were considered as free tasting experiments: the main objective was to observe a controlled method and to keep a precise diary. The jars were stored in a ventilated cabinet with a temperature between 19.2 °C and 21.0 °C. On the third day, one group noticed that pieces of brine were slightly sticking out of the liquid. The jar was removed from the teaching series and the incident was discussed with the teacher, who stressed the difference between correcting a procedure and trying to save an expected result at all costs. Observation and traceability The other jars have evolved steadily. The pH. The number of people who have been exposed to the virus, measured only for demonstration purposes with a calibrated apparatus, has decreased over the days. The students compared their scores with the instrumental values without assuming that a single number could guarantee the quality of a food. They also found that the size of the pieces changed the rate at which the brine became homogeneous, even when the starting masses were close. At the end of the workshop, each group handed over a sheet with the masses, dates, observed temperatures and deviations from the protocol. The main purpose of the session was to develop a work discipline: to prepare properly. I'm going to label it. observe without unnecessary manipulation and report anomalies. The students thus approached the training as a measurable process rather than as a recipe that would succeed automatically For the next session, the teacher asked each group to prepare a blank follow-up sheet in advance This small constraint was to avoid scattered grades and facilitate comparison of observations without changing the recipe being experimented on.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.022s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_123846_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260916_123846_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.438s
+  Translation  : 1.193s
+  Spell Corr   : 0.022s
+  TTS Playback : 64.075s
+────────────────────────────────────────
+  TOTAL        : 67.402s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.38s, edges=none, bandLap=132, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.09s, edges=none, bandLap=38, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.38, stable=0/3
+  [OBS 003] state=hold_still, rows=29/29, age=0.12s, edges=B, bandLap=1474, lineLap=1593, lightStd=13.6, belowText=0.0, motion=1.59, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=hold_still, rows=0/29, age=0.22s, edges=none, bandLap=104, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.60, stable=0/3
+  [OBS 005] state=hold_still, rows=0/29, age=0.08s, edges=none, bandLap=62, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.05, stable=0/3
+  [OBS 006] state=hold_still, rows=6/27, age=0.12s, edges=B, bandLap=1054, lineLap=1261, lightStd=8.4, belowText=0.0, motion=5.19, stable=0/3
+  [OBS 007] state=look_down, rows=35/34, age=0.12s, edges=B, bandLap=1300, lineLap=1312, lightStd=15.9, belowText=0.0, motion=0.77, stable=0/3
+  [OBS 008] state=almost_ready, rows=35/35, age=0.28s, edges=none, bandLap=841, lineLap=1118, lightStd=15.3, belowText=1.0, motion=0.68, stable=1/3
+  [OBS 009] state=almost_ready, rows=35/35, age=0.28s, edges=none, bandLap=2486, lineLap=2918, lightStd=14.6, belowText=1.1, motion=0.07, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 010] state=almost_ready, rows=35/35, age=0.23s, edges=none, bandLap=2759, lineLap=2875, lightStd=14.5, belowText=1.2, motion=0.06, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2129.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260916_123959.jpg
+[POST-CAPTURE] LapVar=378.6, score components: sharp=40, bright=30, even=18
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.250s (35 detections, 35 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+FR16-03 - Essai d'un relais radio sur un sentier de montagne Méthode de parcours Un club de radio amateur a préparé un essai de couverture le long d'un sentier de montagne utilisé lors d'événements sportifs locaux. Le but était de vérifier si un petit relais temporaire pouvait améliorer les communications entre le parking, un refuge et deux points situés derrière une crête. L'équipe ne cherchait pas une portée maximale; elle voulait identifier les endroits où la liaison devenait instable avec des antennes portatives ordinaires. Le relais a été installé sur un support à 2,4 m du sol, loin des câbles électriques et des surfaces métalliques importantes. Quatre binômes ont suivi des itinéraires définis et effectué un appel toutes les quinze minutes. Chaque appel comportait un identifiant, I'heure, la position et une phrase de contrôle connue. Le correspondant au refuge notait la lisibilité sur une échelle simple et demandait une répétition lorsque des mots manquaient. À 10:45, un binôme a obtenu une communication correcte à un endroit qui était presque inutilisable sans relais. En revanche, une zone boisée plus basse restait difficile malgré l'amélioration générale Les techniciens ont ensuite modifié légèrement l'orientation de l'antenne du relais et répété deux trajets. Le changement n'a pas été présenté comme une optimisation scientifique, car le nombre de mesures était limité et les conditions variaient avec le déplacement des personnes. Il a néanmoins montré qu'une installation stable et bien dégagée comptait autant que la puissance nominale La batterie, donnée pour 12 V, est restée au-dessus de 11,7 V pendant toute la période d'essai Le compte rendu a conclu qu'un relais temporaire pouvait aider l'organisation d'un événement, mais qu'il ne supprimait pas les zones d'ombre. Les responsables ont donc conservé des points de passage obligatoires et une procédure de secours indépendante. L'essai a surtout fourni une carte pratique des secteurs fiables et des secteurs incertains, utile pour préparer de futures équipes sans promettre une couverture parfaite. Les fichiers audio de quelques appels ont été conservés avec l'heure et le point de mesure. Ils permettront aux nouveaux opérateurs de comprendre la différence entre un signal simplement faible et une communication réellement difficile à utiliser facilement sur le terrain.
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 35 line(s) | confidence=0.992 | in the middle of the page
+    FR16-03 - Essai d'un relais radio sur un sentier de montagne Méthode de parcours Un club de radio amateur a préparé un essai de couverture le long d'un sentier de montagne utilisé lors d'événements sportifs locaux. Le but était de vérifier si un petit relais temporaire pouvait améliorer les communications entre le parking, un refuge et deux points situés derrière une crête. L'équipe ne cherchait pas une portée maximale; elle voulait identifier les endroits où la liaison devenait instable avec des antennes portatives ordinaires. Le relais a été installé sur un support à 2,4 m du sol, loin des câbles électriques et des surfaces métalliques importantes. Quatre binômes ont suivi des itinéraires définis et effectué un appel toutes les quinze minutes. Chaque appel comportait un identifiant, I'heure, la position et une phrase de contrôle connue. Le correspondant au refuge notait la lisibilité sur une échelle simple et demandait une répétition lorsque des mots manquaient. À 10:45, un binôme a obtenu une communication correcte à un endroit qui était presque inutilisable sans relais. En revanche, une zone boisée plus basse restait difficile malgré l'amélioration générale Les techniciens ont ensuite modifié légèrement l'orientation de l'antenne du relais et répété deux trajets. Le changement n'a pas été présenté comme une optimisation scientifique, car le nombre de mesures était limité et les conditions variaient avec le déplacement des personnes. Il a néanmoins montré qu'une installation stable et bien dégagée comptait autant que la puissance nominale La batterie, donnée pour 12 V, est restée au-dessus de 11,7 V pendant toute la période d'essai Le compte rendu a conclu qu'un relais temporaire pouvait aider l'organisation d'un événement, mais qu'il ne supprimait pas les zones d'ombre. Les responsables ont donc conservé des points de passage obligatoires et une procédure de secours indépendante. L'essai a surtout fourni une carte pratique des secteurs fiables et des secteurs incertains, utile pour préparer de futures équipes sans promettre une couverture parfaite. Les fichiers audio de quelques appels ont été conservés avec l'heure et le point de mesure. Ils permettront aux nouveaux opérateurs de comprendre la différence entre un signal simplement faible et une communication réellement difficile à utiliser facilement sur le terrain.
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: source digits absent: 2,4, 11,7
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: new output digits: 2.4, 15, 11.7
+[STAGE 2] 1 regions, 15 NLLB chunks, french -> english: 1.027s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] FR16-03 - Testing of a radio relay on a mountain trail Course Method An amateur radio club prepared a coverage test along a mountain trail used for local sporting events. The aim was to see if a small temporary relay could improve communications between the car park, a shelter and two points behind a ridge. The team was not looking for maximum range; they wanted to identify where the link became unstable with ordinary portable antennas. The relay was installed on a support 2.4 m above the ground, away from electrical cables and heavy metal surfaces. Four pairs followed defined routes and made a call every 15 minutes. Each call had an ID, time, location, and a known control phrase. The correspondent at the shelter noted the readability on a simple scale and asked for a repeat if words were missing. At 10:45 a.m., a pairing got a proper communication at a location that was almost unusable without a relay. However, a lower wooded area remained difficult despite the general improvement. The technicians then slightly changed the orientation of the relay antenna and repeated two routes. The change was not presented as a scientific optimisation, as the number of measures was limited and conditions varied with the movement of people. It nevertheless showed that a stable and well-cleared installation was as important as the rated power The battery, given for 12 V, remained above 11.7 V throughout the test period The report concluded that a temporary relay could help with the organisation of an event, but that it did not remove shady areas. The authorities have therefore maintained mandatory crossing points and an independent rescue procedure. The trial provided a practical map of reliable and uncertain sectors, useful for preparing future teams without promising perfect coverage. The audio files of some calls were kept with the time and measurement point. They will enable new operators to understand the difference between a merely weak signal and a really difficult communication that is easy to use in the field.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.026s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_124002_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260916_124002_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.250s
+  Translation  : 1.027s
+  Spell Corr   : 0.026s
+  TTS Playback : 76.535s
+────────────────────────────────────────
+  TOTAL        : 79.500s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=18/18, age=0.31s, edges=none, bandLap=815, lineLap=1061, lightStd=9.0, belowText=3.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=19/19, age=0.12s, edges=none, bandLap=1796, lineLap=1874, lightStd=8.7, belowText=6.4, motion=0.39, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 003] state=blurry, rows=20/20, age=0.16s, edges=none, bandLap=251, lineLap=349, lightStd=8.8, belowText=4.2, motion=0.04, stable=0/3
+  [OBS 004] state=almost_ready, rows=22/21, age=0.17s, edges=none, bandLap=1568, lineLap=1663, lightStd=7.7, belowText=3.0, motion=0.40, stable=1/3
+  [OBS 005] state=almost_ready, rows=19/21, age=0.11s, edges=none, bandLap=1964, lineLap=2314, lightStd=7.3, belowText=2.0, motion=0.49, stable=2/3
+  [OBS 006] state=almost_ready, rows=19/21, age=0.23s, edges=none, bandLap=1867, lineLap=2157, lightStd=8.4, belowText=4.7, motion=0.07, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2931.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260916_124127.jpg
+[POST-CAPTURE] LapVar=193.7, score components: sharp=22, bright=30, even=18
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.437s (31 detections, 31 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+FR12-01 - Inventaire des arbres urbains après une vague de chaleur Après une période de chaleur exceptionnelle, le service des espaces verts d'une ville moyenne a lancé un inventaire ciblé des arbres situés le long de trois avenues très minérales. L'objectif n'était pas de classer toute la population arborée, mais de repérer rapidement les sujets qui montraient des signes de stress et de comparer leur état avec les informations d'entretien disponibles. Les agents ont utilisé une fiche commune afin que les observations restent comparables d'un quartier à l'autre Pour chaque arbre, la fiche indiquait l'espèce, le diamètre approximatif du tronc, la largeur de la fosse de plantation et l'état visuel du feuillage Une catégorie séparée signalait les branches cassées, les blessures récentes et les signes de tassement du sol Les équipes ont également noté la présence d'un revêtement imperméable à moins de 50 cm du tronc. Les relevés ont commencé tôt le matin, car une inspection en plein milieu de journée aurait été moins confortable et aurait pu inciter les agents à accélérer les observations Des symptômes à la décision Sur 186 arbres examinés. trente-deux présentaient une perte de feuilles nettement plus importante que les autres sujets de la même espèce. Ce chiffre n'a pas été interprété comme un taux de mortalité Plusieurs arbres avaient déjà subi des travaux de voirie ou disposaient de fosses très petites. Les dossiers d'arrosage ont montré que deux rues avaient reçu des apports irréguliers pendant une semaine de restriction Le service a donc séparé les problèmes urgents. comme une branche dangereuse, des symptômes qui demandaient seulement une surveillance renforcée Un programme d'intervention a été organisé sur quatre semaines. Les jeunes arbres ont reçu un arrosage profond à intervalles définis, tandis que certains pieds ont été protégés contre le piétinement Là où cela était possible, une petite surtace imperméable a été retirée autour des fosses pour faciliter linfiltration. Les agents ont évité les tailles sévères, jugées inutiles sur des arbres déjà stressés. Une nouvelle visite a été programmée pour la fin septembre alin de vérifier l'évolution du feuillage et l'état des branches. L'inventaire a surtout amelioré la qualité des décisions. Au lieu de traiter tous les arbres de la même manière, le service disposait désormais d'observations datées, de photos et d'un historique d'entretien. Les données ne remplaçaient pas l'expertise d'un arboriste pour les cas complexes, mais elles facilitalent la priorisation des visiles et la communication avec les habilants qui signalaient un arbre en difficulté
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 31 line(s) | confidence=0.984 | in the middle of the page
+    FR12-01 - Inventaire des arbres urbains après une vague de chaleur Après une période de chaleur exceptionnelle, le service des espaces verts d'une ville moyenne a lancé un inventaire ciblé des arbres situés le long de trois avenues très minérales. L'objectif n'était pas de classer toute la population arborée, mais de repérer rapidement les sujets qui montraient des signes de stress et de comparer leur état avec les informations d'entretien disponibles. Les agents ont utilisé une fiche commune afin que les observations restent comparables d'un quartier à l'autre Pour chaque arbre, la fiche indiquait l'espèce, le diamètre approximatif du tronc, la largeur de la fosse de plantation et l'état visuel du feuillage Une catégorie séparée signalait les branches cassées, les blessures récentes et les signes de tassement du sol Les équipes ont également noté la présence d'un revêtement imperméable à moins de 50 cm du tronc. Les relevés ont commencé tôt le matin, car une inspection en plein milieu de journée aurait été moins confortable et aurait pu inciter les agents à accélérer les observations Des symptômes à la décision Sur 186 arbres examinés. trente-deux présentaient une perte de feuilles nettement plus importante que les autres sujets de la même espèce. Ce chiffre n'a pas été interprété comme un taux de mortalité Plusieurs arbres avaient déjà subi des travaux de voirie ou disposaient de fosses très petites. Les dossiers d'arrosage ont montré que deux rues avaient reçu des apports irréguliers pendant une semaine de restriction Le service a donc séparé les problèmes urgents. comme une branche dangereuse, des symptômes qui demandaient seulement une surveillance renforcée Un programme d'intervention a été organisé sur quatre semaines. Les jeunes arbres ont reçu un arrosage profond à intervalles définis, tandis que certains pieds ont été protégés contre le piétinement Là où cela était possible, une petite surtace imperméable a été retirée autour des fosses pour faciliter linfiltration. Les agents ont évité les tailles sévères, jugées inutiles sur des arbres déjà stressés. Une nouvelle visite a été programmée pour la fin septembre alin de vérifier l'évolution du feuillage et l'état des branches. L'inventaire a surtout amelioré la qualité des décisions. Au lieu de traiter tous les arbres de la même manière, le service disposait désormais d'observations datées, de photos et d'un historique d'entretien. Les données ne remplaçaient pas l'expertise d'un arboriste pour les cas complexes, mais elles facilitalent la priorisation des visiles et la communication avec les habilants qui signalaient un arbre en difficulté
+[STAGE 2] 1 regions, 14 NLLB chunks, french -> english: 1.175s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] FR12-01 - Inventory of urban trees after a heat wave Following an exceptionally hot period, the Green Spaces Department of a medium-sized city launched a targeted tree inventory along three very mineral-rich avenues. The aim was not to classify the entire tree population, but to quickly identify subjects who showed signs of stress and compare their condition with available maintenance information. The officers used a common chart to ensure that observations were comparable from one neighbourhood to another For each tree, the chart indicated the species, the approximate diameter of the trunk, the width of the planting pit and the visual condition of the foliage A separate category reported broken branches, recent injuries and signs of soil settlement The teams also noted the presence of waterproof coating within 50 cm of the trunk. Sampling began early in the morning, as a midday inspection would have been less comfortable and could have prompted officers to speed up the observations of symptoms to decision on 186 trees examined. Thirty-two had significantly more leaf loss than other subjects of the same species. This figure has not been interpreted as a mortality rate. Several trees had already undergone road works or had very small pits. Irrigation records showed that two streets had received irregular supplies during a week of restrictions. A programme of intervention was organised over four weeks. The young trees were deeply watered at defined intervals, while some of the stems were protected from stomping. Where possible, a small waterproof cover was removed around the pits to facilitate water infiltration. Officers avoided the harsh pruning, which was deemed unnecessary on already stressed trees. A further visit was scheduled for the end of September to check the development of foliage and the condition of the branches. The inventory has mainly improved the quality of decisions. Instead of treating all trees in the same way, the department now had dated observations, photographs and a maintenance history. The data did not replace the expertise of an arborist for complex cases, but it made it easier to prioritize sightings and communicate with tree dressers who signalled a tree in distress
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.024s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_124130_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_004_20260916_124130_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.437s
+  Translation  : 1.175s
+  Spell Corr   : 0.024s
+  TTS Playback : 32.134s
+────────────────────────────────────────
+  TOTAL        : 35.467s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.34s, edges=none, bandLap=24, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=0/0, age=0.14s, edges=none, bandLap=49, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.26, stable=0/3
+  [OBS 003] state=hold_still, rows=25/25, age=0.08s, edges=none, bandLap=614, lineLap=753, lightStd=10.7, belowText=1.3, motion=1.46, stable=0/3
+  [OBS 004] state=almost_ready, rows=26/26, age=0.17s, edges=none, bandLap=296, lineLap=278, lightStd=10.6, belowText=1.1, motion=0.16, stable=1/3
+  [OBS 005] state=almost_ready, rows=29/28, age=0.12s, edges=none, bandLap=1836, lineLap=1942, lightStd=9.7, belowText=0.9, motion=0.08, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 006] state=hold_still, rows=11/28, age=0.12s, edges=B, bandLap=290, lineLap=302, lightStd=8.5, belowText=12.7, motion=1.12, stable=0/3
+  [OBS 007] state=blurry, rows=0/28, age=0.25s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.47, stable=0/3
+  [OBS 008] state=hold_still, rows=30/30, age=0.08s, edges=none, bandLap=1321, lineLap=1639, lightStd=10.7, belowText=1.1, motion=2.62, stable=0/3
+  [OBS 009] state=page_not_found, rows=0/30, age=0.14s, edges=none, bandLap=88, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.30, stable=0/3
+  [OBS 010] state=almost_ready, rows=30/30, age=0.14s, edges=none, bandLap=1182, lineLap=1501, lightStd=12.3, belowText=1.0, motion=0.57, stable=1/3
+  [OBS 011] state=almost_ready, rows=30/30, age=0.12s, edges=none, bandLap=1340, lineLap=1565, lightStd=13.0, belowText=0.9, motion=0.42, stable=2/3
+  [OBS 012] state=almost_ready, rows=30/30, age=0.20s, edges=none, bandLap=1210, lineLap=1443, lightStd=12.8, belowText=0.9, motion=0.26, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #3514.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260916_124219.jpg
+[POST-CAPTURE] LapVar=165.9, score components: sharp=18, bright=30, even=14
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.453s (27 detections, 27 lines, 5 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+FR12-02 - Contrôle climatique d'une réserve de textiles Un petit musée municipal conserve des costumes, des drapeaux et des fragments de tissu dans une réserve qui n avait pas été rénovée depuis plusieurs années Lorsque de nouvelles étagères ont eté installées. la conservatrice a profité du déplacement des collections pour vérfier les conditions climatiques de la pièce. Trois enregistreurs autonomes ont été placés à des hauteurs diffèrentes, loin des fenêtres et des sorties d'air directes. Ils ont mesuré la température et I'humidité relative toutes les dix minutes pendant six semaines. Mesures et réorganisation La température est restée relativement stable, entre 18,4 °C et 21,6 °C, mais I'humidité relative a montré des variations plus rapides Une zone proche du mur extérieur dépassait parfois 65% après de fortes pluies Les boites stockées à cet endroit ne présentaient pas de dommage visible pourtant l'équipe a choisi de les déplacer avant que le problème ne devienne chronique Un contrôle du batiment a ensuite révélé qu'une descente d'eau pluviale fuyait légèrement à Fextérieur La réserve a été réorganisée pour créer une circulation d'air plus régulière autour des rayonnages Les textiles lourds ont éte répartis sur plusieurs niveaux afin d'éviter une charge excessive sur une seule tablette. Les pièces fragiles ont reçu des supports neutres adaptés à leur forme, et les étiquettes anciennes ont été remplacées lorsqu'elles risquaient de se détacher Chaque déplacement a été enregistré dans la base de localisation; aucune boite n'a changé de place sans mise à jour de son numéro d'étagère Après la réparation de la descente d'eau. les capteurs ont continué à enregistrer pendant deux semaines La zone problématique n'a plus montré de hausse brutale, même pendant un épisode pluvieux de 27 mm La conservatrice a toutefois décidé de maintenir un capteur sur ce mur pendant toute la saison humide Cette décision reposait sur un risque connu et documenté, plutôt que sur l'idée que la réparation avait définitivement supprimé toute possibilité de vaniation Le projet a rappelé qu'un bon stockage ne dépend pas seulement d'une tempéralure moyenne La prendre une mesure corrective
+============================================================
+
+[REGIONS] Detected 5 text region(s): 0 title, 1 heading(s), 4 paragraph(s)
+  H1 | type=section_heading | 1 line(s) | confidence=0.980 | in the upper part of the page
+    FR12-02 - Contrôle climatique d'une réserve de textiles
+  P1 | type=paragraph | 7 line(s) | confidence=0.983 | in the upper part of the page
+    Un petit musée municipal conserve des costumes, des drapeaux et des fragments de tissu dans une réserve qui n avait pas été rénovée depuis plusieurs années Lorsque de nouvelles étagères ont eté installées. la conservatrice a profité du déplacement des collections pour vérfier les conditions climatiques de la pièce. Trois enregistreurs autonomes ont été placés à des hauteurs diffèrentes, loin des fenêtres et des sorties d'air directes. Ils ont mesuré la température et I'humidité relative toutes les dix minutes pendant six semaines. Mesures et réorganisation
+  P2 | type=paragraph | 16 line(s) | confidence=0.981 | in the lower part of the page
+    La température est restée relativement stable, entre 18,4 °C et 21,6 °C, mais I'humidité relative a montré des variations plus rapides Une zone proche du mur extérieur dépassait parfois 65% après de fortes pluies Les boites stockées à cet endroit ne présentaient pas de dommage visible pourtant l'équipe a choisi de les déplacer avant que le problème ne devienne chronique Un contrôle du batiment a ensuite révélé qu'une descente d'eau pluviale fuyait légèrement à Fextérieur La réserve a été réorganisée pour créer une circulation d'air plus régulière autour des rayonnages Les textiles lourds ont éte répartis sur plusieurs niveaux afin d'éviter une charge excessive sur une seule tablette. Les pièces fragiles ont reçu des supports neutres adaptés à leur forme, et les étiquettes anciennes ont été remplacées lorsqu'elles risquaient de se détacher Chaque déplacement a été enregistré dans la base de localisation; aucune boite n'a changé de place sans mise à jour de son numéro d'étagère Après la réparation de la descente d'eau. les capteurs ont continué à enregistrer pendant deux semaines La zone problématique n'a plus montré de hausse brutale, même pendant un épisode pluvieux de 27 mm La conservatrice a toutefois décidé de maintenir un capteur sur ce mur pendant toute la saison humide Cette décision reposait sur un risque connu et documenté, plutôt
+  P3 | type=paragraph | 1 line(s) | confidence=0.976 | in the lower part of the page
+    que sur l'idée que la réparation avait définitivement supprimé toute possibilité de vaniation Le
+  P4 | type=paragraph | 2 line(s) | confidence=0.986 | at the bottom of the page
+    projet a rappelé qu'un bon stockage ne dépend pas seulement d'une tempéralure moyenne La prendre une mesure corrective
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: source digits absent: 18,4, 21,6
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 18.4, 21.6
+[STAGE 2] 5 regions, 11 NLLB chunks, french -> english: 1.323s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[H1] FR12-02 - Climate control of a stock of textiles
+[P1] A small municipal museum keeps costumes, flags and fragments of cloth in a reserve that had not been renovated for several years when new shelves were installed. The curator took advantage of the relocation of the collections to verify the climatic conditions of the room. Three independent recorders were placed at different heights, away from windows and direct air outlets. They measured the temperature and relative humidity every ten minutes for six weeks. Measures and reorganisation
+[P2] The temperature remained relatively stable, between 18.4°C and 21.6°C, but relative humidity showed faster variations An area close to the outer wall sometimes exceeded 65% after heavy rains The boxes stored there did not show any visible damage yet the team chose to move them before the problem became chronic A building inspection later revealed that a rainwater drain was leaking slightly to the outside The reserve was rearranged to create more regular air circulation around the racks The heavy textiles were spread over several levels to avoid excessive load on a single table. Fragile pieces were given neutral supports adapted to their shape, and old labels were replaced when they were in danger of breaking off. Each movement was recorded in the location database; no box changed place without updating its shelf number after the waterfall was repaired. the sensors continued to record for two weeks the problem area no longer showed a sharp rise even during an episode of 27 mm rain the conservator however decided to keep a sensor on this wall throughout the wet season this decision was based on a known and documented risk, rather
+[P3] The Commission's proposals for a directive on the approximation of the laws of the Member States relating to the safeguarding of employees' rights
+[P4] The project recalled that good storage does not depend only on an average temperature
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.021s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260916_124223_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260916_124223_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.453s
+  Translation  : 1.323s
+  Spell Corr   : 0.021s
+  TTS Playback : 80.635s
+────────────────────────────────────────
+  TOTAL        : 84.104s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=0/0, age=0.42s, edges=none, bandLap=73, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=0/0, age=0.08s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.18, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=hold_still, rows=0/0, age=0.11s, edges=none, bandLap=30, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.18, stable=0/3
+  [OBS 004] state=hold_still, rows=28/28, age=0.17s, edges=B, bandLap=228, lineLap=280, lightStd=8.0, belowText=1.1, motion=1.08, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 005] state=look_down, rows=28/28, age=0.11s, edges=B, bandLap=1857, lineLap=2009, lightStd=10.1, belowText=0.0, motion=0.55, stable=0/3
+  [OBS 006] state=hold_still, rows=28/28, age=0.31s, edges=none, bandLap=2075, lineLap=2143, lightStd=11.2, belowText=1.2, motion=1.10, stable=0/3
+  [OBS 007] state=hold_still, rows=4/28, age=0.09s, edges=none, bandLap=397, lineLap=270, lightStd=10.7, belowText=9.3, motion=0.09, stable=0/3
+  [OBS 008] state=almost_ready, rows=25/28, age=0.09s, edges=none, bandLap=560, lineLap=684, lightStd=11.0, belowText=1.1, motion=0.34, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 009] state=hold_still, rows=27/28, age=0.11s, edges=none, bandLap=1033, lineLap=1288, lightStd=10.7, belowText=1.4, motion=1.04, stable=1/3
+  [OBS 010] state=almost_ready, rows=27/28, age=0.12s, edges=none, bandLap=1127, lineLap=1550, lightStd=10.8, belowText=1.4, motion=0.74, stable=2/3
+  [OBS 011] state=almost_ready, rows=28/28, age=0.23s, edges=none, bandLap=1461, lineLap=2089, lightStd=9.6, belowText=1.4, motion=0.47, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #4541.
+
+────────────────────────────────────────────────────────────
+  RUN #6
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_006_20260916_124355.jpg
+[POST-CAPTURE] LapVar=213.7, score components: sharp=26, bright=30, even=18
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.218s (29 detections, 29 lines, 1 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+FR12-03 - Audit de la chaîne du froid dans une coopérative laitière Une coopérative laitière qui collecte le lait de plusieurs fermes a réalisé un audit iniene de sa chaine du froid avant la période la plus chaude de l'année Les responsables voulaien vénfier le temps écoulé entre la traite, le refroidissement à la ferme. le transport el l'amvée au cenire de collecte Pendant cinq jours, des enregistreurs de température ont été placés dans quaire citenes représentatives Les chauffeurs ont également noté les heures de départ les arrèis et les éventuels retards sur un formulaire standardisé Les données ont moniré que la majorité des trajets restaient dans la plage attendue, mais un tnéraire du mardi présentait une hausse progressive pendant les quarante dernières minules L'équipe a d'abord vérfié si le capteur avait été mal placé Après confirmation de sa position, elle a inspecté la citerne et découvent qu'un joint de trappe étail usé Le joint a été remplacé avant le trajet suivant Cette séquence a été conservée dans le rappon afin de monirer comment une anomalie instrumentale apparente peut conduire à une vérification matérielle utile L'audit s est également intéressé aux delais Le parcours le plus long devail normalemeni durer 2 h 15, mais il a atteini 2 h 48 un jour de travaux routiers La température n'a pas dépassé la limite interne, cependant la marge de sécurité était plus faible La coopérative a donc défini un tinéraire secondaire et demande aux chauffeurs de signaler immédiatement tout arrêt imprévu supeneur à quinze minutes Les décisions ne reposaient pas sur un seul indicateur. mais sur la combinaison du temps. de la température et de l'étar du matériel Contrôles à la réception Au centre de collecte, les sondes portatives utilisées pour les contrôles ponctuels oni été comparées avec une référence Deux appareils affichaient un écant supeneur à O 6 °C el ont été retirés jusqu'à recalibrage Les opérateurs ont aussi revu la méthode de nettoyage des sondes entre deux lots afin d'éviter de transformer une procédure de mesure en source de contamination. Une fiche plastifiée a été placée près du poste de réception pour rappeler la séquence correcte A la fin de l'audit. la coopérative n'a pas conclu que sa chaine du froid étail parlaite Elle a plutót identifié des points de contrôle mesurables élat des joints, fiabilité des sondes, durée des trajets el réaction aux retards Un second audit, plus court, a été programmé six semaines plus tard pour vérifier que les actions décidées étaient réellement appliquées sur le terrain
+============================================================
+
+[REGIONS] Detected 1 text region(s): 0 title, 0 heading(s), 1 paragraph(s)
+  P1 | type=paragraph | 29 line(s) | confidence=0.973 | in the middle of the page
+    FR12-03 - Audit de la chaîne du froid dans une coopérative laitière Une coopérative laitière qui collecte le lait de plusieurs fermes a réalisé un audit iniene de sa chaine du froid avant la période la plus chaude de l'année Les responsables voulaien vénfier le temps écoulé entre la traite, le refroidissement à la ferme. le transport el l'amvée au cenire de collecte Pendant cinq jours, des enregistreurs de température ont été placés dans quaire citenes représentatives Les chauffeurs ont également noté les heures de départ les arrèis et les éventuels retards sur un formulaire standardisé Les données ont moniré que la majorité des trajets restaient dans la plage attendue, mais un tnéraire du mardi présentait une hausse progressive pendant les quarante dernières minules L'équipe a d'abord vérfié si le capteur avait été mal placé Après confirmation de sa position, elle a inspecté la citerne et découvent qu'un joint de trappe étail usé Le joint a été remplacé avant le trajet suivant Cette séquence a été conservée dans le rappon afin de monirer comment une anomalie instrumentale apparente peut conduire à une vérification matérielle utile L'audit s est également intéressé aux delais Le parcours le plus long devail normalemeni durer 2 h 15, mais il a atteini 2 h 48 un jour de travaux routiers La température n'a pas dépassé la limite interne, cependant la marge de sécurité était plus faible La coopérative a donc défini un tinéraire secondaire et demande aux chauffeurs de signaler immédiatement tout arrêt imprévu supeneur à quinze minutes Les décisions ne reposaient pas sur un seul indicateur. mais sur la combinaison du temps. de la température et de l'étar du matériel Contrôles à la réception Au centre de collecte, les sondes portatives utilisées pour les contrôles ponctuels oni été comparées avec une référence Deux appareils affichaient un écant supeneur à O 6 °C el ont été retirés jusqu'à recalibrage Les opérateurs ont aussi revu la méthode de nettoyage des sondes entre deux lots afin d'éviter de transformer une procédure de mesure en source de contamination. Une fiche plastifiée a été placée près du poste de réception pour rappeler la séquence correcte A la fin de l'audit. la coopérative n'a pas conclu que sa chaine du froid étail parlaite Elle a plutót identifié des points de contrôle mesurables élat des joints, fiabilité des sondes, durée des trajets el réaction aux retards Un second audit, plus court, a été programmé six semaines plus tard pour vérifier que les actions décidées étaient réellement appliquées sur le terrain
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: source digits absent: 2, 2
+[TRANSLATION REVIEW] Region 1: Review numerical rendering: new output digits: 40
+[STAGE 2] 1 regions, 6 NLLB chunks, french -> english: 1.660s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] FR12-03 - Audit of the cold chain in a dairy cooperative A dairy cooperative which collects milk from several farms carried out an in-house audit of its cold chain before the hottest time of year. The data showed that the majority of journeys remained within the expected range, but one Tuesday morning showed a gradual increase over the last 40 minutes The team first checked whether the sensor had been misplaced After confirming its position, they inspected the tank and discovered that a single worn-out trap joint had been replaced before the next trip The driver therefore requested that this sequence be kept within the normal range to indicate how an apparent instrumental anomaly could lead to a secondary check of the temperature of the tank. The secondary inspector was also concerned that the temperature of the tank did not exceed 15 degrees Fahrenheit, however, and that it was not useful to rest for more than two days. The driver was not immediately informed of the delay, but the secondary inspector did not have to rest for more than 48 hours. It's about the combination of time. temperature and condition of the equipment Checks at reception At the collection centre, the portable probes used for spot checks were compared with a reference Two devices had a gradient above O 6 °C and were removed until recalibration The operators also revised the method of cleaning the probes between batches to avoid turning a measuring procedure into a source of contamination. A plastic sheet was placed near the receiving station to remind the correct sequence at the end of the audit. The co-operative did not conclude that its cold chain was stable. Rather, it identified measurable checkpoints for joint width, probe reliability, travel time and reaction to delays. A second, shorter audit was scheduled six weeks later to verify that the actions decided were actually being implemented in the field.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.021s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260916_124358_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_006_20260916_124358_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.218s
+  Translation  : 1.660s
+  Spell Corr   : 0.021s
+  TTS Playback : 60.948s
+────────────────────────────────────────
+  TOTAL        : 64.523s
+────────────────────────────────────────
+
+  Ready for next capture!
+

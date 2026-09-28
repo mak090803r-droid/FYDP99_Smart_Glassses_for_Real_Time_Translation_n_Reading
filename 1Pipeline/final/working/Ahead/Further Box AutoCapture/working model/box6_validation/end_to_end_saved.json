@@ -1,0 +1,73 @@
+{
+  "audio_played": false,
+  "camera_used": false,
+  "runs": [
+    {
+      "source_selection": "chinese",
+      "target": "english",
+      "elapsed_seconds": 14.25,
+      "region_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "region_types": [
+        "page_title",
+        "paragraph",
+        "paragraph",
+        "paragraph"
+      ],
+      "translation_statuses": [
+        "bypassed_same_language",
+        "bypassed_same_language",
+        "bypassed_same_language",
+        "bypassed_same_language"
+      ],
+      "timings": {
+        "ocr": 1.514999999999418,
+        "translation": 0.002476500001648674,
+        "spell": 0.0020058155059814453,
+        "tts": 12.624366998672485,
+        "total": 14.250315427780151,
+        "processing_before_audio": 1.625948429107666
+      },
+      "pcm_clips": 7,
+      "generated_audio_seconds": 138.11351473922903
+    },
+    {
+      "source_selection": "english",
+      "target": "urdu",
+      "elapsed_seconds": 24.125,
+      "region_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "region_types": [
+        "page_title",
+        "paragraph",
+        "paragraph",
+        "paragraph"
+      ],
+      "translation_statuses": [
+        "translated",
+        "translated",
+        "translated",
+        "translated"
+      ],
+      "timings": {
+        "ocr": 1.0790000000015425,
+        "translation": 3.6645223000014084,
+        "spell": 0.0,
+        "tts": 19.25946569442749,
+        "total": 24.134621143341064,
+        "processing_before_audio": 4.875155448913574
+      },
+      "pcm_clips": 6,
+      "generated_audio_seconds": 162.24539682539682
+    }
+  ],
+  "note": "Wall time includes real inference but a silent instantaneous PCM sink, not real audio playback. Physical Pi/speaker operation remains untested."
+}

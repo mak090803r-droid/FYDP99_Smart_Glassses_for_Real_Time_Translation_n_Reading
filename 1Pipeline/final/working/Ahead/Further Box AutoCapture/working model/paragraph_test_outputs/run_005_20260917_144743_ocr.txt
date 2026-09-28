@@ -1,0 +1,63 @@
+======================================================================
+RUN          : 5
+TIMESTAMP    : 20260917_144743
+IMAGE FILE   : capture_cli_005_20260917_144741.jpg
+LANGUAGE     : chinese
+TEXT REGIONS : 4
+PAGE TITLES  : 1
+HEADINGS     : 0
+PARAGRAPHS   : 3
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+偏远地区混合能源站的自主监测与维护 一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供 电。微电网需要持续支持诊所、无线电中继、气象设备和安全照 明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每 二百毫秒采集电压、电流、温度与振动数据、并在能源不足时优 先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状 态摘要会在链路恢复时发送到控制中心。 二〇二五年十月十八日一场沙尘风暴使太阳能输出在十五分 钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇 还出现异常低频振动。控制器没有关闭整座电站，而是断开非必 要加热装置、降低部分照明功率并启动备用发电机。诊断模块随 后提出三个可能原因太阳能板被碎屑遮挡、风扇轴承磨损，以 及电池连接器的接触电阻上升。 风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报 警代码，本地处理单元再与离线维护手册进行比对。由于资料涉 及关键基础设施，图像没有上传云端。采集程序先确认整个标签 位于安全边界内，并分别检查全图和上部区域的清晰度：若画面 被裁切、耳机会提示向左、向右或向后移动。目标只有连续四帧 稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序 与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池 端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化 必须解释判断、承认不确定性，并把最终决定留给人。
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=1.000 | font_scale=1.05 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=34.50 | bbox=(430, 193, 948, 250)
+  SOURCE    : 偏远地区混合能源站的自主监测与维护
+  LAYOUT LINES:
+    L01 | bbox=(436, 199, 942, 248) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=40.99 | font_scale=1.05 | heading=top_title_geometry | decision=start_of_page | text=偏远地区混合能源站的自主监测与维护
+  TRANSLATED: Autonomous monitoring and maintenance of hybrid power stations in remote areas
+  SPOKEN    : Autonomous monitoring and maintenance of hybrid power stations in remote areas
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=6 | conf=0.995 | font_scale=1.13 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=34.50 | bbox=(266, 250, 1160, 488)
+  SOURCE    : 一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供 电。微电网需要持续支持诊所、无线电中继、气象设备和安全照 明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每 二百毫秒采集电压、电流、温度与振动数据、并在能源不足时优 先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状 态摘要会在链路恢复时发送到控制中心。
+  LAYOUT LINES:
+    L01 | bbox=(297, 245, 1123, 306) | pitch=52.00 | gap_ratio=1.51 | indent=23.50 | font_height=41.01 | font_scale=1.05 | heading=ordinary_text | decision=after_heading | text=一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供
+    L02 | bbox=(272, 281, 1128, 347) | pitch=38.50 | gap_ratio=1.12 | indent=-6.50 | font_height=43.01 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=电。微电网需要持续支持诊所、无线电中继、气象设备和安全照
+    L03 | bbox=(275, 319, 1135, 383) | pitch=37.00 | gap_ratio=1.07 | indent=-11.00 | font_height=44.01 | font_scale=1.13 | heading=ordinary_text | decision=continuation | text=明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每
+    L04 | bbox=(282, 359, 1143, 413) | pitch=35.00 | gap_ratio=1.01 | indent=-13.00 | font_height=37.01 | font_scale=0.95 | heading=ordinary_text | decision=continuation | text=二百毫秒采集电压、电流、温度与振动数据、并在能源不足时优
+    L05 | bbox=(290, 396, 1154, 447) | pitch=35.50 | gap_ratio=1.03 | indent=-30.50 | font_height=37.00 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状
+    L06 | bbox=(300, 440, 816, 482) | pitch=39.50 | gap_ratio=1.14 | indent=-30.50 | font_height=37.00 | font_scale=0.96 | heading=sentence_ending | decision=continuation | text=态摘要会在链路恢复时发送到控制中心。
+  TRANSLATED: A plateau test station relies on solar arrays, lithium batteries and a small diesel generator to power it. Micro-grids need to continue to support clinics, radio relay, weather equipment and safety lighting. Roads can be closed for days in winter and the network is unstable, so local controllers collect voltage, current, temperature and vibration data every 200 milliseconds, and prioritize medical and communications loads when energy is scarce. The complete record is stored on the station, and only the compressed status summary is sent to the control center when the link is restored.
+  SPOKEN    : A plateau test station relies on solar arrays, lithium batteries and a small diesel generator to power it. Micro-grids need to continue to support clinics, radio relay, weather equipment and safety lighting. Roads can be closed for days in winter and the network is unstable, so local controllers collect voltage, current, temperature and vibration data every 200 milliseconds, and prioritize medical and communications loads when energy is scarce. The complete record is stored on the station, and only the compressed status summary is sent to the control center when the link is restored.
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=6 | conf=0.995 | font_scale=1.07 | heading_evidence=ordinary_text | break=short_final_line_plus_indent | normal_pitch=34.50 | bbox=(314, 505, 1194, 736)
+  SOURCE    : 二〇二五年十月十八日一场沙尘风暴使太阳能输出在十五分 钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇 还出现异常低频振动。控制器没有关闭整座电站，而是断开非必 要加热装置、降低部分照明功率并启动备用发电机。诊断模块随 后提出三个可能原因太阳能板被碎屑遮挡、风扇轴承磨损，以 及电池连接器的接触电阻上升。
+  LAYOUT LINES:
+    L01 | bbox=(341, 511, 1171, 560) | pitch=74.50 | gap_ratio=2.16 | indent=16.50 | font_height=37.00 | font_scale=0.99 | heading=ordinary_text | decision=short_final_line_plus_indent | text=二〇二五年十月十八日一场沙尘风暴使太阳能输出在十五分
+    L02 | bbox=(320, 544, 1176, 596) | pitch=34.50 | gap_ratio=1.00 | indent=-14.50 | font_height=40.00 | font_scale=1.07 | heading=ordinary_text | decision=continuation | text=钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇
+    L03 | bbox=(329, 579, 1180, 630) | pitch=34.50 | gap_ratio=1.00 | indent=-17.00 | font_height=40.00 | font_scale=1.07 | heading=ordinary_text | decision=continuation | text=还出现异常低频振动。控制器没有关闭整座电站，而是断开非必
+    L04 | bbox=(340, 615, 1183, 661) | pitch=33.50 | gap_ratio=0.97 | indent=-17.50 | font_height=38.00 | font_scale=0.99 | heading=ordinary_text | decision=continuation | text=要加热装置、降低部分照明功率并启动备用发电机。诊断模块随
+    L05 | bbox=(352, 649, 1188, 698) | pitch=35.50 | gap_ratio=1.03 | indent=-34.50 | font_height=40.00 | font_scale=1.07 | heading=ordinary_text | decision=continuation | text=后提出三个可能原因太阳能板被碎屑遮挡、风扇轴承磨损，以
+    L06 | bbox=(363, 692, 770, 730) | pitch=37.50 | gap_ratio=1.09 | indent=-38.50 | font_height=34.00 | font_scale=0.91 | heading=sentence_ending | decision=continuation | text=及电池连接器的接触电阻上升。
+  TRANSLATED: On October 18, 2025, a dust storm caused a 34 percent drop in solar output in fifteen minutes, a temperature rise of eight degrees Celsius in the battery cabinet, and an abnormally low frequency vibration in the inverter fan. Instead of shutting down the entire power plant, the controller disconnects unnecessary heating devices, lowers the power of some lighting and starts the backup generator. Diagnostic modules then suggested three possible reasons for the shredded solar panels, fan bearing wear, and increased contact resistance of the battery connector.
+  SPOKEN    : On October 18, 2025, a dust storm caused a 34 percent drop in solar output in fifteen minutes, a temperature rise of eight degrees Celsius in the battery cabinet, and an abnormally low frequency vibration in the inverter fan. Instead of shutting down the entire power plant, the controller disconnects unnecessary heating devices, lowers the power of some lighting and starts the backup generator. Diagnostic modules then suggested three possible reasons for the shredded solar panels, fan bearing wear, and increased contact resistance of the battery connector.
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=9 | conf=0.985 | font_scale=1.04 | heading_evidence=ordinary_text | break=blank_gap_after_short_line | normal_pitch=34.50 | bbox=(387, 756, 1244, 1078)
+  SOURCE    : 风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报 警代码，本地处理单元再与离线维护手册进行比对。由于资料涉 及关键基础设施，图像没有上传云端。采集程序先确认整个标签 位于安全边界内，并分别检查全图和上部区域的清晰度：若画面 被裁切、耳机会提示向左、向右或向后移动。目标只有连续四帧 稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序 与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池 端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化 必须解释判断、承认不确定性，并把最终决定留给人。
+  LAYOUT LINES:
+    L01 | bbox=(410, 762, 1203, 808) | pitch=74.00 | gap_ratio=2.14 | indent=10.00 | font_height=37.00 | font_scale=1.00 | heading=ordinary_text | decision=blank_gap_after_short_line | text=风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报
+    L02 | bbox=(393, 798, 1209, 842) | pitch=35.00 | gap_ratio=1.01 | indent=-20.00 | font_height=37.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=警代码，本地处理单元再与离线维护手册进行比对。由于资料涉
+    L03 | bbox=(407, 832, 1213, 877) | pitch=34.50 | gap_ratio=1.00 | indent=-20.00 | font_height=37.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=及关键基础设施，图像没有上传云端。采集程序先确认整个标签
+    L04 | bbox=(419, 864, 1217, 912) | pitch=33.50 | gap_ratio=0.97 | indent=-25.50 | font_height=37.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=位于安全边界内，并分别检查全图和上部区域的清晰度：若画面
+    L05 | bbox=(435, 896, 1222, 946) | pitch=33.00 | gap_ratio=0.96 | indent=-29.50 | font_height=36.99 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=被裁切、耳机会提示向左、向右或向后移动。目标只有连续四帧
+    L06 | bbox=(454, 931, 1226, 979) | pitch=34.00 | gap_ratio=0.99 | indent=-28.50 | font_height=37.00 | font_scale=1.04 | heading=ordinary_text | decision=continuation | text=稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序
+    L07 | bbox=(475, 967, 1232, 1011) | pitch=34.00 | gap_ratio=0.99 | indent=-25.50 | font_height=34.00 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池
+    L08 | bbox=(490, 1000, 1238, 1041) | pitch=31.50 | gap_ratio=0.91 | indent=-21.00 | font_height=34.00 | font_scale=0.92 | heading=ordinary_text | decision=continuation | text=端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化
+    L09 | bbox=(511, 1035, 1127, 1072) | pitch=33.00 | gap_ratio=0.96 | indent=28.50 | font_height=34.00 | font_scale=0.92 | heading=sentence_ending | decision=continuation | text=必须解释判断、承认不确定性，并把最终决定留给人。
+  TRANSLATED: After the storm weakened, technicians used head-mounted cameras to read the insignia, serial numbers and alarm codes, and the local processing unit was compared to the offline maintenance manual. The images were not uploaded to the cloud because the material involved critical infrastructure. The capture process first confirms that the entire label is within the safety boundary and checks the clarity of the whole image and the upper area separately: if the image is cropped, the headset prompts to move left, right or backwards. The target is saved only when the sequence of four lines is stable and the text is clear enough. The next day's logs showed that the automatic sorting was consistent with the artificial judgment: first the panels were cleaned, then the fan bearings were replaced, and finally the battery terminals were tightened. The disposal took six minutes and critical services were not interrupted. This shows that reliable automation must interpret judgments, acknowledge uncertainty, and leave the final decision to humans.
+  SPOKEN    : After the storm weakened, technicians used head-mounted cameras to read the insignia, serial numbers and alarm codes, and the local processing unit was compared to the offline maintenance manual. The images were not uploaded to the cloud because the material involved critical infrastructure. The capture process first confirms that the entire label is within the safety boundary and checks the clarity of the whole image and the upper area separately: if the image is cropped, the headset prompts to move left, right or backwards. The target is saved only when the sequence of four lines is stable and the text is clear enough. The next day's logs showed that the automatic sorting was consistent with the artificial judgment: first the panels were cleaned, then the fan bearings were replaced, and finally the battery terminals were tightened. The disposal took six minutes and critical services were not interrupted. This shows that reliable automation must interpret judgments, acknowledge uncertainty, and leave the final decision to humans.
+
+======================================================================

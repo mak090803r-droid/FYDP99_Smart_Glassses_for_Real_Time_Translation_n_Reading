@@ -1,0 +1,87 @@
+{"wall_time": "2026-09-22T14:49:21+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260922_144921"}
+{"wall_time": "2026-09-22T14:49:24+0500", "elapsed_seconds": 2.594, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-22T14:49:56+0500", "elapsed_seconds": 34.297, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-22T14:50:00+0500", "elapsed_seconds": 38.844, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:50:00+0500", "elapsed_seconds": 38.844, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:50:01+0500", "elapsed_seconds": 39.594, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:50:03+0500", "elapsed_seconds": 41.5, "event": "automatic_capture", "generation": 10, "frame_sequence": 167, "stability_count": 3}
+{"wall_time": "2026-09-22T14:50:07+0500", "elapsed_seconds": 45.469, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-22T14:50:07+0500", "elapsed_seconds": 45.641, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-22T14:50:13+0500", "elapsed_seconds": 51.531, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-22T14:50:13+0500", "elapsed_seconds": 51.531, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-22T14:50:15+0500", "elapsed_seconds": 54.016, "event": "box8", "message": "Table analysis: 0 table(s), 5.28s", "tables": []}
+{"wall_time": "2026-09-22T14:50:47+0500", "elapsed_seconds": 85.391, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-22T14:50:47+0500", "elapsed_seconds": 85.391, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "stop"}
+{"wall_time": "2026-09-22T14:51:10+0500", "elapsed_seconds": 108.719, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-22T14:51:14+0500", "elapsed_seconds": 112.328, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:14+0500", "elapsed_seconds": 112.328, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:15+0500", "elapsed_seconds": 113.813, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:15+0500", "elapsed_seconds": 114.031, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:15+0500", "elapsed_seconds": 114.031, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:17+0500", "elapsed_seconds": 115.938, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:20+0500", "elapsed_seconds": 118.766, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:20+0500", "elapsed_seconds": 118.766, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:21+0500", "elapsed_seconds": 119.844, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:22+0500", "elapsed_seconds": 121.063, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:22+0500", "elapsed_seconds": 121.063, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:24+0500", "elapsed_seconds": 122.984, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:24+0500", "elapsed_seconds": 123.078, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:51:24+0500", "elapsed_seconds": 123.078, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:51:25+0500", "elapsed_seconds": 123.766, "event": "automatic_capture", "generation": 22, "frame_sequence": 734, "stability_count": 3}
+{"wall_time": "2026-09-22T14:51:25+0500", "elapsed_seconds": 123.828, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:51:29+0500", "elapsed_seconds": 127.656, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-22T14:51:29+0500", "elapsed_seconds": 127.719, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-22T14:51:35+0500", "elapsed_seconds": 133.609, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-22T14:51:35+0500", "elapsed_seconds": 133.609, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-22T14:51:35+0500", "elapsed_seconds": 134.141, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "stop"}
+{"wall_time": "2026-09-22T14:51:38+0500", "elapsed_seconds": 137.125, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-22T14:51:41+0500", "elapsed_seconds": 139.359, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:41+0500", "elapsed_seconds": 139.359, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:42+0500", "elapsed_seconds": 141.297, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:46+0500", "elapsed_seconds": 145.016, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:46+0500", "elapsed_seconds": 145.016, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:47+0500", "elapsed_seconds": 146.109, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:51:48+0500", "elapsed_seconds": 146.469, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:48+0500", "elapsed_seconds": 146.469, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:50+0500", "elapsed_seconds": 148.375, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:51:52+0500", "elapsed_seconds": 150.734, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:51:52+0500", "elapsed_seconds": 150.734, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:51:53+0500", "elapsed_seconds": 151.453, "event": "automatic_capture", "generation": 21, "frame_sequence": 958, "stability_count": 3}
+{"wall_time": "2026-09-22T14:51:53+0500", "elapsed_seconds": 151.484, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:51:57+0500", "elapsed_seconds": 155.438, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-22T14:51:57+0500", "elapsed_seconds": 155.516, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-22T14:52:03+0500", "elapsed_seconds": 161.375, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-22T14:52:03+0500", "elapsed_seconds": 161.391, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-22T14:52:05+0500", "elapsed_seconds": 164.047, "event": "box8", "message": "Table analysis: 0 table(s), 5.52s", "tables": []}
+{"wall_time": "2026-09-22T14:52:06+0500", "elapsed_seconds": 164.391, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "stop"}
+{"wall_time": "2026-09-22T14:52:06+0500", "elapsed_seconds": 164.453, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-22T14:52:14+0500", "elapsed_seconds": 172.828, "event": "pi_message", "message": {"cmd": "capture_from_pi"}}
+{"wall_time": "2026-09-22T14:52:18+0500", "elapsed_seconds": 177.234, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-22T14:52:18+0500", "elapsed_seconds": 177.234, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-22T14:52:20+0500", "elapsed_seconds": 178.906, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
+{"wall_time": "2026-09-22T14:52:24+0500", "elapsed_seconds": 182.938, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:52:24+0500", "elapsed_seconds": 182.953, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:52:25+0500", "elapsed_seconds": 184.016, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:52:26+0500", "elapsed_seconds": 184.516, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:52:26+0500", "elapsed_seconds": 184.516, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:52:28+0500", "elapsed_seconds": 186.438, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:52:29+0500", "elapsed_seconds": 187.922, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:52:29+0500", "elapsed_seconds": 187.922, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:52:30+0500", "elapsed_seconds": 189.016, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-22T14:52:31+0500", "elapsed_seconds": 189.469, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:52:31+0500", "elapsed_seconds": 189.469, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:52:33+0500", "elapsed_seconds": 191.391, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-22T14:52:35+0500", "elapsed_seconds": 193.547, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:52:35+0500", "elapsed_seconds": 193.547, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:52:35+0500", "elapsed_seconds": 194.25, "event": "automatic_capture", "generation": 30, "frame_sequence": 1445, "stability_count": 3}
+{"wall_time": "2026-09-22T14:52:36+0500", "elapsed_seconds": 194.297, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-22T14:52:39+0500", "elapsed_seconds": 198.031, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-22T14:52:39+0500", "elapsed_seconds": 198.109, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-22T14:52:45+0500", "elapsed_seconds": 203.969, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-22T14:52:45+0500", "elapsed_seconds": 203.969, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-22T14:52:48+0500", "elapsed_seconds": 206.563, "event": "box8", "message": "Table analysis: 0 table(s), 5.47s", "tables": []}
+{"wall_time": "2026-09-22T14:53:14+0500", "elapsed_seconds": 232.563, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-22T14:53:14+0500", "elapsed_seconds": 232.578, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-22T14:53:14+0500", "elapsed_seconds": 232.578, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "quit"}
+{"wall_time": "2026-09-22T14:53:14+0500", "elapsed_seconds": 232.641, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-22T14:53:14+0500", "elapsed_seconds": 232.641, "event": "session_ending"}

@@ -1,7 +1,0 @@
-{"wall_time": "2026-09-01T12:16:44+0500", "elapsed_seconds": 0.016, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260901_121644"}
-{"wall_time": "2026-09-01T12:18:30+0500", "elapsed_seconds": 105.688, "event": "guidance_started", "state": "page_not_found", "prompt": "Find the printed text."}
-{"wall_time": "2026-09-01T12:18:30+0500", "elapsed_seconds": 105.688, "event": "guidance_queued", "state": "page_not_found", "prompt": "Find the printed text."}
-{"wall_time": "2026-09-01T12:18:31+0500", "elapsed_seconds": 107.094, "event": "guidance_finished", "state": "page_not_found", "prompt": "Find the printed text."}
-{"wall_time": "2026-09-01T12:18:32+0500", "elapsed_seconds": 108.672, "event": "forced_capture", "source": "keyboard", "frame_sequence": 990}
-{"wall_time": "2026-09-01T12:18:53+0500", "elapsed_seconds": 128.907, "event": "pi_disconnected"}
-{"wall_time": "2026-09-01T12:18:53+0500", "elapsed_seconds": 128.938, "event": "session_ending"}

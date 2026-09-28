@@ -1,0 +1,85 @@
+======================================================================
+RUN          : 4
+TIMESTAMP    : 20260917_144000
+IMAGE FILE   : capture_cli_004_20260917_143958.jpg
+LANGUAGE     : english
+TEXT REGIONS : 9
+PAGE TITLES  : 1
+HEADINGS     : 2
+PARAGRAPHS   : 6
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+Document Recognition System Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page. Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline. Module Function Output PaddleOCR Recognizes printed text Text Table Detector Finds table regions Bounding box Structure Model Finds rows and columns Table layout RoBERTa Answers text questions Answer Table 1. Main modules of the document-probessing pipeline System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings. This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand.
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+TITLE | region_id=1 | type=page_title | lines=1 | conf=0.988 | font_scale=1.03 | heading_evidence=top_title_geometry | break=start_of_page | normal_pitch=37.00 | bbox=(452, 41, 985, 101)
+  SOURCE    : Document Recognition System
+  LAYOUT LINES:
+    L01 | bbox=(459, 48, 978, 101) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=38.01 | font_scale=1.03 | heading=top_title_geometry | decision=start_of_page | text=Document Recognition System
+  SPOKEN    : Document Recognition System
+------------------------------------------------------------
+P1 | region_id=2 | type=paragraph | lines=7 | conf=0.993 | font_scale=1.10 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=37.00 | bbox=(191, 101, 1243, 395)
+  SOURCE    : Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page. Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline. Module Function
+  LAYOUT LINES:
+    L01 | bbox=(202, 100, 1107, 154) | pitch=52.50 | gap_ratio=1.42 | indent=2.00 | font_height=34.01 | font_scale=0.91 | heading=ordinary_text | decision=after_heading | text=Modern document-reading systems combine optical character
+    L02 | bbox=(200, 140, 1188, 194) | pitch=40.00 | gap_ratio=1.08 | indent=1.00 | font_height=38.00 | font_scale=1.03 | heading=ordinary_text | decision=continuation | text=recognition with layout analysis. OCR identifies printed words, while
+    L03 | bbox=(200, 178, 1177, 230) | pitch=37.00 | gap_ratio=1.00 | indent=2.00 | font_height=37.00 | font_scale=0.99 | heading=sentence_ending | decision=continuation | text=layout models determine how information is arranged on the page.
+    L04 | bbox=(198, 229, 1234, 279) | pitch=50.00 | gap_ratio=1.35 | indent=0.00 | font_height=40.00 | font_scale=1.10 | heading=ordinary_text | decision=continuation | text=Tables require special processing because their meaning depends on
+    L05 | bbox=(198, 269, 1236, 314) | pitch=37.50 | gap_ratio=1.01 | indent=-11.00 | font_height=37.00 | font_scale=1.01 | heading=ordinary_text | decision=continuation | text=rows, columns and headers. The following table summarizes the main
+    L06 | bbox=(198, 307, 1165, 349) | pitch=36.50 | gap_ratio=0.99 | indent=-406.00 | font_height=36.00 | font_scale=0.97 | heading=sentence_ending | decision=continuation | text=processing modules used in a typical intelligent reading pipeline.
+    L07 | bbox=(220, 376, 645, 410) | pitch=65.00 | gap_ratio=1.76 | indent=-157.50 | font_height=28.51 | font_scale=0.78 | heading=ordinary_text | decision=continuation | text=Module Function
+  SPOKEN    : Modern document-reading systems combine optical character recognition with layout analysis. OCR identifies printed words, while layout models determine how information is arranged on the page. Tables require special processing because their meaning depends on rows, columns and headers. The following table summarizes the main processing modules used in a typical intelligent reading pipeline. Module Function
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=37.00 | bbox=(981, 395, 1090, 420)
+  SOURCE    : Output
+  LAYOUT LINES:
+    L01 | bbox=(988, 381, 1083, 413) | pitch=4.00 | gap_ratio=0.11 | indent=223.00 | font_height=32.00 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=Output
+  SPOKEN    : Output
+------------------------------------------------------------
+P3 | region_id=4 | type=paragraph | lines=1 | conf=0.999 | font_scale=1.06 | heading_evidence=ordinary_text | break=column_change | normal_pitch=37.00 | bbox=(218, 420, 392, 445)
+  SOURCE    : PaddleOCR
+  LAYOUT LINES:
+    L01 | bbox=(225, 427, 385, 460) | pitch=46.50 | gap_ratio=1.26 | indent=-6.50 | font_height=29.99 | font_scale=1.06 | heading=ordinary_text | decision=column_change | text=PaddleOCR
+  SPOKEN    : PaddleOCR
+------------------------------------------------------------
+H1 | region_id=5 | type=section_heading | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=centred_isolated_heading | break=column_change | normal_pitch=37.00 | bbox=(523, 445, 1061, 469)
+  SOURCE    : Recognizes printed text Text
+  LAYOUT LINES:
+    L01 | bbox=(530, 432, 1054, 462) | pitch=3.50 | gap_ratio=0.09 | indent=-85.00 | font_height=28.00 | font_scale=0.99 | heading=centred_isolated_heading | decision=column_change | text=Recognizes printed text Text
+  SPOKEN    : Recognizes printed text Text
+------------------------------------------------------------
+P4 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.96 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=37.00 | bbox=(223, 472, 787, 496)
+  SOURCE    : Table Detector Finds table regions
+  LAYOUT LINES:
+    L01 | bbox=(230, 479, 780, 511) | pitch=48.00 | gap_ratio=1.30 | indent=-3.50 | font_height=27.01 | font_scale=0.96 | heading=ordinary_text | decision=after_heading | text=Table Detector Finds table regions
+  SPOKEN    : Table Detector Finds table regions
+------------------------------------------------------------
+P5 | region_id=7 | type=paragraph | lines=3 | conf=1.000 | font_scale=0.96 | heading_evidence=ordinary_text | break=column_change | normal_pitch=37.00 | bbox=(226, 496, 1174, 617)
+  SOURCE    : Bounding box Structure Model Finds rows and columns Table layout RoBERTa Answers text questions Answer
+  LAYOUT LINES:
+    L01 | bbox=(1000, 483, 1167, 510) | pitch=1.50 | gap_ratio=0.04 | indent=766.50 | font_height=27.00 | font_scale=0.96 | heading=ordinary_text | decision=column_change | text=Bounding box
+    L02 | bbox=(233, 530, 1157, 564) | pitch=50.50 | gap_ratio=1.36 | indent=-108.50 | font_height=28.00 | font_scale=0.95 | heading=ordinary_text | decision=continuation | text=Structure Model Finds rows and columns Table layout
+    L03 | bbox=(234, 577, 1110, 612) | pitch=47.50 | gap_ratio=1.28 | indent=-105.50 | font_height=27.99 | font_scale=0.95 | heading=ordinary_text | decision=continuation | text=RoBERTa Answers text questions Answer
+  SPOKEN    : Bounding box Structure Model Finds rows and columns Table layout RoBERTa Answers text questions Answer
+------------------------------------------------------------
+H2 | region_id=8 | type=section_heading | lines=1 | conf=0.986 | font_scale=1.02 | heading_evidence=centred_isolated_heading | break=heading | normal_pitch=37.00 | bbox=(442, 617, 1087, 665)
+  SOURCE    : Table 1. Main modules of the document-probessing pipeline
+  LAYOUT LINES:
+    L01 | bbox=(449, 621, 1080, 658) | pitch=45.00 | gap_ratio=1.22 | indent=213.00 | font_height=31.00 | font_scale=1.02 | heading=centred_isolated_heading | decision=heading | text=Table 1. Main modules of the document-probessing pipeline
+  SPOKEN    : Table 1. Main modules of the document-probessing pipeline
+------------------------------------------------------------
+P6 | region_id=9 | type=paragraph | lines=7 | conf=0.995 | font_scale=1.28 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=37.00 | bbox=(223, 674, 1284, 935)
+  SOURCE    : System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings. This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand.
+  LAYOUT LINES:
+    L01 | bbox=(230, 681, 563, 719) | pitch=60.50 | gap_ratio=1.64 | indent=-15.00 | font_height=35.00 | font_scale=1.09 | heading=ordinary_text | decision=after_heading | text=System Operation
+    L02 | bbox=(242, 710, 1273, 764) | pitch=37.00 | gap_ratio=1.00 | indent=-10.50 | font_height=41.00 | font_scale=1.28 | heading=ordinary_text | decision=continuation | text=After a page is captured, OCR extracts the visible words. If a table is
+    L03 | bbox=(248, 744, 1264, 794) | pitch=32.00 | gap_ratio=0.86 | indent=-12.50 | font_height=40.00 | font_scale=1.18 | heading=ordinary_text | decision=continuation | text=detected, the table region is processed separately so that individual
+    L04 | bbox=(257, 778, 1047, 824) | pitch=32.00 | gap_ratio=0.86 | indent=-9.50 | font_height=33.00 | font_scale=0.92 | heading=sentence_ending | decision=continuation | text=values remain associated with the correct headings.
+    L05 | bbox=(264, 819, 1256, 867) | pitch=42.00 | gap_ratio=1.14 | indent=-7.50 | font_height=37.00 | font_scale=1.09 | heading=ordinary_text | decision=continuation | text=This structured representation can later be translated, searched or
+    L06 | bbox=(269, 852, 1277, 897) | pitch=31.50 | gap_ratio=0.85 | indent=-5.00 | font_height=35.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=converted into speech. Preserving the document structure therefore
+    L07 | bbox=(274, 884, 1074, 928) | pitch=31.50 | gap_ratio=0.85 | indent=7.50 | font_height=33.00 | font_scale=0.92 | heading=sentence_ending | decision=continuation | text=makes spoken output easier for a user to understand.
+  SPOKEN    : System Operation After a page is captured, OCR extracts the visible words. If a table is detected, the table region is processed separately so that individual values remain associated with the correct headings. This structured representation can later be translated, searched or converted into speech. Preserving the document structure therefore makes spoken output easier for a user to understand.
+
+======================================================================

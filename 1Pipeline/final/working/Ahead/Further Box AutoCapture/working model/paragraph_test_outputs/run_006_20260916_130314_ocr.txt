@@ -1,0 +1,46 @@
+======================================================================
+RUN          : 6
+TIMESTAMP    : 20260916_130314
+IMAGE FILE   : capture_cli_006_20260916_130312.jpg
+LANGUAGE     : french
+TEXT REGIONS : 3
+PAGE TITLES  : 0
+HEADINGS     : 0
+PARAGRAPHS   : 3
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use. Temp (°C) Status Unit CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=4 | conf=0.995 | font_scale=1.16 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=53.25 | bbox=(196, 138, 1414, 340)
+  SOURCE    : TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use.
+  LAYOUT LINES:
+    L01 | bbox=(221, 148, 1165, 192) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=41.00 | font_scale=1.08 | heading=ordinary_text | decision=start_of_page | text=TABLE-EN16 - Indoor Sensor Verification Batch
+    L02 | bbox=(212, 205, 1404, 253) | pitch=59.00 | gap_ratio=1.11 | indent=5.00 | font_height=44.00 | font_scale=1.16 | heading=ordinary_text | decision=continuation | text=The following readings were recorded after a 20-minute stabilization
+    L03 | bbox=(208, 248, 1398, 292) | pitch=41.00 | gap_ratio=0.77 | indent=-330.50 | font_height=40.00 | font_scale=1.05 | heading=ordinary_text | decision=continuation | text=period. Each unit was compared with the same laboratory reference
+    L04 | bbox=(206, 288, 719, 330) | pitch=39.00 | gap_ratio=0.73 | indent=-105.50 | font_height=37.00 | font_scale=0.95 | heading=sentence_ending | decision=continuation | text=before release for student use.
+  TRANSLATED: TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use.
+  SPOKEN    : TABLE-EN16 - Indoor Sensor Verification Batch The following readings were recorded after a 20-minute stabilization period. Each unit was compared with the same laboratory reference before release for student use.
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=1 | conf=0.984 | font_scale=1.04 | heading_evidence=ordinary_text | break=column_change | normal_pitch=53.25 | bbox=(861, 341, 1316, 374)
+  SOURCE    : Temp (°C) Status
+  LAYOUT LINES:
+    L01 | bbox=(871, 351, 1306, 396) | pitch=64.50 | gap_ratio=1.21 | indent=567.00 | font_height=40.50 | font_scale=1.04 | heading=ordinary_text | decision=column_change | text=Temp (°C) Status
+  TRANSLATED: Temp (°C) Status
+  SPOKEN    : Temp (°C) Status
+------------------------------------------------------------
+P3 | region_id=3 | type=paragraph | lines=6 | conf=1.000 | font_scale=1.08 | heading_evidence=ordinary_text | break=column_change | normal_pitch=53.25 | bbox=(292, 374, 1323, 683)
+  SOURCE    : Unit CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass
+  LAYOUT LINES:
+    L01 | bbox=(321, 353, 759, 397) | pitch=1.50 | gap_ratio=0.03 | indent=17.00 | font_height=41.00 | font_scale=1.08 | heading=ordinary_text | decision=column_change | text=Unit CO2 (ppm)
+    L02 | bbox=(302, 408, 1291, 454) | pitch=56.00 | gap_ratio=1.05 | indent=-4.00 | font_height=38.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=AQ-01 512 22.4 Pass
+    L03 | bbox=(306, 464, 1287, 509) | pitch=55.50 | gap_ratio=1.04 | indent=0.00 | font_height=36.50 | font_scale=0.96 | heading=ordinary_text | decision=continuation | text=AQ-02 527 22.6 Pass
+    L04 | bbox=(306, 517, 1313, 566) | pitch=55.00 | gap_ratio=1.03 | indent=-0.50 | font_height=38.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=AQ-03 548 22.3 Recheck
+    L05 | bbox=(306, 571, 1289, 620) | pitch=54.00 | gap_ratio=1.01 | indent=-1.00 | font_height=38.00 | font_scale=1.00 | heading=ordinary_text | decision=continuation | text=AQ-04 519 22.5 Pass
+    L06 | bbox=(307, 623, 1292, 673) | pitch=52.50 | gap_ratio=0.99 | indent=1.00 | font_height=39.50 | font_scale=1.04 | heading=ordinary_text | decision=continuation | text=AQ-05 521 22.5 Pass
+  TRANSLATED: Unit of CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass is not included.
+  SPOKEN    : Unit of CO2 (ppm) AQ-01 512 22.4 Pass AQ-02 527 22.6 Pass AQ-03 548 22.3 Recheck AQ-04 519 22.5 Pass AQ-05 521 22.5 Pass is not included.
+
+======================================================================

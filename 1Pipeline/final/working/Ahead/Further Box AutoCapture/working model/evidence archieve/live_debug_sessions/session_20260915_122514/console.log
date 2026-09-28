@@ -1,0 +1,198 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.56s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.89s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.25s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.38s
+[LOAD] Conservative SymSpell dictionary loaded in 3.02s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=13/13, age=0.58s, edges=none, bandLap=46, lineLap=50, lightStd=8.1, belowText=0.9, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=7/7, age=0.14s, edges=B, bandLap=14, lineLap=20, lightStd=10.5, belowText=0.0, motion=2.51, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 003] state=blurry, rows=12/12, age=0.08s, edges=B, bandLap=82, lineLap=108, lightStd=8.3, belowText=0.0, motion=0.64, stable=0/3
+  [OBS 004] state=hold_still, rows=0/0, age=0.19s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.07, stable=0/3
+  [OBS 005] state=almost_ready, rows=14/14, age=0.17s, edges=none, bandLap=143, lineLap=146, lightStd=9.3, belowText=0.9, motion=0.37, stable=1/3
+  [OBS 006] state=almost_ready, rows=13/14, age=0.11s, edges=none, bandLap=172, lineLap=168, lightStd=9.0, belowText=0.9, motion=0.86, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 007] state=almost_ready, rows=13/14, age=0.27s, edges=none, bandLap=166, lineLap=231, lightStd=8.5, belowText=0.9, motion=0.25, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #290.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260915_122604.jpg
+[POST-CAPTURE] LapVar=20.7, score components: sharp=0, bright=30, even=13
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (20.7 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=4/4, age=0.30s, edges=none, bandLap=77, lineLap=146, lightStd=4.0, belowText=2.4, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=15/15, age=0.06s, edges=none, bandLap=1079, lineLap=1805, lightStd=10.7, belowText=1.0, motion=2.07, stable=0/3
+  [OBS 003] state=almost_ready, rows=15/15, age=0.17s, edges=none, bandLap=1300, lineLap=2071, lightStd=11.2, belowText=1.0, motion=0.10, stable=1/3
+  [OBS 004] state=almost_ready, rows=15/15, age=0.11s, edges=none, bandLap=1069, lineLap=1730, lightStd=11.0, belowText=1.0, motion=0.02, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 005] state=almost_ready, rows=15/15, age=0.12s, edges=none, bandLap=1243, lineLap=2402, lightStd=10.1, belowText=1.0, motion=0.02, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #481.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260915_122618.jpg
+[POST-CAPTURE] LapVar=216.9, score components: sharp=26, bright=30, even=29
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.453s (37 detections, 22 lines, 5 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition. Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor Table 2 Example recognition results under different conditions. Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+============================================================
+
+[REGIONS] Detected 5 text region(s): 1 title, 0 heading(s), 4 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.988 | at the top of the page
+    Experimental Evaluation
+  P1 | type=paragraph | 7 line(s) | confidence=0.997 | in the upper part of the page
+    Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition.
+  P2 | type=paragraph | 5 line(s) | confidence=0.996 | in the middle of the page
+    Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blur 81.9% Partial Poor
+  P3 | type=paragraph | 1 line(s) | confidence=0.982 | in the middle of the page
+    Table 2 Example recognition results under different conditions.
+  P4 | type=paragraph | 8 line(s) | confidence=0.994 | in the lower part of the page
+    Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+[STAGE 2] 5 regions, 10 NLLB chunks, french -> english: 0.597s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Experimental evaluation
+[P1] Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce accuracy. These values are provided as test content for evaluating OCR and table structure recognition.
+[P2] Condition OCR Table Structure Clear page 97.4% Detected Excellent Perspective 93.1% Detected Good Curved page 88.7% Detected Moderate Motion blurred 81.9% Partial Poor
+[P3] Table 2 Example recognition results under different conditions.
+[P4] A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.005s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260915_122620_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260915_122620_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.453s
+  Translation  : 0.597s
+  Spell Corr   : 0.005s
+  TTS Playback : 31.501s
+────────────────────────────────────────
+  TOTAL        : 34.238s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=13/13, age=0.33s, edges=none, bandLap=134, lineLap=162, lightStd=10.7, belowText=0.9, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=hold_still, rows=14/14, age=0.11s, edges=none, bandLap=1417, lineLap=1934, lightStd=11.2, belowText=1.0, motion=1.00, stable=1/3
+  [OBS 003] state=almost_ready, rows=14/14, age=0.09s, edges=none, bandLap=862, lineLap=1100, lightStd=11.8, belowText=0.9, motion=0.15, stable=2/3
+  [OBS 004] state=almost_ready, rows=14/14, age=0.14s, edges=none, bandLap=1597, lineLap=1994, lightStd=11.6, belowText=1.0, motion=0.13, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #998.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260915_122700.jpg
+[POST-CAPTURE] LapVar=212.3, score components: sharp=25, bright=30, even=29
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.328s (37 detections, 26 lines, 11 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Experimental Evaluation Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition OCR Table Structure Condition 97.4% Detected Excellent Clear page 93.1% Detected Good Perspective 88 7% Detected Moderate Curved page Motion blur 81.9% Partial Poor Table 2 Example recognition resuits under different conditions Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+============================================================
+
+[REGIONS] Detected 11 text region(s): 1 title, 0 heading(s), 10 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Experimental Evaluation
+  P1 | type=paragraph | 7 line(s) | confidence=0.997 | in the upper part of the page
+    Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition OCR Table Structure
+  P2 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Condition
+  P3 | type=paragraph | 1 line(s) | confidence=0.999 | in the middle of the page
+    97.4% Detected Excellent
+  P4 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Clear page
+  P5 | type=paragraph | 1 line(s) | confidence=0.992 | in the middle of the page
+    93.1% Detected Good
+  P6 | type=paragraph | 1 line(s) | confidence=1.000 | in the middle of the page
+    Perspective
+  P7 | type=paragraph | 1 line(s) | confidence=0.977 | in the middle of the page
+    88 7% Detected Moderate
+  P8 | type=paragraph | 2 line(s) | confidence=0.984 | in the lower part of the page
+    Curved page Motion blur 81.9% Partial Poor
+  P9 | type=paragraph | 1 line(s) | confidence=0.982 | in the lower part of the page
+    Table 2 Example recognition resuits under different conditions
+  P10 | type=paragraph | 8 line(s) | confidence=0.996 | in the lower part of the page
+    Discussion A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. OCR can finally associate recognized words with the correct cells This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+[TRANSLATION REVIEW] Region 11: Review identifier rendering: OCR
+[STAGE 2] 11 regions, 15 NLLB chunks, french -> english: 0.462s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Experimental evaluation
+[P1] Image quality has a direct effect on document recognition. Good focus and lighting generally improve text recognition, while perspective distortion, page curvature and motion blur can reduce The table below presents example observations for several capture conditions. These values are provided as test content for evaluating OCR and table-structure recognition
+[P2] Condition
+[P3] 97.4% Detected Excellent
+[P4] Clear page
+[P5] 93.1% Detected Good
+[P6] Prospects
+[P7] 88 7% Detected moderate
+[P8] Curved page Motion blur 81.9% Partial Poor
+[P9] Table 2 Example recognition of resumes under different conditions
+[P10] A table detector first identifies where the table is located. A structure-recognition model then identifies rows, columns and headers. This approach is useful for wearable document readers because the system can speak information row by row instead of reading unrelated words in an incorrect order
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.010s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260915_122702_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260915_122702_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.328s
+  Translation  : 0.462s
+  Spell Corr   : 0.010s
+  TTS Playback : 34.705s
+────────────────────────────────────────
+  TOTAL        : 37.166s
+────────────────────────────────────────
+
+  Ready for next capture!
+

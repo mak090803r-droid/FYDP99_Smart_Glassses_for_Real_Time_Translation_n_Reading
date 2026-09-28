@@ -1,0 +1,282 @@
+test_blocked_native_dll_fails_before_paddlex_and_can_retry (test_host.HostTests.test_blocked_native_dll_fails_before_paddlex_and_can_retry) ... ok
+test_camera_reconnect_reuses_models_and_pi_quit_exits (test_host.HostTests.test_camera_reconnect_reuses_models_and_pi_quit_exits) ... [CAPTURE] Detection-only available: True
+ok
+test_cancel_while_waiting_closes_listener (test_host.HostTests.test_cancel_while_waiting_closes_listener) ... ok
+test_capture_quit_with_no_frame (test_host.HostTests.test_capture_quit_with_no_frame) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+ok
+test_document_failure_allows_another_capture (test_host.HostTests.test_document_failure_allows_another_capture) ... [CAPTURE] Detection-only available: True
+[RUN ERROR] RuntimeError: synthetic OCR failure
+ok
+test_empty_unwarper_is_recoverable (test_host.HostTests.test_empty_unwarper_is_recoverable) ... [STAGE 1] Unwarping curved page ...
+ok
+test_force_capture_uses_fresh_frame (test_host.HostTests.test_force_capture_uses_fresh_frame) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+ok
+test_fragmented_legacy_jpeg_and_json (test_host.HostTests.test_fragmented_legacy_jpeg_and_json) ... ok
+test_invalid_packets_rejected (test_host.HostTests.test_invalid_packets_rejected) ... ok
+test_missing_cached_model_fails_locally (test_host.HostTests.test_missing_cached_model_fails_locally) ... ok
+test_ocr_generator_is_consumed_under_lock (test_host.HostTests.test_ocr_generator_is_consumed_under_lock) ... [STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.000s (1 detections, 1 lines, 1 regions)
+ok
+test_paddlex_safety_flags_are_set_before_third_party_imports (test_host.HostTests.test_paddlex_safety_flags_are_set_before_third_party_imports) ... ok
+test_paragraph_and_heading_functions_preserved (test_host.HostTests.test_paragraph_and_heading_functions_preserved) ... ok
+test_paragraph_navigation_and_quit (test_host.HostTests.test_paragraph_navigation_and_quit) ... [STAGE 3] Speaking 3 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] P1 — at the top of the page
+[STAGE 3] P2 — at the top of the page
+[STAGE 3] P1 — at the top of the page
+[STAGE 3] P1 — at the top of the page
+[STAGE 3] P2 — at the top of the page
+[STAGE 3] P3 — at the top of the page
+[STAGE 3] Region TTS stopped after 0.000s
+ok
+test_protected_baselines (test_host.HostTests.test_protected_baselines) ... ok
+test_q_in_speech_remains_visible (test_host.HostTests.test_q_in_speech_remains_visible) ... ok
+test_receiver_disconnect_clears_image (test_host.HostTests.test_receiver_disconnect_clears_image) ... ok
+test_repeated_same_frame_never_satisfies_temporal_gate (test_host.HostTests.test_repeated_same_frame_never_satisfies_temporal_gate) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+ok
+test_stalled_frame_cannot_be_force_captured (test_host.HostTests.test_stalled_frame_cannot_be_force_captured) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+ok
+test_stop_audio_does_not_start_idle_capture (test_host.HostTests.test_stop_audio_does_not_start_idle_capture) ... ok
+test_temporal_gate_clears_on_clipped_text (test_host.HostTests.test_temporal_gate_clears_on_clipped_text) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 003] state=look_down, rows=20/20, age=0.00s, edges=B, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 004] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 005] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [OBS 006] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #141.
+ok
+test_temporal_gate_keeps_one_soft_failure (test_host.HostTests.test_temporal_gate_keeps_one_soft_failure) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=move_closer, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 003] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [OBS 004] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #85.
+ok
+test_temporal_gate_requires_three_distinct_good_observations (test_host.HostTests.test_temporal_gate_requires_three_distinct_good_observations) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [OBS 003] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #57.
+ok
+test_terminal_events_survive_queue_drain (test_host.HostTests.test_terminal_events_survive_queue_drain) ... ok
+test_tk_checkbox_and_keyboard_wiring (test_host.HostTests.test_tk_checkbox_and_keyboard_wiring) ... ok
+test_duplicate_ids_fail (test_translation.TranslationTests.test_duplicate_ids_fail) ... ok
+test_empty_mismatch_and_limit_fail (test_translation.TranslationTests.test_empty_mismatch_and_limit_fail) ... ok
+test_language_resolution_on_saved_english_under_chinese (test_translation.TranslationTests.test_language_resolution_on_saved_english_under_chinese) ... [TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 1 regions, 0 NLLB chunks, english -> english: 0.001s
+ok
+test_long_latin_and_cjk_content_preserved (test_translation.TranslationTests.test_long_latin_and_cjk_content_preserved) ... ok
+test_no_uncertain_romance_language_switch (test_translation.TranslationTests.test_no_uncertain_romance_language_switch) ... ok
+test_notation_cleanup_preserves_original_and_quantities (test_translation.TranslationTests.test_notation_cleanup_preserves_original_and_quantities) ... ok
+test_numbers_and_identifiers_skip_model (test_translation.TranslationTests.test_numbers_and_identifiers_skip_model) ... [STAGE 2] 1 regions, 0 NLLB chunks, french -> english: 0.000s
+[STAGE 2] 1 regions, 0 NLLB chunks, french -> english: 0.000s
+[STAGE 2] 1 regions, 0 NLLB chunks, french -> english: 0.000s
+[STAGE 2] 1 regions, 0 NLLB chunks, french -> english: 0.000s
+[STAGE 2] 1 regions, 0 NLLB chunks, french -> english: 0.000s
+[STAGE 2] 1 regions, 0 NLLB chunks, french -> english: 0.000s
+ok
+test_paragraph_context_retained (test_translation.TranslationTests.test_paragraph_context_retained) ... ok
+test_review_flags_never_change_numbers (test_translation.TranslationTests.test_review_flags_never_change_numbers) ... ok
+test_same_language_with_no_model (test_translation.TranslationTests.test_same_language_with_no_model) ... [STAGE 2] 1 regions, 0 NLLB chunks, english -> english: 0.000s
+ok
+test_sentence_requests_keep_all_content_and_tracking (test_translation.TranslationTests.test_sentence_requests_keep_all_content_and_tracking) ... ok
+test_stable_ids_and_input_untouched (test_translation.TranslationTests.test_stable_ids_and_input_untouched) ... [STAGE 2] 2 regions, 3 NLLB chunks, french -> english: 0.000s
+ok
+test_uppercase_heading_is_not_assumed_to_be_identifier (test_translation.TranslationTests.test_uppercase_heading_is_not_assumed_to_be_identifier) ... ok
+test_canonical_hardware_control_reaches_host (test_audio_transport.AudioTests.test_canonical_hardware_control_reaches_host) ... ok
+test_closing_releases_audio_port_for_next_session (test_audio_transport.AudioTests.test_closing_releases_audio_port_for_next_session) ... ok
+test_disconnect_wakes_waiter_and_surfaces_failure (test_audio_transport.AudioTests.test_disconnect_wakes_waiter_and_surfaces_failure) ... ok
+test_disconnected_pi_does_not_silently_play_on_pc (test_audio_transport.AudioTests.test_disconnected_pi_does_not_silently_play_on_pc) ... ok
+test_invalid_packet_lengths_are_rejected (test_audio_transport.AudioTests.test_invalid_packet_lengths_are_rejected) ... ok
+test_local_default_and_exact_pcm (test_audio_transport.AudioTests.test_local_default_and_exact_pcm) ... ok
+test_pause_resume_speed_and_stop_while_paused (test_audio_transport.AudioTests.test_pause_resume_speed_and_stop_while_paused) ... ok
+test_pcm_backend_pause_preserves_unsent_samples_exactly (test_audio_transport.AudioTests.test_pcm_backend_pause_preserves_unsent_samples_exactly) ... ok
+test_pi_pcm_and_completion_ack (test_audio_transport.AudioTests.test_pi_pcm_and_completion_ack) ... ok
+test_prefetch_and_repeat_reuse_bounded_cache (test_audio_transport.AudioTests.test_prefetch_and_repeat_reuse_bounded_cache) ... ok
+test_remote_playback_error_reaches_piper_caller (test_audio_transport.AudioTests.test_remote_playback_error_reaches_piper_caller) ... ok
+test_route_toggle_stops_old_sink_without_duplicate (test_audio_transport.AudioTests.test_route_toggle_stops_old_sink_without_duplicate) ... ok
+test_stop_during_synthesis_cannot_resurrect_old_text (test_audio_transport.AudioTests.test_stop_during_synthesis_cannot_resurrect_old_text) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 1.421s
+
+OK
+test_capture_disabled_preserves_press_action (test_box7.CommandTests.test_capture_disabled_preserves_press_action) ... ok
+test_heading_selection_and_missing_heading (test_box7.CommandTests.test_heading_selection_and_missing_heading) ... ok
+test_hold_threshold_even_without_timer_tick (test_box7.CommandTests.test_hold_threshold_even_without_timer_tick) ... ok
+test_invalid_or_ambiguous_commands_do_not_execute (test_box7.CommandTests.test_invalid_or_ambiguous_commands_do_not_execute) ... ok
+test_long_hold_never_captures_and_repeat_press_ignored (test_box7.CommandTests.test_long_hold_never_captures_and_repeat_press_ignored) ... ok
+test_lost_focus_cancel_does_not_capture (test_box7.CommandTests.test_lost_focus_cancel_does_not_capture) ... ok
+test_numbers_use_body_labels_not_region_positions (test_box7.CommandTests.test_numbers_use_body_labels_not_region_positions) ... ok
+test_requested_phrases (test_box7.CommandTests.test_requested_phrases) ... ok
+test_short_capture_only_on_release (test_box7.CommandTests.test_short_capture_only_on_release) ... ok
+test_skip_is_explicit_navigation (test_box7.CommandTests.test_skip_is_explicit_navigation) ... ok
+test_active_preview_automatically_returns_and_stop_still_wins (test_box7.HostTests.test_active_preview_automatically_returns_and_stop_still_wins) ... ok
+test_core_algorithms_identical_ast (test_box7.HostTests.test_core_algorithms_identical_ast) ... ok
+test_gui_disabled_default_g_and_text_field_guard (test_box7.HostTests.test_gui_disabled_default_g_and_text_field_guard) ... ok
+test_heading_preview_restores_bookmark_and_numbered_repeat (test_box7.HostTests.test_heading_preview_restores_bookmark_and_numbered_repeat) ... ok
+test_protected_files_hashes (test_box7.HostTests.test_protected_files_hashes) ... ok
+test_question_is_transcribed_not_falsely_answered (test_box7.HostTests.test_question_is_transcribed_not_falsely_answered) ... ok
+test_voice_disabled_speaks_same_segments (test_box7.HostTests.test_voice_disabled_speaks_same_segments) ... [STAGE 3] Speaking 5 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] P? — at the top of the page
+[STAGE 3] P? — at the top of the page
+[STAGE 3] P? — in the upper part of the page
+[STAGE 3] P? — in the upper part of the page
+[STAGE 3] P? — in the middle of the page
+[STAGE 3] Region TTS finished in 0.000s
+[STAGE 3] Speaking 5 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] P? — at the top of the page
+[STAGE 3] P? — at the top of the page
+[STAGE 3] P? — in the upper part of the page
+[STAGE 3] P? — in the upper part of the page
+[STAGE 3] P? — in the middle of the page
+[STAGE 3] Region TTS finished in 0.000s
+ok
+test_fragmented_pcm_packet (test_box7.ProtocolTests.test_fragmented_pcm_packet) ... ok
+test_oversized_or_odd_pcm_rejected (test_box7.ProtocolTests.test_oversized_or_odd_pcm_rejected) ... ok
+test_cancel_preserves_preexisting_pause (test_box7.ServiceTests.test_cancel_preserves_preexisting_pause) ... ok
+test_disable_during_transcription_discards_result (test_box7.ServiceTests.test_disable_during_transcription_discards_result) ... ok
+test_enable_is_idle_without_any_recognition (test_box7.ServiceTests.test_enable_is_idle_without_any_recognition) ... ok
+test_explicit_pause_is_not_a_toggle (test_box7.ServiceTests.test_explicit_pause_is_not_a_toggle) ... ok
+test_keyboard_resume_cancels_recording (test_box7.ServiceTests.test_keyboard_resume_cancels_recording) ... ok
+test_numbered_action_interrupts_playback (test_box7.ServiceTests.test_numbered_action_interrupts_playback) ... ok
+test_pause_record_transcribe_numbered_command (test_box7.ServiceTests.test_pause_record_transcribe_numbered_command) ... ok
+test_pi_client_handshake_with_mock_microphone (test_box7.ServiceTests.test_pi_client_handshake_with_mock_microphone) ... [VOICE] Enabled by host GUI; source=default
+[VOICE] LISTENING — release Capture (or press G again in terminal).
+ok
+test_real_socket_begin_pcm_and_stale_generation (test_box7.ServiceTests.test_real_socket_begin_pcm_and_stale_generation) ... ok
+test_reject_processing_requests_and_short_recordings (test_box7.ServiceTests.test_reject_processing_requests_and_short_recordings) ... ok
+test_stop_wins_over_voice_command (test_box7.ServiceTests.test_stop_wins_over_voice_command) ... ok
+test_timeout_restores_audio (test_box7.ServiceTests.test_timeout_restores_audio) ... ok
+test_unknown_restores_playback_and_is_not_queued (test_box7.ServiceTests.test_unknown_restores_playback_and_is_not_queued) ... ok
+test_bluetooth_selection_excludes_monitor (test_box7.VoiceEdgeTests.test_bluetooth_selection_excludes_monitor) ... ok
+test_cancelled_recognition_never_starts_worker (test_box7.VoiceEdgeTests.test_cancelled_recognition_never_starts_worker) ... ok
+test_explicit_microphone_never_runs_autoselection (test_box7.VoiceEdgeTests.test_explicit_microphone_never_runs_autoselection) ... ok
+test_missing_or_ambiguous_bluetooth_is_explicit_error (test_box7.VoiceEdgeTests.test_missing_or_ambiguous_bluetooth_is_explicit_error) ... ok
+test_multiple_bluetooth_selects_identified_qcy (test_box7.VoiceEdgeTests.test_multiple_bluetooth_selects_identified_qcy) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.593s
+
+OK
+test_blocked_native_dll_fails_before_paddlex_and_can_retry (test_host.HostTests.test_blocked_native_dll_fails_before_paddlex_and_can_retry) ... ok
+test_camera_reconnect_reuses_models_and_pi_quit_exits (test_host.HostTests.test_camera_reconnect_reuses_models_and_pi_quit_exits) ... [CAPTURE] Detection-only available: True
+ok
+test_cancel_while_waiting_closes_listener (test_host.HostTests.test_cancel_while_waiting_closes_listener) ... ok
+test_capture_quit_with_no_frame (test_host.HostTests.test_capture_quit_with_no_frame) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+ok
+test_document_failure_allows_another_capture (test_host.HostTests.test_document_failure_allows_another_capture) ... [CAPTURE] Detection-only available: True
+[RUN ERROR] RuntimeError: synthetic OCR failure
+ok
+test_empty_unwarper_is_recoverable (test_host.HostTests.test_empty_unwarper_is_recoverable) ... [STAGE 1] Unwarping curved page ...
+ok
+test_force_capture_uses_fresh_frame (test_host.HostTests.test_force_capture_uses_fresh_frame) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+ok
+test_fragmented_legacy_jpeg_and_json (test_host.HostTests.test_fragmented_legacy_jpeg_and_json) ... ok
+test_invalid_packets_rejected (test_host.HostTests.test_invalid_packets_rejected) ... ok
+test_missing_cached_model_fails_locally (test_host.HostTests.test_missing_cached_model_fails_locally) ... ok
+test_ocr_generator_is_consumed_under_lock (test_host.HostTests.test_ocr_generator_is_consumed_under_lock) ... [STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.000s (1 detections, 1 lines, 1 regions)
+ok
+test_paddlex_safety_flags_are_set_before_third_party_imports (test_host.HostTests.test_paddlex_safety_flags_are_set_before_third_party_imports) ... ok
+test_paragraph_and_heading_functions_preserved (test_host.HostTests.test_paragraph_and_heading_functions_preserved) ... ok
+test_paragraph_navigation_and_quit (test_host.HostTests.test_paragraph_navigation_and_quit) ... [STAGE 3] Speaking 3 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] P1 — at the top of the page
+[STAGE 3] P2 — at the top of the page
+[STAGE 3] P1 — at the top of the page
+[STAGE 3] P1 — at the top of the page
+[STAGE 3] P2 — at the top of the page
+[STAGE 3] P3 — at the top of the page
+[STAGE 3] Region TTS stopped after 0.000s
+ok
+test_protected_baselines (test_host.HostTests.test_protected_baselines) ... ok
+test_q_in_speech_remains_visible (test_host.HostTests.test_q_in_speech_remains_visible) ... ok
+test_receiver_disconnect_clears_image (test_host.HostTests.test_receiver_disconnect_clears_image) ... ok
+test_repeated_same_frame_never_satisfies_temporal_gate (test_host.HostTests.test_repeated_same_frame_never_satisfies_temporal_gate) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+ok
+test_stalled_frame_cannot_be_force_captured (test_host.HostTests.test_stalled_frame_cannot_be_force_captured) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+ok
+test_stop_audio_does_not_start_idle_capture (test_host.HostTests.test_stop_audio_does_not_start_idle_capture) ... ok
+test_temporal_gate_clears_on_clipped_text (test_host.HostTests.test_temporal_gate_clears_on_clipped_text) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 003] state=look_down, rows=20/20, age=0.00s, edges=B, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 004] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 005] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [OBS 006] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #141.
+ok
+test_temporal_gate_keeps_one_soft_failure (test_host.HostTests.test_temporal_gate_keeps_one_soft_failure) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [STABLE HOLD] One soft failure retained; 1/3 good frames remain.
+  [OBS 002] state=move_closer, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 003] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [OBS 004] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #85.
+ok
+test_temporal_gate_requires_three_distinct_good_observations (test_host.HostTests.test_temporal_gate_requires_three_distinct_good_observations) ... 
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=2/3
+  [OBS 003] state=almost_ready, rows=20/20, age=0.00s, edges=none, bandLap=1000, lineLap=1000, lightStd=5.0, belowText=0.0, motion=0.00, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #57.
+ok
+test_terminal_events_survive_queue_drain (test_host.HostTests.test_terminal_events_survive_queue_drain) ... ok
+test_tk_checkbox_and_keyboard_wiring (test_host.HostTests.test_tk_checkbox_and_keyboard_wiring) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.563s
+
+OK

@@ -1,0 +1,40 @@
+{
+  "network_connections_allowed": false,
+  "audio_played": false,
+  "ocr": {
+    "load_and_run_seconds": 3.514999999999418,
+    "seconds": 1.3430000000007567,
+    "regions": 4,
+    "characters": 2312,
+    "baseline_text_identical": true
+  },
+  "book_mode": {
+    "load_and_run_seconds": 11.687999999998283,
+    "seconds": 2.1559999999990396,
+    "regions": 4,
+    "characters": 1820,
+    "image_shape": [
+      1080,
+      1920,
+      3
+    ]
+  },
+  "english_load_seconds": 7.297000000002299,
+  "urdu_load_seconds": 2.2969999999986612,
+  "tts": [
+    {
+      "language": "english",
+      "synthesis_seconds": 0.7649999999994179,
+      "samples": 70656,
+      "sample_rate": 22050,
+      "audio_duration_seconds": 3.2043537414965986
+    },
+    {
+      "language": "urdu",
+      "synthesis_seconds": 0.3280000000013388,
+      "samples": 33792,
+      "sample_rate": 22050,
+      "audio_duration_seconds": 1.5325170068027212
+    }
+  ]
+}

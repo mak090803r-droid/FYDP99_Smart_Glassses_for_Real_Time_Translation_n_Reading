@@ -1,0 +1,91 @@
+{
+  "synthetic_commands": [
+    {
+      "input": "Read row two.",
+      "transcript": "Read Row 2.",
+      "passed": true
+    },
+    {
+      "input": "Read the voltage column.",
+      "transcript": "Read the voltage column.",
+      "passed": true
+    },
+    {
+      "input": "Read the table.",
+      "transcript": "Read the table.",
+      "passed": true
+    },
+    {
+      "input": "Next row.",
+      "transcript": "Next row.",
+      "passed": true
+    },
+    {
+      "input": "Read the source paragraph.",
+      "transcript": "Read the source paragraph.",
+      "passed": true
+    },
+    {
+      "input": "What voltage does the camera require?",
+      "transcript": "What voltage does the camera require?",
+      "passed": true
+    }
+  ],
+  "spoken_answers": [
+    {
+      "target": "english",
+      "answer": {
+        "answer": "5 V",
+        "quote": "The camera requires a 5 V power supply.",
+        "region_id": 1,
+        "bbox": [
+          10,
+          20,
+          350,
+          50
+        ],
+        "table": null,
+        "row": null,
+        "margin": 6.368283748626709,
+        "score": 0.9982878362881709,
+        "source_text": "The camera requires a 5 V power supply.",
+        "translated": false
+      },
+      "resume": [
+        [
+          0
+        ],
+        false
+      ],
+      "pcm_clips": 1
+    },
+    {
+      "target": "urdu",
+      "answer": {
+        "answer": "5 V",
+        "quote": "The camera requires a 5 V power supply.",
+        "region_id": 1,
+        "bbox": [
+          10,
+          20,
+          350,
+          50
+        ],
+        "table": null,
+        "row": null,
+        "margin": 6.368283748626709,
+        "score": 0.9982878362881709,
+        "source_text": "The camera requires a 5 V power supply.",
+        "translated": false
+      },
+      "resume": [
+        [
+          0
+        ],
+        false
+      ],
+      "pcm_clips": 1
+    }
+  ],
+  "physical_microphone_tested": false
+}

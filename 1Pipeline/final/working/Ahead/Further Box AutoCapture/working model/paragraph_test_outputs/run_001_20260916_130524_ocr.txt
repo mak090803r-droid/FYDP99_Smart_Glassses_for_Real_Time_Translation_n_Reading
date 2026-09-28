@@ -1,0 +1,96 @@
+======================================================================
+RUN          : 1
+TIMESTAMP    : 20260916_130524
+IMAGE FILE   : capture_cli_001_20260916_130522.jpg
+LANGUAGE     : chinese
+TEXT REGIONS : 11
+PAGE TITLES  : 0
+HEADINGS     : 0
+PARAGRAPHS   : 11
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。 结束含水率 变化 区域 用水量(L) 初始含水率 29.8% 8.4% A区 18.5 21.4% 30.0% 7.9% B区 17.9 22.1% 28.6% 7.8% C区 19.2 20.8% 29.1% 7.4% D区 18.1 21.7%
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=3 | conf=0.990 | font_scale=1.01 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=54.25 | bbox=(258, 90, 1332, 257)
+  SOURCE    : TABLE-ZH16-温室灌溉效率记录 下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检 查阀门设置是否一致。
+  LAYOUT LINES:
+    L01 | bbox=(280, 100, 845, 143) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=41.00 | font_scale=1.01 | heading=ordinary_text | decision=start_of_page | text=TABLE-ZH16-温室灌溉效率记录
+    L02 | bbox=(272, 163, 1322, 206) | pitch=63.00 | gap_ratio=1.16 | indent=-315.00 | font_height=41.00 | font_scale=1.01 | heading=ordinary_text | decision=continuation | text=下表列出四个试验区在同一次灌溉后的用水量和土壤含水率变化，用于检
+    L03 | bbox=(268, 213, 583, 247) | pitch=45.50 | gap_ratio=0.84 | indent=-60.50 | font_height=34.00 | font_scale=0.83 | heading=sentence_ending | decision=continuation | text=查阀门设置是否一致。
+  TRANSLATED: TABLE-ZH16 - Greenhouse Irrigation Efficiency Record The following table lists the change in water use and soil moisture content of the four test areas after the same irrigation to check if the valve settings are consistent.
+  SPOKEN    : TABLE-ZH16 - Greenhouse Irrigation Efficiency Record The following table lists the change in water use and soil moisture content of the four test areas after the same irrigation to check if the valve settings are consistent.
+------------------------------------------------------------
+P2 | region_id=2 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.09 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(896, 262, 1240, 294)
+  SOURCE    : 结束含水率 变化
+  LAYOUT LINES:
+    L01 | bbox=(906, 270, 1230, 316) | pitch=63.00 | gap_ratio=1.16 | indent=-20.00 | font_height=44.00 | font_scale=1.09 | heading=ordinary_text | decision=column_change | text=结束含水率 变化
+  TRANSLATED: Ending the Changes in Water Level
+  SPOKEN    : Ending the Changes in Water Level
+------------------------------------------------------------
+P3 | region_id=3 | type=paragraph | lines=1 | conf=0.997 | font_scale=1.10 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(323, 294, 882, 324)
+  SOURCE    : 区域 用水量(L) 初始含水率
+  LAYOUT LINES:
+    L01 | bbox=(333, 273, 872, 318) | pitch=2.50 | gap_ratio=0.05 | indent=13.00 | font_height=43.00 | font_scale=1.10 | heading=ordinary_text | decision=column_change | text=区域 用水量(L) 初始含水率
+  TRANSLATED: Regional water use (L) Initial water content
+  SPOKEN    : Regional water use (L) Initial water content
+------------------------------------------------------------
+P4 | region_id=4 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(921, 324, 1231, 354)
+  SOURCE    : 29.8% 8.4%
+  LAYOUT LINES:
+    L01 | bbox=(931, 333, 1221, 373) | pitch=57.50 | gap_ratio=1.06 | indent=17.00 | font_height=38.00 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=29.8% 8.4%
+  TRANSLATED: 29.8% 8.4%
+  SPOKEN    : 29.8% 8.4%
+------------------------------------------------------------
+P5 | region_id=5 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(314, 354, 839, 382)
+  SOURCE    : A区 18.5 21.4%
+  LAYOUT LINES:
+    L01 | bbox=(324, 333, 829, 376) | pitch=1.50 | gap_ratio=0.03 | indent=13.00 | font_height=40.00 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=A区 18.5 21.4%
+  TRANSLATED: Area A 18.5 21.4%
+  SPOKEN    : Area A 18.5 21.4%
+------------------------------------------------------------
+P6 | region_id=6 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(911, 382, 1220, 412)
+  SOURCE    : 30.0% 7.9%
+  LAYOUT LINES:
+    L01 | bbox=(921, 391, 1210, 429) | pitch=55.50 | gap_ratio=1.02 | indent=18.00 | font_height=37.50 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=30.0% 7.9%
+  TRANSLATED: 30.0% 7.9%
+  SPOKEN    : 30.0% 7.9%
+------------------------------------------------------------
+P7 | region_id=7 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.07 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(306, 412, 829, 440)
+  SOURCE    : B区 17.9 22.1%
+  LAYOUT LINES:
+    L01 | bbox=(316, 391, 819, 435) | pitch=3.00 | gap_ratio=0.06 | indent=17.50 | font_height=41.00 | font_scale=1.07 | heading=ordinary_text | decision=column_change | text=B区 17.9 22.1%
+  TRANSLATED: Area B 17.9 22.1%
+  SPOKEN    : Area B 17.9 22.1%
+------------------------------------------------------------
+P8 | region_id=8 | type=paragraph | lines=1 | conf=1.000 | font_scale=1.05 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(897, 440, 1209, 468)
+  SOURCE    : 28.6% 7.8%
+  LAYOUT LINES:
+    L01 | bbox=(907, 444, 1199, 488) | pitch=53.00 | gap_ratio=0.98 | indent=8.00 | font_height=40.00 | font_scale=1.05 | heading=ordinary_text | decision=column_change | text=28.6% 7.8%
+  TRANSLATED: 28.6% 7.8%
+  SPOKEN    : 28.6% 7.8%
+------------------------------------------------------------
+P9 | region_id=9 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.94 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(296, 468, 818, 497)
+  SOURCE    : C区 19.2 20.8%
+  LAYOUT LINES:
+    L01 | bbox=(306, 450, 808, 491) | pitch=4.50 | gap_ratio=0.08 | indent=15.00 | font_height=37.00 | font_scale=0.94 | heading=ordinary_text | decision=column_change | text=C区 19.2 20.8%
+  TRANSLATED: Area C 19.2 20.8%
+  SPOKEN    : Area C 19.2 20.8%
+------------------------------------------------------------
+P10 | region_id=10 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.99 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(889, 497, 1199, 524)
+  SOURCE    : 29.1% 7.4%
+  LAYOUT LINES:
+    L01 | bbox=(899, 503, 1189, 545) | pitch=53.50 | gap_ratio=0.99 | indent=-15.00 | font_height=38.51 | font_scale=0.99 | heading=ordinary_text | decision=column_change | text=29.1% 7.4%
+  TRANSLATED: 29.1% 7.4%
+  SPOKEN    : 29.1% 7.4%
+------------------------------------------------------------
+P11 | region_id=11 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.97 | heading_evidence=ordinary_text | break=column_change | normal_pitch=54.25 | bbox=(281, 524, 809, 556)
+  SOURCE    : D区 18.1 21.7%
+  LAYOUT LINES:
+    L01 | bbox=(291, 504, 799, 546) | pitch=1.00 | gap_ratio=0.02 | indent=-20.00 | font_height=38.00 | font_scale=0.97 | heading=ordinary_text | decision=column_change | text=D区 18.1 21.7%
+  TRANSLATED: District D 18.1 21.7%
+  SPOKEN    : District D 18.1 21.7%
+
+======================================================================

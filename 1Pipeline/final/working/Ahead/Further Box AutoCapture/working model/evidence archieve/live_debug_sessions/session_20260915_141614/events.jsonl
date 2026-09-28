@@ -1,0 +1,19 @@
+{"wall_time": "2026-09-15T14:16:14+0500", "elapsed_seconds": 0.0, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260915_141614"}
+{"wall_time": "2026-09-15T14:16:15+0500", "elapsed_seconds": 0.891, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-15T14:16:39+0500", "elapsed_seconds": 25.063, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-15T14:16:39+0500", "elapsed_seconds": 25.063, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-15T14:16:40+0500", "elapsed_seconds": 26.25, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-15T14:16:40+0500", "elapsed_seconds": 26.516, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-15T14:16:40+0500", "elapsed_seconds": 26.516, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-15T14:16:41+0500", "elapsed_seconds": 27.266, "event": "automatic_capture", "generation": 5, "frame_sequence": 89, "stability_count": 3}
+{"wall_time": "2026-09-15T14:16:41+0500", "elapsed_seconds": 27.359, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-15T14:16:44+0500", "elapsed_seconds": 30.0, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE", "audio_route": "pc"}
+{"wall_time": "2026-09-15T14:16:49+0500", "elapsed_seconds": 34.891, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-15T14:16:49+0500", "elapsed_seconds": 34.891, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1", "audio_route": "pc"}
+{"wall_time": "2026-09-15T14:17:19+0500", "elapsed_seconds": 65.344, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "finished"}
+{"wall_time": "2026-09-15T14:17:19+0500", "elapsed_seconds": 65.344, "event": "paragraph_started", "region_id": 3, "index": 2, "label": "P2", "audio_route": "pc"}
+{"wall_time": "2026-09-15T14:17:36+0500", "elapsed_seconds": 82.203, "event": "paragraph_playback_result", "region_id": 3, "index": 2, "action": "stop"}
+{"wall_time": "2026-09-15T14:17:38+0500", "elapsed_seconds": 84.609, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-15T14:17:38+0500", "elapsed_seconds": 84.609, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-15T14:17:38+0500", "elapsed_seconds": 84.656, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-15T14:17:38+0500", "elapsed_seconds": 84.656, "event": "session_ending"}

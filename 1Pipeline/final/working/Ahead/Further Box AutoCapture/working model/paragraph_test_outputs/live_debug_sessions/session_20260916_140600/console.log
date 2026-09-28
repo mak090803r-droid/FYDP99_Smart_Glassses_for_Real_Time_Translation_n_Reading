@@ -1,0 +1,119 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.61s
+[LOAD] OCR language audit: english -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 2.04s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.25s
+[LOAD] Conservative SymSpell dictionary loaded in 2.84s
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box9_voice_gui.py", line 151, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box9_voice_gui.py", line 151, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box9_voice_gui.py", line 151, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box9_voice_gui.py", line 151, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box9_voice_gui.py", line 151, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 861, in callit
+    func(*args)
+  File "C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box9_voice_gui.py", line 151, in check
+    if self.root.focus_displayof() is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 814, in focus_displayof
+    return self._nametowidget(name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ali\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 1563, in nametowidget
+    w = w.children[n]
+        ~~~~~~~~~~^^^
+KeyError: 'popdown'

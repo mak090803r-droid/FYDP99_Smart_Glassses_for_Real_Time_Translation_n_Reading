@@ -1,0 +1,36 @@
+{"wall_time": "2026-09-16T16:25:26+0500", "elapsed_seconds": 0.016, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260916_162526"}
+{"wall_time": "2026-09-16T16:25:27+0500", "elapsed_seconds": 0.829, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": false}
+{"wall_time": "2026-09-16T16:25:57+0500", "elapsed_seconds": 31.235, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-16T16:25:57+0500", "elapsed_seconds": 31.235, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-16T16:25:59+0500", "elapsed_seconds": 33.141, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-16T16:26:01+0500", "elapsed_seconds": 35.5, "event": "guidance_started", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-16T16:26:01+0500", "elapsed_seconds": 35.5, "event": "guidance_queued", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-16T16:26:03+0500", "elapsed_seconds": 37.547, "event": "guidance_finished", "state": "move_back", "prompt": "Move back so all text fits."}
+{"wall_time": "2026-09-16T16:26:04+0500", "elapsed_seconds": 38.438, "event": "guidance_started", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-16T16:26:04+0500", "elapsed_seconds": 38.438, "event": "guidance_queued", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-16T16:26:06+0500", "elapsed_seconds": 39.625, "event": "guidance_finished", "state": "hold_still", "prompt": "Hold still."}
+{"wall_time": "2026-09-16T16:26:06+0500", "elapsed_seconds": 39.829, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:26:06+0500", "elapsed_seconds": 39.829, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:26:06+0500", "elapsed_seconds": 40.391, "event": "automatic_capture", "generation": 15, "frame_sequence": 192, "stability_count": 3}
+{"wall_time": "2026-09-16T16:26:07+0500", "elapsed_seconds": 40.688, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:26:25+0500", "elapsed_seconds": 58.797, "event": "guidance_started", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-16T16:26:25+0500", "elapsed_seconds": 58.797, "event": "guidance_queued", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-16T16:26:27+0500", "elapsed_seconds": 61.032, "event": "guidance_finished", "state": "look_down", "prompt": "Look down for the bottom text."}
+{"wall_time": "2026-09-16T16:26:28+0500", "elapsed_seconds": 62.454, "event": "guidance_started", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:26:28+0500", "elapsed_seconds": 62.454, "event": "guidance_queued", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:26:29+0500", "elapsed_seconds": 63.141, "event": "automatic_capture", "generation": 6, "frame_sequence": 463, "stability_count": 3}
+{"wall_time": "2026-09-16T16:26:29+0500", "elapsed_seconds": 63.313, "event": "guidance_finished", "state": "almost_ready", "prompt": "Ready."}
+{"wall_time": "2026-09-16T16:26:34+0500", "elapsed_seconds": 67.657, "event": "paragraph_started", "region_id": 1, "index": 0, "label": "TITLE"}
+{"wall_time": "2026-09-16T16:26:34+0500", "elapsed_seconds": 67.86, "event": "box8", "message": "Table analysis queued after core processing"}
+{"wall_time": "2026-09-16T16:26:40+0500", "elapsed_seconds": 74.25, "event": "paragraph_playback_result", "region_id": 1, "index": 0, "action": "finished"}
+{"wall_time": "2026-09-16T16:26:40+0500", "elapsed_seconds": 74.25, "event": "paragraph_started", "region_id": 2, "index": 1, "label": "P1"}
+{"wall_time": "2026-09-16T16:26:42+0500", "elapsed_seconds": 76.172, "event": "box8", "message": "Table analysis: 0 table(s), 5.16s", "tables": []}
+{"wall_time": "2026-09-16T16:27:31+0500", "elapsed_seconds": 124.782, "event": "paragraph_playback_result", "region_id": 2, "index": 1, "action": "finished"}
+{"wall_time": "2026-09-16T16:27:31+0500", "elapsed_seconds": 124.782, "event": "paragraph_started", "region_id": 3, "index": 2, "label": "P2"}
+{"wall_time": "2026-09-16T16:28:35+0500", "elapsed_seconds": 188.657, "event": "paragraph_playback_result", "region_id": 3, "index": 2, "action": "finished"}
+{"wall_time": "2026-09-16T16:28:35+0500", "elapsed_seconds": 188.657, "event": "paragraph_started", "region_id": 4, "index": 3, "label": "P3"}
+{"wall_time": "2026-09-16T16:29:15+0500", "elapsed_seconds": 228.735, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-16T16:29:15+0500", "elapsed_seconds": 228.735, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-16T16:29:15+0500", "elapsed_seconds": 228.735, "event": "paragraph_playback_result", "region_id": 4, "index": 3, "action": "quit"}
+{"wall_time": "2026-09-16T16:29:15+0500", "elapsed_seconds": 228.797, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": false}
+{"wall_time": "2026-09-16T16:29:15+0500", "elapsed_seconds": 228.797, "event": "session_ending"}

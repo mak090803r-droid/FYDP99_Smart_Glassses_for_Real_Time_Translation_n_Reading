@@ -1,0 +1,8 @@
+{"wall_time": "2026-09-14T14:26:58+0500", "elapsed_seconds": 0.016, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260914_142658"}
+{"wall_time": "2026-09-14T14:26:58+0500", "elapsed_seconds": 0.016, "event": "audio_route", "enabled": true, "connected": false, "message": "Pi audio disconnected", "route_changed": true}
+{"wall_time": "2026-09-14T14:29:51+0500", "elapsed_seconds": 172.766, "event": "voice", "message": "Pi voice channel connected", "enabled": true, "busy": false, "pi_voice": true}
+{"wall_time": "2026-09-14T14:29:51+0500", "elapsed_seconds": 172.766, "event": "audio_route", "connected": true, "message": "Pi audio connected (192.168.137.169)", "enabled": true}
+{"wall_time": "2026-09-14T14:29:57+0500", "elapsed_seconds": 178.891, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-14T14:29:57+0500", "elapsed_seconds": 178.891, "event": "pi_disconnected", "error": "[WinError 10038] An operation was attempted on something that is not a socket"}
+{"wall_time": "2026-09-14T14:29:57+0500", "elapsed_seconds": 178.891, "event": "audio_route", "connected": false, "message": "Host audio closed", "enabled": true}
+{"wall_time": "2026-09-14T14:29:57+0500", "elapsed_seconds": 178.891, "event": "session_ending"}

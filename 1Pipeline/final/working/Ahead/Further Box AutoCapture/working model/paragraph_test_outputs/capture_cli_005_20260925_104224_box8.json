@@ -1,0 +1,278 @@
+{
+  "script": "pipeline_cli_box8.py",
+  "run": 5,
+  "image": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\pics\\captured\\capture_cli_005_20260925_104224.jpg",
+  "timestamp": "2026-09-25T10:42:25",
+  "timings": {
+    "ocr": 0.21899999999732245,
+    "translation": 0.3937614000024041,
+    "spell": 0.0,
+    "processing_before_audio": 1.263831615447998
+  },
+  "regions": [
+    {
+      "number": 1,
+      "region_id": 1,
+      "source_text": "Technical Manual for Unmanned Aerial Systems (UAS) Autonomous Operations and Airworthiness Integration Specifications",
+      "bbox": [
+        367,
+        196,
+        940,
+        359
+      ],
+      "lines": [
+        {
+          "text": "Technical Manual for Unmanned Aerial",
+          "score": 0.9999731779098511,
+          "bbox": [
+            404,
+            204,
+            893,
+            268
+          ],
+          "width": 489,
+          "height": 64,
+          "font_height": 33.060394287109375,
+          "center_x": 648.5,
+          "center_y": 236.0,
+          "layout_outlier": false,
+          "font_scale": 1.1372999299471238,
+          "local_body_font_height": 29.06919574737549,
+          "is_heading": false,
+          "heading_evidence": "ordinary_text",
+          "paragraph_pitch": 0.0,
+          "paragraph_gap_ratio": 0.0,
+          "paragraph_indent_delta": 0.0,
+          "paragraph_break_reason": "start_of_page"
+        },
+        {
+          "text": "Systems (UAS) Autonomous Operations and",
+          "score": 0.9999633431434631,
+          "bbox": [
+            375,
+            246,
+            932,
+            315
+          ],
+          "width": 557,
+          "height": 69,
+          "font_height": 35.056800842285156,
+          "center_x": 653.5,
+          "center_y": 280.5,
+          "layout_outlier": false,
+          "font_scale": 1.2059776660814656,
+          "local_body_font_height": 29.06919574737549,
+          "is_heading": false,
+          "heading_evidence": "ordinary_text",
+          "paragraph_pitch": 44.5,
+          "paragraph_gap_ratio": 1.0595238095238095,
+          "paragraph_indent_delta": -13.0,
+          "paragraph_break_reason": "continuation"
+        },
+        {
+          "text": "Airworthiness Integration Specifications",
+          "score": 0.9999679327011108,
+          "bbox": [
+            403,
+            290,
+            910,
+            354
+          ],
+          "width": 507,
+          "height": 64,
+          "font_height": 31.064437866210938,
+          "center_x": 656.5,
+          "center_y": 322.0,
+          "layout_outlier": false,
+          "font_scale": 1.0331678630584002,
+          "local_body_font_height": 30.067173957824707,
+          "is_heading": false,
+          "heading_evidence": "ordinary_text",
+          "paragraph_pitch": 41.5,
+          "paragraph_gap_ratio": 0.9880952380952381,
+          "paragraph_indent_delta": 28.0,
+          "paragraph_break_reason": "continuation"
+        }
+      ],
+      "confidence": 0.999968151251475,
+      "break_reason": "start_of_page",
+      "typical_line_pitch": 42.0,
+      "region_type": "paragraph",
+      "label": "P1",
+      "paragraph_number": 1,
+      "heading_number": null,
+      "font_scale": 1.2059776660814656,
+      "heading_evidence": "ordinary_text",
+      "effective_source_language": "english",
+      "translation_warnings": [],
+      "translation_chunk_count": 1,
+      "translation_input": "Technical Manual for Unmanned Aerial Systems (UAS) Autonomous Operations and Airworthiness Integration Specifications",
+      "translated_text": "بغیر پائلٹ کے فضائی نظام (UAS) کے لیے تکنیکی دستی۔ خود مختار آپریشن اور فضائی قابلیت کے انضمام کی تفصیلات",
+      "translation_status": "translated",
+      "spoken_text": "بغیر پائلٹ کے فضائی نظام (UAS) کے لیے تکنیکی دستی۔ خود مختار آپریشن اور فضائی قابلیت کے انضمام کی تفصیلات",
+      "spell_changes": []
+    },
+    {
+      "number": 2,
+      "region_id": 2,
+      "source_text": "Chapter I: Systems Engineering and Airframe Integration",
+      "bbox": [
+        365,
+        359,
+        863,
+        418
+      ],
+      "lines": [
+        {
+          "text": "Chapter I: Systems Engineering and Airframe Integration",
+          "score": 0.986152172088623,
+          "bbox": [
+            373,
+            366,
+            855,
+            427
+          ],
+          "width": 482,
+          "height": 61,
+          "font_height": 27.07395362854004,
+          "center_x": 614.0,
+          "center_y": 396.5,
+          "layout_outlier": false,
+          "font_scale": 0.8444140193242807,
+          "local_body_font_height": 32.062416076660156,
+          "is_heading": true,
+          "heading_evidence": "explicit_heading_pattern",
+          "paragraph_pitch": 74.5,
+          "paragraph_gap_ratio": 1.7738095238095237,
+          "paragraph_indent_delta": -5.5,
+          "paragraph_break_reason": "heading"
+        }
+      ],
+      "confidence": 0.986152172088623,
+      "break_reason": "heading",
+      "typical_line_pitch": 42.0,
+      "region_type": "section_heading",
+      "label": "H1",
+      "paragraph_number": null,
+      "heading_number": 1,
+      "font_scale": 0.8444140193242807,
+      "heading_evidence": "explicit_heading_pattern",
+      "effective_source_language": "english",
+      "translation_warnings": [],
+      "translation_chunk_count": 1,
+      "translation_input": "Chapter I: Systems Engineering and Airframe Integration",
+      "translated_text": "باب اول: سسٹم انجینئرنگ اور طیارے کی ساخت کا انضمام",
+      "translation_status": "translated",
+      "spoken_text": "باب اول: سسٹم انجینئرنگ اور طیارے کی ساخت کا انضمام",
+      "spell_changes": []
+    },
+    {
+      "number": 3,
+      "region_id": 3,
+      "source_text": "Specifications",
+      "bbox": [
+        369,
+        418,
+        508,
+        456
+      ],
+      "lines": [
+        {
+          "text": "Specifications",
+          "score": 0.9999021887779236,
+          "bbox": [
+            377,
+            422,
+            500,
+            456
+          ],
+          "width": 123,
+          "height": 34,
+          "font_height": 25.07948112487793,
+          "center_x": 438.5,
+          "center_y": 439.0,
+          "layout_outlier": false,
+          "font_scale": 0.8073373557535738,
+          "local_body_font_height": 31.064437866210938,
+          "is_heading": false,
+          "heading_evidence": "ordinary_text",
+          "paragraph_pitch": 42.5,
+          "paragraph_gap_ratio": 1.0119047619047619,
+          "paragraph_indent_delta": -3.0,
+          "paragraph_break_reason": "after_heading"
+        }
+      ],
+      "confidence": 0.9999021887779236,
+      "break_reason": "after_heading",
+      "typical_line_pitch": 42.0,
+      "region_type": "paragraph",
+      "label": "P2",
+      "paragraph_number": 2,
+      "heading_number": null,
+      "font_scale": 0.8073373557535738,
+      "heading_evidence": "ordinary_text",
+      "effective_source_language": "english",
+      "translation_warnings": [],
+      "translation_chunk_count": 1,
+      "translation_input": "Specifications",
+      "translated_text": "تفصیلات",
+      "translation_status": "translated",
+      "spoken_text": "تفصیلات",
+      "spell_changes": []
+    },
+    {
+      "number": 4,
+      "region_id": 4,
+      "source_text": "1.1 Aerodynamic Layout and Structural Integrity Analysis",
+      "bbox": [
+        372,
+        456,
+        780,
+        506
+      ],
+      "lines": [
+        {
+          "text": "1.1 Aerodynamic Layout and Structural Integrity Analysis",
+          "score": 0.9718783497810364,
+          "bbox": [
+            380,
+            447,
+            772,
+            498
+          ],
+          "width": 392,
+          "height": 51,
+          "font_height": 23.084171295166016,
+          "center_x": 576.0,
+          "center_y": 472.5,
+          "layout_outlier": false,
+          "font_scale": 0.7199760379870481,
+          "local_body_font_height": 32.062416076660156,
+          "is_heading": true,
+          "heading_evidence": "explicit_heading_pattern",
+          "paragraph_pitch": 33.5,
+          "paragraph_gap_ratio": 0.7976190476190477,
+          "paragraph_indent_delta": 5.0,
+          "paragraph_break_reason": "heading"
+        }
+      ],
+      "confidence": 0.9718783497810364,
+      "break_reason": "heading",
+      "typical_line_pitch": 42.0,
+      "region_type": "section_heading",
+      "label": "H2",
+      "paragraph_number": null,
+      "heading_number": 2,
+      "font_scale": 0.7199760379870481,
+      "heading_evidence": "explicit_heading_pattern",
+      "effective_source_language": "english",
+      "translation_warnings": [],
+      "translation_chunk_count": 1,
+      "translation_input": "1.1 Aerodynamic Layout and Structural Integrity Analysis",
+      "translated_text": "1.1 ایروڈینامک ترتیب اور ساختی سالمیت کا تجزیہ",
+      "translation_status": "translated",
+      "spoken_text": "1.1 ایروڈینامک ترتیب اور ساختی سالمیت کا تجزیہ",
+      "spell_changes": []
+    }
+  ]
+}

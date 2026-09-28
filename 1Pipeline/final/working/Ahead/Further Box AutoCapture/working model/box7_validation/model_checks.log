@@ -1,0 +1,352 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 14 spoken guidance clips ready.
+[LOAD] TTS ready in 1.44s
+ASR finished
+[LOAD] OCR language audit: chinese -> PaddleOCR lang='ch'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+Creating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')
+Creating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')
+[LOAD] PaddleOCR ready in 0.63s
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.781s (35 detections, 35 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.515s (35 detections, 35 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.469s (35 detections, 35 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.469s (35 detections, 35 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.485s (35 detections, 35 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.532s (37 detections, 37 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.531s (37 detections, 37 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.547s (37 detections, 37 lines, 4 regions)
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.547s (37 detections, 37 lines, 4 regions)
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 3.95s
+[LOAD] Preparing local Urdu Piper voice ...
+[TTS] Loading voice: ur_PK-fasih-medium …
+[TTS] Voice ready.
+[LOAD] Urdu Piper voice ready.
+[LOAD] Conservative SymSpell dictionary loaded in 1.47s
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box6_english\captures\capture_cli_001_20260911_161345.jpg
+[POST-CAPTURE] LapVar=369.4, score components: sharp=40, bright=30, even=19
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.688s (35 detections, 35 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 9 line(s) | confidence=0.992 | in the upper part of the page
+    able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.992 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.991 | in the lower part of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.001s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.001s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box6_english\run_001_20260911_161346_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box6_english\run_001_20260911_161346_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] P2 — in the middle of the page
+[STAGE 3] P3 — in the lower part of the page
+[STAGE 3] Region TTS finished in 3.856s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.688s
+  Translation  : skipped
+  Spell Corr   : 0.001s
+  TTS Playback : 3.856s
+────────────────────────────────────────
+  TOTAL        : 4.637s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_off_english\captures\capture_cli_001_20260911_161350.jpg
+[POST-CAPTURE] LapVar=369.4, score components: sharp=40, bright=30, even=19
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.625s (35 detections, 35 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 9 line(s) | confidence=0.992 | in the upper part of the page
+    able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.992 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.991 | in the lower part of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.001s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.001s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_off_english\run_001_20260911_161351_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_off_english\run_001_20260911_161351_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] P2 — in the middle of the page
+[STAGE 3] P3 — in the lower part of the page
+[STAGE 3] Region TTS finished in 3.866s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.625s
+  Translation  : skipped
+  Spell Corr   : 0.001s
+  TTS Playback : 3.866s
+────────────────────────────────────────
+  TOTAL        : 4.565s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_idle_voice_english\captures\capture_cli_001_20260911_161355.jpg
+[POST-CAPTURE] LapVar=369.4, score components: sharp=40, bright=30, even=19
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.672s (35 detections, 35 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 9 line(s) | confidence=0.992 | in the upper part of the page
+    able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation. where text detection, optical character recognition language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.992 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted, partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.991 | in the lower part of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters while aggressive thresholding can erase punctuation and thin strokes For that reason several preprocessing alternatives are tested on the same stored photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering. and adaptive binarization Each alternative is evaluated using character count recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.001s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.001s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_idle_voice_english\run_001_20260911_161355_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_idle_voice_english\run_001_20260911_161355_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.672s
+  Translation  : skipped
+  Spell Corr   : 0.001s
+  TTS Playback : 3.735s
+────────────────────────────────────────
+  TOTAL        : 4.478s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box6_urdu\captures\capture_cli_001_20260911_161359.jpg
+[POST-CAPTURE] LapVar=306.3, score components: sharp=40, bright=30, even=8
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.735s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.995 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.995 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 10 NLLB chunks, english -> urdu: 2.255s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن
+[P1] پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔
+[P2] تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا
+[P3] گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box6_urdu\run_001_20260911_161402_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box6_urdu\run_001_20260911_161402_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] P2 — in the middle of the page
+[STAGE 3] P3 — at the bottom of the page
+[STAGE 3] Region TTS finished in 4.423s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.735s
+  Translation  : 2.255s
+  Spell Corr   : 0.000s
+  TTS Playback : 4.423s
+────────────────────────────────────────
+  TOTAL        : 7.497s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_off_urdu\captures\capture_cli_001_20260911_161407.jpg
+[POST-CAPTURE] LapVar=306.3, score components: sharp=40, bright=30, even=8
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.703s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.995 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.995 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 10 NLLB chunks, english -> urdu: 2.165s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن
+[P1] پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔
+[P2] تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا
+[P3] گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_off_urdu\run_001_20260911_161410_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_off_urdu\run_001_20260911_161410_ocr.txt
+[STAGE 3] Speaking 4 classified region(s) in reading order … (A pause/resume, S stop, R repeat, N next, P previous)
+[STAGE 3] TITLE — at the top of the page
+[STAGE 3] P1 — in the upper part of the page
+[STAGE 3] P2 — in the middle of the page
+[STAGE 3] P3 — at the bottom of the page
+[STAGE 3] Region TTS finished in 4.337s
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.703s
+  Translation  : 2.165s
+  Spell Corr   : 0.000s
+  TTS Playback : 4.337s
+────────────────────────────────────────
+  TOTAL        : 7.287s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_idle_voice_urdu\captures\capture_cli_001_20260911_161414.jpg
+[POST-CAPTURE] LapVar=306.3, score components: sharp=40, bright=30, even=8
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.781s (37 detections, 37 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 11 line(s) | confidence=0.995 | in the upper part of the page
+    A wearable translation system is most useful when it behaves like an ordinary tool rather than a laboratory demonstration The user should be able to face a printed page, pause briefly, and hear a clear rendering without holding a telephone or searching through menus In the prototype described here, a small camera is mounted near eye level and connected to a compact computer Video is sent over a local link to a processing workstation where text detection, optical character recognition, language translation, and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents, avoids delays caused by an unstable internet connection, and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.995 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view. The page may be tilted. partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur. The capture controller therefore examines every incoming frame before saving it It locates groups of text, estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion, because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still. or improve the lighting
+  P3 | type=paragraph | 12 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only when the correction improves measured recognition Excessive sharpening can create bright halos around letters, while aggressive thresholding can erase punctuation and thin strokes For that reason, several preprocessing alternatives are tested on the same stored photographs. The comparison includes raw grayscale, local contrast enhancement, mild gamma correction, edge-preserving filtering, and adaptive binarization Each alternative is evaluated using character count. recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 10 NLLB chunks, english -> urdu: 2.168s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (Urdu) — NLLB 1.3B
+============================================================
+[TITLE] قابل استعمال ترجمہ شیشوں کا فیلڈ ایویلیوشن
+[P1] پہننے کے قابل ترجمہ کا نظام سب سے زیادہ مفید ہوتا ہے جب یہ لیبارٹری کے مظاہرے کے بجائے ایک عام آلے کی طرح برتاؤ کرتا ہے۔ صارف کو ایک طباعت شدہ صفحے کا سامنا کرنے ، مختصر توقف کرنے اور ٹیلیفون کو تھامے بغیر یا مینوز میں تلاش کیے بغیر واضح رینڈرنگ سننے کے قابل ہونا چاہئے۔ یہاں بیان کردہ پروٹو ٹائپ میں ، ایک چھوٹا کیمرا آنکھوں کی سطح کے قریب نصب کیا جاتا ہے اور ایک کمپیکٹ کمپیوٹر سے منسلک ہوتا ہے۔ ویڈیو کو ایک مقامی لنک کے ذریعے پروسیسنگ ورک اسٹیشن پر بھیجا جاتا ہے جہاں متن کا پتہ لگانے ، آپٹیکل کردار کی شناخت ، زبان کا ترجمہ اور تقریر کی ترکیب کی جاتی ہے۔ مکمل پائپ لائن کلاؤڈ سروس کے بغیر کام کرتی ہے۔ یہ انتظام حساس دستاویزات کی حفاظت کرتا ہے ، غیر مستحکم انٹرنیٹ کنکشن کی وجہ سے ہونے والی تاخیر سے بچتا ہے ، اور ہر سافٹ ویئر جزو کو آزادانہ طور پر ماپنے کی اجازت دیتا ہے۔
+[P2] تصویری حصول پہلی بڑی مشکل ہے۔ عینک پہننے والا شخص آسانی سے نہیں دیکھ سکتا کہ صفحے کے چاروں کنارے کیمرے کے نظارے کے اندر ہیں یا نہیں۔ صفحہ جھکا دیا جا سکتا ہے. جزوی طور پر سایہ دار، یا نیچے کی نسبت اوپر سے زیادہ قریب سانس لینے اور سر کی نقل و حرکت سے بھی دھندلا پن پیدا ہوتا ہے۔ لہذا گرفتاری کنٹرولر اسے بچانے سے پہلے ہر آنے والے فریم کا معائنہ کرتا ہے۔ یہ متن کے گروپوں کا پتہ لگاتا ہے ، اندازہ لگاتا ہے کہ آیا دستاویز تصویر کے مفید حصے پر قبضہ کرتی ہے ، اور چیک کرتا ہے کہ آیا پتہ لگانے والے علاقے کے آس پاس ایک محفوظ سرحد باقی ہے۔ پوری فریم پر اور پھر اوپری حصے پر تیز رفتار کی پیمائش کی جاتی ہے ، کیونکہ ایک جھکی ہوئی شیٹ اکثر نیچے کے قریب صاف نظر آتی ہے جبکہ پہلی لائنیں نرم رہتی ہیں۔ ایک فریم کو صرف کئی لگاتار مشاہدات کے بعد ہی قبول کیا جاتا ہے اتفاق کرتے ہیں۔ زبانی اشارے پہننے والے کو پیچھے ہٹنے ، بائیں یا دائیں منتقل کرنے ، خاموش رہنے کو کہتے ہیں۔ یا روشنی کو بہتر بنانا
+[P3] گرفتاری کے بعد ، تصویر کو گرے اسکیل میں تبدیل کیا جاتا ہے اور صرف اس صورت میں درست کیا جاتا ہے جب اصلاح سے پیمائش شدہ شناخت میں بہتری آتی ہے۔ زیادہ تیز کرنے سے حروف کے ارد گرد روشن ہالوز پیدا ہوسکتے ہیں ، جبکہ جارحانہ حد بندی نشانات اور پتلی محرکات کو مٹا سکتی ہے۔ اس وجہ سے ، ایک ہی ذخیرہ شدہ تصاویر پر پری پروسیسنگ کے متعدد متبادل آزمائے جاتے ہیں۔ موازنہ میں خام گرے اسکیل ، مقامی تضاد میں اضافہ ، ہلکی گاما اصلاح ، کنارے کو محفوظ رکھنے والی فلٹرنگ ، اور انکولی دوہری کاری شامل ہے۔ ہر متبادل کو حروف کی گنتی کا استعمال کرتے ہوئے اندازہ کیا جاتا ہے۔ شناخت کا اعتماد ، فوکس کے اعدادوشمار اور پروسیسنگ کا وقت اہم تجربات کے لئے گراؤنڈ سچائی کا متن برقرار رکھا جاتا ہے تاکہ صرف اعتماد پر انحصار کرنے کی بجائے کردار کی غلطی کی شرح اور لفظ کی غلطی کی شرح کا حساب لگایا جاسکے
+============================================================
+
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_idle_voice_urdu\run_001_20260911_161417_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\box7_validation\model_outputs\box7_idle_voice_urdu\run_001_20260911_161417_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.781s
+  Translation  : 2.168s
+  Spell Corr   : 0.000s
+  TTS Playback : 4.540s
+────────────────────────────────────────
+  TOTAL        : 7.558s
+────────────────────────────────────────
+
+  Ready for next capture!
+

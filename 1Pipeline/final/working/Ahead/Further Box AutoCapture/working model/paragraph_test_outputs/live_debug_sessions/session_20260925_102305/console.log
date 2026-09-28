@@ -1,0 +1,419 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.72s
+[LOAD] OCR language audit: french -> PaddleOCR lang='en'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.91s
+[CAPTURE] Detection-only available: True
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 4.95s
+[LOAD] Conservative SymSpell dictionary loaded in 2.77s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.53s, edges=none, bandLap=32, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=0/0, age=0.09s, edges=none, bandLap=32, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 003] state=hold_still, rows=24/24, age=0.19s, edges=none, bandLap=1285, lineLap=1685, lightStd=6.8, belowText=0.9, motion=2.67, stable=0/3
+  [OBS 004] state=almost_ready, rows=27/27, age=0.25s, edges=none, bandLap=908, lineLap=997, lightStd=8.6, belowText=1.0, motion=0.67, stable=1/3
+  [OBS 005] state=almost_ready, rows=27/27, age=0.16s, edges=none, bandLap=1851, lineLap=2257, lightStd=9.2, belowText=1.0, motion=0.52, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 006] state=almost_ready, rows=27/27, age=0.12s, edges=none, bandLap=2044, lineLap=2597, lightStd=8.1, belowText=1.0, motion=0.26, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #249.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260925_102554.jpg
+[POST-CAPTURE] LapVar=236.3, score components: sharp=29, bright=28, even=11
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.641s (28 detections, 26 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Surveillance autonome d'une station énergétique isolée Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio, des instruments météorologiques et l'éclairage de sécurité Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes Les donnees détaillées restent sur place, seul un résumé compresse est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires Le 18 octobre 2025 une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupe le chauffage secondaire, reduit certains éclairages et démarrè le groupe de secours ll a identifié trois causes possibles des débris sur connecteur de batterie les panneaux, un roulement usé et une résistance croissante dans un Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparès au manuel hors ligne Aucune image sensible n'a étè envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure. contrôlait aussi la nettete générale et celle de la partie supérieure Un consigne sonore demandait de reculer si un bord manquait, et quatre images stables etaient nécessaires Les ingénieurs ont ensuite confirme l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a duré six minutes sans reconnaitre l'incertitude et laisser la décision finale à l'opérateur
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.992 | in the upper part of the page
+    Surveillance autonome d'une station énergétique isolée
+  P1 | type=paragraph | 8 line(s) | confidence=0.983 | in the upper part of the page
+    Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio, des instruments météorologiques et l'éclairage de sécurité Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension, le courant. la température et les vibrations toutes les 200 millisecondes Les donnees détaillées restent sur place, seul un résumé compresse est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  P2 | type=paragraph | 7 line(s) | confidence=0.989 | in the middle of the page
+    Le 18 octobre 2025 une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupe le chauffage secondaire, reduit certains éclairages et démarrè le groupe de secours ll a identifié trois causes possibles des débris sur connecteur de batterie les panneaux, un roulement usé et une résistance croissante dans un
+  P3 | type=paragraph | 10 line(s) | confidence=0.983 | in the lower part of the page
+    Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparès au manuel hors ligne Aucune image sensible n'a étè envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure. contrôlait aussi la nettete générale et celle de la partie supérieure Un consigne sonore demandait de reculer si un bord manquait, et quatre images stables etaient nécessaires Les ingénieurs ont ensuite confirme l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a duré six minutes sans reconnaitre l'incertitude et laisser la décision finale à l'opérateur
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 15
+[STAGE 2] 4 regions, 9 NLLB chunks, french -> english: 0.786s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Self-monitoring of an isolated power station
+[P1] On a hard-to-reach plateau, a station feeds a dispensary, a radio relay, weather instruments and safety lighting The microgrid includes solar panels, lithium batteries and a small diesel generator As the road may remain closed for several days. A controller measures the voltage, the current. temperature and vibrations every 200 milliseconds Detailed data remains in place, only a compressed summary is transmitted when the link is working Medical equipment and communication are priority
+[P2] On 18 October 2025, a dust storm reduced solar output by 34% in 15 minutes. The temperature of the battery compartment rose by 8 °C. Instead of shutting down the station, the system turned off the secondary heating, reduced some of the lights, and started the rescue team. It identified three possible causes of debris on the battery connector.
+[P3] After the storm, a head-mounted camera read the license plates and alarm codes. No sensitive images were sent to the cloud. The software required that the entire tag remain within a safe margin. The engineers then confirmed the proposed order to clean the panels, replace the bearing, and then tighten the connector The operation lasted six minutes without acknowledging the uncertainty and leaving the final decision to the operator
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.017s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260925_102556_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260925_102556_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.641s
+  Translation  : 0.786s
+  Spell Corr   : 0.017s
+  TTS Playback : 9.985s
+────────────────────────────────────────
+  TOTAL        : 12.096s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=65, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.32, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=153, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.10, stable=0/3
+  [OBS 004] state=glare, rows=14/14, age=0.22s, edges=B, bandLap=307, lineLap=334, lightStd=0.7, belowText=7.6, motion=0.40, stable=0/3
+  [OBS 005] state=glare, rows=14/14, age=0.30s, edges=B, bandLap=1194, lineLap=1602, lightStd=1.4, belowText=0.0, motion=0.36, stable=0/3
+  [GUIDANCE] Glare detected. Change the angle.
+  [OBS 006] state=glare, rows=15/15, age=0.12s, edges=B, bandLap=1051, lineLap=1446, lightStd=1.4, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 007] state=glare, rows=14/14, age=0.09s, edges=B, bandLap=747, lineLap=1001, lightStd=2.0, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 008] state=glare, rows=17/17, age=0.14s, edges=B, bandLap=708, lineLap=1014, lightStd=2.0, belowText=0.0, motion=0.56, stable=0/3
+  [OBS 009] state=look_down, rows=19/19, age=0.12s, edges=B, bandLap=938, lineLap=1290, lightStd=3.3, belowText=0.0, motion=0.58, stable=0/3
+  [OBS 010] state=almost_ready, rows=29/28, age=0.11s, edges=none, bandLap=1312, lineLap=1811, lightStd=6.2, belowText=0.8, motion=0.31, stable=1/3
+  [OBS 011] state=almost_ready, rows=29/29, age=0.30s, edges=none, bandLap=1844, lineLap=2157, lightStd=7.4, belowText=0.8, motion=0.10, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 012] state=almost_ready, rows=29/29, age=0.23s, edges=none, bandLap=2058, lineLap=2285, lightStd=6.7, belowText=0.7, motion=0.04, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #555.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260925_102619.jpg
+[POST-CAPTURE] LapVar=229.8, score components: sharp=28, bright=30, even=3
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.640s (29 detections, 29 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Surveillance autonome d'une station énergétique isolée Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio. des instruments météorologiques et l'éclairage de sécurite Le micro-réseau reunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension le courant la température et les vibrations toutes les 200 millisecondes Les données détaillées restent sur place; seul un resumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmente de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupé le chauffage secondaire. réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d alarme. puis un processeur local les a comparès au manuel hors ligne Aucune image sensible n'a eté envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge súre, il contrôlait aussi la netteté génerale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables etalent nécessaires Les ingénieurs ont ensuite confirme l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a dure six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale a l'opérateur
+============================================================
+
+[REGIONS] Detected 4 text region(s): 0 title, 1 heading(s), 3 paragraph(s)
+  H1 | type=section_heading | 1 line(s) | confidence=0.990 | in the upper part of the page
+    Surveillance autonome d'une station énergétique isolée
+  P1 | type=paragraph | 9 line(s) | confidence=0.985 | in the middle of the page
+    Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio. des instruments météorologiques et l'éclairage de sécurite Le micro-réseau reunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours. un contrôleur mesure la tension le courant la température et les vibrations toutes les 200 millisecondes Les données détaillées restent sur place; seul un resumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  P2 | type=paragraph | 8 line(s) | confidence=0.986 | in the lower part of the page
+    Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmente de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupé le chauffage secondaire. réduit certains éclairages et démarré le groupe de secours Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie
+  P3 | type=paragraph | 11 line(s) | confidence=0.981 | at the bottom of the page
+    Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d alarme. puis un processeur local les a comparès au manuel hors ligne Aucune image sensible n'a eté envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge súre, il contrôlait aussi la netteté génerale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables etalent nécessaires Les ingénieurs ont ensuite confirme l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur L'intervention a dure six minutes sans interrompre un service critique Une automatisation fiable doit reconnaitre l'incertitude et laisser la décision finale a l'opérateur
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: source digits absent: 18
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 15
+[STAGE 2] 4 regions, 10 NLLB chunks, french -> english: 1.304s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[H1] Self-monitoring of an isolated power station
+[P1] On a hard-to-reach plateau, a power station feeds a medical clinic, a radio relay. The microgrid is made up of solar panels, lithium batteries and a small diesel generator as the road may remain closed for several days. A controller measures voltage, current, temperature and vibration every 200 milliseconds Detailed data remains in place; only a compressed summary is transmitted when the link is working Medical and communication equipment is a priority
+[P2] It's the 18th of October 2025. A dust storm reduced solar output by 34% in 15 minutes. The temperature of the battery compartment rose by 8°C. Instead of shutting down the station, the system cut off the secondary heating. He identified three possible causes of the debris on the panels, a worn-out bearing and increasing resistance in a battery connector.
+[P3] After the storm, a head-mounted camera read license plates and alarm codes. Then a local processor compared them to the offline manual No sensitive image was sent to the cloud The software required that the entire tag remain in a safe margin, it also controlled the overall sharpness and that of the top part A sound command asked to back up if an edge was missing, and four stable images were needed Then the engineers confirmed the proposed order to clean the panels, replace the bearing, then tighten the connector The intervention lasted six minutes without interrupting a critical service A reliable automation must recognize uncertainty and leave the final decision to the operator
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.019s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260925_102621_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260925_102621_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.640s
+  Translation  : 1.304s
+  Spell Corr   : 0.019s
+  TTS Playback : 4.633s
+────────────────────────────────────────
+  TOTAL        : 7.271s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=111, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.28s, edges=none, bandLap=47, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.07, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.16s, edges=none, bandLap=27, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.90, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=page_not_found, rows=0/0, age=0.16s, edges=none, bandLap=32, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 005] state=look_down, rows=6/6, age=0.24s, edges=B, bandLap=1204, lineLap=2374, lightStd=1.9, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 006] state=page_not_found, rows=0/6, age=0.20s, edges=none, bandLap=78, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.86, stable=0/3
+  [OBS 007] state=glare, rows=10/6, age=0.09s, edges=B, bandLap=507, lineLap=727, lightStd=0.5, belowText=0.0, motion=0.61, stable=0/3
+  [OBS 008] state=glare, rows=11/6, age=0.09s, edges=B, bandLap=568, lineLap=925, lightStd=2.0, belowText=0.0, motion=0.52, stable=0/3
+  [GUIDANCE] Glare detected. Change the angle.
+  [OBS 009] state=look_down, rows=10/10, age=0.17s, edges=B, bandLap=2199, lineLap=3452, lightStd=4.2, belowText=26.3, motion=0.14, stable=0/3
+  [OBS 010] state=look_down, rows=12/12, age=0.22s, edges=B, bandLap=1802, lineLap=2662, lightStd=3.0, belowText=0.0, motion=0.05, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 011] state=look_down, rows=6/11, age=0.24s, edges=B, bandLap=1979, lineLap=2798, lightStd=3.5, belowText=0.0, motion=0.09, stable=0/3
+  [OBS 012] state=look_down, rows=11/12, age=0.09s, edges=B, bandLap=1848, lineLap=3066, lightStd=4.1, belowText=0.0, motion=0.36, stable=0/3
+  [OBS 013] state=look_down, rows=7/12, age=0.17s, edges=B, bandLap=184, lineLap=290, lightStd=3.8, belowText=11.3, motion=0.10, stable=0/3
+  [OBS 014] state=look_down, rows=12/12, age=0.14s, edges=B, bandLap=1621, lineLap=2354, lightStd=4.0, belowText=0.0, motion=0.15, stable=0/3
+  [OBS 015] state=hold_still, rows=12/12, age=0.24s, edges=B, bandLap=313, lineLap=361, lightStd=6.8, belowText=0.0, motion=2.39, stable=0/3
+  [OBS 016] state=hold_still, rows=24/14, age=0.28s, edges=none, bandLap=1258, lineLap=1299, lightStd=11.0, belowText=1.1, motion=2.53, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 017] state=almost_ready, rows=21/21, age=0.14s, edges=none, bandLap=982, lineLap=1149, lightStd=13.3, belowText=1.0, motion=0.33, stable=1/3
+  [OBS 018] state=almost_ready, rows=22/22, age=0.12s, edges=none, bandLap=1689, lineLap=2070, lightStd=13.7, belowText=1.1, motion=0.18, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 019] state=almost_ready, rows=20/22, age=0.16s, edges=none, bandLap=1417, lineLap=1446, lightStd=10.2, belowText=9.9, motion=0.11, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #807.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260925_102640.jpg
+[POST-CAPTURE] LapVar=196.8, score components: sharp=23, bright=30, even=20
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.563s (21 detections, 19 lines, 5 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+DOLL Surveillance autonome d'une station énergétique isolée Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio des instruments météorologiques et l'éclairage de sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension. le courant, la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place, seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventiláteur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupe le chauffage secondaire, réduit certains éclairages et dèmarré le groupe de secours. Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie Après la tempête, une caméra portée sur la tête a lu les plaques et les hors ligne Aucune image sensible n'a été envoyée dans le nuage Le
+============================================================
+
+[REGIONS] Detected 5 text region(s): 1 title, 0 heading(s), 4 paragraph(s)
+  P1 | type=paragraph | 1 line(s) | confidence=0.841 | at the top of the page
+    DOLL
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | in the upper part of the page
+    Surveillance autonome d'une station énergétique isolée
+  P2 | type=paragraph | 8 line(s) | confidence=0.990 | in the upper part of the page
+    Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio des instruments météorologiques et l'éclairage de sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension. le courant, la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place, seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  P3 | type=paragraph | 7 line(s) | confidence=0.985 | in the middle of the page
+    Le 18 octobre 2025. une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventiláteur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupe le chauffage secondaire, réduit certains éclairages et dèmarré le groupe de secours. Il a identifié trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie
+  P4 | type=paragraph | 2 line(s) | confidence=0.985 | in the lower part of the page
+    Après la tempête, une caméra portée sur la tête a lu les plaques et les hors ligne Aucune image sensible n'a été envoyée dans le nuage Le
+[TRANSLATION REVIEW] Region 4: Review numerical rendering: source digits absent: 18
+[TRANSLATION REVIEW] Region 4: Review numerical rendering: new output digits: 15
+[STAGE 2] 5 regions, 11 NLLB chunks, french -> english: 0.555s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[P1] DOLL
+[TITLE] Self-monitoring of an isolated power station
+[P2] On a hard-to-reach plateau, a station feeds a dispensary, a radio relay of weather instruments and safety lighting. The micro-grid is made up of solar panels, lithium batteries and a small diesel generator. As the road may remain closed for several days, a controller measures the voltage. the current, temperature and vibration every 200 milliseconds. Detailed data remains in place, only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority
+[P3] It's the 18th of October 2025. A dust storm reduced solar output by 34% in 15 minutes. The temperature of the battery compartment rose by 8°C. Instead of shutting down the station, the system turned off the secondary heating, reduced some of the lighting and started the backup unit. He identified three possible causes of debris on the panels, a worn-out bearing and increasing resistance in a battery connector.
+[P4] After the storm, a head-mounted camera read the license plates and offline. No sensitive images were sent to the cloud.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.000s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260925_102642_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_003_20260925_102642_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.563s
+  Translation  : 0.555s
+  Spell Corr   : 0.000s
+  TTS Playback : 9.074s
+────────────────────────────────────────
+  TOTAL        : 10.871s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.24s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.46, stable=0/3
+  [OBS 003] state=blurry, rows=13/13, age=0.11s, edges=none, bandLap=67, lineLap=80, lightStd=5.4, belowText=0.7, motion=5.16, stable=0/3
+  [OBS 004] state=blurry, rows=22/22, age=0.28s, edges=none, bandLap=75, lineLap=101, lightStd=8.5, belowText=0.9, motion=0.21, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 005] state=blurry, rows=24/24, age=0.09s, edges=none, bandLap=95, lineLap=135, lightStd=8.6, belowText=0.9, motion=0.50, stable=0/3
+  [OBS 006] state=almost_ready, rows=27/27, age=0.11s, edges=none, bandLap=110, lineLap=132, lightStd=8.6, belowText=0.8, motion=0.36, stable=1/3
+  [OBS 007] state=almost_ready, rows=23/27, age=0.16s, edges=none, bandLap=146, lineLap=187, lightStd=7.2, belowText=2.3, motion=0.09, stable=2/3
+  [GUIDANCE] Ready.
+  [STABLE HOLD] One soft failure retained; 2/3 good frames remain.
+  [OBS 008] state=blurry, rows=17/27, age=0.17s, edges=none, bandLap=45, lineLap=67, lightStd=9.5, belowText=0.8, motion=0.50, stable=2/3
+  [OBS 009] state=almost_ready, rows=26/27, age=0.19s, edges=none, bandLap=279, lineLap=317, lightStd=9.2, belowText=0.9, motion=0.28, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1142.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260925_102709.jpg
+[POST-CAPTURE] LapVar=15.2, score components: sharp=0, bright=29, even=20
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (15.2 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=3/3, age=0.34s, edges=B, bandLap=67, lineLap=82, lightStd=6.4, belowText=4.4, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.15, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.08s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.67, stable=0/3
+  [OBS 004] state=blurry, rows=22/22, age=0.23s, edges=none, bandLap=67, lineLap=83, lightStd=9.9, belowText=3.5, motion=0.84, stable=0/3
+  [OBS 005] state=blurry, rows=20/20, age=0.25s, edges=none, bandLap=43, lineLap=55, lightStd=9.0, belowText=0.9, motion=0.48, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 006] state=blurry, rows=24/24, age=0.14s, edges=none, bandLap=89, lineLap=130, lightStd=11.2, belowText=0.9, motion=0.53, stable=0/3
+  [OBS 007] state=blurry, rows=24/24, age=0.11s, edges=none, bandLap=83, lineLap=98, lightStd=10.8, belowText=0.8, motion=0.11, stable=0/3
+  [OBS 008] state=blurry, rows=20/20, age=0.16s, edges=none, bandLap=70, lineLap=83, lightStd=7.7, belowText=4.8, motion=0.32, stable=0/3
+  [OBS 009] state=blurry, rows=24/24, age=0.26s, edges=none, bandLap=83, lineLap=114, lightStd=9.5, belowText=0.9, motion=1.44, stable=0/3
+  [OBS 010] state=blurry, rows=24/24, age=0.12s, edges=none, bandLap=66, lineLap=98, lightStd=9.4, belowText=0.9, motion=0.23, stable=0/3
+  [OBS 011] state=blurry, rows=23/23, age=0.08s, edges=none, bandLap=76, lineLap=87, lightStd=9.4, belowText=1.3, motion=0.23, stable=0/3
+  [OBS 012] state=blurry, rows=24/24, age=0.12s, edges=none, bandLap=67, lineLap=79, lightStd=9.5, belowText=0.9, motion=0.27, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 013] state=blurry, rows=23/23, age=0.11s, edges=none, bandLap=76, lineLap=97, lightStd=8.6, belowText=3.2, motion=0.18, stable=0/3
+  [OBS 014] state=blurry, rows=23/23, age=0.20s, edges=none, bandLap=93, lineLap=113, lightStd=10.2, belowText=1.3, motion=0.09, stable=0/3
+  [OBS 015] state=blurry, rows=14/14, age=0.26s, edges=none, bandLap=44, lineLap=58, lightStd=5.1, belowText=4.6, motion=0.08, stable=0/3
+  [OBS 016] state=page_not_found, rows=0/0, age=0.23s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.80, stable=0/3
+  [OBS 017] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.96, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 018] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.33, stable=0/3
+  [OBS 019] state=page_not_found, rows=0/0, age=0.06s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.88, stable=0/3
+  [OBS 020] state=blurry, rows=16/16, age=0.25s, edges=none, bandLap=53, lineLap=61, lightStd=8.4, belowText=3.3, motion=0.27, stable=0/3
+  [OBS 021] state=blurry, rows=13/13, age=0.12s, edges=none, bandLap=40, lineLap=60, lightStd=7.1, belowText=0.8, motion=0.25, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 022] state=blurry, rows=26/26, age=0.12s, edges=none, bandLap=62, lineLap=81, lightStd=9.3, belowText=0.8, motion=0.30, stable=0/3
+  [OBS 023] state=blurry, rows=24/24, age=0.14s, edges=none, bandLap=49, lineLap=76, lightStd=9.5, belowText=0.8, motion=0.06, stable=0/3
+  [OBS 024] state=blurry, rows=23/23, age=0.11s, edges=none, bandLap=52, lineLap=62, lightStd=9.3, belowText=0.8, motion=0.34, stable=0/3
+  [OBS 025] state=blurry, rows=23/23, age=0.16s, edges=T, bandLap=52, lineLap=73, lightStd=9.0, belowText=0.8, motion=0.24, stable=0/3
+  [OBS 026] state=blurry, rows=13/13, age=0.27s, edges=none, bandLap=32, lineLap=36, lightStd=8.2, belowText=3.1, motion=1.19, stable=0/3
+  [OBS 027] state=blurry, rows=22/22, age=0.26s, edges=T, bandLap=56, lineLap=71, lightStd=8.8, belowText=0.8, motion=0.72, stable=0/3
+  [OBS 028] state=blurry, rows=22/22, age=0.12s, edges=T, bandLap=74, lineLap=82, lightStd=8.8, belowText=1.8, motion=0.66, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 029] state=blurry, rows=22/22, age=0.12s, edges=T, bandLap=64, lineLap=91, lightStd=8.2, belowText=0.8, motion=0.22, stable=0/3
+  [OBS 030] state=blurry, rows=22/22, age=0.16s, edges=T, bandLap=62, lineLap=73, lightStd=7.6, belowText=0.8, motion=0.03, stable=0/3
+  [OBS 031] state=blurry, rows=24/24, age=0.27s, edges=T, bandLap=67, lineLap=84, lightStd=8.2, belowText=0.8, motion=0.54, stable=0/3
+  [OBS 032] state=hold_still, rows=0/0, age=0.12s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.43, stable=0/3
+  [OBS 033] state=blurry, rows=15/15, age=0.12s, edges=none, bandLap=44, lineLap=62, lightStd=10.4, belowText=1.0, motion=0.04, stable=0/3
+  [OBS 034] state=blurry, rows=3/3, age=0.19s, edges=none, bandLap=17, lineLap=21, lightStd=4.9, belowText=4.0, motion=0.51, stable=0/3
+  [OBS 035] state=hold_still, rows=0/0, age=0.19s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.11, stable=0/3
+  [OBS 036] state=page_not_found, rows=0/0, age=0.20s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.47, stable=0/3
+  [OBS 037] state=blurry, rows=4/4, age=0.14s, edges=none, bandLap=133, lineLap=149, lightStd=1.9, belowText=4.5, motion=0.04, stable=0/3
+  [OBS 038] state=hold_still, rows=0/4, age=0.12s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.77, stable=0/3
+  [OBS 039] state=page_not_found, rows=0/4, age=0.11s, edges=none, bandLap=28, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.77, stable=0/3
+  [OBS 040] state=page_not_found, rows=0/4, age=0.11s, edges=none, bandLap=32, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.54, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 041] state=blurry, rows=13/4, age=0.20s, edges=none, bandLap=79, lineLap=88, lightStd=7.5, belowText=1.0, motion=0.07, stable=0/3
+  [OBS 042] state=blurry, rows=11/4, age=0.25s, edges=none, bandLap=74, lineLap=74, lightStd=4.0, belowText=4.1, motion=0.12, stable=0/3
+  [GUIDANCE] Text is blurry. Adjust distance.
+  [OBS 043] state=page_not_found, rows=0/4, age=0.09s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.61, stable=0/3
+  [OBS 044] state=blurry, rows=19/4, age=0.06s, edges=none, bandLap=74, lineLap=98, lightStd=7.5, belowText=0.9, motion=0.53, stable=0/3
+  [OBS 045] state=blurry, rows=19/4, age=0.14s, edges=none, bandLap=67, lineLap=84, lightStd=7.9, belowText=0.9, motion=0.34, stable=0/3
+  [OBS 046] state=hold_still, rows=0/4, age=0.14s, edges=none, bandLap=10, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.23, stable=0/3
+  [OBS 047] state=hold_still, rows=0/4, age=0.11s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.69, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 048] state=hold_still, rows=0/4, age=0.27s, edges=none, bandLap=11, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.95, stable=0/3
+  [OBS 049] state=hold_still, rows=0/4, age=0.22s, edges=none, bandLap=6, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.49, stable=0/3
+  [OBS 050] state=hold_still, rows=0/4, age=0.22s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.62, stable=0/3
+  [OBS 051] state=hold_still, rows=0/4, age=0.08s, edges=none, bandLap=13, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.45, stable=0/3
+  [OBS 052] state=hold_still, rows=0/4, age=0.08s, edges=none, bandLap=10, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.28, stable=0/3
+  [OBS 053] state=too_dark, rows=0/4, age=0.22s, edges=none, bandLap=1, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.37, stable=0/3
+  [OBS 054] state=too_dark, rows=0/4, age=0.09s, edges=none, bandLap=3, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.02, stable=0/3
+  [GUIDANCE] Too dark. Improve the lighting.
+  [OBS 055] state=page_not_found, rows=0/4, age=0.09s, edges=none, bandLap=11, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 056] state=hold_still, rows=0/4, age=0.12s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.87, stable=0/3
+  [OBS 057] state=hold_still, rows=0/4, age=0.09s, edges=none, bandLap=37, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.64, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 058] state=hold_still, rows=0/4, age=0.16s, edges=none, bandLap=6, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.81, stable=0/3
+  [OBS 059] state=hold_still, rows=0/4, age=0.26s, edges=none, bandLap=22, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.01, stable=0/3
+  [OBS 060] state=hold_still, rows=0/4, age=0.24s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=7.66, stable=0/3
+  [OBS 061] state=hold_still, rows=0/4, age=0.11s, edges=none, bandLap=19, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.88, stable=0/3
+  [OBS 062] state=hold_still, rows=0/4, age=0.11s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.14, stable=0/3
+  [OBS 063] state=page_not_found, rows=0/4, age=0.08s, edges=none, bandLap=138, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.12, stable=0/3
+  [OBS 064] state=hold_still, rows=20/18, age=0.26s, edges=T, bandLap=184, lineLap=251, lightStd=8.8, belowText=1.3, motion=1.33, stable=0/3
+  [OBS 065] state=look_up, rows=27/26, age=0.11s, edges=T, bandLap=949, lineLap=1333, lightStd=9.7, belowText=1.1, motion=0.68, stable=0/3
+  [OBS 066] state=look_up, rows=26/27, age=0.16s, edges=T, bandLap=1257, lineLap=1685, lightStd=8.7, belowText=1.1, motion=0.41, stable=0/3
+  [GUIDANCE] Look up for the top text.
+  [OBS 067] state=look_up, rows=27/27, age=0.11s, edges=T, bandLap=1197, lineLap=1749, lightStd=9.2, belowText=1.1, motion=0.19, stable=0/3
+  [OBS 068] state=look_up, rows=27/27, age=0.16s, edges=T, bandLap=1189, lineLap=1660, lightStd=9.5, belowText=1.1, motion=0.13, stable=0/3
+  [OBS 069] state=hold_still, rows=27/27, age=0.16s, edges=none, bandLap=332, lineLap=407, lightStd=8.8, belowText=0.9, motion=1.44, stable=0/3
+  [OBS 070] state=almost_ready, rows=27/27, age=0.31s, edges=none, bandLap=1575, lineLap=1804, lightStd=8.6, belowText=0.9, motion=0.64, stable=1/3
+  [OBS 071] state=almost_ready, rows=26/27, age=0.23s, edges=none, bandLap=1601, lineLap=1997, lightStd=7.7, belowText=0.9, motion=0.32, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 072] state=almost_ready, rows=27/27, age=0.25s, edges=none, bandLap=1801, lineLap=2111, lightStd=8.7, belowText=0.9, motion=0.11, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1852.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260925_102804.jpg
+[POST-CAPTURE] LapVar=211.3, score components: sharp=25, bright=30, even=12
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 0.469s (28 detections, 27 lines, 5 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Surveillance autonome d'une station énergétique isolée Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio, des instruments météorologiques et l'éclairage de sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel. Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension, le courant, la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place, seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires Le 18 octobre 2025, une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifie trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparés au manuel hors ligne. Aucune image sensible n'a été envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure, il contrôlait aussi la netteté générale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires. Les ingénieurs ont ensuite confirme l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur. L'intervention a duré six minutes sans reconnaitre l'incertitude et laisser la décision finale à l'opérateur
+============================================================
+
+[REGIONS] Detected 5 text region(s): 1 title, 1 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=0.998 | at the top of the page
+    Surveillance autonome d'une station énergétique isolée
+  P1 | type=paragraph | 8 line(s) | confidence=0.995 | in the upper part of the page
+    Sur un plateau difficile d'accès, une station alimente un dispensaire, un relais radio, des instruments météorologiques et l'éclairage de sécurité. Le micro-réseau réunit des panneaux solaires, des batteries au lithium et un petit générateur diesel. Comme la route peut rester fermée plusieurs jours, un contrôleur mesure la tension, le courant, la température et les vibrations toutes les 200 millisecondes. Les données détaillées restent sur place, seul un résumé compressé est transmis lorsque la liaison fonctionne Les équipements médicaux et de communication sont prioritaires
+  P2 | type=paragraph | 8 line(s) | confidence=0.991 | in the middle of the page
+    Le 18 octobre 2025, une tempête de poussière a réduit la production solaire de 34 % en quinze minutes La température de l'armoire de batteries a augmenté de 8 °C. tandis que le ventilateur de l'onduleur produisait une vibration anormale Au lieu d'arrêter la station, le système a coupé le chauffage secondaire, réduit certains éclairages et démarré le groupe de secours Il a identifie trois causes possibles des débris sur les panneaux, un roulement usé et une résistance croissante dans un connecteur de batterie
+  P3 | type=paragraph | 9 line(s) | confidence=0.989 | in the lower part of the page
+    Après la tempête, une caméra portée sur la tête a lu les plaques et les codes d'alarme. puis un processeur local les a comparés au manuel hors ligne. Aucune image sensible n'a été envoyée dans le nuage Le logiciel exigeait que l'étiquette entière reste dans une marge sure, il contrôlait aussi la netteté générale et celle de la partie supérieure Une consigne sonore demandait de reculer si un bord manquait, et quatre images stables étaient nécessaires. Les ingénieurs ont ensuite confirme l'ordre proposé nettoyer les panneaux, remplacer le roulement, puis resserrer le connecteur. L'intervention a duré six minutes sans
+  H1 | type=section_heading | 1 line(s) | confidence=0.993 | in the lower part of the page
+    reconnaitre l'incertitude et laisser la décision finale à l'opérateur
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: source digits absent: 8
+[STAGE 2] 5 regions, 13 NLLB chunks, french -> english: 0.800s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Self-monitoring of an isolated power station
+[P1] On a hard-to-reach plateau, one station feeds a dispensary, a radio relay, weather instruments and safety lighting. The micro-grid is made up of solar panels, lithium batteries and a small diesel generator. Since the road can remain closed for days, a controller measures voltage, current, temperature and vibration every 200 milliseconds. Detailed data remains in place, only a compressed summary is transmitted when the link is operational Medical and communication equipment is a priority
+[P2] On 18 October 2025, a dust storm reduced solar output by 34% in fifteen minutes. Instead of shutting down the station, the system turned off the secondary heating, reduced some of the lights, and started the backup unit. It identified three possible causes of debris on the panels, worn bearings, and increasing resistance in a battery connector.
+[P3] After the storm, a head-mounted camera read the license plates and alarm codes. Then a local processor compared them to the offline manual. No sensitive images were sent to the cloud The software required the entire label to remain within an acidic margin, it also controlled the overall sharpness and that of the upper part A sound command asked to back up if an edge was missing, and four stable images were needed. The engineers then confirmed the proposed order to clean the panels, replace the bearing, and then tighten the connector. The procedure lasted for six minutes without any
+[H1] acknowledge the uncertainty and leave the final decision to the operator
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.017s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260925_102805_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260925_102805_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 0.469s
+  Translation  : 0.800s
+  Spell Corr   : 0.017s
+  TTS Playback : 77.220s
+────────────────────────────────────────
+  TOTAL        : 79.186s
+────────────────────────────────────────
+
+  Ready for next capture!
+

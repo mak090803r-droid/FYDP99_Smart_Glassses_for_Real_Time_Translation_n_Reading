@@ -1,0 +1,47 @@
+======================================================================
+RUN          : 5
+TIMESTAMP    : 20260925_104225
+IMAGE FILE   : capture_cli_005_20260925_104224.jpg
+LANGUAGE     : english
+TEXT REGIONS : 4
+PAGE TITLES  : 0
+HEADINGS     : 2
+PARAGRAPHS   : 2
+======================================================================
+
+── RAW EXTRACTED TEXT ──
+Technical Manual for Unmanned Aerial Systems (UAS) Autonomous Operations and Airworthiness Integration Specifications Chapter I: Systems Engineering and Airframe Integration Specifications 1.1 Aerodynamic Layout and Structural Integrity Analysis
+
+── CLASSIFIED REGION DETAIL ──
+------------------------------------------------------------
+P1 | region_id=1 | type=paragraph | lines=3 | conf=1.000 | font_scale=1.21 | heading_evidence=ordinary_text | break=start_of_page | normal_pitch=42.00 | bbox=(367, 196, 940, 359)
+  SOURCE    : Technical Manual for Unmanned Aerial Systems (UAS) Autonomous Operations and Airworthiness Integration Specifications
+  LAYOUT LINES:
+    L01 | bbox=(404, 204, 893, 268) | pitch=0.00 | gap_ratio=0.00 | indent=0.00 | font_height=33.06 | font_scale=1.14 | heading=ordinary_text | decision=start_of_page | text=Technical Manual for Unmanned Aerial
+    L02 | bbox=(375, 246, 932, 315) | pitch=44.50 | gap_ratio=1.06 | indent=-13.00 | font_height=35.06 | font_scale=1.21 | heading=ordinary_text | decision=continuation | text=Systems (UAS) Autonomous Operations and
+    L03 | bbox=(403, 290, 910, 354) | pitch=41.50 | gap_ratio=0.99 | indent=28.00 | font_height=31.06 | font_scale=1.03 | heading=ordinary_text | decision=continuation | text=Airworthiness Integration Specifications
+  TRANSLATED: بغیر پائلٹ کے فضائی نظام (UAS) کے لیے تکنیکی دستی۔ خود مختار آپریشن اور فضائی قابلیت کے انضمام کی تفصیلات
+  SPOKEN    : بغیر پائلٹ کے فضائی نظام (UAS) کے لیے تکنیکی دستی۔ خود مختار آپریشن اور فضائی قابلیت کے انضمام کی تفصیلات
+------------------------------------------------------------
+H1 | region_id=2 | type=section_heading | lines=1 | conf=0.986 | font_scale=0.84 | heading_evidence=explicit_heading_pattern | break=heading | normal_pitch=42.00 | bbox=(365, 359, 863, 418)
+  SOURCE    : Chapter I: Systems Engineering and Airframe Integration
+  LAYOUT LINES:
+    L01 | bbox=(373, 366, 855, 427) | pitch=74.50 | gap_ratio=1.77 | indent=-5.50 | font_height=27.07 | font_scale=0.84 | heading=explicit_heading_pattern | decision=heading | text=Chapter I: Systems Engineering and Airframe Integration
+  TRANSLATED: باب اول: سسٹم انجینئرنگ اور طیارے کی ساخت کا انضمام
+  SPOKEN    : باب اول: سسٹم انجینئرنگ اور طیارے کی ساخت کا انضمام
+------------------------------------------------------------
+P2 | region_id=3 | type=paragraph | lines=1 | conf=1.000 | font_scale=0.81 | heading_evidence=ordinary_text | break=after_heading | normal_pitch=42.00 | bbox=(369, 418, 508, 456)
+  SOURCE    : Specifications
+  LAYOUT LINES:
+    L01 | bbox=(377, 422, 500, 456) | pitch=42.50 | gap_ratio=1.01 | indent=-3.00 | font_height=25.08 | font_scale=0.81 | heading=ordinary_text | decision=after_heading | text=Specifications
+  TRANSLATED: تفصیلات
+  SPOKEN    : تفصیلات
+------------------------------------------------------------
+H2 | region_id=4 | type=section_heading | lines=1 | conf=0.972 | font_scale=0.72 | heading_evidence=explicit_heading_pattern | break=heading | normal_pitch=42.00 | bbox=(372, 456, 780, 506)
+  SOURCE    : 1.1 Aerodynamic Layout and Structural Integrity Analysis
+  LAYOUT LINES:
+    L01 | bbox=(380, 447, 772, 498) | pitch=33.50 | gap_ratio=0.80 | indent=5.00 | font_height=23.08 | font_scale=0.72 | heading=explicit_heading_pattern | decision=heading | text=1.1 Aerodynamic Layout and Structural Integrity Analysis
+  TRANSLATED: 1.1 ایروڈینامک ترتیب اور ساختی سالمیت کا تجزیہ
+  SPOKEN    : 1.1 ایروڈینامک ترتیب اور ساختی سالمیت کا تجزیہ
+
+======================================================================

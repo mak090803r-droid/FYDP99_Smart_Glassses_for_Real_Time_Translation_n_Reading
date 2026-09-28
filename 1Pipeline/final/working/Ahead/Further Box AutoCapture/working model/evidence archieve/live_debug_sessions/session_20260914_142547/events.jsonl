@@ -1,0 +1,6 @@
+{"wall_time": "2026-09-14T14:25:47+0500", "elapsed_seconds": 0.016, "event": "session_started", "session_dir": "C:\\Users\\ali\\Desktop\\FYDP\\New\\Project\\1Pipeline\\final\\working\\Ahead\\Further Box AutoCapture\\working model\\paragraph_test_outputs\\live_debug_sessions\\session_20260914_142547"}
+{"wall_time": "2026-09-14T14:25:47+0500", "elapsed_seconds": 0.016, "event": "audio_route", "enabled": true, "connected": false, "message": "Pi audio disconnected", "route_changed": true}
+{"wall_time": "2026-09-14T14:26:26+0500", "elapsed_seconds": 39.844, "event": "audio_route", "enabled": false, "connected": false, "message": "PC audio", "route_changed": true}
+{"wall_time": "2026-09-14T14:26:32+0500", "elapsed_seconds": 45.313, "event": "audio_route", "enabled": true, "connected": false, "message": "Pi audio disconnected", "route_changed": true}
+{"wall_time": "2026-09-14T14:26:33+0500", "elapsed_seconds": 46.516, "event": "voice", "message": "Voice disabled; recognizer unloaded", "enabled": false, "busy": false}
+{"wall_time": "2026-09-14T14:26:33+0500", "elapsed_seconds": 46.516, "event": "session_ending"}

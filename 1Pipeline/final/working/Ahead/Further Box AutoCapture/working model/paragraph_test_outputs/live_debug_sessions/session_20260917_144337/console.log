@@ -1,0 +1,381 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.70s
+[LOAD] OCR language audit: chinese -> PaddleOCR lang='ch'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.92s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 1.21s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.22s
+[LOAD] Conservative SymSpell dictionary loaded in 2.87s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.58s, edges=none, bandLap=177, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=211, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=2/2, age=0.19s, edges=none, bandLap=696, lineLap=625, lightStd=33.3, belowText=2.6, motion=0.12, stable=0/3
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260917_144503.jpg
+[POST-CAPTURE] LapVar=53.0, score components: sharp=0, bright=30, even=14
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (53.0 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.28s, edges=none, bandLap=198, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=183, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.41, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 003] state=page_not_found, rows=0/0, age=0.12s, edges=none, bandLap=295, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.72, stable=0/3
+  [OBS 004] state=page_not_found, rows=0/0, age=0.33s, edges=none, bandLap=274, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.16, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.14s, edges=none, bandLap=336, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.14, stable=0/3
+  [OBS 006] state=hold_still, rows=0/0, age=0.16s, edges=none, bandLap=44, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.31, stable=0/3
+  [OBS 007] state=glare, rows=3/3, age=0.16s, edges=none, bandLap=137, lineLap=191, lightStd=2.3, belowText=2.1, motion=3.55, stable=0/3
+  [OBS 008] state=look_up, rows=6/6, age=0.27s, edges=T, bandLap=592, lineLap=874, lightStd=2.7, belowText=15.1, motion=0.15, stable=0/3
+  [OBS 009] state=hold_still, rows=20/19, age=0.31s, edges=B, bandLap=411, lineLap=662, lightStd=9.6, belowText=0.0, motion=2.54, stable=0/3
+  [OBS 010] state=look_down, rows=21/21, age=0.27s, edges=B, bandLap=1414, lineLap=2247, lightStd=9.2, belowText=0.0, motion=0.73, stable=0/3
+  [OBS 011] state=hold_still, rows=22/22, age=0.08s, edges=none, bandLap=2003, lineLap=2588, lightStd=11.0, belowText=1.4, motion=1.68, stable=0/3
+  [OBS 012] state=almost_ready, rows=22/22, age=0.14s, edges=none, bandLap=1981, lineLap=2759, lightStd=10.2, belowText=1.5, motion=0.04, stable=1/3
+  [OBS 013] state=almost_ready, rows=22/22, age=0.14s, edges=none, bandLap=2032, lineLap=2696, lightStd=10.0, belowText=1.2, motion=0.29, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 014] state=almost_ready, rows=22/22, age=0.38s, edges=none, bandLap=2051, lineLap=2685, lightStd=10.2, belowText=1.2, motion=0.09, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #811.
+
+────────────────────────────────────────────────────────────
+  RUN #2
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_002_20260917_144520.jpg
+[POST-CAPTURE] LapVar=314.6, score components: sharp=40, bright=30, even=15
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.375s (23 detections, 23 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+偏远地区混合能源站的自主监测与维护 一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供 电。微电网需要持续支持诊所、无线电中继、气象设备和安全照 明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每 二百毫秒采集电压、电流、温度与振动数据，并在能源不足时优 先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状 态摘要会在链路恢复时发送到控制中心。 二〇二五年十月十八日，一场沙尘风暴使太阳能输出在十五分 钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇 还出现异常低频振动。控制器没有关闭整座电站，而是断开非必 要加热装置、降低部分照明功率并启动备用发电机。诊断模块随 后提出三个可能原因：太阳能板被碎屑遮挡、风扇轴承磨损，以 及电池连接器的接触电阻上升。 风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报 警代码，本地处理单元再与离线维护手册进行比对。由干资料涉 及关键基础设施，图像没有上传云端。采集程序先确认整个标签 位于安全边界内，并分别检查全图和上部区域的清晰度：若画面 被裁切，耳机会提示向左、向右或向后移动。目标只有连续四帧 稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序 与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池 端子。处置用了六分钟，关键服务未中断。这说明可靠的自动 必须解释判断、承认不确定性，并把最终决定留给人。
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | in the upper part of the page
+    偏远地区混合能源站的自主监测与维护
+  P1 | type=paragraph | 6 line(s) | confidence=0.997 | in the upper part of the page
+    一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供 电。微电网需要持续支持诊所、无线电中继、气象设备和安全照 明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每 二百毫秒采集电压、电流、温度与振动数据，并在能源不足时优 先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状 态摘要会在链路恢复时发送到控制中心。
+  P2 | type=paragraph | 6 line(s) | confidence=0.990 | in the middle of the page
+    二〇二五年十月十八日，一场沙尘风暴使太阳能输出在十五分 钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇 还出现异常低频振动。控制器没有关闭整座电站，而是断开非必 要加热装置、降低部分照明功率并启动备用发电机。诊断模块随 后提出三个可能原因：太阳能板被碎屑遮挡、风扇轴承磨损，以 及电池连接器的接触电阻上升。
+  P3 | type=paragraph | 9 line(s) | confidence=0.992 | at the bottom of the page
+    风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报 警代码，本地处理单元再与离线维护手册进行比对。由干资料涉 及关键基础设施，图像没有上传云端。采集程序先确认整个标签 位于安全边界内，并分别检查全图和上部区域的清晰度：若画面 被裁切，耳机会提示向左、向右或向后移动。目标只有连续四帧 稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序 与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池 端子。处置用了六分钟，关键服务未中断。这说明可靠的自动 必须解释判断、承认不确定性，并把最终决定留给人。
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: new output digits: 200
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 18, 2025, 34
+[STAGE 2] 4 regions, 15 NLLB chunks, chinese -> english: 0.973s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Autonomous monitoring and maintenance of hybrid power stations in remote areas
+[P1] A plateau test station relies on solar arrays, lithium batteries and a small diesel generator to power it. Micro-grids need to continue to support clinics, radio relay, weather equipment and safety lighting. Roads can be closed for days in winter and the network is unstable, so local controllers collect voltage, current, temperature and vibration data every 200 milliseconds, and prioritize medical and communications loads when energy is scarce. The complete record is stored on the station, and only the compressed status summary is sent to the control center when the link is restored.
+[P2] On October 18, 2025, a dust storm caused a 34 percent drop in solar output in fifteen minutes, a temperature rise of eight degrees Celsius in the battery cabinet, and an abnormally low frequency vibration in the inverter fan. Instead of shutting down the entire power plant, the controller disconnects unnecessary heating devices, lowers the power of some lighting and starts the backup generator. Diagnostic modules then suggested three possible causes: solar panels were shrouded in debris, fan bearings wore out, and the contact resistance of the battery connector rose.
+[P3] After the storm weakened, technicians used head-mounted cameras to read the insignia, serial numbers and alarm codes, and the local processing unit was compared to the offline maintenance manual. The images are not uploaded to the cloud because of the critical infrastructure involved. The capture process first confirms that the entire label is within the safety boundary and checks the clarity of the whole image and the upper region separately: if the image is cropped, the earpiece is prompted to move left, right or backwards. The target is saved only when the sequence of four lines is stable and the text is clear enough. The next day's logs showed that the automatic sorting was consistent with the artificial judgment: first the panels were cleaned, then the fan bearings were replaced, and finally the battery terminals were tightened. The disposal took six minutes and critical services were not interrupted. This shows that reliable automation must interpret judgments, acknowledge uncertainty, and leave the final decision to humans.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.022s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260917_144523_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_002_20260917_144523_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.375s
+  Translation  : 0.973s
+  Spell Corr   : 0.022s
+  TTS Playback : 7.306s
+────────────────────────────────────────
+  TOTAL        : 10.369s
+────────────────────────────────────────
+
+  Ready for next capture!
+
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=glare, rows=3/3, age=0.23s, edges=B, bandLap=1407, lineLap=2313, lightStd=10.7, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=glare, rows=3/3, age=0.20s, edges=B, bandLap=1306, lineLap=1798, lightStd=6.0, belowText=17.6, motion=0.12, stable=0/3
+  [GUIDANCE] Glare detected. Change the angle.
+  [OBS 003] state=glare, rows=5/5, age=0.06s, edges=B, bandLap=28, lineLap=34, lightStd=0.0, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 004] state=glare, rows=6/6, age=0.30s, edges=B, bandLap=15, lineLap=23, lightStd=0.0, belowText=0.0, motion=4.64, stable=0/3
+  [OBS 005] state=page_not_found, rows=0/0, age=0.42s, edges=none, bandLap=74, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.26, stable=0/3
+  [OBS 006] state=glare, rows=2/2, age=0.08s, edges=B, bandLap=26, lineLap=81, lightStd=0.0, belowText=0.0, motion=2.91, stable=0/3
+  [OBS 007] state=glare, rows=5/5, age=0.09s, edges=B, bandLap=19, lineLap=29, lightStd=0.0, belowText=0.0, motion=1.13, stable=0/3
+  [OBS 008] state=glare, rows=5/5, age=0.28s, edges=none, bandLap=16, lineLap=36, lightStd=0.0, belowText=1.3, motion=0.16, stable=0/3
+  [OBS 009] state=glare, rows=8/8, age=0.23s, edges=B, bandLap=17, lineLap=24, lightStd=0.0, belowText=0.0, motion=0.71, stable=0/3
+  [GUIDANCE] Glare detected. Change the angle.
+  [OBS 010] state=glare, rows=13/13, age=0.41s, edges=B, bandLap=77, lineLap=123, lightStd=0.0, belowText=0.0, motion=0.91, stable=0/3
+  [OBS 011] state=glare, rows=13/13, age=0.70s, edges=B, bandLap=77, lineLap=123, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 012] state=glare, rows=13/13, age=0.12s, edges=B, bandLap=363, lineLap=503, lightStd=0.5, belowText=0.0, motion=0.74, stable=0/3
+  [OBS 013] state=hold_still, rows=13/13, age=0.25s, edges=none, bandLap=169, lineLap=205, lightStd=12.7, belowText=1.1, motion=2.46, stable=0/3
+  [OBS 014] state=almost_ready, rows=19/18, age=0.33s, edges=none, bandLap=1603, lineLap=2076, lightStd=11.3, belowText=1.1, motion=0.93, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 015] state=hold_still, rows=0/18, age=0.08s, edges=none, bandLap=38, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.75, stable=0/3
+  [OBS 016] state=hold_still, rows=0/18, age=0.20s, edges=none, bandLap=83, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.79, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 017] state=page_not_found, rows=0/18, age=0.12s, edges=none, bandLap=189, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.56, stable=0/3
+  [OBS 018] state=page_not_found, rows=0/18, age=0.11s, edges=none, bandLap=176, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.47, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 019] state=hold_still, rows=0/18, age=0.22s, edges=none, bandLap=116, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.15, stable=0/3
+  [OBS 020] state=hold_still, rows=0/18, age=0.11s, edges=none, bandLap=48, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.71, stable=0/3
+  [OBS 021] state=hold_still, rows=0/18, age=0.08s, edges=none, bandLap=26, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.93, stable=0/3
+  [OBS 022] state=page_not_found, rows=0/18, age=0.14s, edges=none, bandLap=194, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 023] state=hold_still, rows=0/18, age=0.06s, edges=none, bandLap=33, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.28, stable=0/3
+  [OBS 024] state=glare, rows=3/18, age=0.08s, edges=RB, bandLap=174, lineLap=55, lightStd=0.0, belowText=0.0, motion=0.75, stable=0/3
+  [OBS 025] state=glare, rows=3/18, age=0.23s, edges=RB, bandLap=802, lineLap=959, lightStd=0.5, belowText=14.1, motion=0.16, stable=0/3
+  [GUIDANCE] Glare detected. Change the angle.
+  [OBS 026] state=page_not_found, rows=2/18, age=0.16s, edges=RB, bandLap=795, lineLap=1172, lightStd=1.9, belowText=21.0, motion=0.65, stable=0/3
+  [OBS 027] state=page_not_found, rows=2/18, age=0.09s, edges=RB, bandLap=1018, lineLap=1338, lightStd=2.1, belowText=20.2, motion=0.13, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 028] state=move_back, rows=3/18, age=0.14s, edges=RB, bandLap=1026, lineLap=1300, lightStd=2.3, belowText=0.0, motion=0.25, stable=0/3
+  [OBS 029] state=blurry, rows=2/18, age=0.19s, edges=RB, bandLap=99, lineLap=164, lightStd=2.5, belowText=0.0, motion=0.14, stable=0/3
+  [OBS 030] state=hold_still, rows=0/18, age=0.25s, edges=none, bandLap=81, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.68, stable=0/3
+  [OBS 031] state=page_not_found, rows=0/18, age=0.06s, edges=none, bandLap=86, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.53, stable=0/3
+  [OBS 032] state=page_not_found, rows=0/18, age=0.09s, edges=none, bandLap=95, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.52, stable=0/3
+  [OBS 033] state=hold_still, rows=0/18, age=0.08s, edges=none, bandLap=18, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.10, stable=0/3
+  [OBS 034] state=hold_still, rows=0/18, age=0.12s, edges=none, bandLap=77, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.17, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 035] state=hold_still, rows=0/18, age=0.17s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=4.29, stable=0/3
+  [OBS 036] state=blurry, rows=0/18, age=0.28s, edges=none, bandLap=20, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.88, stable=0/3
+  [OBS 037] state=page_not_found, rows=0/18, age=0.22s, edges=none, bandLap=25, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.58, stable=0/3
+  [OBS 038] state=page_not_found, rows=0/18, age=0.14s, edges=none, bandLap=26, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.38, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 039] state=page_not_found, rows=0/18, age=0.12s, edges=none, bandLap=28, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 040] state=page_not_found, rows=0/18, age=0.11s, edges=none, bandLap=28, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 041] state=blurry, rows=0/18, age=0.25s, edges=none, bandLap=29, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.22, stable=0/3
+  [OBS 042] state=page_not_found, rows=0/18, age=0.12s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.07, stable=0/3
+  [OBS 043] state=page_not_found, rows=0/18, age=0.09s, edges=none, bandLap=49, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.45, stable=0/3
+  [OBS 044] state=page_not_found, rows=0/18, age=0.17s, edges=none, bandLap=151, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.11, stable=0/3
+  [OBS 045] state=blurry, rows=0/18, age=0.11s, edges=none, bandLap=74, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.08, stable=0/3
+  [OBS 046] state=page_not_found, rows=0/18, age=0.09s, edges=none, bandLap=154, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [OBS 047] state=page_not_found, rows=0/18, age=0.08s, edges=none, bandLap=90, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.72, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 048] state=hold_still, rows=0/18, age=0.08s, edges=none, bandLap=126, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.03, stable=0/3
+  [OBS 049] state=page_not_found, rows=0/18, age=0.16s, edges=none, bandLap=136, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.57, stable=0/3
+  [OBS 050] state=page_not_found, rows=0/18, age=0.11s, edges=none, bandLap=78, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.40, stable=0/3
+  [OBS 051] state=page_not_found, rows=0/18, age=0.08s, edges=none, bandLap=35, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.22, stable=0/3
+  [OBS 052] state=page_not_found, rows=0/18, age=0.28s, edges=none, bandLap=21, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.13, stable=0/3
+  [OBS 053] state=page_not_found, rows=0/18, age=0.09s, edges=none, bandLap=222, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.56, stable=0/3
+  [OBS 054] state=page_not_found, rows=0/18, age=0.09s, edges=none, bandLap=145, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.79, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 055] state=page_not_found, rows=0/18, age=0.11s, edges=none, bandLap=126, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.84, stable=0/3
+  [OBS 056] state=hold_still, rows=0/18, age=0.09s, edges=none, bandLap=83, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.24, stable=0/3
+  [OBS 057] state=hold_still, rows=0/18, age=0.11s, edges=none, bandLap=59, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.24, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 058] state=hold_still, rows=0/18, age=0.28s, edges=none, bandLap=189, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.00, stable=0/3
+  [OBS 059] state=hold_still, rows=0/18, age=0.09s, edges=none, bandLap=208, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.59, stable=0/3
+  [OBS 060] state=hold_still, rows=11/17, age=0.09s, edges=B, bandLap=128, lineLap=166, lightStd=4.7, belowText=0.0, motion=3.06, stable=0/3
+  [OBS 061] state=hold_still, rows=12/17, age=0.11s, edges=B, bandLap=227, lineLap=325, lightStd=7.3, belowText=0.0, motion=1.26, stable=0/3
+  [OBS 062] state=hold_still, rows=11/16, age=0.22s, edges=none, bandLap=328, lineLap=522, lightStd=7.6, belowText=1.3, motion=0.26, stable=0/3
+  [OBS 063] state=look_down, rows=11/15, age=0.25s, edges=B, bandLap=1241, lineLap=1485, lightStd=6.7, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 064] state=almost_ready, rows=12/15, age=0.14s, edges=none, bandLap=958, lineLap=1191, lightStd=6.5, belowText=1.6, motion=0.27, stable=1/3
+  [STABLE HOLD] Cleared by a confirmed text-edge or unreadable-text failure.
+  [OBS 065] state=look_down, rows=12/14, age=0.14s, edges=B, bandLap=1385, lineLap=1711, lightStd=6.9, belowText=0.0, motion=0.63, stable=0/3
+  [OBS 066] state=look_down, rows=13/14, age=0.25s, edges=B, bandLap=1370, lineLap=1582, lightStd=6.2, belowText=0.0, motion=0.06, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 067] state=look_down, rows=13/13, age=0.36s, edges=B, bandLap=1190, lineLap=1572, lightStd=7.1, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 068] state=look_down, rows=13/13, age=0.28s, edges=B, bandLap=1227, lineLap=1507, lightStd=6.9, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 069] state=look_down, rows=13/13, age=0.12s, edges=B, bandLap=792, lineLap=965, lightStd=7.9, belowText=0.0, motion=0.21, stable=0/3
+  [OBS 070] state=hold_still, rows=12/13, age=0.11s, edges=B, bandLap=413, lineLap=387, lightStd=9.5, belowText=0.0, motion=2.22, stable=0/3
+  [OBS 071] state=hold_still, rows=15/13, age=0.09s, edges=none, bandLap=581, lineLap=577, lightStd=14.8, belowText=1.0, motion=2.21, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 072] state=almost_ready, rows=16/15, age=0.17s, edges=none, bandLap=510, lineLap=478, lightStd=14.2, belowText=1.3, motion=0.44, stable=1/3
+  [OBS 073] state=almost_ready, rows=16/16, age=0.14s, edges=none, bandLap=382, lineLap=390, lightStd=14.4, belowText=1.0, motion=0.23, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 074] state=almost_ready, rows=15/16, age=0.25s, edges=none, bandLap=531, lineLap=673, lightStd=14.4, belowText=1.3, motion=0.34, stable=3/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #1468.
+
+────────────────────────────────────────────────────────────
+  RUN #3
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_003_20260917_144630.jpg
+[POST-CAPTURE] LapVar=82.5, score components: sharp=5, bright=30, even=17
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (82.5 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=blurry, rows=0/0, age=0.23s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=hold_still, rows=0/0, age=0.08s, edges=none, bandLap=74, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.43, stable=0/3
+  [OBS 003] state=hold_still, rows=2/2, age=0.08s, edges=none, bandLap=177, lineLap=258, lightStd=4.5, belowText=6.9, motion=3.98, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 004] state=blurry, rows=7/7, age=0.17s, edges=B, bandLap=92, lineLap=194, lightStd=4.8, belowText=0.0, motion=4.93, stable=0/3
+  [OBS 005] state=hold_still, rows=6/6, age=0.11s, edges=B, bandLap=155, lineLap=217, lightStd=4.7, belowText=0.0, motion=1.47, stable=0/3
+  [OBS 006] state=blurry, rows=2/6, age=0.39s, edges=B, bandLap=41, lineLap=184, lightStd=2.3, belowText=0.0, motion=2.33, stable=0/3
+  [OBS 007] state=look_down, rows=4/6, age=0.08s, edges=B, bandLap=138, lineLap=258, lightStd=5.6, belowText=0.0, motion=0.03, stable=0/3
+  [OBS 008] state=page_not_found, rows=0/6, age=0.08s, edges=none, bandLap=50, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 009] state=blurry, rows=3/6, age=0.08s, edges=B, bandLap=56, lineLap=75, lightStd=3.0, belowText=4.5, motion=1.44, stable=0/3
+  [OBS 010] state=page_not_found, rows=0/6, age=0.16s, edges=none, bandLap=12, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 011] state=page_not_found, rows=0/6, age=0.12s, edges=none, bandLap=24, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.03, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 012] state=blurry, rows=3/6, age=0.22s, edges=B, bandLap=39, lineLap=92, lightStd=9.3, belowText=1.7, motion=1.02, stable=0/3
+  [OBS 013] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=15, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.77, stable=0/3
+  [OBS 014] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.79, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 015] state=page_not_found, rows=0/6, age=0.05s, edges=none, bandLap=27, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.87, stable=0/3
+  [OBS 016] state=too_dark, rows=1/6, age=0.14s, edges=none, bandLap=37, lineLap=65, lightStd=23.8, belowText=2.3, motion=0.90, stable=0/3
+  [OBS 017] state=blurry, rows=5/6, age=0.31s, edges=B, bandLap=248, lineLap=340, lightStd=20.1, belowText=6.2, motion=0.84, stable=0/3
+  [OBS 018] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=31, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.80, stable=0/3
+  [OBS 019] state=blurry, rows=5/6, age=0.11s, edges=B, bandLap=58, lineLap=43, lightStd=11.3, belowText=0.0, motion=0.78, stable=0/3
+  [OBS 020] state=hold_still, rows=0/6, age=0.06s, edges=none, bandLap=91, lineLap=0, lightStd=0.0, belowText=0.0, motion=3.59, stable=0/3
+  [OBS 021] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=141, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.20, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 022] state=page_not_found, rows=0/6, age=0.16s, edges=none, bandLap=133, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.25, stable=0/3
+  [OBS 023] state=page_not_found, rows=0/6, age=0.30s, edges=none, bandLap=93, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.06, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 024] state=page_not_found, rows=0/6, age=0.22s, edges=none, bandLap=92, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 025] state=hold_still, rows=0/6, age=0.11s, edges=none, bandLap=81, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.73, stable=0/3
+  [OBS 026] state=page_not_found, rows=0/6, age=0.17s, edges=none, bandLap=78, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.34, stable=0/3
+  [OBS 027] state=hold_still, rows=0/6, age=0.06s, edges=none, bandLap=147, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.03, stable=0/3
+  [OBS 028] state=page_not_found, rows=0/6, age=0.31s, edges=none, bandLap=98, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.95, stable=0/3
+  [OBS 029] state=page_not_found, rows=0/6, age=0.09s, edges=none, bandLap=16, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.53, stable=0/3
+  [OBS 030] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=51, lineLap=0, lightStd=0.0, belowText=0.0, motion=5.28, stable=0/3
+  [OBS 031] state=page_not_found, rows=0/6, age=0.12s, edges=none, bandLap=55, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.55, stable=0/3
+  [OBS 032] state=hold_still, rows=0/6, age=0.12s, edges=none, bandLap=165, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.94, stable=0/3
+  [OBS 033] state=hold_still, rows=0/6, age=0.09s, edges=none, bandLap=186, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.81, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 034] state=page_not_found, rows=0/6, age=0.30s, edges=none, bandLap=238, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.25, stable=0/3
+  [OBS 035] state=page_not_found, rows=0/6, age=0.11s, edges=none, bandLap=56, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.49, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 036] state=glare, rows=3/6, age=0.06s, edges=B, bandLap=297, lineLap=505, lightStd=46.9, belowText=0.0, motion=0.79, stable=0/3
+  [OBS 037] state=blurry, rows=0/6, age=0.14s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.13, stable=0/3
+  [OBS 038] state=hold_still, rows=0/6, age=0.19s, edges=none, bandLap=40, lineLap=0, lightStd=0.0, belowText=0.0, motion=6.89, stable=0/3
+  [OBS 039] state=hold_still, rows=0/6, age=0.28s, edges=none, bandLap=55, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.29, stable=0/3
+  [OBS 040] state=page_not_found, rows=0/6, age=0.11s, edges=none, bandLap=91, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 041] state=look_down, rows=4/6, age=0.11s, edges=B, bandLap=558, lineLap=1321, lightStd=8.4, belowText=0.0, motion=0.32, stable=0/3
+  [OBS 042] state=look_down, rows=14/11, age=0.25s, edges=B, bandLap=614, lineLap=1260, lightStd=12.1, belowText=0.0, motion=0.03, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 043] state=look_down, rows=8/11, age=0.09s, edges=B, bandLap=630, lineLap=1176, lightStd=3.4, belowText=0.0, motion=0.02, stable=0/3
+  [OBS 044] state=look_down, rows=3/10, age=0.09s, edges=B, bandLap=322, lineLap=410, lightStd=1.9, belowText=10.6, motion=0.44, stable=0/3
+  [OBS 045] state=blurry, rows=0/10, age=0.14s, edges=none, bandLap=48, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.55, stable=0/3
+  [OBS 046] state=glare, rows=7/10, age=0.06s, edges=none, bandLap=44, lineLap=68, lightStd=47.6, belowText=0.8, motion=1.53, stable=0/3
+  [OBS 047] state=blurry, rows=5/10, age=0.16s, edges=none, bandLap=69, lineLap=140, lightStd=3.7, belowText=1.0, motion=0.51, stable=0/3
+  [OBS 048] state=hold_still, rows=6/10, age=0.24s, edges=B, bandLap=364, lineLap=807, lightStd=3.0, belowText=8.3, motion=3.53, stable=0/3
+  [OBS 049] state=hold_still, rows=0/10, age=0.14s, edges=none, bandLap=23, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.91, stable=0/3
+  [GUIDANCE] Hold still.
+
+────────────────────────────────────────────────────────────
+  RUN #4
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_004_20260917_144711.jpg
+[POST-CAPTURE] LapVar=33.2, score components: sharp=0, bright=30, even=0
+[POST-CAPTURE] Rejected: saved frame is too soft for reliable OCR (33.2 < 100).
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=page_not_found, rows=0/0, age=0.19s, edges=none, bandLap=85, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 002] state=blurry, rows=0/0, age=0.06s, edges=none, bandLap=60, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.33, stable=0/3
+  [OBS 003] state=hold_still, rows=0/0, age=0.06s, edges=none, bandLap=17, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.19, stable=0/3
+  [OBS 004] state=hold_still, rows=0/0, age=0.24s, edges=none, bandLap=71, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.98, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 005] state=page_not_found, rows=0/0, age=0.08s, edges=none, bandLap=10, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.00, stable=0/3
+  [OBS 006] state=hold_still, rows=0/0, age=0.22s, edges=none, bandLap=9, lineLap=0, lightStd=0.0, belowText=0.0, motion=1.01, stable=0/3
+  [OBS 007] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=10, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.57, stable=0/3
+  [OBS 008] state=page_not_found, rows=0/0, age=0.06s, edges=none, bandLap=14, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.09, stable=0/3
+  [GUIDANCE] Find the printed text.
+  [OBS 009] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=198, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.01, stable=0/3
+  [OBS 010] state=page_not_found, rows=0/0, age=0.09s, edges=none, bandLap=198, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.05, stable=0/3
+  [OBS 011] state=page_not_found, rows=0/0, age=0.11s, edges=none, bandLap=182, lineLap=0, lightStd=0.0, belowText=0.0, motion=0.33, stable=0/3
+  [OBS 012] state=hold_still, rows=0/0, age=0.25s, edges=none, bandLap=158, lineLap=0, lightStd=0.0, belowText=0.0, motion=2.59, stable=0/3
+  [OBS 013] state=hold_still, rows=13/13, age=0.08s, edges=B, bandLap=163, lineLap=343, lightStd=5.0, belowText=0.0, motion=6.39, stable=0/3
+  [GUIDANCE] Hold still.
+  [OBS 014] state=look_down, rows=13/13, age=0.11s, edges=B, bandLap=407, lineLap=621, lightStd=6.7, belowText=0.0, motion=0.27, stable=0/3
+  [OBS 015] state=look_down, rows=13/13, age=0.11s, edges=B, bandLap=319, lineLap=555, lightStd=8.1, belowText=0.0, motion=0.59, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 016] state=look_down, rows=15/14, age=0.11s, edges=B, bandLap=2101, lineLap=2556, lightStd=7.4, belowText=0.0, motion=0.23, stable=0/3
+  [OBS 017] state=look_down, rows=14/15, age=0.33s, edges=B, bandLap=2074, lineLap=2466, lightStd=7.4, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 018] state=look_down, rows=14/14, age=0.09s, edges=B, bandLap=1928, lineLap=2226, lightStd=7.3, belowText=0.0, motion=0.04, stable=0/3
+  [OBS 019] state=hold_still, rows=12/14, age=0.12s, edges=B, bandLap=717, lineLap=887, lightStd=10.9, belowText=0.0, motion=2.18, stable=0/3
+  [OBS 020] state=look_down, rows=17/16, age=0.11s, edges=B, bandLap=768, lineLap=1086, lightStd=12.7, belowText=0.0, motion=0.55, stable=0/3
+  [OBS 021] state=look_down, rows=16/16, age=0.33s, edges=B, bandLap=1325, lineLap=1689, lightStd=12.8, belowText=1.2, motion=0.14, stable=0/3
+  [GUIDANCE] Look down for the bottom text.
+  [OBS 022] state=look_down, rows=16/16, age=0.14s, edges=B, bandLap=1220, lineLap=1484, lightStd=12.1, belowText=1.3, motion=0.03, stable=0/3
+  [OBS 023] state=almost_ready, rows=16/16, age=0.34s, edges=none, bandLap=1389, lineLap=1658, lightStd=12.6, belowText=1.0, motion=0.40, stable=1/3
+  [OBS 024] state=almost_ready, rows=16/16, age=0.33s, edges=none, bandLap=1316, lineLap=1604, lightStd=13.5, belowText=1.0, motion=0.08, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 025] state=almost_ready, rows=16/16, age=0.19s, edges=none, bandLap=1173, lineLap=1468, lightStd=12.9, belowText=1.2, motion=0.82, stable=3/3
+  [OBS 026] state=almost_ready, rows=16/16, age=0.09s, edges=none, bandLap=1270, lineLap=1596, lightStd=12.8, belowText=1.1, motion=0.17, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #2310.
+
+────────────────────────────────────────────────────────────
+  RUN #5
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_005_20260917_144741.jpg
+[POST-CAPTURE] LapVar=177.5, score components: sharp=20, bright=30, even=20
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.297s (22 detections, 22 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+偏远地区混合能源站的自主监测与维护 一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供 电。微电网需要持续支持诊所、无线电中继、气象设备和安全照 明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每 二百毫秒采集电压、电流、温度与振动数据、并在能源不足时优 先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状 态摘要会在链路恢复时发送到控制中心。 二〇二五年十月十八日一场沙尘风暴使太阳能输出在十五分 钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇 还出现异常低频振动。控制器没有关闭整座电站，而是断开非必 要加热装置、降低部分照明功率并启动备用发电机。诊断模块随 后提出三个可能原因太阳能板被碎屑遮挡、风扇轴承磨损，以 及电池连接器的接触电阻上升。 风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报 警代码，本地处理单元再与离线维护手册进行比对。由于资料涉 及关键基础设施，图像没有上传云端。采集程序先确认整个标签 位于安全边界内，并分别检查全图和上部区域的清晰度：若画面 被裁切、耳机会提示向左、向右或向后移动。目标只有连续四帧 稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序 与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池 端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化 必须解释判断、承认不确定性，并把最终决定留给人。
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | in the upper part of the page
+    偏远地区混合能源站的自主监测与维护
+  P1 | type=paragraph | 6 line(s) | confidence=0.995 | in the upper part of the page
+    一座高原试验站依靠太阳能阵列、锂电池和小型柴油发电机供 电。微电网需要持续支持诊所、无线电中继、气象设备和安全照 明。冬季道路可能封闭数日，网络也不稳定，因此本地控制器每 二百毫秒采集电压、电流、温度与振动数据、并在能源不足时优 先保障医疗和通信负载。完整记录保存在站内，只有压缩后的状 态摘要会在链路恢复时发送到控制中心。
+  P2 | type=paragraph | 6 line(s) | confidence=0.995 | in the middle of the page
+    二〇二五年十月十八日一场沙尘风暴使太阳能输出在十五分 钟内下降百分之三十四，电池柜温度升高八摄氏度，逆变器风扇 还出现异常低频振动。控制器没有关闭整座电站，而是断开非必 要加热装置、降低部分照明功率并启动备用发电机。诊断模块随 后提出三个可能原因太阳能板被碎屑遮挡、风扇轴承磨损，以 及电池连接器的接触电阻上升。
+  P3 | type=paragraph | 9 line(s) | confidence=0.985 | at the bottom of the page
+    风暴减弱后，技术员用头戴式摄像设备读取铭牌、序列号和报 警代码，本地处理单元再与离线维护手册进行比对。由于资料涉 及关键基础设施，图像没有上传云端。采集程序先确认整个标签 位于安全边界内，并分别检查全图和上部区域的清晰度：若画面 被裁切、耳机会提示向左、向右或向后移动。目标只有连续四帧 稳定且文字足够清楚时才会保存。第二天的日志表明，自动排序 与人工判断一致：先清理面板，再更换风扇轴承，最后紧固电池 端子。处置用了六分钟，关键服务未中断。这说明可靠的自动化 必须解释判断、承认不确定性，并把最终决定留给人。
+[TRANSLATION REVIEW] Region 2: Review numerical rendering: new output digits: 200
+[TRANSLATION REVIEW] Region 3: Review numerical rendering: new output digits: 18, 2025, 34
+[STAGE 2] 4 regions, 15 NLLB chunks, chinese -> english: 0.874s
+
+============================================================
+  CLASSIFIED REGION TRANSLATIONS (English) — NLLB 1.3B
+============================================================
+[TITLE] Autonomous monitoring and maintenance of hybrid power stations in remote areas
+[P1] A plateau test station relies on solar arrays, lithium batteries and a small diesel generator to power it. Micro-grids need to continue to support clinics, radio relay, weather equipment and safety lighting. Roads can be closed for days in winter and the network is unstable, so local controllers collect voltage, current, temperature and vibration data every 200 milliseconds, and prioritize medical and communications loads when energy is scarce. The complete record is stored on the station, and only the compressed status summary is sent to the control center when the link is restored.
+[P2] On October 18, 2025, a dust storm caused a 34 percent drop in solar output in fifteen minutes, a temperature rise of eight degrees Celsius in the battery cabinet, and an abnormally low frequency vibration in the inverter fan. Instead of shutting down the entire power plant, the controller disconnects unnecessary heating devices, lowers the power of some lighting and starts the backup generator. Diagnostic modules then suggested three possible reasons for the shredded solar panels, fan bearing wear, and increased contact resistance of the battery connector.
+[P3] After the storm weakened, technicians used head-mounted cameras to read the insignia, serial numbers and alarm codes, and the local processing unit was compared to the offline maintenance manual. The images were not uploaded to the cloud because the material involved critical infrastructure. The capture process first confirms that the entire label is within the safety boundary and checks the clarity of the whole image and the upper area separately: if the image is cropped, the headset prompts to move left, right or backwards. The target is saved only when the sequence of four lines is stable and the text is clear enough. The next day's logs showed that the automatic sorting was consistent with the artificial judgment: first the panels were cleaned, then the fan bearings were replaced, and finally the battery terminals were tightened. The disposal took six minutes and critical services were not interrupted. This shows that reliable automation must interpret judgments, acknowledge uncertainty, and leave the final decision to humans.
+============================================================
+
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.021s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260917_144743_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_005_20260917_144743_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.297s
+  Translation  : 0.874s
+  Spell Corr   : 0.021s
+  TTS Playback : 22.252s
+────────────────────────────────────────
+  TOTAL        : 25.099s
+────────────────────────────────────────
+
+  Ready for next capture!
+

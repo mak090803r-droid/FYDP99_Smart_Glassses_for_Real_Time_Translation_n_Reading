@@ -1,0 +1,75 @@
+[LOAD] Pre-loading Piper TTS voice …
+[TTS] Loading voice: en_US-lessac-medium …
+[TTS] Voice ready.
+[AUDIO] Pre-synthesizing real-time guidance prompts …
+[AUDIO] 15 spoken guidance clips ready.
+[LOAD] TTS ready in 1.53s
+[LOAD] OCR language audit: chinese -> PaddleOCR lang='ch'
+[LOAD] Initializing PaddleOCR (onnxruntime, gpu) …
+[32mCreating model: ('PP-OCRv6_medium_det', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_det_onnx', 'onnxruntime')[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', 'C:\\Users\\ali/.paddlex/official_models\\PP-OCRv6_medium_rec_onnx', 'onnxruntime')[0m
+[LOAD] PaddleOCR ready in 1.86s
+[CAPTURE] Detection-only available: True
+[LOAD] Initializing UVDoc unwarper …
+c:\Users\ali\Desktop\FYDP\fydp\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+[LOAD] UVDoc ready in 2.24s
+[LOAD] Loading local NLLB on cuda (float16) ...
+[LOAD] NLLB ready in 5.30s
+[LOAD] Conservative SymSpell dictionary loaded in 2.69s
+
+[QUALITY] Box6 text-envelope capture guidance active …
+[QUALITY] Checking all printed text, focus, lighting, and image motion.
+[QUALITY] Three good frames in the latest four are required. S force-captures.
+  [OBS 001] state=almost_ready, rows=28/28, age=0.61s, edges=none, bandLap=559, lineLap=677, lightStd=15.3, belowText=1.0, motion=0.00, stable=1/3
+  [OBS 002] state=almost_ready, rows=28/28, age=0.11s, edges=none, bandLap=1345, lineLap=1604, lightStd=14.4, belowText=1.2, motion=0.68, stable=2/3
+  [GUIDANCE] Ready.
+  [OBS 003] state=almost_ready, rows=27/28, age=0.11s, edges=none, bandLap=1332, lineLap=1565, lightStd=13.9, belowText=1.1, motion=0.04, stable=3/3
+  [OBS 004] state=almost_ready, rows=29/29, age=0.27s, edges=none, bandLap=1670, lineLap=1923, lightStd=13.7, belowText=1.0, motion=0.30, stable=4/3
+
+[QUALITY] ✅ Three of the latest four observations passed; capturing analyzed frame #606.
+
+────────────────────────────────────────────────────────────
+  RUN #1
+────────────────────────────────────────────────────────────
+
+  💾 Saved → C:\Users\ali\Desktop\FYDP\New\Project\pics\captured\capture_cli_001_20260925_111105.jpg
+[POST-CAPTURE] LapVar=258.6, score components: sharp=33, bright=30, even=21
+[STAGE 1] Unwarping curved page ...
+[STAGE 1] Raw grayscale preprocessing and PaddleOCR ...
+[STAGE 1] OCR complete in 1.296s (29 detections, 29 lines, 4 regions)
+
+============================================================
+  EXTRACTED TEXT
+============================================================
+Field Evaluation of Wearable Translation Glasses able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents. avoids delays caused by an unstable internet connection. and allows every software component to be measured independently Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting After capture, the image is converted to grayscale and corrected only photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering, and count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+============================================================
+
+[REGIONS] Detected 4 text region(s): 1 title, 0 heading(s), 3 paragraph(s)
+  TITLE | type=page_title | 1 line(s) | confidence=1.000 | at the top of the page
+    Field Evaluation of Wearable Translation Glasses
+  P1 | type=paragraph | 8 line(s) | confidence=0.992 | in the upper part of the page
+    able to face a printed page. pause briefly, and hear a clear rendering without holding a telephone or searching through menus. In the prototype to a compact computer. Video is sent over a local link to a processing workstation, where text detection, optical character recognition, language translation and speech synthesis are performed The complete pipeline operates without a cloud service This arrangement protects sensitive documents. avoids delays caused by an unstable internet connection. and allows every software component to be measured independently
+  P2 | type=paragraph | 13 line(s) | confidence=0.995 | in the middle of the page
+    Image acquisition is the first major difficulty A person wearing glasses cannot easily see whether all four edges of a page are inside the camera view The page may be tilted partly shadowed, or closer at the top than at the bottom Motion from breathing and head movement also creates blur The capture controller therefore examines every incoming frame before saving it It locates groups of text. estimates whether the document occupies a useful fraction of the image, and checks that a safe border remains around the detected region Sharpness is measured over the whole frame and again over the upper portion because a slanted sheet often appears clear near the bottom while the first lines remain soft A frame is accepted only after several consecutive observations agree Spoken prompts tell the wearer to step back, move left or right, hold still or improve the lighting
+  P3 | type=paragraph | 7 line(s) | confidence=0.993 | at the bottom of the page
+    After capture, the image is converted to grayscale and corrected only photographs The comparison includes raw grayscale. local contrast enhancement, mild gamma correction, edge-preserving filtering, and count, recognition confidence, focus statistics, and processing time Ground-truth text is retained for important experiments so that character error rate and word error rate can be calculated instead of relying on confidence alone
+[TRANSLATION LANGUAGE] OCR remains Chinese-selected; the document has strong English language evidence, so NLLB source is English.
+[STAGE 2] 4 regions, 0 NLLB chunks, english -> english: 0.001s
+[STAGE 2.5] No sufficiently confident corrections; original preserved (0.016s)
+  [DEBUG] Overlay saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260925_111106_overlay.jpg
+  [DEBUG] OCR log saved  → C:\Users\ali\Desktop\FYDP\New\Project\1Pipeline\final\working\Ahead\Further Box AutoCapture\working model\paragraph_test_outputs\run_001_20260925_111106_ocr.txt
+
+────────────────────────────────────────
+  ⏱  TIMING BREAKDOWN
+────────────────────────────────────────
+  OCR          : 1.296s
+  Translation  : skipped
+  Spell Corr   : 0.016s
+  TTS Playback : 18.551s
+────────────────────────────────────────
+  TOTAL        : 20.538s
+────────────────────────────────────────
+
+  Ready for next capture!
+
